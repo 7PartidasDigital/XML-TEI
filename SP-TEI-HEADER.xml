@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada <!--indicar cuál es el testimonio--></title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="MINECO">Ministerio de Industria, Economía y Competitividad y el
+                  FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name><!-- Nombre del transcriptor --></name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name><!-- Nombre del revisor --></name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno><!-- Aquí el identificador de cada texto. Siempre SP- y la sigla correspondiente --></idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">7 Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p><!--Aquí se decribirá el ejemplar utilizado--></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>7 Partidas Digital</title>
+               financiado por el Minsterio de Industria, Economía y Competitivadad de España y el
+               FEDER, referencia <idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno>. La
+               descripción del proyecto y sus participantes se recogen en la <ref
+                  target="https://7partidas.wordpress.com">web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p><!-- Describir aquí cómo se ha efectuado la trasncripción --></p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2015-06-08" who="#JMFR" status="draft">Comenzada la transcripción /
+            codificación</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>TEXTO AQUÍ</p>
+      </body>
+   </text>
+</TEI>
