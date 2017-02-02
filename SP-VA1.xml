@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento VA1</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+               FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-VA1</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+               proyecto<ref target="https://7partidas.hypotheses.org/testimonios/va1/"
+                  >7PartidasDigital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>7 Partidas Digital</title>
+               financiado por el Minsterio de Industria, Economía y Competitivadad de España y el
+               FEDER, referencia <idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno>. La
+               descripción del proyecto y sus participantes se recogen en la web <ref
+                  target="https://7partidas.hypotheses.org">7 Partidas Digital</ref></p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de la
+               reproducción del documento ofrecida por <ref target="http://bit.ly/2g0ODbv"
+                  >PARES</ref>, ARCHV, Pergaminos, Carpeta, 121, 12 y corregido con el original.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+      	 <change when="2017-02-02" who="#JMFR" status="publicado">Subido a GitHub</change>
+         <change when="2016-12-08" who="#JMFR" status="candidato">Finalizado</change>
+         <change when="2016-12-08" who="#JMFR" status="borrador">Codificación de rúbricas encabalgadas</change>
+         <change when="2016-11-10" who="#JMFR" status="borrador">Añadida información referente al proyecto</change>
+         <change when="2015-06-08" who="#JMFR" status="borrador">Transcipción y codificación básica</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="2.29.8" type="ley" xml:id="SPVA122908">
+            <head><seg xml:id="RubSPVA122908Ini" next="#RubSPVA122908Fin"><gap/>q<ex>ue</ex> yoguiere</seg></head>
+            <p><lb/>A menudo acaeçe en <seg xml:id="RubSPVA122908Fin" prev="#RubSPVA122908Ini">catiuo</seg>
+               <lb/>que muere<ex>n</ex> los om<ex>n</ex>es ya
+               <lb break="no"/>ziendo en catiuo. por en
+               <lb break="no"/>de estableciero<ex>n</ex> los anti
+               <lb break="no"/>gos que q<ex>u</ex>ando lo sopiessen ciertami
+               <lb break="no"/>entre. aquellos q<ex>ue</ex> con derecho deue<ex>n</ex>
+               <lb/>heredar lo suyo. que dende adelante
+               <lb/>puede<ex>n</ex> husar todos de sus bienes. &amp;
+               <lb/>de sus derech<ex>o</ex>s. tanbie<ex>n</ex> com<ex>m</ex>o farie el
+               <lb/>finado. si fuesse biuo. &amp;sallido de cati
+               <lb break="no"/>uo. ¶ E esto fiziero<ex>n</ex> por Razo<ex>n</ex> derec
+               <lb break="no"/>ha. ¶ Ca bien assi los h<ex>er</ex>ederos son
+               <lb/>tenudos de pagar las debdas. &amp; las
+               <lb break="no"/>ma<ex>n</ex>das para quitar sus almas de a
+               <lb/>q<ex>ue</ex>llos de quien h<ex>er</ex>edan. assi es derech<ex>o</ex>
+               <lb/>q<ex>ue</ex> se ap<ex>ro</ex>ueche<ex>n</ex> de sus bienes. &amp; husan
+               <lb break="no"/>dellos assi com<ex>m</ex>o ellos farien si biu
+               <lb break="no"/>os fuessen. ¶ P<ex>er</ex>o esto se entie<ex>n</ex>de n<ex>on</ex>
+               <lb/>seyendo en culpa por las dexar mo
+               <lb break="no"/>rir en catiuo podie<ex>n</ex>delos quitar &amp; n<ex>on</ex>
+               <lb/>queriendo. assi com<ex>m</ex>o dixiemos en
+      <cb n="b"/>
+               <gap/>
+               <lb break="no"/>endela<ex>n</ex>te. &amp; las pudiessen deman
+               <lb break="no"/>dar no<ex>n</ex> quisiessen. ¶ Otro tal se
+               <lb break="no"/>rie los q<ex>ue</ex> sin ma<ex>n</ex>dado del Rey. o de
+               <lb/>sus sen<ex>n</ex>ores morassen lue<ex>n</ex>ga mie<ex>n</ex>tre
+               <lb/>con los moros. de su grado maguer
+               <lb/>no<ex>n</ex> catiuassen. ¶ &amp; aun tanto estra<ex>n</ex>
+               <lb break="no"/>naro<ex>n</ex> los buenos x<ex>risti</ex>anos antigos.
+               <lb/>tal fecho com<ex>m</ex>o este. q<ex>ue</ex> mandaron q<ex>ue</ex>
+               <lb/>si algun x<ex>risti</ex>ano fuesse preso estando
+               <lb/>en seruicio de los moros. q<ex>ue</ex>l pudiesse<ex>n</ex>
+               <lb/>uender en almoneda ta<ex>n</ex>bien com<ex>m</ex>o
+               <lb/>si fuesse moro. sola mie<ex>n</ex>tre q<ex>ue</ex>l ue<ex>n</ex>die
+               <lb break="no"/>ssen a x<ex>risti</ex>anos. &amp; no<ex>n</ex> a om<ex>n</ex>es de ot<ex>r</ex>a ley
+               <lb/>¶ E ot<ex>r</ex>osi touiero<ex>n</ex> por derecho q<ex>ue</ex> aq<ex>ue</ex>l
+               <lb break="no"/>los que se pudiesse<ex>n</ex> defender de los
+               <lb/>enemigos. &amp; no<ex>n</ex> quisiessen. &amp; dexa
+               <lb break="no"/>sen catiuar. q<ex>ue</ex> no<ex>n</ex> ouiessen las fra<ex>n</ex>
+               <lb break="no"/>quezas q<ex>ue</ex> an los otros. catiuos se
+               <lb break="no"/>gund en estas ot<ex>r</ex>as leyes. esso mismo
+               <lb/>ma<ex>n</ex>daron de aq<ex>ue</ex>llos q<ex>ue</ex> sobre su ome
+               <lb break="no"/>nage saliessen de catiuo. para torn
+               <lb break="no"/>ar a dia sen<ex>n</ex>alado a co<ex>n</ex>plir los pleytos
+      <pb n="1v"/>
+               <lb/><gap/>
+               <lb/>ffuessen tornados al p<ex>r</ex>imer estado de
+               <lb break="no"/>recha mie<ex>n</ex>tre assi com<ex>m</ex>o de ante estaua
+               <lb/>¶ E si q<ex>ui</ex>ssiessen que pudiesse<ex>n</ex> dema<ex>n</ex>
+               <lb break="no"/>dar el sen<ex>n</ex>orio. &amp; todos sus t<ex>er</ex>minos
+               <lb/>&amp; los otros derech<ex>o</ex>s. &amp; co<ex>n</ex>brarlos co<ex>m</ex>
+               <lb break="no"/>mo primeramientre las auie<ex>n</ex>. &amp; q<ex>ue</ex>
+               <lb/>tiempo ne<ex>n</ex>guno non pasase con ell
+               <lb break="no"/>os para faz<ex>er</ex>les p<ex>er</ex>der su derecho. ¶
+               <lb/>E esto se entie<ex>n</ex>de de los sen<ex>n</ex>ores ma
+               <lb break="no"/>yores porq<ex>ue</ex> me<ex>n</ex>guassen. ni<ex>n</ex> se desfiçi
+               <lb break="no"/>essen de todo. ¶ Mas de los menor
+               <lb break="no"/>es q<ex>ue</ex> despues que los ouiessen con
+               <lb break="no"/>brados aquellos cuyas deuie<ex>n</ex> seer
+               <lb/>si fasta q<ex>u</ex>atro an<ex>n</ex>os non quisiessen de
+               <lb break="no"/>ma<ex>n</ex>dar los derech<ex>o</ex>s q<ex>ue</ex> p<ex>er</ex>teneciessen
+               <lb/>a aq<ex>ue</ex>llos sus logares puedenlos p<ex>er</ex>
+               <lb break="no"/>der por tiempo. ¶ Fueras ende si
+               <lb/>aquel que lo ouiesse no<ex>n</ex> fuesse de e
+               <lb break="no"/>dat. ¶ Ca este en q<ex>u</ex>anto non lo fues
+               <lb break="no"/>se. aun despues fasta q<ex>u</ex>atro annos
+               <lb/>en saluo finca su derech<ex>o</ex> para deman
+               <lb break="no"/>darlo. ¶ Esso mismo serie si algu<ex>n</ex>a
+      <cb n="b"/>
+               <gap/>
+               <lb/>ga <gap/>
+               <lb/>ello cinco an<ex>n</ex>os. &amp; lo menos en aq<ex>ue</ex>llas
+               <lb/>cosas q<ex>ue</ex> el ma<ex>n</ex>dare que sean guisadas
+               <lb/>de fazer segund q<ex>u</ex>al om<ex>n</ex>e fuere. ¶ E
+               <lb/>ssi por aue<ex>n</ex>tura ante q<ex>ue</ex> cumpliese este
+               <lb/>seruicio nol ouiesse fecho paga de a
+               <lb break="no"/>quello porque lo quitare. &amp; fuesse
+               <lb/>de su poder. si despues lo fallasse. &amp; pu
+               <lb break="no"/>diesse aueriguar por cartas o por tes
+               <lb break="no"/>tigos antel sen<ex>n</ex>or. o el iuez de aq<ex>u</ex>el lo
+               <lb break="no"/>gar com<ex>m</ex>o lo auie sacado de catiuo. &amp;
+               <lb/>que lo no<ex>n</ex> siruiera nil pagara lo q<ex>ue</ex> por
+               <lb/>el auie dado. ¶ Estonce aq<ex>ue</ex>l ante q<ex>u</ex>i
+               <lb break="no"/>en lo mostrasse deuel prender &amp; me
+               <lb break="no"/>terle en poder de aquel q<ex>ue</ex> lo uino de
+               <lb break="no"/>mandar. &amp; le puede leuar de las mis
+               <lb break="no"/>siones q<ex>ue</ex> ouiesse fecho en busca<ex>n</ex>dole
+               <lb/>&amp; seruirse del. o faz<ex>er</ex>lo pagar lo q<ex>ue</ex> o
+               <lb break="no"/>uiesse dado por quitarle assi com<ex>m</ex>o
+               <lb/>sobredicho es.</p>
+               </div>
+               <div n="2.29.16" type="ley" xml:id="SPVA122916">
+               <head><lb/>Ley .xij. por quales Razon es
+               <lb/>los q<ex>ue</ex> saca<ex>n</ex> a ot<ex>r</ex>os de catiuono<ex>n</ex> les pueden
+               <lb/>d<ex>e</ex>madar lo q<ex>ue</ex>ganaro<ex>n</ex> por ellos ni<ex>n</ex> seruir
+               <lb break="no"/>se dellos</head>
+               </div>
+      </body>
+   </text>
+</TEI>
