@@ -65,6 +65,11 @@
          <change when="2015-06-08" who="#JMFR" status="draft">Comenzada la transcripción /
             codificación</change>
       </revisionDesc>
+	<profileDesc>
+   		<abstract resp="#JMFR">
+   			<p>Detallar que partes (partida, título, leyes contiene <title>Siete Partidas</title>.</p>
+   		</abstract>
+   	</profileDesc>
    </teiHeader>
    <text>
       <body>
