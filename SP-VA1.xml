@@ -64,6 +64,11 @@
                   >PARES</ref>, ARCHV, Pergaminos, Carpeta, 121, 12 y corregido con el original.</p>
          </editorialDecl>
       </encodingDesc>
+	<profileDesc>
+   		<abstract resp="#JMFR">
+   			<p>Contiene fragmentos de 2.29.8 y 2.29.16 de las <title>Siete Partidas</title>.</p>
+   		</abstract>
+   	</profileDesc>
       <revisionDesc>
       	 <change when="2017-02-02" who="#JMFR" status="publicado">Subido a GitHub</change>
          <change when="2016-12-08" who="#JMFR" status="candidato">Finalizado</change>
