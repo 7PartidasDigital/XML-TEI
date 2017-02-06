@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento Cifuentes</title>
+            <author>Alfonso X el Sabio</author>
+            <funder>Ministerio de Economía y Competitividad <idno type="referencia"
+               >FFI2016-75014-P</idno></funder>
+            <funder>Universidad de Valladolid</funder>
+            <funder>Seminario de Crítica Textual</funder>
+            <principal>José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name xml:id="JMFR">José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-TN1</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Se trata de un simple hoja de papel, escrita por ambas caras, pero la reproducción de
+               <ref target="http://bit.ly/1Z2kkNR">PARES</ref> induce a errores ya que las hojas
+               en blanco no están reproducidas y las fotografías despistan, dentro de una doble
+               carpetilla de papel. Tiene el código de referencia
+               ES.45168.SNAHN/29.6.3//CIFUENTES,C.2,D.7. Solo contiene la ley 16, del título 9 de la
+               segunda partida referente al oficio de alférez. El Archivo Histórico Nacional,
+               Sección Nobleza, lo data en algún momento del siglo XV. Escrito en gótica cursiva o
+               precortesana del siglo XV. Para una descripción más completa véase la página dedicada
+               a este testimonio indirecto en la <ref
+                  target="https://7partidas.hypotheses.org/testimonios/indirectos/TN1">web del
+                  proyecto</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
+               financiado por el Minsterio de Economía y Competitivadad de España, referencia <idno
+                  type="referencia">FFI2016-75014-P</idno>. La descripción del proyecto y sus
+               participantes se recogen en la <ref target="https://7partidas.hypotheses.org"
+                  >web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de la
+               reproducción del documento ofrecida por <ref target="http://bit.ly/1Z2kkNR"
+                  >PARES</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene fragmento de la 2ª Partida: 2.9.16.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-02-06" who="#JMFR" status="publicado">Subido a GitHub</change>
+         <change when="2017-02-05" who="#JMFR" status="candidato">Finalizado</change>
+         <change when="2017-02-05" who="#JMFR" status="borrador">Añadido &lt;abstract&gt;</change>
+         <change when="2016-05-02" who="#JMFR" status="borrador">Añadido xml:id</change>
+         <change when="2016-05-02" who="#JMFR" status="borrador">Añadido descripción de la fuente</change>
+         <change when="2016-03-08" who="#JMFR" status="borrador">Codificación básica</change>
+         <change when="2016-03-08" who="#JMFR" status="borrador">Conversión con LibreOffice desde .doc a .xlm</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="recto"/>
+         <div n="2.9.16" type="ley" xml:id="SPTN120916">
+         <head><lb/>Ley .xvj. q<ex>ua</ex>l deue se<ex>r</ex> el aferez del rrey &amp; q<ex>ue</ex> es lo q<ex>ue</ex> pe<ex>r</ex>tenesçe faz<ex>er</ex> a su ofiçio /.</head>
+         <p>
+         <lb/>griegos &amp; rromanos fuero<ex>n</ex> om<ex>e</ex>s q<ex>ue</ex> vsaro<ex>n</ex> mucho antigua<del resp="#JMFR"> </del>me<ex>n</ex>te fecho de guerra
+         <lb/>&amp; mjetra lo fiziero<ex>n</ex> con seso &amp; co<ex>n</ex> rrecabdo &amp; co<ex>n</ex> entendimj<ex>ent</ex>o vençiero<ex>n</ex> &amp; acabaro<ex>n</ex>
+         <lb/>todo lo q<ex>ue</ex> q<ex>ue</ex>syero<ex>n</ex> / E ellos fuero<ex>n</ex> los p<ex>ri</ex>meros q<ex>ue</ex> fizjeron señas porq<ex>ue</ex> fuese<ex>n</ex>
+         <lb/>conosçidos los grandes señor<ex>e</ex>s en las huest<ex>e</ex>s &amp; en las batallas / ot<ex>r</ex>osy por
+         <lb break="no"/>q<ex>ue</ex> las gent<ex>e</ex>s &amp; los pueblos se acabdillase<ex>n</ex> aguardandolos parando mjent<ex>e</ex>s en
+         <lb/>ellos q<ex>ue</ex> era man<ex>er</ex>a de guya<ex>r</ex> / acabdillamj<ex>ent</ex>o &amp; tenje<ex>n</ex>dolo por honrra muy señalada
+         <lb/>llamaro<ex>n</ex> a los q<ex>ue</ex> trayan las señas de los enperador<ex>e</ex>s &amp; de los rreyes <foreign xml:lang="la">p<ex>ri</ex>mjlarios</foreign>
+         <lb/>q<ex>ue</ex> q<ex>ui</ex>ere tanto dezjr en latyn com<ex>m</ex>o ofiçial q<ex>ue</ex> lleua la p<ex>ri</ex>mera señal del gra<ex>n</ex>d señor
+         <lb/>Avn lo llamaro<ex>n</ex> ot<ex>ro</ex>sy <foreign xml:lang="la">primis legionu<ex>m</ex></foreign> q<ex>ue</ex> q<ex>ui</ex>ere tanto dezjr com<ex>m</ex>o adelantado
+         <lb/>sobre las compañas de las huest<ex>e</ex>s / Esto era porq<ex>ue</ex> ellos juzgaua<ex>n</ex> los grand<ex>e</ex>s
+         <lb/>pleytos q<ex>ue</ex> acaheçia<ex>n</ex> entre ellos / E en alg<ex>una</ex>s t<ex>ie</ex>rr<ex>a</ex>s los llama<ex>n</ex> duq<ex>ue</ex>s q<ex>ue</ex> q<ex>ui</ex>ere dezjr
+         <lb/>com<ex>m</ex>o cabdillos q<ex>ue</ex> aduze<ex>n</ex> las huest<ex>e</ex>s / &amp; esos no<ex>n</ex>br<ex>e</ex>s vsaro<ex>n</ex> en <placeName>españa</placeName> fasta
+         <lb/>q<ex>ue</ex> se pe<ex>r</ex>dio la t<ex>ie</ex>rra &amp; la ganaro<ex>n</ex> los moros / ca despues q<ex>ue</ex> la poblaro<ex>n</ex> los x<ex>ri</ex>stianos
+         <lb/>llamaro<ex>n</ex> al q<ex>ue</ex> este ofiçio tiene alferez / &amp; asy ha oy dia no<ex>n</ex>bre / &amp; pues q<ex>ue</ex> en
+         <lb/>las leys ant<ex>e</ex>s desta avemos mostrado de las dos man<ex>er</ex>as de ofiçial<ex>e</ex>s q<ex>ue</ex> syrue<ex>n</ex>
+         <lb/>al rrey de q<ex>ue</ex> <persName>aristotiles</persName> fizo semejança a los sentidos &amp; a los mjenbros de
+         <lb/>dentro del cue<ex>r</ex>po / E agora q<ex>ue</ex>remos fablar de los ot<ex>r</ex>os ofiçial<ex>e</ex>s q<ex>ue</ex> lo han de serujr
+         <lb/>aq<ex>ui</ex> puso semejança a los mjenbros q<ex>ue</ex> son de fuera &amp; destos es el p<ex>ri</ex>mero &amp; el
+         <lb/>mas honrrado el alferez q<ex>ue</ex> avemos mostrado q<ex>ue</ex> a el pe<ex>r</ex>tenesçe de guyar las
+         <lb/>huest<ex>e</ex>s q<ex>ua</ex>ndo el rrey no<ex>n</ex> va y por su cue<ex>r</ex>po / &amp; q<ex>ua</ex>ndo no<ex>n</ex> puede yr enbya
+         <lb/>su pod<ex>e</ex>r &amp; el mismo deue tene<ex>r</ex> la seña cada q<ex>ue</ex>l rrey oujere la batalla ca<ex>n</ex>
+         <lb break="no"/>pal &amp; antigua<del resp="#JMFR"> </del>me<ex>n</ex>te el solie justiçiar los om<ex>e</ex>s por ma<ex>n</ex>dado del rrey q<ex>ua</ex>ndo
+         <lb/>fazjen por q<ex>ue</ex> / E por esta rrazo<ex>n</ex> trayan el espada ant<ex>el</ex> en semejança q<ex>ue</ex>
+         <lb/>era la mayor justiçia de la corte / E bie<ex>n</ex> asy com<ex>m</ex>o p<ex>er</ex>tenesçe a su ofiçio de
+         <lb/>ampara<ex>r</ex> &amp; acrecenta<ex>r</ex> el rreyno / ot<ex>ro</ex>sy q<ex>ua</ex>ndo alg<ex>uno</ex> fizjere p<ex>er</ex>d<ex>er</ex> heredamj<ex>ent</ex>o al
+         <lb/>rrey o villas / o castillo / o sobre q<ex>ue</ex> deujese venjr rriebto el lo deue faz<ex>er</ex> &amp; s<ex>er</ex>
+         <lb/>avogado por dema<ex>n</ex>da<ex>r</ex>lo / eso mjsmo deue<ex>n</ex> faz<ex>er</ex> en los heredamj<ex>ento</ex>s &amp; cosas
+         <lb/>q<ex>ue</ex> p<ex>er</ex>tenesçen al señorio del rrey / sy alg<ex>un</ex>o q<ex>ue</ex>syere me<ex>n</ex>gua<ex>r</ex> / o encobrir
+         <lb/>el d<ex>e</ex>r<ex>ech</ex>o q<ex>ue</ex>l rrey oujese en<supplied> </supplied><ex>e</ex>llos / magu<ex>er</ex> fuese<ex>n</ex> atales sobre q<ex>ue</ex> no<ex>n</ex> oujese
+         <lb/>rriebto / E asy com<ex>m</ex>o p<ex>er</ex>tenesçe a su ofiçio de hac<ex>er</ex> justiçia a los om<ex>e</ex>s honrrados
+         <lb/>q<ex>ua</ex>ndo fizjere<ex>n</ex> por q<ex>ue</ex> / E ot<ex>ro</ex>sy a el p<ex>er</ex>tenesçe de pedir m<ex>erce</ex>d al rrey por los q<ex>ue</ex> so<ex>n</ex>
+         <lb/>acusados sin culpa &amp; el deue dar por su mandado q<ex>ui</ex>en rrazone los pleytos
+         <lb/>q<ex>ue</ex> oujere<ex>n</ex> las dueñas &amp; biudas &amp; los hue<ex>r</ex>fanos fijos dalgo q<ex>ua</ex>ndo no<ex>n</ex> oujere
+         <lb/>q<ex>ui</ex>en ffagan por ellos nj<ex>n</ex> q<ex>ui</ex>en tenga su rrazo<ex>n</ex> / E ot<ex>r</ex>osy a los q<ex>ue</ex> fuere<ex>n</ex> rr<unclear/>
+         <lb/>sobre hechos dubdosos q<ex>ue</ex> no<ex>n</ex> oujere<ex>n</ex> abogados &amp; por todos estos hechos tan gra<ex>n</ex>des
+<pb n="vuelto"/>
+         <lb/>q<ex>ue</ex> el alferez ha de hac<ex>er</ex> co<ex>n</ex>ujene en todas guysas q<ex>ue</ex> sea om<ex>n</ex>e de muy noble linaje
+         <lb/>&amp; q<ex>ue</ex> aya v<ex>er</ex>gue<ex>n</ex>ça de hac<ex>er</ex> cosa q<ex>ue</ex> le este mal &amp; ot<ex>ro</ex>sy porq<ex>ue</ex> el ha de justiçiar los om<ex>e</ex>s
+         <lb/>grand<ex>e</ex>s q<ex>ue</ex> hiziere<ex>n</ex> por q<ex>ue</ex> / E leal deue ser p<ex>ar</ex>a torna<ex>r</ex> por la p<ex>ro</ex> del rrey &amp; del rreyno /
+         <lb/>&amp; de bue<ex>n</ex> seso ha menest<ex>er</ex> q<ex>ue</ex> sea pues q<ex>ue</ex> por el se han de libra<ex>r</ex> los grand<ex>es pleytos</ex>
+         <lb/><ex>q</ex>ue acaheçe<ex>n</ex> en las huestes / &amp; ot<ex>r</ex>osy muy esforçado &amp; sabidor deue se<ex>r</ex> pues q<ex>ue</ex> el
+         <lb/>ha de se<ex>r</ex> com<ex>m</ex>o cabdillo mayor sobre las gent<ex>e</ex>s del rrey en las batallas / E
+         <lb/>q<ex>ua</ex>ndo el alferez tal fuere deuele el rrey ama<ex>r</ex> &amp; fia<ex>r</ex>se mucho en<supplied> </supplied><ex>e</ex>l &amp; hazelle
+         <lb/>mucha honrra &amp; bie<ex>n</ex> / &amp; si por aventura acaheçiese q<ex>ue</ex> herrase en alg<ex>un</ex>a destas
+         <lb/>cosas sobre dichas deue av<ex>er</ex> pena segu<ex>n</ex>d el yerro q<ex>ue</ex> fiziere.
+         </p>
+         </div>
+         <note><add><lb/>ay otra ley que habla en rrazo<ex>n</ex> del off<ex>ici</ex>o de alferez y es la ley <lb/>ix t<ex>itul</ex>o xviijº partida 4ª</add></note>
+      </body>
+   </text>
+</TEI>
