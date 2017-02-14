@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento de Jerusalén</title>
+            <author>Alfonso X el Sabio</author>
+            <funder>Ministerio de Economía y Competitividad <idno
+               type="referencia">FFI2016-75014-P</idno></funder>
+            <funder>Universidad de Valladolid</funder>
+            <funder>Seminario de Crítica Textual</funder>
+            <principal>José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name xml:id="JMFR">José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+        <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-JNL</idno>
+        	<availability status="free">
+        		<licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+        			<p>Esta obra está bajo una licencia de Creative Commons
+        				Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+        		</licence>
+        	</availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas. Edición Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+               proyecto<ref target="https://7partidas.hypotheses.org/testimonios/jnl/"
+                  >7PartidasDigital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
+               financiado por el Minsterio de Economía y Competitivadad de España, referencia <idno
+                  type="referencia">FFI2016-75014-P</idno>. La descripción del proyecto y sus
+               participantes se recogen en la <ref target="https://7partidas.hypotheses.org"
+                  >web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la trasncripción codificada de la
+               reproducción ofrecida por la <ref target="http://bit.ly/2fMDffk">Biblioteca Nacional de Israel</ref>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene fragmentos de la 2ª Partida: 2.19-6-7 y 9; 2.20.0-1.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+      	<change when="2017-02-14" who="#JMFR" status="publicado">Subido a GitHub</change>
+      	<change when="2017-02-05" who="#JMFR" status="candidato">Finalizado</change> 
+      	<change when="2017-02-05" who="#JMFR" status="candidato">Añadido &lt;abstract&gt;</change>
+      	<change when="2016-11-13" who="#JMFR" status="borrador">Corrección de la transcripción y la codificación</change>
+      	<change when="2016-05-01" who="#JMFR" status="borrador">Incorporación de las xml:id de cada capítulo</change>
+      	<change when="2016-03-25" who="#JMFR" status="borrador">Comienzo de la transcripción</change>
+      </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<pb n="1r"/>
+<cb n="1"/>
+<div n="2" type="partida" xml:id="SPJNL2">
+<div n="2.19.0" type="titulo" xml:id="SPJNL21900">
+<div n="2.19.6" type="ley" xml:id="SPJNL21906">
+	<p><gap reason="perdida"/>
+		<lb/>a acorrer q<ex>ue</ex> el Rey mismo no<ex>n</ex> <gap reason="corte"/>
+		<lb/>podria despues ta<ex>n</ex> bie<ex>n</ex> deffender
+		<lb/>ni<ex>n</ex> los otros que fincassen co<ex>n</ex> ell,
+		<lb/>&amp; poria por ende todo uenjr a p<ex>er</ex>i
+		<lb break="no"/>glo &amp; dep<ex>ar</ex>timje<ex>n</ex>to. Et por<del resp="#JMFR"> </del>q<ex>ue</ex><supplied> </supplied>la per
+		<lb break="no"/>dida s<ex>er</ex>ia comunal de todos como
+		<lb/>dixiemos de suso. por ende no<ex>n</ex> se
+		<lb/>deue ni<ex>n</ex>guno escusar desta hues
+		<lb break="no"/>te. Ca el q<ex>ue</ex><supplied> </supplied>lo fiziesse faria tray
+		<lb break="no"/>cion al Rey &amp; al Regno &amp; denosta
+		<lb break="no"/><gap reason="corte"/></p>
+</div>
+<div n="2.19.7" type="ley" xml:id="SPJNL21907">
+	<p><gap reason="corte"/>
+		<lb break="no"/>rra de<supplied> </supplied>los enemigos para
+		<lb/>fazer los guerra en aq<ex>ue</ex>llas tr<ex>e</ex>s
+		<lb/>man<ex>er</ex>as mismas q<ex>ue</ex> dixiemos
+		<lb/>en<supplied> </supplied>las leyes ant<ex>e</ex> desta q<ex>ue</ex><supplied> </supplied>los ene
+		<lb break="no"/>migos podrian entrar en<supplied> </supplied>la su
+		<lb break="no"/>ya Et como q<ex>u</ex>ier q<ex>ue</ex> el pueblo sea
+<cb n="2"/>
+		<gap reason="corte"/></p>
+</div>
+<div n="2.19.9" type="ley" xml:id="SPJNL21909">
+	<p>
+<pb n="1v"/>
+<gap reason="corte"/>
+		<lb/>co<ex>n</ex> ellos p<ex>ar</ex>a dia se<ex>n</ex>yalado/ &amp; atal
+		<lb/>hueste como esta toujero<ex>n</ex> por bien
+		<lb/>los antigos q<ex>ue</ex> vjnjessen todos
+		<lb/>los q<ex>ue</ex><supplied> </supplied>lo sopiessen. ta<ex>n</ex> bie<ex>n</ex> los que
+		<lb/>no<ex>n</ex> oujesse el se<ex>n</ex>yor llamados co
+		<lb break="no"/>mo los q<ex>ue</ex> <add place="margen" resp="corrector">lo</add> fuesse<ex>n</ex>. bie<ex>n</ex> asi como al
+		<lb/>leua<ex>n</ex>tamjento del Regno &amp; a<supplied> </supplied>la
+		<lb/>otra hueste qua<ex>n</ex>do los enemj
+		<lb break="no"/>gos entrasse<ex>n</ex> p<ex>ar</ex>a hau<ex>er</ex> batalla de<ex>n</ex>
+		<lb break="no"/>tro en su tierra &amp; esto no<ex>n</ex> touje
+		<lb break="no"/><gap reason="corte"/> hau<ex>er</ex> tarda<ex>n</ex>ça nj<ex>n</ex> ot<ex>r</ex>o
+		<lb/><gap reason="corte"/>
+		<lb/>meester &amp; se <gap reason="corte"/>
+		<lb break="no"/>es llegar sus ge<ex>n</ex>tes co<ex>n</ex> q<ex>ue</ex> se ue<ex>n</ex>
+		<lb break="no"/>garia/ mas el q<ex>ue</ex> fuesse ue<ex>n</ex>çido
+		<lb/>dentro en<supplied> </supplied>la tierra de<supplied> </supplied>los ene
+		<lb break="no"/>migos muy a duro podrie se
+		<lb break="no"/>er q<ex>ue</ex> escapasse ell nj<ex>n</ex> sus ge<ex>n</ex>tes
+		<lb/>de muerte o de p<ex>r</ex>ision. ca avn
+<pb n="2r"/>
+<fw type="encabezado" rend="rojo">xjxº</fw>
+<cb n="1"/>
+		<lb/>q<ex>ue</ex> se pudiesse acog<ex>er</ex> a algu<ex>n</ex> lu
+		<lb break="no"/>gar no<ex>n</ex> fallaria nj<ex>n</ex>gu<ex>n</ex>a cosa de
+		<lb/>lo q<ex>ue</ex> fuesse menester &amp; me<ex>n</ex>gu
+		<lb break="no"/>ar<del resp="#JMFR"> </del>le yen cada dia <add place="inter" resp="corrector">de</add> sus ge<ex>n</ex>tes
+		<lb/>&amp; cresçeria el poder de<supplied> </supplied>los ene
+		<lb/>migos/ catando todos estos p<ex>er</ex>i
+		<lb break="no"/>glos mandaro<ex>n</ex> q<ex>ue</ex> vinjesse<ex>n</ex> to
+		<lb break="no"/>dos atal hueste como esta/ &amp; q<ex>ue</ex>
+		<lb/>ni<ex>n</ex>guno no<ex>n</ex> se pudiesse escu
+		<lb break="no"/>sar. sino<ex>n</ex> por aq<ex>ue</ex>llas Razon<ex>e</ex>s
+		<lb/>q<ex>ue</ex> dichas son Et esto fizieron
+		<lb/><gap reason="corte"/>rdar
+		<lb/><gap reason="corte"/>
+		<lb break="no"/>nes deue<ex>n</ex> uenjr todos atal hu
+		<lb break="no"/>este como es<gap reason="polilla"/>a luego q<ex>ue</ex><supplied> </supplied>lo sopie
+		<lb break="no"/>ren. &amp; el q<ex>ue</ex> <gap reason="polilla"/>o no<ex>n</ex> fiziesse por
+		<lb break="no"/>sol el desma<ex>n</ex>damje<ex>n</ex>to de non
+		<lb/>venjr. pusiero<ex>n</ex> q<ex>ue</ex> si fuesse
+<cb n="2"/>
+		<lb/>hom<ex>n</ex>e honrrado p<ex>er</ex>diesse amor
+		<lb/>del Rey./ &amp; fuesse echado del Reg
+		<lb break="no"/>no. Et si fuesse otro hom<ex>n</ex>e q<ex>ue</ex>l
+		<lb/>echasse<ex>n</ex> de<supplied> </supplied>la tierra &amp; p<ex>er</ex>diesse
+		<lb/>la meytat de<supplied> </supplied>lo q<ex>ue</ex> oujesse Et los
+		<lb/>q<ex>ue</ex> se fuessen de tal hueste como
+		<lb/>esta sin mandado del Rey ante
+		<lb/>q<ex>ue</ex> se fiziesse la batalla seyendo
+		<lb/>nobl<ex>e</ex>s hom<ex>n</ex>es deue<ex>n</ex> seer echa
+		<lb break="no"/>dos de <add place="margen" resp="corrector">la</add> tierra p<ex>ar</ex>a siemp<ex>re</ex> &amp; p<ex>er</ex>der
+		<lb/>la meytad de<supplied> </supplied>lo q<ex>ue</ex> oujere<ex>n</ex>. Et si
+		<lb/><gap reason="corte"/><unclear reason="corte"><add resp="#JMFR">fuesse<ex>n</ex> otros</add></unclear> deue<ex>n</ex> morir por ello
+		<lb/><gap reason="corte"/>
+		<lb break="no"/>to toujero<ex>n</ex> por estra<ex>n</ex>ya cosa des
+		<lb break="no"/>enparar su se<ex>n</ex>yor en batalla
+		<lb/>q<ex>ue</ex> oujesse co<ex>n</ex> sus enemigos
+		<lb/>q<ex>u</ex>ier en<supplied> </supplied>la su tierra o en<supplied> </supplied>la de
+		<lb/>llos q<ex>ue</ex> pusiero<ex>n</ex> q<ex>ue</ex><supplied> </supplied>las muger<ex>e</ex>s
+<pb n="2v"/>
+<fw type="encabezado" place="margen-centro" rend="rojo">T<ex>itul</ex>o</fw>
+<cb n="1"/>
+		<lb/>nj<ex>n</ex> los fijos no<ex>n</ex> los acogiesse<ex>n</ex>
+		<lb/>en<supplied> </supplied>las casas. a estos tal<ex>e</ex>s njn
+		<lb/>morassen co<ex>n</ex> ellos dende ade
+		<lb break="no"/>lante por la fama &amp; por la no<ex>n</ex>
+		<lb break="no"/>brada q<ex>ue</ex> por ellos gana<ex>n</ex>.
+</p>
+</div>
+</div>
+<div n="2.20.0" type="titulo" xml:id="SPJNL22000">
+	<head rend="rojo"><lb/><seg xml:id="RubJNL122000Ini" next="#RubJNL122000Fin">¶ Titulo .xxº. qual deue seer
+		<lb/>el pueblo a<supplied> </supplied>la tierra onde son</seg></head>
+	<p><lb/><hi rend="init2">N</hi>odreçer &amp; acre <seg xml:id="RubJNL122000Fin" prev="#RubJNL122000Ini">nat<ex>ur</ex>al<ex>e</ex>s.</seg>
+		<lb break="no"/>çentar &amp; fazer linatge
+		<lb/>son tres ui<ex>r</ex>tudes q<ex>ue</ex> puso <persName>aris<gap reason="corte"/></persName>
+		<lb/><gap reason="corte"/>
+		<lb break="no"/>to de obrar por amor e<gap reason="corte"/>
+		<lb break="no"/>erra onde son natural<ex>e</ex>s en<supplied> </supplied>no
+		<lb break="no"/>dreçiendola &amp; acresçiendo<del resp="#JMFR"> </del>la
+		<lb/>&amp; fazie<ex>n</ex>do linatge en ella q<ex>ue</ex><supplied> </supplied>la
+		<lb/>pueble. Et en cada vna destas
+		<lb/>deue obrar segu<ex>n</ex>t le co<ex>n</ex>ujene.
+<cb n="2"/>
+		<lb/>Ca dotra gujsa no<ex>n</ex> podria y
+		<lb/>mostrar amor verdadero a<supplied> </supplied>la
+		<lb/>tierra don mora. Et como q<ex>u</ex>ier
+		<lb/>q<ex>ue</ex><supplied> </supplied>los sabios en sus libros pu
+		<lb break="no"/>sieron p<ex>r</ex>imerame<ex>n</ex>te la ui<ex>r</ex>tud q<ex>ue</ex>
+		<lb/>es del nodreçer &amp; despues la d<ex>e</ex>l
+		<lb/>creçentar/ &amp; desi la del engen
+		<lb break="no"/>dar. nos catando el ordena
+		<lb break="no"/>mje<ex>n</ex>to deste n<ex>uest</ex>ro libro m<del>a<ex>n</ex></del><add>u</add>da
+		<lb break="no"/>mos aq<ex>ue</ex>lla man<ex>er</ex>a &amp; fabla<ex>m</ex>os
+		<lb/>p<ex>r</ex>im<ex>er</ex>o daq<ex>ue</ex>lla ui<ex>r</ex>tut q<ex>ue</ex> es p<ex>ar</ex>a faz<ex>er</ex>
+		<gap reason="corte"/></p>
+<div n="2.20.1" type="ley" xml:id="SPJNL22001">
+	<p><gap reason="corte"/>
+		<lb/>por<del resp="#JMFR"> </del>q<ex>ue</ex> entendio q<ex>ue</ex> esta es la
+		<lb/>p<ex>r</ex>imera nat<ex>ur</ex>alez<gap reason="polilla"/><add resp="#JMFR">a</add> <add place="margen" resp="lector">e la ma<lb break="no"/>yor<lb/></add> q<ex>ue</ex><supplied> </supplied>los om<ex>ne</ex>s
+		<lb/>pueden hau<ex>er</ex> en<supplied> </supplied>la tierra en
+		<lb/>q<ex>ue</ex> han de beujr./ ca maguer
+		<lb/>es muy grande<supplied> </supplied>la otra q<ex>ue</ex> ga
+		<gap reason="perdida"/></p>
+</div>
+</div>
+</div>
+</body>
+</text>
+</TEI>
