@@ -38,6 +38,9 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Esta obra está bajo una licencia de Creative Commons
                      Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+		  <p>El fichero maestro está alojado en el repositorio del <ref
+			target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-XXX.xml">
+         		proyecto en GitHub</ref>.</p>
                </licence>
             </availability>
          </publicationStmt>
@@ -52,7 +55,7 @@
          <projectDesc>
             <p>Este texto se ha creado como parte del proyecto <title>7 Partidas Digital</title>
                financiado por el Minsterio de Industria, Economía y Competitivadad de España y el
-               FEDER, referencia <idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno>. La
+               FEDER, referencia FFI2016-75014-P AEI-FEDER, EU. La
                descripción del proyecto y sus participantes se recogen en la web <ref
                   target="https://7partidas.wordpress.com">7 Partidas Digital</ref></p>
          </projectDesc>
