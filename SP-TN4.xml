@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento TN4</title>
+            <author>Alfonso X el Sabio</author>
+         	<funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+         		FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+         	<funder xml:id="UVA">Universidad de Valladolid</funder>
+         	<funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+         	<principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+            	<name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+            	<name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-TN4</idno>
+         	<availability status="free">
+         		<licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+         			<p>Esta obra está bajo una licencia de Creative Commons
+         				Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+         		</licence>
+         		<p>El fichero maestro está alojado en el repositorio del <ref
+         			target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-TN4.xml"
+         			>proyecto en GitHub</ref>.</p>
+         	</availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+                  proyecto<ref target="https://7partidas.hypotheses.org/testimonios/indirectos/tn4"
+                  >7PartidasDigital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+         	<p>Este texto se ha creado como parte del proyecto <title>7 Partidas Digital</title>
+         		financiado por el Minsterio de Industria, Economía y Competitivadad de España y el
+         		FEDER, referencia FFI2016-75014-P AEI-FEDER, EU. La
+         		descripción del proyecto y sus participantes se recogen en la <ref
+         			target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Transcripción efectuada a partir de la reproducción digital facilitada por el Archivo
+               Histórico Nacional, Sección Nobleza (Toledo).</p>
+         </editorialDecl>
+      </encodingDesc>
+   	<profileDesc>
+   		<abstract resp="#JMFR">
+   			<p>Contiene fragmentos de la 2ª Partida: 2.18.1, 2.18.32 y 2.29.10.</p>
+   		</abstract>
+   	</profileDesc>
+      <revisionDesc>
+		<change when="2017-02-20" who="#JMFR" status="publicado">Subido a GitHub</change>
+      	<change when="2017-02-15" who="#JMFR" status="candidato">Finalizado</change>
+      	<change when="2017-02-05" who="#JMFR" status="candidato">Añadido &lt;abstract&gt;</change>
+      	<change when="2017-01-12" who="#JMFR" status="candidato">Finalizada la codificación y la correción</change> 
+      	<change when="2016-12-15" who="#JMFR" status="borrador">Iniciada la transcripción codificada</change>
+      </revisionDesc>
+   </teiHeader>
+<text>
+<body>
+<pb n="1r"/>
+<cb n="1"/>
+<div n="2.18.0" type="titulo" xml:id="SPTN421800">
+<div n="2.18.1" type="ley" xml:id="SPTN421801">
+   <head><lb/>L<ex>ey</ex> p<ex>rimer</ex>a. ti<ex>tul</ex>o 18. 2ª partita</head>
+   <p><lb/>Rayz segun lenguaje de <placeName>españa</placeName> es llamada toda
+		<lb/>cosa que no es mueble asi como diximos en las leyes
+		<lb/>del titulo ante deste mas como quier que mostramos
+		<lb/>de los heredamj<ex>ent</ex>os desta manera que son quitamente
+		<lb/>del rey; queremos agora aquj dezir de los otros q<ex>ue</ex> maguer
+		<lb/>son suyos por <sic>senorio</sic> pertenesçen al reyno de derecho
+		<lb/>y estas son las villas y los castillos y las otras fortalezas
+		<lb/>de su tierra. ca bien asi como estos heredamjentos
+   		<lb/>sobredichos ayudan de darle abondo para su mante
+   		<lb break="no"/>nimjento otro si estas fortalezas sobredichas le dan
+   		<lb/>esfuerço y poder para guarda y amparamj<ex>ent</ex>o de si mjsmo
+		<lb/>y de todos sus pueblos. &amp; por ende deve el pueblo
+		<lb/>mucho guardar a rrey en ellos./ esta guarda es en dos
+		<lb/>maneras. la vna que pertenesçe a todos comunalmente.
+		<lb/>&amp; la otra a onbres <sic>senalados</sic>. &amp; la que pertenesce a
+		<lb/>todos es que no le fuerçen nj le hurten nj le roben nj
+		<lb/>le tomen por engaño njnguna de sus fortalezas nj con
+		<lb break="no"/>sientan a otro que lo haga ca los que lo hiziesen harian
+		<lb/>traiçion conosçida porque deven morir y perder q<ex>u</ex>anto
+		<lb/>que ovieren. &amp; esta pena pusieron los antiguos ygual
+		<lb/>de muerte del señor porque tal podria ser el castillo
+		<lb/>que le hiziesen perder que podria y ser el rey
+		<lb/>muerto o desonrrado o perdidoso de la t<ex>ie</ex>rra &amp; de lo
+		<lb/>que oviese &amp; esta misma pena deven aver los que lo con
+		<lb break="no"/>sintiesen o consejasen./ &amp; esta man<ex>er</ex>a de guarda <sic>tane</sic>
+		<lb/>a todos comunalmente/ mas la otra ques de onbres
+		<lb/>señalados se parte en dos man<ex>er</ex>as
+		<lb/>¶ la vna de aquellos quel rey da los cast<ex>ill</ex>os por heredamj<ex>ent</ex>o
+		<lb/>y la otra a qujen los da por thenençia
+<pb n="1v"/>
+<cb n="1"/>
+		<lb/>ca aquellos que lo an por heredamj<ex>ent</ex>o devenlos thener
+		<lb/>labrados y basteçidos de onbres y de armas y de todas
+		<lb/>las otras cosas que les fuesen menester de gujsa q<ex>ue</ex>
+		<lb/>por culpa dellos no se pierdan nj venga dellos <sic>dano</sic>
+		<lb/>nj mal al rey nj al reyno./ nj los deven enagenar en
+		<lb/>njnguna man<ex>er</ex>a en <del resp="copista" rend="raya">villar</del> vida nj en muerte a on
+		<lb break="no"/>bres de fuera de su <sic>senorio</sic> nj a otros de qujen
+		<lb/>pudiese venjr guerra nj <sic>dano</sic> al reyno: antes segund
+		<lb/>fuero antiguo de <placeName>españa</placeName> si los quisiesen vender
+		<lb/>o canbiar devenlo p<ex>r</ex>im<ex>er</ex>amente hazer saber al rey &amp;
+		<lb/>queriendo el dar tanto por ellos en aver o en canbio
+		<lb/>como otro de la t<ex>ie</ex>rra diesen a los que oviesen de aver
+		<lb/>ca maguer en la c<ex>art</ex>a o en el preuj<ex>legi</ex>o del donadio dixese
+		<lb/>q<ex>ue</ex> gelo dava para hazer su voluntad dello como
+		<lb/>de lo suyo no se entiende por eso que aquel cuyo es
+		<lb/>el heredamj<ex>ent</ex>o deve ende hazer cosa porq<ex>ue</ex> el rrey nj
+		<lb/>el rreyno finquen deseredados nj que resçiban
+		<lb/>daño nj mal de aquello quel dio para hazer bien
+		<lb/>antes se entiende que le deven con ello aguardar
+		<lb/>&amp; servirle con ello: Por ende el que perdiese el cas
+		<lb break="no"/>tillo o lo enagenase a sabiendas a qujen hiziese daño
+		<lb/>o guerra al rreyno/ o al rey del faria trayçion conosçida
+		<lb/>porque deve p<ex>er</ex>der el heredamj<ex>ent</ex>o que oviere y sea echado
+		<lb/>de la t<ex>ie</ex>rra para sienpre jamas: e el castillo deve tornar
+		<lb/>al señorio del reyno como de primero./
+		<lb/>¶ La otra man<ex>er</ex>a de guarda es de aquellos a qujen da
+		<lb/>el rey los cast<ex>ill</ex>os que tengan por el. ca estos son thenudos
+<pb n="2r"/>
+<cb n="1"/>
+		<lb/>mas que todos los otros de guardarlos thenjendo
+		<lb break="no"/>los basteçidos de onbres y de armas y de todas las
+		<lb/>otras cosas que les fueren menester de man<ex>er</ex>a que
+		<lb/>por su culpa no se puedan p<ex>er</ex>der: ca si el pueblo es
+		<lb/>thenudo por naturaleza de guardar al rey en ellos
+		<lb/>asi como de suso deximos: &amp; los otros a qujen
+		<lb/>los da por heredamj<ex>ent</ex>o porque no venga dellos
+		<lb/>mal nj daño a los reyes de qujen ellos los here
+		<lb break="no"/>daron quanto mas estos atales a qujen los da
+		<lb/>el rey señaladamente no por otra razon sino porq<ex>ue</ex>
+		<lb/>gelos guarden de manera q<ex>ue</ex> gelos puedan dar sjn
+		<lb/>enbargo njnguno quando los pidiere: onde qual
+		<lb break="no"/>q<ex>uie</ex>r dellos que por su culpa perdiere el castillo que
+		<lb/>tuvie<del resp="copista" rend="reescrito">r</del><add resp="copista" rend="sobreescrito">s</add>e desta man<ex>er</ex>a hara traycion conosçida porq<ex>ue</ex>
+		<lb/>deve aver tal pena como los q<ex>ue</ex> matan a su señor &amp; esta
+		<lb/>mjsma pena deven aver todos aquellos que fuesen
+		<lb/>ayudadores &amp; consejeros dellos<supplied>.</supplied></p>
+</div>
+<div n="2.18.32" type="ley" xml:id="SPTN421832">
+   <head><lb/>Le<ex>y</ex> final del d<ex>icho</ex> t<ex>itul</ex>o 18. 2ª. p<ex>ar</ex>t<ex>ida</ex>.</head>
+   <p><lb/>¶ naturaleza y vasallaje son mayores deudos q<ex>ue</ex>
+		<lb/>onbre puede aver con su señor. ca naturaleza
+		<lb/>tiene sienpre a todo para amarlo &amp; no yr contra
+		<lb/>el vasallage: &amp; seguirle lealmente; y por ende los
+		<lb/>antiguos de <placeName>españa</placeName> acataro<ex>n</ex> mucho estas cosas &amp;
+		<lb/>pusiero<ex>n</ex> de como lo<del resp="copista" rend="reescrito">r</del><add resp="copista" rend="sobreescrito">s</add> reyes fuesen guardados y ser
+		<lb break="no"/>vidos de sus vasallos y sobre esto mostraro<ex>n</ex> demas
+<pb n="2v"/>
+<cb n="1"/>
+		<lb/>estos ayuntados en vno: que fuerça avria cada
+		<lb/>vno por si: Et como qujer questo mucho catasen como
+		<lb/>le deven guardar en vida y en su salud y en <del resp="copista" rend="reescrito"><unclear/></del><add resp="copista" rend="sobreescrito">s</add>u onrra y
+		<lb/>en todas las otras cosas que d<ex>ic</ex>ho avemos toviero<ex>n</ex>
+		<lb/>que lo devian esto mucho hazer en aquello que
+		<lb/>tocase a su heredamj<ex>ent</ex>o o a mengua de su señorio:
+		<lb/>por todas estas razones hallaron por der<ex>ec</ex>ho que sus
+		<lb/>naturales no qujsiesen otro castillo nj otra fortaleza
+		<lb/>en su t<ex>ie</ex>rra sino su lealtad y su verdad aquello
+		<lb/>que los reyes les diesen: o guardasen: o hiziesen
+		<lb/>de nuevo con su plazer. &amp; esto hizieron por ser sienpre
+		<lb/>bien avenjdos con sus señores guardando su lealtad
+		<lb/>contra ellos cunplidamente de man<ex>er</ex>a que no le
+		<lb/>oviesen de herrar atreviendose en sus fortalezas
+		<lb/>&amp; otrosi los señores no oviesen a hazerles mal por
+		<lb/>el daño o el pesar que resçibiesen dellos. &amp; por esta
+		<lb/>hazaña <add resp="copista">q<ex>ue</ex></add> ovieron los señores fueles otorgado que las
+		<lb/>casas de los nobles onbres fuesen guardadas como cast<ex>ill</ex>os
+		<lb/>pues que la segurança del señor tovieron por fortaleza:
+		<lb/>&amp; que njnguno no la osase quebrantar nj forçar por pod<supplied resp="#JMFR"><ex>e</ex></supplied>r
+		<lb/>que oviese &amp; qualqujer que se atreviese a hazello deve
+		<lb/>aver pena qual fuese el yerro a vista del rrey &amp; de la
+		<lb/>corte. &amp; por esta mjsma rrazon pusieron q<ex>ue</ex> todo su vasallo
+		<lb/>avnque no fuese su natural q<ex>ue</ex> quando qujer q<ex>ue</ex> ganase
+		<lb/>villa o castillo o otra fortaleza en su conqujsta; do qujer
+		<lb/>que la pudiese ganar que la diese por rrazon de señorjo
+<pb n="3r"/>
+<cb n="1"/>
+		<lb/>si no fincase traidor por ello: &amp; que oviese tal
+		<lb/>pena como aquel que desereda a su <sic>senor</sic> &amp; demas
+		<lb/>si esto el ganase non seyendo vasallo del rey oviero<ex>n</ex>
+		<lb/>por d<ex>e</ex>r<ex>e</ex>cho que lo diese al otro <sic>senor</sic> cuyo vasallo
+		<lb/>fuese. pero esto a pleyto que lo otro lo de al rrey
+		<lb/>&amp; si desto no fuese bien seguro que el mismo gelo
+		<lb/>diese &amp; esto hiziero<ex>n</ex> porque no deseredase al rey
+		<lb/>cuyo natural es. &amp; otrosi porq<ex>ue</ex> guardasen a aquel
+		<lb/>su señor de yerro de man<ex>er</ex>a que non oviese de errar
+		<lb/>contra el rey ques mayor señor: &amp; el que contra
+		<lb/>esto hiziese haria tal traiçion porque mereçiese
+		<lb/>aver la pena sobredicha./ &amp; avn pusiero<ex>n</ex> mas q<ex>ue</ex>
+		<lb/>si alguno fuese su natural &amp; su vasallo oviese
+		<lb/>castillo de su heredamj<ex>ent</ex>o o por donaçion de señor:
+		<lb/>o por conpra: o por otra man<supplied resp="#JMFR"><ex>er</ex></supplied>a qualqujer que perdiese
+		<lb/>por su culpa despues lo cobrase que si el rrey
+		<lb/>gelo pidiese q<ex>ue</ex> fuese thenudo de gelo dar: pues
+		<lb/>que lo ganara siendo su vasallo y su natural &amp;c<supplied>.</supplied></p>
+</div>
+</div>
+   <note resp="copista">
+      <p><lb/>¶ estas tales palabras como estas palabras como estas
+      <lb/>postreras dende do dize <q>avn pusieron</q> mas pone la
+      <lb/>ley 28. del mjsmo <del resp="copista">y</del> titulo y dize al fin <q>por
+      <lb/>rrazon del vasallaje</q><supplied>.</supplied></p>
+   </note>
+<div n="2.29.0" type="titulo" xml:id="SPTN422900">
+<div n="2.29.10" type="ley" xml:id="SPTN422910">
+   <head><lb/>Le<ex>y</ex> x. ti<ex>tul</ex>o 29. ques de los captiuos
+		<lb/>2ª par<ex>tida</ex>.</head>
+   <p><lb/>¶ ynperios y Reynos y otras t<ex>ie</ex>rras caen muchas
+<pb n="3v"/>
+<cb n="1"/>
+		<lb/>vegadas en poder de los henemjgos perdiendolos
+		<lb/>aquellos que dende son naturales: &amp; vinjendo
+		<lb/>en mano de otros <sic>estranos</sic> que tomaron los nonbres
+		<lb/>de los lugares &amp; departen los termjnos &amp; vsan
+		<lb/>de los derechos de otra man<ex>er</ex>a que ante eran: &amp; sy
+		<lb/>despues acaesçiese que a tienpo tornasen en pod<ex>e</ex>r
+		<lb/>de aquellos cuyos fueron primero. &amp; por ende
+		<lb/>los llaman catiuos a aquellos lugares en quanto
+		<lb/>heran desapoderados dellos aquellos cuyos
+		<lb/>deven ser por d<ex>e</ex>r<ex>e</ex>cho. &amp; tuvieron por derecho que
+		<lb/>despues que los cobrasen &amp; saliesen de aquel
+		<lb/>cativerio que fuesen tornados al primer estado
+		<lb/>d<ex>e</ex>r<ex>e</ex>chamente asi como antes estavan &amp; sy
+		<lb/>qujsiesen que pudiesen demandar al señorio
+		<lb/>todos los termjnos &amp; los otros d<ex>e</ex>r<ex>ech</ex>os &amp; cobrallos
+		<lb/>como de primero los avian. &amp; que en njngund
+		<lb/>t<ex>iem</ex>po no fuesen contra ellos para hazerles p<ex>er</ex>der
+		<lb/>su d<ex>e</ex>r<ex>ech</ex>o/  &amp; esto se entiende de los señores mayores
+		<lb/>no por megua nj se desfiziesen del todo/ mas
+		<lb/>de los menores si despues que los oviesen cobrado
+		<lb/>aquellos cuyos deven ser hasta quatro no qujsiesen
+		<lb/>demandar los derechos que pertenesçiesen a aq<ex>ue</ex>llos
+		<lb/>lugares puedenlos p<ex>er</ex>der por t<ex>iem</ex>po. fueras ende
+		<lb/>si aquel que los oviese a demandar no se fuese
+		<lb/>de hedad. ca este en quanto no lo fuese &amp; avn d<ex>e</ex>spues
+<pb n="4r"/>
+<cb n="1"/>
+		<lb/>fasta en quatro <sic>anos</sic> en saluo finca su d<ex>e</ex>r<ex>e</ex>cho
+		<lb/>para demandar lo que qujsiere. &amp; eso mjsmo
+		<lb/>dezjmos si alguna çibdad o villa o otro lugar que
+		<lb/>fuese perdido &amp; cobrado asi como diximos quj
+		<lb break="no"/>siesen demandar sus termjnos o sus derechos
+		<lb/>fasta quatro años &amp; su señor no gelo consintiese
+		<lb/>ca mjentra el señor no qujsiese no lo puede hazer
+		<lb/>nj correria t<ex>iem</ex>po contra ellos pues q<ex>ue</ex> por fuerça de
+		<lb/>mandamj<ex>ent</ex>o lo oviesen dexado mas despues q<ex>ua</ex>ndo
+		<lb/>al señor pluguiese bien lo podrian demandar<supplied>.</supplied></p>
+</div>
+</div>
+   <note resp="copista">
+	<p><lb/>L. si captiuus. § expulsis. ff.
+		<lb/>de capti. &amp; post. li. reuer.
+		<lb/>expulsis hostib<ex>us</ex> ex agris quos ceperant, domjnja
+		<lb/>eor<ex>um</ex> agror<ex>um</ex> ad p<ex>r</ex>iores domjnos redire;  nec aut pu
+		<lb break="no"/>blicari aut prede loco cedere. publicat<ex>ur</ex> enjn ille
+      <lb/>ager q<ex>u</ex>i ex hostib<ex>us</ex> capt<ex>us</ex> sit.</p>
+   </note>
+</body>
+</text>
+</TEI>
