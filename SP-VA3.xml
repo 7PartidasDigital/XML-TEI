@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento VA3</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+               FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-VA3</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+               <p>El fichero maestro está alojado en el repositorio del <ref
+                  target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-VA3.xml">
+                  proyecto en GitHub</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">7 Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+               proyecto <ref target="https://7partidas.hypotheses.org/testimonios/va3/"
+                  >7 Partidas Digital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+               <p>Este texto se ha creado como parte del proyecto <title>7 Partidas Digital</title>
+                  financiado por el Minsterio de Industria, Economía y Competitivadad de España y el
+                  FEDER, referencia FFI2016-75014-P AEI-FEDER, EU. La
+                  descripción del proyecto y sus participantes se recogen en la <ref
+                     target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+            </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de la
+               reproducción del documento ofrecida por <ref target="http://bit.ly/2fcJpER"
+                  >PARES</ref>, ARCHV, Pergaminos, carpeta 178, 13 y corregido con el original.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene fragmentos de la 5ª partida: 5.13.48-50, 5.14.1-2 y 5.14.44-48.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-03-13" who="#JMFR" status="publicado">Subido a GithHub</change>
+         <change when="2017-03-12" who="#JMFR" status="candidato">Corrección ffinal</change>
+         <change when="2017-02-05" who="#JMFR" status="candidato">Añadido &lt;abstract&gt;</change>
+         <change when="2017-01-13" who="#JMFR" status="candidato">Finalizado</change>
+         <change when="2016-01-12" who="#JMFR" status="candidato">Corrección de la codificación</change>
+         <change when="2016-12-08" who="#JMFR" status="borrador">Añadidos / quitados espacios union / separación palabras</change>
+         <change when="2016-11-20" who="#JMFR" status="borrador">Transcipción y codificación básica</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="A1"/>
+         <cb n="1"/>
+         <fw type="encabezado">xiijº T<ex>itul</ex>o de<supplied> </supplied>los pen<ex>n</ex>os</fw>
+         <div n="5" type="partida">
+            <div n="5.13.0" type="titulo" xml:id="SPV351300">
+               <div n="5.13.48" type="ley" xml:id="SPV351348">
+                  <p><gap reason="nonsequitur"/>
+                  <lb/>q<ex>ue</ex> tiene la cosa en<supplied> </supplied>pen<ex>n</ex>os la uende no<ex>n</ex> auiendo poder de<supplied> </supplied>lo ffaz<ex>er</ex> o auiendo po
+                  <lb break="no"/>der de<supplied> </supplied>la uender la enagena co<ex>n</ex>tra la fforma. &amp; la man<ex>er</ex>a q<ex>ue</ex> dize<ex>n</ex> las leys des
+                  <lb break="no"/>te titolo q<ex>ue</ex> ffablan com<ex>m</ex>o deue<ex>n</ex> sseer uendidas las cosas enpen<ex>n</ex>adas q<ex>ue</ex> eston
+                  <lb break="no"/>ce el ssen<ex>n</ex>or de<supplied> </supplied>la cosa la pode demandar a<supplied> </supplied>q<ex>u</ex>ien q<ex>u</ex>ier que la ffalle q<ex>ue</ex> la aya assi co<ex>n</ex>
+                  <lb break="no"/>plada &amp; la deue cobrar pagando a<supplied> </supplied>este q<ex>ue</ex><supplied> </supplied>la auie co<ex>n</ex>plada lo q<ex>ue</ex> auie dado por ella
+                  <lb/>fasta en aq<ex>ue</ex>lla q<ex>u</ex>antidat en<supplied> </supplied>q<ex>ue</ex> el auie enpen<ex>n</ex>ada ssi por tanto ffuesse uenda.
+                  <lb/>¶ Et ssi por menos deuel dar tanto por ella q<ex>u</ex>anto costa. &amp; lo demas guar
+                  <lb break="no"/>dar<del resp="editor"> </del>lo p<ex>or</ex>a aq<ex>ue</ex>l q<ex>u</ex>ien la auie enpen<ex>n</ex>ada. ¶ Et ssi por auentura por mas la
+                  <lb/>ouiesse uendida daq<ex>ue</ex>llo por<del resp="editor"> </del>q<ex>ue</ex><supplied> </supplied>la el tenie en<supplied> </supplied>peños lo demas es tenudo de<supplied> </supplied>lo
+                  <lb/>pagar al q<ex>ue</ex><supplied> </supplied>l<unclear>a</unclear> uendio &amp; no<ex>n</ex> el ssen<ex>n</ex>or de<supplied> </supplied>la cossa. ¶ Mas ssi este q<ex>ue</ex> co<ex>n</ex>plo la
+                  <lb/>ouisse ganada por tienpo estonce deue fficar por ssen<ex>n</ex>or della. ¶ P<ex>er</ex>o
+                  <lb/>aq<ex>ue</ex>l q<ex>ue</ex> iela uendio ffica obliga<add rend="sup">do</add> al ssen<ex>n</ex>or de<supplied> </supplied>la cosa de pechar<del resp="editor"> </del>lle todos los
+                  <lb/>dan<ex>n</ex>os &amp; los menoscabos q<ex>ue</ex>l uenieron por rrazo<ex>n</ex> daq<ex>ue</ex>lla uendida por<del resp="editor"> </del>q<ex>ue</ex> no<ex>n</ex>
+                  <lb/>fue fecha com<ex>m</ex>o deuie.</p>
+               </div>
+               <div n="5.13.49" type="ley" xml:id="SPV351349">
+                  <head>Ley xxxxviiijª com<ex>m</ex>o sse pode desatar la uendida
+                     <lb/>del pen<ex>n</ex>o q<ex>ue</ex> es ffecha engan<ex>n</ex>osam<ex>en</ex>tre.</head>
+                  <p><lb/><hi rend="init2">C</hi>on engan<ex>n</ex>o uendiendo algun om<ex>n</ex>e la cosa q<ex>ue</ex> touiesse en<supplied> </supplied>pen<ex>n</ex>os por
+                     <lb/>menos de<supplied> </supplied>lo q<ex>ue</ex> ualisse ssi el engan<ex>n</ex>o podiere prouar el ssen<ex>n</ex>or della
+                     <lb/>dezimos q<ex>ue</ex> deue dema<ex>n</ex>dar a<supplied> </supplied>aq<ex>ue</ex>l a<supplied> </supplied>q<ex>u</ex>ien la enpen<ex>n</ex>o magar la podiesse ue<ex>n</ex>
+                     <lb break="no"/>der todo el dan<ex>n</ex>o &amp; el menoscabo q<ex>ue</ex>l uino por rrazon de<supplied> </supplied>la uendida. ¶
+                     <lb/>Et ssi ffuere tan pobre el uendedor q<ex>ue</ex><supplied> </supplied>lo no<ex>n</ex> podiesse del cobrar &amp; aq<ex>ue</ex>l<supplied> </supplied>q<ex>ue</ex>
+                     <lb/>la co<ex>n</ex>pro del ffoe ssabidor del engan<ex>n</ex>o estonce ha demanda co<ex>n</ex>tra el q<ex>ue</ex><supplied> </supplied>la tor
+                     <lb break="no"/>ne aq<ex>ue</ex>lla ssu cosa q<ex>ue</ex> conpro a<supplied> </supplied>ssi &amp; deue<del resp="editor"> </del>la cobrar con los ffruchos q<ex>ue</ex>l otro
+                     <lb/>ssaco della por<del resp="editor"> </del>q<ex>ue</ex> ouo mala ffe en co<ex>n</ex>prando<del resp="editor"> </del>la ¶ P<ex>er</ex>o tenido es el sse
+                     <lb break="no"/>n<ex>n</ex>or del pen<ex>n</ex>o de tornar el p<ex>re</ex>cio q<ex>ue</ex> pago el co<ex>n</ex>plador por ella en aq<ex>ue</ex>lla
+                     <lb/>man<ex>er</ex>a q<ex>ue</ex> dize en<supplied> </supplied>la ley ante desta. ¶ Et sse por auentura este q<ex>ue</ex> ouie
+                     <lb break="no"/>sse co<ex>n</ex>plado la cosa enpen<ex>n</ex>ada por menos de<supplied> </supplied>lo q<ex>ue</ex> uale q<ex>ui</ex>ssiesse defaz<ex>er</ex> el en
+                     <lb break="no"/>gan<ex>n</ex>o co<ex>n</ex>pliendo sobre lo q<ex>ue</ex> auie dado por ella ffasta la q<ex>u</ex>antidat q<ex>ue</ex> ffa
+                     <lb break="no"/>llasse por derecho q<ex>ue</ex> ualie nol deue sseer cabudo ffueras ende ssi plo
+                     <lb break="no"/>guier al ssen<ex>n</ex>or de<supplied> </supplied>la cosa de gelo otorgar. ¶ Mas ssi este q<ex>ue</ex> co<ex>n</ex>plo
+                     <lb/>la cosa no<ex>n</ex> ffuesse ssabidor del engan<ex>n</ex>o &amp; ouo bona ffed en co<ex>n</ex>plando<del resp="editor"> </del>la
+                     <lb/>estonce no<ex>n</ex>l enpece a<supplied> </supplied>el el engan<ex>n</ex>o ho la mala ffed del uendedor nj<ex>n</ex>
+                     <lb/>ha dema<ex>n</ex>da ni<ex>n</ex>guna co<ex>n</ex>tra el. el ssen<ex>n</ex>or de<supplied> </supplied>la cosa enpen<ex>n</ex>ada pos q<ex>ue</ex> aq<ex>ue</ex>l
+                     <lb/>q<ex>ue</ex><supplied> </supplied>la uendio lo podrie ffaz<ex>er</ex> com<ex>m</ex>o q<ex>u</ex>ier q<ex>ue</ex> el q<ex>ue</ex> fizo engan<ex>n</ex>osa<del resp="editor"> </del>m<ex>en</ex>tre tal
+                     <lb/>uendida ssea tenudo de rreffazer el dan<ex>n</ex>o ho el mesnoscabo al ssen<ex>n</ex>or
+                     <lb/>de<supplied> </supplied>la cosa enpen<ex>n</ex>ada asi com<ex>m</ex>o ssobredicho es.</p>
+               </div>
+               <div n="5.13.50" type="ley" xml:id="SPV351350">
+                  <head>Ley .Lª. com<ex>m</ex>o es te
+                     <lb break="no"/>nido ho no<ex>n</ex> el <add place="sup" resp="corrector">q<ex>ue</ex></add> uende el pen<ex>n</ex>o de ffaz<ex>er</ex><del resp="editor"> </del>lo ssaluo al q<ex>ue</ex> lo conpro.</head>
+                  <p><lb/><hi rend="init2">O</hi>bligado sseendo algun pen<ex>n</ex>o a<supplied> </supplied>otri atal pl<ex>e</ex>ito q<ex>ue</ex> aq<ex>ue</ex>l Recibe la cosa
+                     <lb/>en<supplied> </supplied>penos q<ex>ue</ex> la poda uender ssi acaesciesse q<ex>ue</ex> l<unclear/> u<gap reason="roto"/>iesse no<ex>n</ex> com<ex>m</ex>o
+                     <lb/>ssuya mas com<ex>m</ex>o cosa enpen<ex>n</ex>ada &amp; despues desso ue<gap reason="roto"/>essen por aq<ex>ue</ex>lla
+                     <lb/>cosa en juyzio al q<ex>ue</ex><supplied> </supplied>la co<ex>n</ex>plasse del estonce este q<ex>ue</ex> <gap reason="roto"/>a uendio no<ex>n</ex> sserie
+                     <pb n="A2"/>
+                     <cb n="1"/>
+                     <fw type="encabezado">xiiijº T<ex>itul</ex>o de<supplied> </supplied>las pagas &amp; delos q<ex>u</ex>itamje<ex>n</ex>tos</fw>
+                     <lb/>tenido de gela ffaz<ex>er</ex> ssana. mas el otro q<ex>ue</ex> enpen<ex>n</ex>o la cosa al uendedor. ¶ P<ex>er</ex>o
+                     <lb/>ssi aq<ex>ue</ex>l q<ex>ue</ex> uende tal cosa sse obliga a<supplied> </supplied>ffaz<ex>er</ex><del resp="editor"> </del>la ssana o ssabiendo q<ex>ue</ex> yera agena &amp;
+                     <lb/>no<ex>n</ex> daq<ex>ue</ex>l q<ex>ue</ex> gela enpen<ex>n</ex>o la rrecebio en<supplied> </supplied>pen<ex>n</ex>os &amp; la uendio despues o ssi<supplied> </supplied>la uen
+                     <lb break="no"/>dio com<ex>m</ex>o ssuya &amp; no<ex>n</ex> com<ex>m</ex>o cosa enpen<ex>n</ex>ada en<supplied> </supplied>q<ex>u</ex>al<del resp="editor"> </del>q<ex>u</ex>ier destas rrazones tenudo
+                     <lb/>sserie el uendedor de ffaz<ex>er</ex> la cosa ssana a<supplied> </supplied>aq<ex>ue</ex>l q<ex>ue</ex> la conplasse del.</p>
+               </div>
+            </div>
+            <div n="5.14.0" type="titulo" xml:id="SPV351400">
+               <head>Titolo xiiijº.
+                  <lb/>de<supplied> </supplied>las pagas &amp; de<supplied> </supplied>los q<ex>u</ex>itam<ex>en</ex>tos &amp; de<supplied> </supplied>los descuntam<ex>en</ex>tos a<supplied> </supplied>q<ex>ue</ex> dizen en latj<ex>n</ex> co<ex>n</ex>penssa
+                  <lb break="no"/>cion &amp; de<supplied> </supplied>las debdas q<ex>ue</ex> sse paga<ex>n</ex> a<supplied> </supplied>aq<ex>ue</ex>llos q<ex>ue</ex><supplied> </supplied>los no<ex>n</ex> deue auer.</head>
+               <p><lb/><hi rend="init2">P</hi>aga<del resp="copista" rend="raspado"></del>s o<supplied> </supplied>q<ex>u</ex>itam<ex>en</ex>tos sson dos cosas q<ex>ue</ex> por cada una dellas dessata<ex>n</ex><del resp="editor"> </del>sse las pro
+                  <lb break="no"/>missiones &amp; los pl<ex>e</ex>itos &amp; las posturas &amp; los obligam<ex>en</ex>tos de<supplied> </supplied>las ffiadu
+                  <lb break="no"/>ras &amp; de<supplied> </supplied>los pen<ex>n</ex>os. ¶ Onde pues q<ex>ue</ex> en los titolos ante deste ffablamos
+                  <lb/>q<ex>ue</ex> todas <sic>la</sic> cosas por<del resp="editor"> </del>q<ex>ue</ex> los om<ex>ne</ex>s sse puede<ex>n</ex> obligar unos a<supplied> </supplied>otros por parabla
+                  <lb/>q<ex>ue</ex>remos diz<ex>er</ex> en este en<supplied> </supplied>q<ex>ue</ex> man<ex>er</ex>a sse pode desatar tal obligamiento. ¶ Et mos
+                  <lb break="no"/>traremos q<ex>ue</ex> q<ex>u</ex>ier diz<ex>er</ex> paga o q<ex>u</ex>itam<ex>en</ex>to. ¶ Et a<supplied> </supplied>q<ex>ue</ex> tiene prod. ¶ Et de q<ex>u</ex>antas ma
+                  <lb break="no"/>n<ex>er</ex>as sson. ¶ Et com<ex>m</ex>o sse deuen ffaz<ex>er</ex>. ¶ Et a<supplied> </supplied>quien. ¶ Et de<supplied> </supplied>q<ex>ue</ex> cosas. ¶ Et
+                  <lb/>q<ex>u</ex>ando. ¶ Et q<ex>ue</ex> deue ffaz<ex>er</ex> el debdor q<ex>u</ex>ando q<ex>u</ex>ier pagar lo q<ex>ue</ex> debe &amp; aq<ex>ue</ex>l <del cause="repetido" resp="#JMFR">&amp; aq<ex>ue</ex>l</del>
+                  <lb/>a<supplied> </supplied>q<ex>ue</ex> a<supplied> </supplied>de ffaz<ex>er</ex> la paga no<ex>n</ex> lo q<ex>u</ex>ier tomar. ¶ Et dessi diremos de todas las
+                  <lb/>man<ex>er</ex>as de q<ex>u</ex>itam<ex>en</ex>tos &amp; de rrenouam<ex>en</ex>tos &amp; de descontam<ex>en</ex>tos &amp; de debdas
+                  <lb/>&amp; de pl<ex>e</ex>itos &amp; por que rrazones sse pode rreuogar la paga o el q<ex>u</ex>itam<ex>en</ex>to <del cause="repetido" resp="#JMFR">q<ex>u</ex>i
+                  <lb break="no"/>tam<ex>en</ex>to</del> despues q<ex>ue</ex> es ffecho.</p>
+               <div n="5.14.1" type="ley" xml:id="SPV351401">
+                  <head><seg xml:id="RubSPV351401Ini" next="#RubSPV351401Fin">Ley .jª. q<ex>ue</ex> q<ex>u</ex>ier dizer paga o q<ex>u</ex>itam<ex>en</ex>to &amp; a<supplied> </supplied>q<ex>ue</ex> tiene</seg></head>
+                  <p><lb/><hi rend="init2">P</hi>aga tanto q<ex>u</ex>ier diz<ex>er</ex> como pagam<ex>en</ex>to <add place="sup" resp="corrector">q<ex>ue</ex></add> es ffecho a<supplied> </supplied>aq<ex>ue</ex>l q<ex>ue</ex> deue rre <seg xml:id="RubSPV351401Fin" prev="#RubSPV351401Ini">prod.</seg>
+                     <lb break="no"/>cebir alguna cosa de man<ex>er</ex>a q<ex>ue</ex> ffinq<ex>ue</ex> pagado della o de lo q<ex>ue</ex>l deuen
+                     <lb/>ffazer. ¶ Et q<ex>u</ex>itamiento es q<ex>u</ex>ando ffazen pl<ex>e</ex>ito al debdor de nunca dema<ex>n</ex>
+                     <lb break="no"/>dar lo q<ex>ue</ex>l deue el q<ex>u</ex>itan el debdo aq<ex>ue</ex>llos q<ex>ue</ex> lo poden ffaz<ex>er</ex>. ¶ Et tiene<ex>n</ex> estas
+                     <lb/>cosa<add place="enlinea" resp="corrector">s</add> grand prod al debdor por<del resp="editor"> </del>q<ex>ue</ex> q<ex>u</ex>ando paga la debda o q<ex>ue</ex>l q<ex>ui</ex>ta<ex>n</ex> della ffica<ex>n</ex> li
+                     <lb break="no"/>bres el &amp; ssus ffiadores &amp; los pen<ex>n</ex>os &amp; ssus heredes de<supplied> </supplied>la obligacio<ex>n</ex> en<supplied> </supplied>q<ex>ue</ex>
+                     <lb/>eran obligados por lo q<ex>ue</ex> deuie<ex>n</ex> dar o<supplied> </supplied>ffaz<ex>er</ex>.</p>
+               </div>
+               <div n="5.14.2" type="ley" xml:id="SPV351402">
+                  <head>Ley .ijª. q<ex>u</ex>antas man<ex>er</ex>as sson de
+                     <lb/>pagas &amp; de  <del resp="rubricador" rend="subpunteado">q<ex>u</ex>itatimos</del> q<ex>ui</ex>tam<ex>en</ex>tos.</head>
+                  <p><lb/><hi rend="init2">D</hi>e paga<add place="enlinea" resp="corrector">s</add> sson tantas man<ex>er</ex>as q<ex>u</ex>antas sson las naturas de<supplied> </supplied>las debdas en<supplied> </supplied>q<ex>ue</ex>
+                     <lb/>un om<ex>n</ex>e sse pode obligar a<supplied> </supplied>otro. ¶ Ca ssegun dize<ex>n</ex> los ssabios antigos
+                     <lb/>pagando om<ex>n</ex>e lo q<ex>ue</ex> deue es libre de<supplied> </supplied>la obligacio<ex>n</ex> en<supplied> </supplied>q<ex>ue</ex> era por lo q<ex>ue</ex> deuie
+                     <lb/>dar o ffaz<ex>er</ex>. ¶ Et aun sse pode om<ex>n</ex>e librar della por q<ex>ui</ex>tam<ex>en</ex>to ho por rreno
+                     <lb break="no"/>uar el pl<ex>e</ex>ito otra uez o<supplied> </supplied>por dar man<ex>er</ex>o q<ex>u</ex>ien co<ex>n</ex>pla el pl<ex>e</ex>ito ho ffaga la paga
+                     <lb/>o por co<ex>n</ex>pensacion q<ex>ue</ex> q<ex>u</ex>ier tanto dezer com<ex>m</ex>o descuntar un debdo por otro
+                     <lb/>o por muerte de<supplied> </supplied>la cosa q<ex>ue</ex> deuie sseer dada &amp; en otras man<ex>er</ex>as muchas
+                     <lb/>q<ex>ue</ex> sse muestran por la leys deste titolo.</p>
+               </div>
+               <div n="5.14.3" type="ley" xml:id="SPV351403">
+                  <head>Ley iijª. com<ex>m</ex>o sse deue ffaz<ex>er</ex> la paga
+                     <lb/>o el q<ex>u</ex>itam<ex>en</ex>to &amp; a<supplied> </supplied>q<ex>u</ex>ien &amp; de<supplied> </supplied>q<ex>ue</ex> cosas.</head>
+                  <p><lb/><hi rend="init2">P</hi>agam<ex>en</ex>to de<supplied> </supplied>l<gap reason="roto"/>s debdas deue sseer ffecho a<supplied> </supplied>aq<ex>ue</ex>llos q<ex>ue</ex> las an de Recebir.
+                     <lb/>¶ Et deue<ex>n</ex> <gap reason="roto"/>z<ex>er</ex> de tales cosas q<ex>u</ex>ales ffuero<ex>n</ex> postas &amp; p<ex>ro</ex>metidas en el
+                     <lb/>pl<ex>e</ex>ito q<ex>u</ex>ando lo ffez<gap reason="roto"/>o<ex>n</ex> &amp; no<ex>n</ex> dotras ssi no<ex>n</ex> q<ex>u</ex>isiere aq<ex>ue</ex>l a<supplied> </supplied>q<ex>u</ex>ien ffaze<ex>n</ex> la paga.
+                     <lb/>¶ P<ex>er</ex>o sse acaesci<gap reason="roto"/> q<ex>ue</ex>l debdor no<ex>n</ex> podiesse pagar aq<ex>ue</ex>llas cosas q<ex>ue</ex> prome<gap reason="nonsequitur"/></p>
+               </div>
+               <pb n="A3"/>
+               <cb n="1"/>
+               <fw type="encabezado">xiiijº T<ex>itul</ex>o de pagas</fw>
+               <div n="5.14.44" type="ley" xml:id="SPV351444">
+                  <head>
+                     <gap reason="nonsequitur"/>geria ssi no<ex>n</ex> y fforen los deue<ex>n</ex> tornar ho no<ex>n</ex>.</head>
+                  <p><lb/><hi rend="init2">E</hi>nuian a<supplied> </supplied>las uegadas los ssen<ex>n</ex>ores &amp; los otros om<ex>n</ex>es a<supplied> </supplied>algunos en
+                     <lb/>ssu mandaderia &amp; dan<del resp="editor"> </del>lles din<ex>er</ex>os ciertos p<ex>or</ex>a despiensa. ¶ E aca
+                     <lb break="no"/>esce q<ex>ue</ex> despues q<ex>ue</ex> sson apareyados p<ex>ora</ex> yr &amp; q<ex>ue</ex> an Recebidos los din<ex>er</ex>os pora
+                     <lb/>la despessa enbarga<del resp="editor"> </del>sse la yda o por sse rrepentir aq<ex>ue</ex>llos q<ex>ue</ex><supplied> </supplied>los ynuia<ex>n</ex> o por
+                     <lb/>adolescer los q<ex>ue</ex> deuie<ex>n</ex> yr o por gelo enbargar <sic>ffuerca</sic> q<ex>ue</ex> ffeziesse assi
+                     <lb/>com<ex>m</ex>o abenidas de Rios ho otros enbargos ssemeiantes. ¶ Et por ende
+                     <lb/>dezimos q<ex>ue</ex> ssi sse enbarga la yda por alguna destas cosas ssobredichas &amp;
+                     <lb/>los din<ex>er</ex>os q<ex>ue</ex> auie rrecebudos el <sic>messagero</sic> no<ex>n</ex> sson despessos q<ex>ue</ex> los deue
+                     <lb/>tornar al q<ex>ue</ex>l ynuia. ¶ Et sse por auentura ffoesen todos despessos
+                     <lb/>en apareiam<ex>en</ex>to de<supplied> </supplied>las cosas q<ex>ue</ex> eran mester por hi<supplied resp="editor"> </supplied>la yda <del rend="raspado" resp="copista"/> no<ex>n</ex> deue tor
+                     <lb break="no"/>nar nj<ex>n</ex>guna cosa. ¶ Et ssi<supplied> </supplied>no<ex>n</ex> ffuessen todos despessos deuel tornar
+                     <lb/>aq<ex>ue</ex>llos q<ex>ue</ex>l ffincassen. ¶ Mas ssi sse rrepentiesse aq<ex>ue</ex>l q<ex>ue</ex> deuiesse yr
+                     <lb/>en la mandaderia despues q<ex>ue</ex> ouiesse rrecebidos los din<ex>er</ex>os p<ex>or</ex>a despesas
+                     <lb/>deue<del resp="editor"> </del>los todos tornar q<ex>u</ex>ier los aya despessos q<ex>u</ex>ier no<ex>n</ex>.</p>
+               </div>
+               <div n="5.14.45" type="ley" xml:id="SPV351445">
+                  <head>Ley xxxxv com<ex>m</ex>o
+                     <lb/>aq<ex>ue</ex>l q<ex>ue</ex>l afforro algun sseruo por algo q<ex>ue</ex>l prometiero<ex>n</ex> lle deue sseer pagado.</head>
+                  <p><lb/><hi rend="init2">S</hi>i<supplied> </supplied>alguno q<ex>ue</ex> ouiesse sseruo lo afforrasse por <abbr>mr</abbr> o por otra cosa cierta
+                     <lb/>q<ex>ue</ex> otro lle prometiesse de dar ualdrie el afforram<ex>en</ex>to. ¶ Et ssi despues
+                     <lb/>desso el otro no<ex>n</ex> q<ex>u</ex>issiesse conplir el pl<ex>e</ex>ito q<ex>ue</ex> auie posto co<ex>n</ex> el deue<ex>n</ex><del resp="editor"> </del>lo ap<ex>re</ex>miar
+                     <lb/>de man<ex>er</ex>a q<ex>ue</ex> pague la estimacio<ex>n</ex> del ss<ex>er</ex>uo &amp; los dan<ex>n</ex>os &amp; los menoscabos
+                     <lb/>q<ex>ue</ex> el otro rrecebio por<del resp="editor"> </del>q<ex>ue</ex>l no<ex>n</ex><del resp="copista"><unclear reason="raspado">l</unclear></del> dio aq<ex>ue</ex>llo q<ex>ue</ex>l ouiera a<supplied> </supplied>dar. ¶ Et tan bien
+                     <lb/>ssobre<supplied> </supplied>la estimacio<ex>n</ex> del ss<ex>er</ex>uo como ssobre los dan<ex>n</ex>os &amp; los menoscabos deue
+                     <lb/>sseer creydo por ssu yura el q<ex>ue</ex> afforro el sseruo estimando<del resp="editor"> </del>lo p<ex>ri</ex>meram<ex>en</ex>tre el
+                     <lb/>yudgador del logar. ¶ Et lo q<ex>ue</ex> dixiemos en<supplied> </supplied>esta ley en rrazo<ex>n</ex> del ss<ex>er</ex>uo
+                     <lb/>ha logar en<supplied> </supplied>todos los otros pl<ex>e</ex>itos q<ex>ue</ex><supplied> </supplied>los om<ex>ne</ex>s ffaze<ex>n</ex> entre<supplied> </supplied>ssi en<supplied> </supplied>q<ex>ue</ex> ha el
+                     <lb/>uno a<supplied> </supplied>ffaz<ex>er</ex> una cosa &amp; el otro a<supplied> </supplied>dar o a<supplied> </supplied>pagar otra.</p>
+               </div>
+               <div n="5.14.46" type="ley" xml:id="SPV351446">
+                  <head>Ley xxxxvjª com<ex>m</ex>o aq<ex>ue</ex>l q<ex>ue</ex> pa
+                     <lb break="no"/>ga o<supplied> </supplied>da algo a<supplied> </supplied>otri por alguna cosa q<ex>ue</ex>l ffaga e<supplied> </supplied>lo <del resp="copista"><unclear reason="raspado"></unclear></del> puede demandar o non
+                     <lb/>ssi non ffeziere el otro la cosa q<ex>ue</ex> prometio a<supplied> </supplied>ffazer.</head>
+                  <p><lb/><hi rend="init2">D</hi>ando un om<ex>n</ex>e a<supplied> </supplied>otro <abbr>mr</abbr> o otra cosa diziendo ssin<ex>n</ex>aladam<ex>en</ex>tre q<ex>ue</ex> gelos daua
+                     <lb/>por alguna cosa q<ex>ue</ex>l ffeziesse com<ex>m</ex>o sse gelos diesse por<del resp="editor"> </del>q<ex>ue</ex> ffuesse ssu aduo
+                     <lb break="no"/>gado ho q<ex>ue</ex> ffuesse co<ex>n</ex> el o por el a<supplied> </supplied>algun logar o por otra cosa ssemiante des
+                     <lb break="no"/>tas ssi q<ex>u</ex>ando gelos dio dixo sinaladam<ex>en</ex>tre la rrazo<ex>n</ex> por q<ex>ue</ex> gelos daua. ¶ Et
+                     <lb/>el otro no<ex>n</ex> conpriesse o no<ex>n</ex> ffeziesse aq<ex>ue</ex>llo por<del resp="editor"> </del>q<ex>ue</ex><supplied> </supplied>los Recebio bien le podrie
+                     <lb/>demandar lo q<ex>ue</ex>l ouiesse dado &amp; sserie tenido el otro de gelo tornar. ¶ Mas
+                     <lb/>sse q<ex>u</ex>ando gelo diesse lo ffeziesse co<ex>n</ex> entencio<ex>n</ex> porq<ex>ue</ex>l ffeziesse alguna cosa cuy
+                     <lb break="no"/>dando en ssu uoluntat q<ex>ue</ex> por aq<ex>ue</ex>lla q<ex>ue</ex>l daua q<ex>ue</ex> erie co<ex>n</ex> el en algun camino ho
+                     <lb/>q<ex>ue</ex>l ffarie otra cosa alguna o q<ex>ue</ex>l <sic>ss<del resp="copista" rend="reescrito">er</del><add>ar</add>ie</sic> mas ssu amigo no<ex>n</ex> diziendo paladinam<ex>en</ex>
+                     <lb break="no"/>tre la rrazo<ex>n</ex> porq<ex>ue</ex> gelo daua magar el otro nol ffeziesse aq<ex>ue</ex>llo q<ex>ue</ex> el cuydo en
+                     <lb/>ssu curacon q<ex>ue</ex>l ffarie no<ex>n</ex>l pode demandar lo q<ex>ue</ex>l dio <del resp="copista" rend="reescrito">m<ex>n</ex></del><add resp="copista" rend="reescrito">nj<ex>n</ex></add> es el otro tenido de
+                     <lb/>gelo tornar. ¶ Ca pos q<ex>ue</ex> no<ex>n</ex> ssin<ex>n</ex>alo nj<ex>n</ex> dixo rrazo<ex>n</ex> nenguna por<del resp="editor"> </del>q<ex>ue</ex> gela
+                     <pb n="A4"/>
+                     <cb n="1"/>
+                     <fw type="encabezado">xiiijº T<ex>itul</ex>o de pagas</fw>
+                     <lb/>deua. entiendesse q<ex>ue</ex> lo ffizo co<ex>n</ex> entenci<ex>o</ex>n de dar<del resp="editor"> </del>gelo ffrancam<ex>en</ex>tre &amp; por ende
+                     <lb/>no<ex>n</ex><supplied> </supplied>lo pode demandar despues magar diga q<ex>ue</ex> por esto se mouio a<supplied> </supplied>darllo. &amp;
+                     <lb/>a<supplied> </supplied>prometer<del resp="editor"> </del>lle aq<ex>ue</ex>lla cosa por<del resp="editor"> </del>q<ex>ue</ex> cuydaua q<ex>ue</ex> ffarie sseruicio <add rend="sup">ho</add> q<ex>ue</ex>l darie ot<ex>ra</ex>
+                     <lb/>cosa por ende.</p>
+               </div>
+               <div n="5.14.47" type="ley" xml:id="SPV351447">
+                  <head>Ley xxxxvijª com<ex>m</ex>o aq<ex>uel</ex> q<ex>ue</ex> rrecebe en paga alguna cosa torpe
+                     <lb break="no"/>mentre la deue tornar.</head>
+                  <p><lb/><hi rend="init2">P</hi>agos &amp; pl<ex>e</ex>itos ffaze<ex>n</ex> los om<ex>ne</ex>s a<supplied> </supplied>las uegadas unos co<ex>n</ex> otros ssobre rrazones
+                     <lb/>ho cosas q<ex>ue</ex> sson torpes &amp; desguisadas &amp; co<ex>n</ex>tra derecho. ¶ Et <del resp="copista"><unclear reason="raspado"/></del> esta torpi
+                     <lb break="no"/>dat auiene a<supplied> </supplied>las uegadas de p<ex>ar</ex>te daq<ex>ue</ex>l q<ex>ue</ex> da<supplied> </supplied>la cosa ssolam<ex>en</ex>tre &amp; a<supplied> </supplied>las uegadas
+                     <lb/>de parte daq<ex>ue</ex>l q<ex>ue</ex><supplied> </supplied>la rrecibe &amp; a<supplied> </supplied>las uezes tan bien del uno com<ex>m</ex>o del otro q<ex>ue</ex>remos
+                     <lb/>mostrar q<ex>ue</ex> departim<ex>en</ex>to ha entrellos. ¶ Et dezimos q<ex>ue</ex><supplied> </supplied>la torpidat q<ex>ue</ex> auiene
+                     <lb/>tan ssolam<ex>en</ex>tre de parte daq<ex>ue</ex>l q<ex>ue</ex> rrecibe la paga o la promission q<ex>u</ex>antol prome
+                     <lb break="no"/>te de pagar alguna cosa por<del resp="editor"> </del>q<ex>ue</ex> no<ex>n</ex> ffurte o nj<ex>n</ex> mate om<ex>n</ex>e o no<ex>n</ex> ffaga ssa
+                     <lb break="no"/>crilegio o adolterio ho otra cosa ssemejante destas daq<ex>ue</ex>llos q<ex>ue</ex> ssegun na
+                     <lb break="no"/>tura &amp; ssegun derecho todo om<ex>n</ex>e es tenudo de guardar<del resp="editor"> </del>sse de<supplied> </supplied>los ffazer
+                     <lb/>q<ex>ue</ex> deue tornar en todas guissas aq<ex>ue</ex>llo q<ex>ue</ex> rrecebio por esta rrazo<ex>n</ex>. ¶ Et
+                     <lb/>sse<supplied> </supplied>no<ex>n</ex> gelo ouiesse pagado deue q<ex>u</ex>itar la promission q<ex>ue</ex> ouiesse ffecho p<ex>or</ex>a
+                     <lb/>pagar<del resp="editor"> </del>gelo. ¶ Ca mucho es cosa desaguissada de rrecebir om<ex>n</ex>e ni<ex>n</ex>gu<ex>n</ex>
+                     <lb/>p<ex>re</ex>cio por no<ex>n</ex> ffaz<ex>er</ex> aq<ex>ue</ex>llo q<ex>ue</ex> el p<ex>or</ex> ssi meysmo es tenudo naturalm<ex>en</ex>tre de
+                     <lb/>guardar<del resp="editor"> </del>sse de lo ffaz<ex>er</ex>. ¶ Otrossi dezimos q<ex>ue</ex> auiendo algun om<ex>n</ex>e da
+                     <lb break="no"/>do a<supplied> </supplied>otro ssus cosas en guarda o en p<ex>re</ex>stamo ho en alluguero ssi aq<ex>ue</ex>l q<ex>ue</ex><supplied> </supplied>las
+                     <lb/>rrecibe assi del no<ex>n</ex> gilas q<ex>u</ex>issiesse tornar a<supplied> </supplied>menos q<ex>ue</ex>l pechasse alguna
+                     <lb/>cosa ssi por tal rrazo<ex>n</ex> lli diesse algo <space/> el otro o gelo prometiesse
+                     <lb/>tenido es de gelo tornar o de q<ex>u</ex>itar<del resp="editor"> </del>lle la promission q<ex>ue</ex>l ouiesse ffecha
+                     <lb/>por ende por<del resp="editor"> </del>q<ex>ue</ex> es muy grant torpidat de rrecebir ome p<ex>re</ex>cio por
+                     <lb/>aq<ex>ue</ex>llo q<ex>ue</ex> ssegun derecho era tenudo de ffaz<ex>er</ex>. ¶ Esso mismo dezimos
+                     <lb/>q<ex>ue</ex> sserie ssi alguno q<ex>ue</ex> ffurtasse a<supplied> </supplied>otro ssu ffijo ho ssu s<ex>er</ex>uo ho otra cosa
+                     <lb/>q<ex>u</ex>al<del resp="editor"> </del>q<ex>u</ex>ier &amp; no<ex>n</ex> gelo q<ex>u</ex>issies<supplied> </supplied>tornar a<supplied> </supplied>menos del pechar algo. ¶ Ca aq<ex>ue</ex>llo
+                     <lb/>q<ex>ue</ex> del rrecebiesse ssobre tal rrazo<ex>n</ex> tenido sserie de gelo tornar magar
+                     <lb/>no<ex>n</ex> q<ex>u</ex>issiesse.</p>
+               </div>
+               <div n="5.14.48" type="ley" xml:id="SPV351448">
+                  <head>Ley xxxxviijª com<ex>m</ex>o aq<ex>ue</ex>l q<ex>ue</ex> da o paga alguna cosa por salir
+                     <lb/>de poder de ssus enemigos o de catiuo la pode despos demandar o no<ex>n</ex>.</head>
+                  <p><lb/><hi rend="init2">C</hi>atiuado o p<ex>re</ex>sso sseendo algun om<ex>n</ex>e en poder de enemigos o de ladro
+                     <lb break="no"/>nes ssi acaesciesse q<ex>ue</ex> ueniesse otro alguno a<supplied> </supplied>el q<ex>ue</ex>l dixiesse q<ex>ue</ex>l diesse
+                     <lb/>alguna cosa &amp; q<ex>ue</ex>l ssacarie daq<ex>ue</ex>lla p<ex>r</ex>ission el p<ex>re</ex>yto q<ex>ue</ex> assi feziesse tenido sserie de<supplied> </supplied>lo
+                     <lb/>guardar co<ex>n</ex>p<ex>r</ex>iendo el otro lo q<ex>ue</ex> prometiera. ¶ Et ssil pagasse aq<ex>ue</ex>llo q<ex>ue</ex>l prometio
+                     <lb/>no<ex>n</ex> gelo podrie despues demandar fueras ende ssi el q<ex>ue</ex> rrecebiesse el p<ex>re</ex>yto
+                     <lb/>ffuesse co<ex>n</ex>pan<ex>n</ex>ero de<supplied> </supplied>los otros q<ex>ue</ex>l p<ex>re</ex>ssiero<ex>n</ex> &amp; sse acertasse en<supplied> </supplied>p<ex>re</ex>nder<del resp="editor"> </del>lle o ffuesse
+                     <lb/>ayudador o co<ex>n</ex>sseiador q<ex>ue</ex><supplied> </supplied>lo co<ex>n</ex>p<ex>ri</ex>essen. ¶ Ca estonce bie<ex>n</ex> podrie demandar &amp;
+                     <lb/>cobrar lo q<ex>ue</ex> ouiesse dado en<supplied> </supplied>tal rrazo<ex>n</ex> com<ex>m</ex>o esta. ¶ Et<supplied> </supplied>lo q<ex>ue</ex> dixemos en la ley
+                     <lb/>de<supplied> </supplied>la p<ex>r</ex>isson o del catiuam<ex>en</ex>to del om<ex>n</ex>e ha logar otrossi en<supplied> </supplied>las otras cosas q<ex>ue</ex> om<ex>n</ex>e
+                     <lb/>diesse o p<ex>ro</ex>metiesse por cobrar lo q<ex>ue</ex> foesse rrobado ho ffurtado.</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
