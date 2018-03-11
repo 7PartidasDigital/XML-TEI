@@ -29,3 +29,7 @@ FFI2016-75014-P AEI-FEDER, EU<br />
 Realizado en la<br />
 Universidad de Valladolid<br />
 Para más información visite nuestre <a href="https://7partidas.wordpress.com">sitio web</a></p>
+
+CITAR como
+
+Fradejas Rueda, Jos Manuel (2018.3.11). 7PartidasDigital/XML-TEI: Primera versión (Version v.0.1). Zenodo. http://doi.org/10.5281/zenodo.1195642
