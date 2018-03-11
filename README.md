@@ -32,4 +32,4 @@ Para más información visite nuestre <a href="https://7partidas.wordpress.com">
 
 CITAR como
 
-Fradejas Rueda, Jos Manuel (2018.3.11). 7PartidasDigital/XML-TEI: Primera versión (Version v.0.1). Zenodo. http://doi.org/10.5281/zenodo.1195642
+Fradejas Rueda, José Manuel (2018.3.11). 7PartidasDigital/XML-TEI: Primera versión (Version v.0.1). Zenodo. http://doi.org/10.5281/zenodo.1195642
