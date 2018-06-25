@@ -8,10 +8,11 @@
          <titleStmt>
             <title>Siete Partidas. Versión codificada <!--indicar cuál es el testimonio--></title>
             <author>Alfonso X el Sabio</author>
+            <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER<idno
+                  type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
             <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
                   FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
             <funder xml:id="UVA">Universidad de Valladolid</funder>
-            <funder xml:id="SeCText">Seminario de Crítica Textual</funder>
             <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
             <respStmt>
                <resp>Investigador principal</resp>
@@ -26,8 +27,9 @@
                <name><!-- Nombre del revisor --></name>
             </respStmt>
          </titleStmt>
+         <extent><!-- Declarar el tamaño aproximado del fichero --></extent>
          <publicationStmt>
-            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <publisher>7PartidasDigital. Universidad de Valladolid</publisher>
             <pubPlace>Valladolid</pubPlace>
             <address>
                <addrLine>Plaza del Campus s/n</addrLine>
@@ -38,9 +40,9 @@
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Esta obra está bajo una licencia de Creative Commons
                      Reconocimiento-CompartirIgual 4.0 Internacional.</p>
-		  <p>El fichero maestro está alojado en el repositorio del <ref
-			target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-XXX.xml">
-         		proyecto en GitHub</ref>.</p>
+                  <p>El fichero maestro está alojado en el repositorio del <ref
+                        target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-TEI-HEADER.xml"
+                        > proyecto en GitHub</ref>.</p>
                </licence>
             </availability>
          </publicationStmt>
@@ -53,26 +55,31 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Este texto se ha creado como parte del proyecto <title>7 Partidas Digital</title>
-               financiado por el Minsterio de Industria, Economía y Competitivadad de España y el
-               FEDER, referencia FFI2016-75014-P AEI-FEDER, EU. La
-               descripción del proyecto y sus participantes se recogen en la web <ref
-                  target="https://7partidas.wordpress.com">7 Partidas Digital</ref></p>
+            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title> financiado
+               por el Ministerio de Ciencia, Innovación y Universidades de España, referencia <idno
+                  type="referencia">FFI2016-75014-P</idno>. La descripción del proyecto y sus
+               participantes se recogen en la <ref target="https://7partidas.hypotheses.org">web</ref>
+               del mismo.</p>
          </projectDesc>
          <editorialDecl>
-            <p><!-- Describir aquí cómo se ha efectuado la trasncripción --></p>
+            <p><!-- Describir aquí cómo se ha efectuado la transcripción --></p>
          </editorialDecl>
       </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene una copia (extensión: partidas, títulos, leyes que contiene) de las
+                  <title>Siete Partidas</title>.</p>
+         </abstract>
+      </profileDesc>
       <revisionDesc>
          <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
-         <change when="2015-06-08" who="#JMFR" status="draft">Comenzada la transcripción /
+         <change when="2018-06-24" who="#JMFR" status="borrador">Modificados los nombres del
+            ministerio</change>
+         <change when="2015-06-08" who="#JMFR" status="borrador">Comenzada la transcripción /
             codificación</change>
       </revisionDesc>
-	<profileDesc>
-   		<abstract resp="#JMFR">
-   			<p>Detallar qué partes (partida, título y leyes contiene <title>Siete Partidas</title>.</p>
-   		</abstract>
-   	</profileDesc>
+
+
    </teiHeader>
    <text>
       <body>
