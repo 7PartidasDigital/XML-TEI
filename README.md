@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1195642.svg)](https://doi.org/10.5281/zenodo.1195642)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1195641.svg)](http://doi.org/10.5281/zenodo.1195641)
 # XML-TEI
 <h2>Codificación XML-TEI de los testimonios de las <em>Siete Partidas</em></h2>
 <p>Las <em>Siete Partidas</em> es la obra cumbre de la labor legislativa de Alfonso X el Sabio (1221–1284), la cual está conformada por una serie de textos legales producidos a lo largo de los más de treinta años que duró su reinado (1252–1284) y cuyo objetivo era triple:</p>
