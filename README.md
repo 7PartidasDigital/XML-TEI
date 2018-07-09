@@ -24,12 +24,18 @@
 <li>Actualización de la bibliografía sobre las <em>Siete Partidas</em>.</li>
 </ul>
 <p align="center">Financiado por el<br />
-Ministerio de Economía, Industria y Competitividad y el FEDER<br />
+Ministerio de Ciencia, Innovación y Universidades y el FEDER<br />
 FFI2016-75014-P AEI-FEDER, EU<br />
 Realizado en la<br />
 Universidad de Valladolid<br />
-Para más información visite nuestre <a href="https://7partidas.wordpress.com">sitio web</a></p>
+Para más información visite nuestro <a href="https://7partidas.wordpress.com">7 Partidas Digital. Edición crítica de las <em>Siete partidas</em></a>, ISSN 2605-2652</p>
+
 
 CITAR como
 
 Fradejas Rueda, José Manuel (2018.3.11). 7PartidasDigital/XML-TEI: Primera versión (Version v.0.1). Zenodo. http://doi.org/10.5281/zenodo.1195642
+
+
+<p align="center">
+<img src=https://f-origin.hypotheses.org/wp-content/blogs.dir/3658/files/2015/06/EXPLICIT-7PARTIDAS-e1495528094806.png>
+</p>
