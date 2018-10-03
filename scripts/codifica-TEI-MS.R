@@ -15,12 +15,12 @@
 #                               EN DESARROLLO / WORKING ON IT
 
 setwd("PON/LA/RUTA/ADECUADA/AQUÍ") # Normalmente
-setwd("~/Desktop/trabajo")
+setwd("~/Desktop/MN0-WORK")
 # La siguiente instrucción, que encierra todo, es para lanzar automáticamente el proceso
 system.time({
   
   ficheros <- list.files() #
-  div.tit <- gsub('\\w{3}-', '', ficheros) #ELIMINA EL PREFIJO IDENTIFICATIVO
+  div.tit <- gsub('SP-\\w{3}-', '', ficheros) #ELIMINA EL PREFIJO IDENTIFICATIVO
   div.tit <- gsub("\\.xml", "", div.tit)
   div.tit <- gsub("-", ".", div.tit)
   div.tit <- gsub("\\.0", ".", div.tit)
@@ -28,6 +28,8 @@ system.time({
 
   for (a in 1:length(ficheros)){
 texto.entrada <- readLines(ficheros[a], encoding = "UTF-8") # Lee el fichero
+
+texto.entrada <- readLines("SP-MN0-1-02.xml", encoding = "UTF-8") # Lee el fichero
 texto.entrada <- gsub("^\\s+", "", texto.entrada) # Elimina espacios en blanco a comienzo de línea
 
 texto.todo <- paste(texto.entrada, collapse = "") # Crea una única cadena
@@ -41,6 +43,7 @@ texto.todo <- gsub('(\\d{1,3})\\s+([r|v])', '\\1\\2', texto.todo, perl= T) # Se 
 texto.todo <- gsub("[{|\\[]CW \\.", '{CW\\. ', texto.todo, perl = T) # Se asegura de que las marcas de reclamo comienzan con {
 texto.todo <- gsub("[{|\\[]IN", '{IN', texto.todo, perl = T) # Se asegura de que las marcas de inicial comienzan con {
 texto.todo <- gsub('\\[</', '\\]</', texto.todo, perl = T) # Se asegura de que no haya corchete de apartura en donde cierre
+texto.todo <- gsub('\\s+</p>', '</p>', texto.todo, perl = T) # Se asegura de que no hay espacios en blanco al final de línea
 texto.todo <- gsub('3</p>', '#</p>', texto.todo, perl = T) # Se asegura de que no se ha puesto un 3 por un #
 texto.todo <- gsub(' #<hi>', ' <hi>#', texto.todo, perl= T) # Se asegura de que # está dentro del <hi>
 texto.todo <- gsub(' -<hi>', ' <hi>-', texto.todo, perl= T) # Se asegura de que - está dentro del <hi>
@@ -52,7 +55,7 @@ texto.todo <- gsub('{IN([^\\d+])]', '{IN\\1}', texto.todo, perl = T) # Asegura q
 texto.todo <- gsub('{IN([^\\d+])} ', '{IN\\1}', texto.todo, perl = T) # Asegura que no hay un espacio entre la llave y la letra
 texto.todo <- gsub('\\[ ', '\\[', texto.todo, perl = T) # Se asegura de que no hay espacio en blanco tras [
 texto.todo <- gsub(' \\]', '\\[', texto.todo, perl = T) # Se asegura de que no hay espacio en blanco antes de ]
-texto.todo <- gsub("<p>\\[[f|F]ol\\. (\\d+)([r|v])\\]</p>\n<p>(.+)</p>\n<p>\\[[C|c]ol\\. 1\\]</p>", '<pb n="\\1\\2"/>\n<fw type="encabezado">\\3</fw>\n<cb n="1"/>', texto.todo, perl=T) # Marca los encabezados
+texto.todo <- gsub("<p>\\[[f|F]ol\\. (\\d+)([r|v])\\]</p>\n<p>(.*?)</p>\n<p>\\[[C|c]ol\\. 1\\]</p>", '<pb n="\\1\\2"/>\n<fw type="encabezado">\\3</fw>\n<cb n="1"/>', texto.todo, perl=T) # Marca los encabezados
 texto.todo <- gsub("<p>\\[[f|F]ol\\. (\\d+)([r|v])\\]</p><p>\\[[C|c]ol\\. 1\\]</p>", '<pb n="\\1\\2"/>\n<cb n="1"/>', texto.todo, perl=T) # Si no hay encabezados
 texto.todo <- gsub("<p>{CW\\. (.*)}</p>", '<fw type="reclamo">\\1</fw>', texto.todo, perl = T)  # Marca las signatura
 texto.todo <- gsub("<p>\\[[f|f]ol\\. (\\w+)\\]</p>", '<pb n="\\1"/>', texto.todo, perl = T) # Marca las folios
@@ -132,6 +135,9 @@ texto.todo <- gsub('\\[\\^(.*)\\^\\]', '<add resp="ACLARAR" place="ACLARAR">\\1<
 texto.todo <- gsub('\\(\\^(.*)\\^\\)', '<del resp="ACLARAR" rend="ACLARAR">\\1</del>', texto.todo, perl = T) # borrado escribas
 texto.todo <- gsub('…', '<space/>', texto.todo, perl = T) # Hueco dejado por el escriba
 texto.todo <- gsub('\\*{3}', '<gap/>', texto.todo, perl = T) # Ilegible, por pérdida, rotura, etc.
+texto.todo <- gsub('{LAD (.*?)}', '<add hand="rubricador" place="margen">\\1</add> ', texto.todo, perl = T) # Adicones marginales.
+
+
 
 # Limpiezas varias
 texto.todo <- gsub(' </p>', '</p>', texto.todo, perl = T) # Evita que haya espacios antes de </p>
