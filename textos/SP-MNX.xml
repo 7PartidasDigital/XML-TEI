@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento MNX.</title>
+            <author>Alfonso X el Sabio</author>
+            <funder>Ministerio de Economía y Competitividad <idno type="referencia"
+               >FFI2016-75014-P</idno></funder>
+            <funder>Universidad de Valladolid</funder>
+            <funder>Seminario de Crítica Textual</funder>
+            <principal>José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name xml:id="JMFR">José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-MNX</idno>
+            <!-- CUMPLIMENTAR -->
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+            </availability>
+            <date type="publicacion">2018.11.29</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+               proyecto<ref target="https://7partidas.hypotheses.org/testimonios/mnx"
+                  >7PartidasDigital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
+               financiado por el Minsterio de Economía y Competitivadad de España, referencia <idno
+                  type="referencia">FFI2016-75014-P</idno>. La descripción del proyecto y sus
+               participantes se recogen en la <ref target="https://7partidas.hypotheses.org"
+                  >web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de la
+               reproducción del documento ofrecida por <ref target="https://bit.ly/2zu0GpN"
+                  >Biblioteca Digital Hispánica</ref>, MSS/248, fol. 1v.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene una copia parcial de las <title>Siete Partidas</title>. El material presente
+               es el texto de 1.2.7 y de 1.2.8, este tiene la rúbrica, pero se interrumpe.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2018-11-29" who="#JMFR" status="publicable">Revisado para publicación</change>
+         <change when="2018-11-29" who="#JMFR" status="borrador">Creación del fichero
+            inicial</change>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <pb n="1v"/>
+         <cb n="1"/>
+         <div n="1.2.7" type="ley" xml:id="SPMNX102007">
+            <head/>
+            <p><lb/><hi rend="init2">F</hi>uero es script<ex>ur</ex>a o
+               <lb/>cosa firm<ex>a</ex>da o fet<ex>a</ex> ont
+               <lb/>se encierra<ex>n</ex> costu<ex>m</ex>bre vsa-
+               <lb break="no"/>da por m<ex>a</ex>ndamj<ex>en</ex><ex>to</ex> del seny<ex>or</ex>
+               <lb/>&amp; <ex>con</ex> plazer d<ex>e</ex>los d<ex>e</ex><supplied> </supplied>la t<ex>ier</ex>ra
+               <lb/>fecho <ex>co</ex>ntra otra cosa q<ex>ue</ex>
+               <lb/>no<ex>n</ex> fuese tan buen<ex>a</ex> en
+               <lb/>que entran vso &amp; costu<ex>m</ex>-
+               <lb break="no"/>bre ¶ Et el vso por que
+               <lb/>los hombres se fagan
+               <lb/>a<supplied> </supplied>el &amp; lo ame<ex>n</ex> la costu<ex>m</ex>b<ex>re</ex>
+               <lb/>q<ex>ue</ex> les sea asi como en
+               <lb/>man<ex>er</ex>a de heredam<ex>ien</ex><ex>to</ex> por
+               <lb/>razanarlo. ¶ Et si el fu<ex>er</ex><ex>o</ex>
+               <lb/>fu<ex>er</ex>e fecho como conui-
+               <lb break="no"/>ene d<ex>e</ex> bue<ex>n</ex> vso &amp; de b<ex>ue</ex>na
+               <lb/>costu<ex>m</ex>bre atan gra<ex>n</ex>t fue<ex>r</ex>ç<ex>a</ex>
+               <lb/>ha que se torna a t<ex>iem</ex>po
+               <lb/>asi como leyes a<supplied> </supplied>que
+               <lb/>ma<ex>n</ex>tiene<ex>n</ex> los honbre<ex>s</ex>
+               <lb/>&amp; uiue<ex>n</ex> con<supplied> </supplied>el en paz e<ex>n</ex>
+               <lb/>justicia. ¶ Emp<ex>er</ex>o en<del> </del>tre
+               <lb/>el vso &amp; costu<ex>m</ex>bre ay ta<ex>n</ex>-
+               <lb break="no"/>to dep<ex>ar</ex>timj<ex>en</ex>t<ex>o</ex> q<ex>ue</ex> el vso
+               <lb/>e la costu<ex>m</ex>bre se façe<ex>n</ex> so-
+               <lb break="no"/>bre muchas t<ex>ier</ex>ras o po-
+               <lb break="no"/>cas o sobre algu<ex>n</ex>os lo-
+               <lb break="no"/>gares sabidos mas
+               <lb/>el fuero a de ser en todo
+               <lb/>&amp; sobre toda cosa que p<ex>er</ex>-
+               <lb break="no"/>tenezca senyalladame<ex>n</ex>t
+               <lb/>al derecho et iusticia. ¶ Et
+               <lb/>por tanto el fu<ex>er</ex>o es mas
+               <lb/>palladino q<ex>ue</ex><supplied> </supplied>la costu<ex>m</ex>b<ex>re</ex>
+               <lb/>ni<ex>n</ex> el vso et mas cierto
+               <lb/>¶ Ca en todo lugar se pu-
+               <cb n="2"/>
+               <lb break="no"/>ede dezir faze<ex>r</ex> &amp; en<del> </del>te<ex>n</ex>der &amp;
+               <lb/>por esto ha assi no<ex>m</ex>bre fu<ex>er</ex><ex>o</ex>
+               <lb/>por q<ex>ue</ex> no<ex>n</ex> se deue mostrar
+               <lb/>a<del> </del>scondidame<ex>n</ex>t mas por
+               <lb/>las plaças &amp; otros loga-
+               <lb break="no"/>res a qui quiere q<ex>ue</ex> hoyr
+               <lb/>lo querra. ¶ Et los anti-
+               <lb break="no"/>gos le pussiero<ex>n</ex> no<ex>m</ex>bre
+               <lb/>fu<ex>er</ex>o por<supplied> </supplied>el mercado onde
+               <lb/>se aiuntan los honbre<ex>s</ex>
+               <lb/>mercar &amp; uender sus co-
+               <lb break="no"/>sas &amp; deste logar tomaro<ex>n</ex>
+               <lb/>no<ex>m</ex>bre fuero qua<ex>n</ex>to en
+               <lb/><placeName>spanya</placeName>. ¶ Et assi como el
+               <lb/>mercado se faze publi-
+               <lb break="no"/>cam<ex>en</ex>t asi a de ser el fu<ex>er</ex>o p<ex>a</ex>-
+               <lb break="no"/>ladino &amp; magnifiesto
+            </p>
+         </div>
+         <div n="1.2.8" type="ley" xml:id="SPMNX102008">
+            <head><lb/>Como deue ser f<ex>e</ex>to el
+               <lb/>fuero</head>
+            <p><lb/><hi rend="init2">F</hi><ex>e</ex>tto deue s<ex>er</ex> el fu<ex>er</ex>o
+               <lb/>bie<ex>n</ex> &amp; co<ex>n</ex><del> </del>plidame<ex>n</ex>t
+               <lb/>en tod<ex>a</ex>s cosas razo<ex>n</ex> dere-
+               <lb break="no"/>cho yguald<ex>a</ex>t &amp; iusticia
+               <lb/>¶ Et deue ser f<ex>e</ex>to co<ex>n</ex> conse-
+               <lb break="no"/>io de cue<ex>n</ex>dos &amp; b<ex>o</ex>nos ho<ex>m</ex>-
+               <lb break="no"/>bres con uolu<ex>n</ex>tat del
+               <lb/>senyor &amp; con plazent<ex>er</ex>ia
+               <lb/>daq<ex>ue</ex>llos sobre qui lo
+               <lb/>pone<ex>n</ex> a saber es d<ex>e</ex><supplied> </supplied>los
+               <lb/>honbres de bue<ex>n</ex> en<del> </del>te<ex>n</ex>-
+               <lb break="no"/>dimi<ex>en</ex>to que acatan ma<ex>s</ex>
+               <lb/>a<supplied> </supplied>la pro comu<ex>n</ex> &amp; d<ex>e</ex><supplied> </supplied>la t<ex>ier</ex>ra
+               <lb/>en<supplied> </supplied>que an de morar q<ex>ue</ex>
+               <lb/>no a<supplied> </supplied>la suya mesma &amp;
+               <lb/>que no<ex>n</ex> sea<ex>n</ex> cubdiciosos
+               <lb/>ni<ex>n</ex> sup<ex>er</ex>biosos ni<ex>n</ex> de ma-
+               <gap/>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>
