@@ -17,7 +17,12 @@
                <resp>Investigador principal</resp>
                <name xml:id="JMFR">José Manuel FRADEJAS RUEDA</name>
             </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
          </titleStmt>
+         <extent>9 KB</extent>
          <publicationStmt>
             <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
             <pubPlace>Valladolid</pubPlace>
@@ -61,7 +66,7 @@
       <profileDesc>
          <abstract resp="#JMFR">
             <p>Contiene una copia parcial de las <title>Siete Partidas</title>. El material presente
-               es el texto de 1.2.7 y de 1.2.8, este tiene la rúbrica, pero se interrumpe.</p>
+               es el texto de 1.2.7 (sin rúbrica) y de 1.2.8 (mútilo).</p>
          </abstract>
       </profileDesc>
       <revisionDesc>
