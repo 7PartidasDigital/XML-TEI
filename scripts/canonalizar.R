@@ -12,8 +12,10 @@
 
 
 library(tidyverse)
-prueba <- readLines("~/OneDrive - Universidad de Valladolid/Sp-MN0-1/flat/mn0-1-04.txt")
-str_detect(corregido, "\\&")
+LOP_entrada <- tolower(readLines("~/OneDrive - Universidad de Valladolid/SP-LOP_FLAT/SP_LOP-TODO.txt"))
+IOC_entrada <- tolower(readLines("~/OneDrive - Universidad de Valladolid/SP-IOC_FLAT/SP_IOC-TODO-2.txt"))
+
+
 
 charta <- function(x){
 corregido <- str_replace_all(prueba, "nrr", "nr")
@@ -26,7 +28,8 @@ corregido <- str_replace_all(corregido, "ss", "s")
 corregido <- str_replace_all(corregido, "ff", "f")
 corregido <- str_replace_all(corregido, "\\&", "e")
 corregido <- str_replace_all(corregido, "xpi", "cri")
-corregido <- str_replace_all(corregido, "^[ij][h]*e[sr]u", "jesu")
+corregido <- str_replace_all(corregido, "chri", "cri")
+corregido <- str_replace_all(corregido, "\\b[ij][h]*e([sr])u", "je\\1u")
 corregido <- str_replace_all(corregido, "ç([ei])", "c\\1")
 corregido <- str_replace_all(corregido, "seer", "ser")
 corregido <- str_replace_all(corregido, "vn", "un")
@@ -45,7 +48,55 @@ corregido <- str_replace_all(corregido, "sy", "si")
 corregido <- str_replace_all(corregido, "cient", "cien")
 corregido <- str_replace_all(corregido, "dent", "dende") # cabe la posibilidad de que sea diente, pero...
 corregido <- str_replace_all(corregido, "ent", "ente")
+corregido <- str_replace_all(corregido, "honr", "onr")
+corregido <- str_replace_all(corregido, "\\bnome", "nombre")
+corregido <- str_replace_all(corregido, "\\bome", "ombre")
+corregido <- str_replace_all(corregido, "\\bivez", "juez")
+corregido <- str_replace_all(corregido, "\\biuyz", "juiz")
+corregido <- str_replace_all(corregido, "\\biu[dz]", "juz")
+corregido <- str_replace_all(corregido, "gun[dt]\\b", "gun")
+corregido <- str_replace_all(corregido, "\\blei\\b", "ley")
+corregido <- str_replace_all(corregido, "\\bpley", "plei")
+corregido <- str_replace_all(corregido, "\\bh", "")
+corregido <- str_replace_all(corregido, "\\biamas", "jamas")
+#corregido <- str_extract_all(corregido, "\\bu([aeiou])", "v\\1")
+corregido <- str_replace_all(corregido, "\\biu", "ju")
 }
-limpio <- charta(prueba)
-limpio[45]
 
+prueba <- IOC_entrada
+limpio <- charta(prueba)
+
+#EN IOC
+limpio <- str_replace_all(limpio, "\\bf([ai])z", "\\1z")
+limpio <- str_replace_all(limpio, "\\bgaña", "gana")
+limpio <- str_replace_all(limpio, "\\bu([aeiou])", "v\\1")
+limpio <- str_replace_all(limpio, "\\bveste", "ueste")
+limpio <- str_replace_all(limpio, "\\bverta", "uerta")
+
+
+
+IOC <- tibble(texto = limpio)
+
+prueba <- LOP_entrada
+limpio <- charta(prueba)
+
+LOP <- tibble(texto = limpio)
+
+IOC <- IOC %>%
+  filter(!str_detect(texto, "^\\d+.*"))
+LOP <- LOP %>%
+  filter(!str_detect(texto, "^\\d+.*"))
+LOP$texto <- gsub(" folio \\.\\d+\\.$", "", LOP$texto) # BORRA FOL. NUM DE LOPEZ
+
+
+
+#rm(prueba)
+
+IOC_palabras <- IOC %>%
+  tidytext::unnest_tokens(palabra, texto) %>%
+  count(palabra, sort = T)
+LOP_palabras <- LOP %>%
+  tidytext::unnest_tokens(palabra, texto) %>%
+  count(palabra, sort = T)
+
+resto <- anti_join(IOC_palabras, LOP_palabras, by="palabra")
