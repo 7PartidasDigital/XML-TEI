@@ -12,8 +12,8 @@
 
 
 library(tidyverse)
-LOP_entrada <- tolower(readLines("~/OneDrive - Universidad de Valladolid/SP-LOP_FLAT/SP_LOP-TODO.txt"))
-IOC_entrada <- tolower(readLines("~/OneDrive - Universidad de Valladolid/SP-IOC_FLAT/SP_IOC-TODO-2.txt"))
+LOP_entrada <- tolower(readLines("lopez.txt"))
+IOC_entrada <- tolower(readLines("montalvo.txt"))
 
 
 
@@ -45,9 +45,9 @@ corregido <- str_replace_all(corregido, "quj", "qui")
 corregido <- str_replace_all(corregido, "\\by([^aeiou])", "i\\1")
 corregido <- str_replace_all(corregido, "oy([dtrgms])", "oi\\1")
 corregido <- str_replace_all(corregido, "sy", "si")
-corregido <- str_replace_all(corregido, "cient", "cien")
-corregido <- str_replace_all(corregido, "dent", "dende") # cabe la posibilidad de que sea diente, pero...
-corregido <- str_replace_all(corregido, "ent", "ente")
+corregido <- str_replace_all(corregido, "cient\\b", "cien")
+corregido <- str_replace_all(corregido, "dent\\b", "dende") # cabe la posibilidad de que sea diente, pero...
+corregido <- str_replace_all(corregido, "ent\\b", "ente")
 corregido <- str_replace_all(corregido, "honr", "onr")
 corregido <- str_replace_all(corregido, "\\bnome", "nombre")
 corregido <- str_replace_all(corregido, "\\bome", "ombre")
@@ -57,7 +57,7 @@ corregido <- str_replace_all(corregido, "\\biu[dz]", "juz")
 corregido <- str_replace_all(corregido, "gun[dt]\\b", "gun")
 corregido <- str_replace_all(corregido, "\\blei\\b", "ley")
 corregido <- str_replace_all(corregido, "\\bpley", "plei")
-corregido <- str_replace_all(corregido, "\\bh", "")
+#corregido <- str_replace_all(corregido, "\\bh", "")
 corregido <- str_replace_all(corregido, "\\biamas", "jamas")
 #corregido <- str_extract_all(corregido, "\\bu([aeiou])", "v\\1")
 corregido <- str_replace_all(corregido, "\\biu", "ju")
@@ -66,8 +66,10 @@ corregido <- str_replace_all(corregido, "\\biu", "ju")
 prueba <- IOC_entrada
 limpio <- charta(prueba)
 
+
+writeLines(limpio, "montalvo_reg.txt")
 #EN IOC
-limpio <- str_replace_all(limpio, "\\bf([ai])z", "\\1z")
+#limpio <- str_replace_all(limpio, "\\bf([ai])z", "\\1z")
 limpio <- str_replace_all(limpio, "\\bgaña", "gana")
 limpio <- str_replace_all(limpio, "\\bu([aeiou])", "v\\1")
 limpio <- str_replace_all(limpio, "\\bveste", "ueste")
