@@ -12,8 +12,8 @@
 
 charta <- function(x){
 entrada <- tolower(entrada)
-corregido <- stringr::str_replace_all(entrada, "^\\d+\\.{0,1}.*", "")
-corregido <- stringr::str_replace_all(corregido, "nrr", "nr")
+#corregido <- stringr::str_replace_all(entrada, "^\\d+\\.{0,1}.*", "")
+corregido <- stringr::str_replace_all(entrada, "nrr", "nr")
 corregido <- stringr::str_replace_all(corregido, "\\bconu[ji]", "convi")
 corregido <- stringr::str_replace_all(corregido, "([bcdfghlmnpqrstv])y([bcdfghlmnpqrstv])", "\\1i\\2")
 corregido <- stringr::str_replace_all(corregido, "mm", "m")
@@ -57,6 +57,7 @@ corregido <- stringr::str_replace_all(corregido, "\\bome", "ombre")
 corregido <- stringr::str_replace_all(corregido, "\\bhome\\b", "ombre")
 corregido <- stringr::str_replace_all(corregido, "\\bhomes\\b", "ombres")
 corregido <- stringr::str_replace_all(corregido, "([ie])ru[ji]", "\\1rvi")
+corregido <- stringr::str_replace_all(corregido, "aur[ji]", "avri")
 corregido <- stringr::str_replace_all(corregido, "\\bujese", "uviese")
 corregido <- stringr::str_replace_all(corregido, "\\bgran[dt]\\b", "gran")
 corregido <- stringr::str_replace_all(corregido, "\\bivez", "juez")
@@ -69,7 +70,7 @@ corregido <- stringr::str_replace_all(corregido, "\\biamas", "jamas")
 corregido <- stringr::str_replace_all(corregido, "\\biu", "ju")
 corregido <- stringr::str_replace_all(corregido, "\\bdesuso\\b", "de suso")
 corregido <- stringr::str_replace_all(corregido, "\\bdeyuso\\b", "de yuso")
-corregido <- stringr::str_replace_all(corregido, "\\bi\\b", "y")
-corregido <- stringr::str_replace_all(corregido, "\\.[ijvxlc]+\\.", "")
+corregido <- stringr::str_replace_all(corregido, " i ", " y ")
+#corregido <- stringr::str_replace_all(corregido, "\\.[ijvxlc]+\\.", "")
 corregido <- corregido[corregido !=""]
 }
