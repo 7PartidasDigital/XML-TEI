@@ -35,39 +35,36 @@ texto.todo <- paste(texto.entrada, collapse = "\n") # Crea una única cadena
 # Lo que sigue corrige errores tipográficos usuales
 
 texto.todo <- gsub("<p>\n<e", '<p><e', texto.todo, perl = T)
-texto.todo <- gsub("</emph>\n</p>", '</emph></p>', texto.todo, perl = T)
-texto.todo <- gsub("</emph> \n</p>", '</emph></p>', texto.todo, perl = T)
-texto.todo <- gsub("</emph>\\.", '\\.</emph>', texto.todo, perl = T)
-texto.todo <- gsub("</emph> \\.", '\\.</emph>', texto.todo, perl = T)
-texto.todo <- gsub("\\. </emph>", '\\.</emph>', texto.todo, perl = T)
-texto.todo <- gsub("<emph> ", ' <emph>', texto.todo, perl = T)
+texto.todo <- gsub("\n</p>", '</p>', texto.todo, perl = T)
+texto.todo <- gsub(" \n</p>", '</p>', texto.todo, perl = T)
+texto.todo <- gsub("\\.", '\\.', texto.todo, perl = T)
+texto.todo <- gsub(" \\.", '\\.', texto.todo, perl = T)
+texto.todo <- gsub("\\. ", '\\.', texto.todo, perl = T)
+texto.todo <- gsub(" ", ' ', texto.todo, perl = T)
 texto.todo <- gsub(" \\. </p>", '\\.</p>', texto.todo, perl = T)
 texto.todo <- gsub(" \\.</p>", '\\.</p>', texto.todo, perl = T)
 texto.todo <- gsub("\\. </p>", '\\.</p>', texto.todo, perl = T)
-texto.todo <- gsub("</emph> </p>", '</emph></p>', texto.todo, perl = T)
-texto.todo <- gsub("<emph></emph>", '', texto.todo, perl = T)
+texto.todo <- gsub(" </p>", '</p>', texto.todo, perl = T)
+texto.todo <- gsub("", '', texto.todo, perl = T)
 texto.todo <- gsub(" </p>", '\\.</p>', texto.todo, perl = T)
 texto.todo <- gsub("\\.\\.", '\\.', texto.todo, perl = T)
-texto.todo <- gsub("<emph>LEY ([IVXCL]+)\\.</emph>", 'LEY \\1\\.', texto.todo, perl = T)
+texto.todo <- gsub("LEY ([IVXCL]+)\\.", 'LEY \\1\\.', texto.todo, perl = T)
 
 
 
 texto.todo <- gsub(" ([\\.,;:]) ", "\\1 ", texto.todo, perl = T) # Borra espacio antes de puntuación
 # Marca los divs de TITULO
-texto.todo <- gsub("<p>TITULO ([IVXLC]+)\\.</p>\n<p><emph>(.*)</emph></p>", '<div n="W.W.0" type="titulo" xml:id="Z.Z.0">\n<head>TITULO \\1\\. \\2</head>', texto.todo, perl = T)
-texto.todo <- gsub("<p>TITULO ([IVXLC]+)\\.</p>\n<p>(.*)</p>", '<div n="W.W.0" type="titulo" xml:id="Z.Z.0">\n<head>TITULO \\1\\. \\2</head>', texto.todo, perl = T)
+texto.todo <- gsub("<hi>T ?I ?T ?U ?L ?O ([IVXLC]+)\\.(.*)</hi>", '<div n="W.W.0" type="titulo" xml:id="Z.Z.0">\n<head>TITULO \\1\\. \\2</head>', texto.todo, perl = T)
 # Marca los div de LEY y corrige errores de transcripción
-texto.todo <- gsub("<p>LEY ([IVXLC]+)\\.</p>\n<p><emph>(.*)</emph></p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
-texto.todo <- gsub("<p>LE Y ([IVXLC]+)\\.</p>\n<p><emph>(.*)</emph></p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
-texto.todo <- gsub("<p>L EY ([IVXLC]+)\\.</p>\n<p><emph>(.*)</emph></p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
-texto.todo <- gsub("<p>LET ([IVXLC]+)\\.</p>\n<p><emph>(.*)</emph></p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+texto.todo <- gsub("<hi>LEY ([IVXLC]+)\\.</hi>\n<hi>(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+texto.todo <- gsub("<hi>LE Y ([IVXLC]+)\\.</hi>\n<hi>(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+texto.todo <- gsub("<hi>L EY ([IVXLC]+)\\.</hi>\n<hi>(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+texto.todo <- gsub("<hi>LET ([IVXLC]+)\\.</hi>\n<hi>(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
 
-texto.todo <- gsub("<p>LEY ([IVXLC]+)\\. <emph>(.*)</emph></p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
-texto.todo <- gsub("<p>LE Y ([IVXLC]+)\\. <emph>(.*)</emph></p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
-texto.todo <- gsub("<p>L EY ([IVXLC]+)\\. <emph>(.*)</emph></p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
-texto.todo <- gsub("<p>LET ([IVXLC]+)\\. <emph>(.*)</emph></p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
-
-
+texto.todo <- gsub("<hi>LEY ([IVXLC]+)\\. ?(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+texto.todo <- gsub("<hi>LE Y ([IVXLC]+)\\. ?(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+texto.todo <- gsub("<hi>L EY ([IVXLC]+)\\. ?(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+texto.todo <- gsub("<hi>LET ([IVXLC]+)\\. ?(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
 
 # Añade final del fichero TEI
 texto.todo <- gsub('</p>\n</body>\n</text>', '</p>\n</div>\n</div>\n</body>\n</text>', texto.todo, perl = T) # Añade el div de cierre de la última ley y del título
@@ -87,6 +84,7 @@ for (k in 1:length(div.cuenta)){
 texto.revision <- gsub('\\s{2,10}', " ", texto.revision, perl = T) # Elimina 2 o más espacios en blanco
 texto.revision <- gsub('W\\.W\\.', div.tit[a], texto.revision, perl = T) # Automatizándolo div.tit requeriría [a]
 texto.revision <- gsub('Z\\.Z\\.', xml_id[a], texto.revision, perl = T)
+
 div1 <- which(texto.revision == "</div>") # Elimina el primer div del titulo
 texto.revision[div1[1]] <- ""
 # ATENCIÓN al nombre del fichero
