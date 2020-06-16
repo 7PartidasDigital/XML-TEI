@@ -45,7 +45,7 @@ corregido <- str_replace_all(corregido, "cuy([dt])", "cui\\1")
 corregido <- str_replace_all(corregido, "ay([bcdfghjklmnpqrst])", "ai\\1")
 corregido <- str_replace_all(corregido, "\\bn([ijo])n\\b", "n\\1")
 corregido <- str_replace_all(corregido, "([aeiou])u([aeiou])", "\\1v\\2")
-corregido <- str_replace_all(corregido, "([aeiou])lu([aeiou])", "\\1v\\2")
+corregido <- str_replace_all(corregido, "([aeiou])lu([aeiou])", "\\1lv\\2")
 corregido <- str_replace_all(corregido, "([^d][eo])s([cç][ei])", "\\1\\2")
 corregido <- str_replace_all(corregido, "([^lu]e)y([^aieou\b])", "\\1i\\2") # Falla con grey, y rey
 corregido <- str_replace_all(corregido, "rei\\b", "rey")
@@ -58,8 +58,8 @@ corregido <- str_replace_all(corregido, "cient\\b", "cien")
 corregido <- str_replace_all(corregido, "dent\\b", "dende") # cabe la posibilidad de que sea diente, pero...
 corregido <- str_replace_all(corregido, "ent\\b", "ente")
 corregido <- str_replace_all(corregido, "honr", "onr")
-corregido <- str_replace_all(corregido, "\\bnome", "nombre")
-corregido <- str_replace_all(corregido, "\\bome", "ombre")
+corregido <- str_replace_all(corregido, "\\bnome\\b", "nombre")
+corregido <- str_replace_all(corregido, "\\bome\\b", "ombre")
 corregido <- str_replace_all(corregido, "\\bhome\\b", "ombre")
 corregido <- str_replace_all(corregido, "\\bhomes\\b", "ombres")
 corregido <- str_replace_all(corregido, "([ie])ru[ji]", "\\1rvi")
@@ -75,6 +75,15 @@ corregido <- str_replace_all(corregido, "\\biamas", "jamas")
 corregido <- str_replace_all(corregido, "\\biu", "ju")
 corregido <- str_replace_all(corregido, "\\bdesuso\\b", "de suso")
 corregido <- str_replace_all(corregido, "\\bdeyuso\\b", "de yuso")
+corregido <- str_replace_all(corregido, "\\balveñe\\b", "alueñe")
+corregido <- str_replace_all(corregido, "([aeiou])ru([aeiou])", "\\1rv\\2") # sieruo > siervo
+corregido <- str_replace_all(corregido, "\\bdesu([aeiou]", "desv\\1")
+corregido <- str_replace_all(corregido, "\\bdeur([aeiou]", "desv\\1")
+corregido <- str_replace_all(corregido, "enu([aeiou]", "envi\\1")
+corregido <- str_replace_all(corregido, "denvest", "denuest") # Error provocado
+corregido <- str_replace_all(corregido, "ingenv", "ingenu") # Error provocado
+
+
 }
 
 prueba <- IOC_entrada
