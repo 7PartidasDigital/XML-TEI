@@ -77,18 +77,20 @@ corregido <- str_replace_all(corregido, "\\bdesuso\\b", "de suso")
 corregido <- str_replace_all(corregido, "\\bdeyuso\\b", "de yuso")
 corregido <- str_replace_all(corregido, "\\balveñe\\b", "alueñe")
 corregido <- str_replace_all(corregido, "([aeiou])ru([aeiou])", "\\1rv\\2") # sieruo > siervo
-corregido <- str_replace_all(corregido, "\\bdesu([aeiou]", "desv\\1")
-corregido <- str_replace_all(corregido, "\\bdeur([aeiou]", "desv\\1")
-corregido <- str_replace_all(corregido, "enu([aeiou]", "envi\\1")
+corregido <- str_replace_all(corregido, "\\bdesu([aeiou])", "desv\\1")
+corregido <- str_replace_all(corregido, "\\bdeur([aeiou])", "desv\\1")
+corregido <- str_replace_all(corregido, "enu([aeiou])", "envi\\1")
 corregido <- str_replace_all(corregido, "denvest", "denuest") # Error provocado
 corregido <- str_replace_all(corregido, "ingenv", "ingenu") # Error provocado
-
-
+corregido <- str_replace_all(corregido, "\\bi\\b", "y") # Error provocado
+corregido <- str_replace_all(corregido, "\\bjuy", "jui") # Error provocado
 }
 
-prueba <- IOC_entrada
+prueba <- tolower(readLines("SP_LOP-7.txt"))
 limpio <- charta(prueba)
 
+
+writeLines(limpio, "limpio.txt")
 
 writeLines(limpio, "montalvo_reg.txt")
 #EN IOC
