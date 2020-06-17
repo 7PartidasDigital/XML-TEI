@@ -12,92 +12,96 @@
 
 
 library(tidyverse)
-files <- list.files("REGULARIZADO")
-LOP_entrada <- tolower(readLines("lopez.txt"))
-IOC_entrada <- tolower(readLines("montalvo.txt"))
-
-
-
 charta <- function(x){
-corregido <- str_replace_all(prueba, "nrr", "nr")
-corregido <- str_replace_all(corregido, "\\bconu[ji]", "convi")
-corregido <- str_replace_all(corregido, "([bcdfghlmnpqrstv])y([bcdfghlmnpqrstv])", "\\1i\\2")
-corregido <- str_replace_all(corregido, "mm", "m")
-corregido <- str_replace_all(corregido, "n([pb])", "m\\1")
-corregido <- str_replace_all(corregido, "nn", "ñ")
-corregido <- str_replace_all(corregido, "ñj", "ñi")
-corregido <- str_replace_all(corregido, "ñ[^aeiou]", "n")
-corregido <- str_replace_all(corregido, "ñobl", "nobl")
-corregido <- str_replace_all(corregido, "ss", "s")
-corregido <- str_replace_all(corregido, "ff", "f")
-corregido <- str_replace_all(corregido, "\\&", "e")
-corregido <- str_replace_all(corregido, "xpi", "cri")
-corregido <- str_replace_all(corregido, "chri", "cri")
-corregido <- str_replace_all(corregido, "\\b[ij][h]*e([sr])u", "je\\1u")
-corregido <- str_replace_all(corregido, "ç([ei])", "c\\1")
-corregido <- str_replace_all(corregido, "seer", "ser")
-corregido <- str_replace_all(corregido, "vn", "un")
-corregido <- str_replace_all(corregido, "ff", "f")
-corregido <- str_replace_all(corregido, " i ", " e ")
-corregido <- str_replace_all(corregido, " vs", " us")
-corregido <- str_replace_all(corregido, "\\bsalu([aeio])", "salv\\1")
-corregido <- str_replace_all(corregido, "cuy([dt])", "cui\\1")
-corregido <- str_replace_all(corregido, "ay([bcdfghjklmnpqrst])", "ai\\1")
-corregido <- str_replace_all(corregido, "\\bn([ijo])n\\b", "n\\1")
-corregido <- str_replace_all(corregido, "([aeiou])u([aeiou])", "\\1v\\2")
-corregido <- str_replace_all(corregido, "([aeiou])lu([aeiou])", "\\1lv\\2")
-corregido <- str_replace_all(corregido, "([^d][eo])s([cç][ei])", "\\1\\2")
-corregido <- str_replace_all(corregido, "([^lu]e)y([^aieou\b])", "\\1i\\2") # Falla con grey, y rey
-corregido <- str_replace_all(corregido, "rei\\b", "rey")
-corregido <- str_replace_all(corregido, "([aeou])i([aeou])", "\\1j\\2") # No lo tengo claro aún
-corregido <- str_replace_all(corregido, "([qg])uj", "\\1ui")
-corregido <- str_replace_all(corregido, "\\by([^aeiou])", "i\\1")
-corregido <- str_replace_all(corregido, "oy([dtrgms])", "oi\\1")
-corregido <- str_replace_all(corregido, "sy", "si")
-corregido <- str_replace_all(corregido, "cient\\b", "cien")
-corregido <- str_replace_all(corregido, "dent\\b", "dende") # cabe la posibilidad de que sea diente, pero...
-corregido <- str_replace_all(corregido, "ent\\b", "ente")
-corregido <- str_replace_all(corregido, "honr", "onr")
-corregido <- str_replace_all(corregido, "\\bnome\\b", "nombre")
-corregido <- str_replace_all(corregido, "\\bome\\b", "ombre")
-corregido <- str_replace_all(corregido, "\\bhome\\b", "ombre")
-corregido <- str_replace_all(corregido, "\\bhomes\\b", "ombres")
-corregido <- str_replace_all(corregido, "([ie])ru[ji]", "\\1rvi")
-corregido <- str_replace_all(corregido, "\\bujese", "uviese")
-corregido <- str_replace_all(corregido, "\\bgran[dt]\\b", "gran")
-corregido <- str_replace_all(corregido, "\\bivez", "juez")
-corregido <- str_replace_all(corregido, "\\biuyz", "juiz")
-corregido <- str_replace_all(corregido, "\\biu[dz]", "juz")
-corregido <- str_replace_all(corregido, "gun[dt]\\b", "gun")
-corregido <- str_replace_all(corregido, "\\blei\\b", "ley")
-corregido <- str_replace_all(corregido, "\\bpley", "plei")
-corregido <- str_replace_all(corregido, "\\biamas", "jamas")
-corregido <- str_replace_all(corregido, "\\biu", "ju")
-corregido <- str_replace_all(corregido, "\\bdesuso\\b", "de suso")
-corregido <- str_replace_all(corregido, "\\bdeyuso\\b", "de yuso")
-corregido <- str_replace_all(corregido, "\\balveñe\\b", "alueñe")
-corregido <- str_replace_all(corregido, "([aeiou])ru([aeiou])", "\\1rv\\2") # sieruo > siervo
-corregido <- str_replace_all(corregido, "\\bdesu([aeiou])", "desv\\1")
-corregido <- str_replace_all(corregido, "\\bdeur([aeiou])", "desv\\1")
-corregido <- str_replace_all(corregido, "enu([aeiou])", "envi\\1")
-corregido <- str_replace_all(corregido, "denvest", "denuest") # Error provocado
-corregido <- str_replace_all(corregido, "ingenv", "ingenu") # Error provocado
-corregido <- str_replace_all(corregido, "\\bi\\b", "y") # Error provocado
-corregido <- str_replace_all(corregido, "\\bjuy", "jui") # Error provocado
+  corregido <- str_replace_all(prueba, "nrr", "nr")
+  corregido <- str_replace_all(corregido, "\\bconu[ji]", "convi")
+  corregido <- str_replace_all(corregido, "([bcdfghlmnpqrstv])y([bcdfghlmnpqrstv])", "\\1i\\2")
+  corregido <- str_replace_all(corregido, "mm", "m")
+  corregido <- str_replace_all(corregido, "n([pb])", "m\\1")
+  corregido <- str_replace_all(corregido, "nn", "ñ")
+  corregido <- str_replace_all(corregido, "ñj", "ñi")
+  corregido <- str_replace_all(corregido, "ñ[^aeiou]", "n")
+  corregido <- str_replace_all(corregido, "ñobl", "nobl")
+  corregido <- str_replace_all(corregido, "ss", "s")
+  corregido <- str_replace_all(corregido, "ff", "f")
+  corregido <- str_replace_all(corregido, "\\&", "e")
+  corregido <- str_replace_all(corregido, "xpi", "cri")
+  corregido <- str_replace_all(corregido, "chri", "cri")
+  corregido <- str_replace_all(corregido, "\\b[ij][h]*e([sr])u", "je\\1u")
+  corregido <- str_replace_all(corregido, "ç([ei])", "c\\1")
+  corregido <- str_replace_all(corregido, "seer", "ser")
+  corregido <- str_replace_all(corregido, "vn", "un")
+  corregido <- str_replace_all(corregido, "ff", "f")
+  corregido <- str_replace_all(corregido, " i ", " e ")
+  corregido <- str_replace_all(corregido, " vs", " us")
+  corregido <- str_replace_all(corregido, "\\bsalu([aeio])", "salv\\1")
+  corregido <- str_replace_all(corregido, "cuy([dt])", "cui\\1")
+  corregido <- str_replace_all(corregido, "ay([bcdfghjklmnpqrst])", "ai\\1")
+  corregido <- str_replace_all(corregido, "\\bn([ijo])n\\b", "n\\1")
+  corregido <- str_replace_all(corregido, "([aeiou])u([aeiou])", "\\1v\\2")
+  corregido <- str_replace_all(corregido, "([aeiou])lu([aeiou])", "\\1lv\\2")
+  corregido <- str_replace_all(corregido, "([^d][eo])s([cç][ei])", "\\1\\2")
+  corregido <- str_replace_all(corregido, "([^lu]e)y([^aieou\b])", "\\1i\\2") # Falla con grey, y rey
+  corregido <- str_replace_all(corregido, "rei\\b", "rey")
+  corregido <- str_replace_all(corregido, "([aeou])i([aeou])", "\\1j\\2") # No lo tengo claro aún
+  corregido <- str_replace_all(corregido, "([qg])uj", "\\1ui")
+  corregido <- str_replace_all(corregido, "\\by([^aeiou])", "i\\1")
+  corregido <- str_replace_all(corregido, "oy([dtrgms])", "oi\\1")
+  corregido <- str_replace_all(corregido, "sy", "si")
+  corregido <- str_replace_all(corregido, "cient\\b", "cien")
+  corregido <- str_replace_all(corregido, "dent\\b", "dende") # cabe la posibilidad de que sea diente, pero...
+  corregido <- str_replace_all(corregido, "ent\\b", "ente")
+  corregido <- str_replace_all(corregido, "honr", "onr")
+  corregido <- str_replace_all(corregido, "\\bnome\\b", "nombre")
+  corregido <- str_replace_all(corregido, "\\bome\\b", "ombre")
+  corregido <- str_replace_all(corregido, "\\bhome\\b", "ombre")
+  corregido <- str_replace_all(corregido, "\\bhomes\\b", "ombres")
+  corregido <- str_replace_all(corregido, "([ie])ru[ji]", "\\1rvi")
+  corregido <- str_replace_all(corregido, "\\bujese", "uviese")
+  corregido <- str_replace_all(corregido, "\\bgran[dt]\\b", "gran")
+  corregido <- str_replace_all(corregido, "\\bivez", "juez")
+  corregido <- str_replace_all(corregido, "\\biuyz", "juiz")
+  corregido <- str_replace_all(corregido, "\\biu[dz]", "juz")
+  corregido <- str_replace_all(corregido, "gun[dt]\\b", "gun")
+  corregido <- str_replace_all(corregido, "\\blei\\b", "ley")
+  corregido <- str_replace_all(corregido, "\\bpley", "plei")
+  corregido <- str_replace_all(corregido, "\\biamas", "jamas")
+  corregido <- str_replace_all(corregido, "\\biu", "ju")
+  corregido <- str_replace_all(corregido, "\\bdesuso\\b", "de suso")
+  corregido <- str_replace_all(corregido, "\\bdeyuso\\b", "de yuso")
+  corregido <- str_replace_all(corregido, "\\balveñe\\b", "alueñe")
+  corregido <- str_replace_all(corregido, "([aeiou])ru([aeiou])", "\\1rv\\2") # sieruo > siervo
+  corregido <- str_replace_all(corregido, "\\bdesu([aeiou])", "desv\\1")
+  corregido <- str_replace_all(corregido, "\\bdeur([aeiou])", "desv\\1")
+  corregido <- str_replace_all(corregido, "enu([aeiou])", "envi\\1")
+  corregido <- str_replace_all(corregido, "denvest", "denuest") # Error provocado
+  corregido <- str_replace_all(corregido, "ingenv", "ingenu") # Error provocado
+  corregido <- str_replace_all(corregido, "\\bi\\b", "y") # Error provocado
+  corregido <- str_replace_all(corregido, "\\bjuy", "jui") # Error provocado
+}
+montalvo <- list.files(pattern = "IOC")
+lopez <- list.files(pattern = "LOP")
+
+
+
+
+
+
+for (i in 1:length(montalvo)){
+  prueba <- tolower(readLines(montalvo[i]))
+  limpio <- charta(prueba)
+# EN MONTALVO
+  limpio <- str_replace_all(limpio, "ñoble", "noble")
+  limpio <- str_replace_all(limpio, "\\bgaña", "gana")
+  limpio <- str_replace_all(limpio, "\\bu([aeiou])", "v\\1")
+  limpio <- str_replace_all(limpio, "\\bveste", "ueste")
+  limpio <- str_replace_all(limpio, "\\bverta", "uerta")
+  writeLines(limpio, paste("REG", montalvo[i], sep = "_"))
 }
 
-prueba <- tolower(readLines("SP_LOP-7.txt"))
-limpio <- charta(prueba)
-
-
-writeLines(limpio, "limpio.txt")
-
-writeLines(limpio, "montalvo_reg.txt")
-#EN IOC
-#limpio <- str_replace_all(limpio, "\\bf([ai])z", "\\1z")
-limpio <- str_replace_all(limpio, "ñoble", "noble")
-limpio <- str_replace_all(limpio, "\\bgaña", "gana")
-limpio <- str_replace_all(limpio, "\\bu([aeiou])", "v\\1")
-limpio <- str_replace_all(limpio, "\\bveste", "ueste")
-limpio <- str_replace_all(limpio, "\\bverta", "uerta")
+for (i in 1:length(lopez)){
+  prueba <- tolower(readLines(lopez[i]))
+  limpio <- charta(prueba)
+  writeLines(limpio, paste("REG", lopez[i], sep = "_"))
+}
 
