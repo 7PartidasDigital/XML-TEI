@@ -1,4 +1,4 @@
-
+palabra
 a
 ab
 abien
@@ -43,7 +43,6 @@ allende
 alli
 ally
 alo
-alogar
 amanera
 amas
 ambas
