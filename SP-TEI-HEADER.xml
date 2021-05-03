@@ -55,11 +55,11 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title> financiado
-               por el Ministerio de Ciencia, Innovación y Universidades de España, referencia <idno
-                  type="referencia">FFI2016-75014-P</idno>. La descripción del proyecto y sus
-               participantes se recogen en la <ref target="https://7partidas.hypotheses.org">web</ref>
-               del mismo.</p>
+            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
+               financiado por el Ministerio de Ciencia, Innovación y Universidades de España,
+               referencia <idno type="referencia">FFI2016-75014-P</idno>. La descripción del
+               proyecto y sus participantes se recogen en la <ref
+                  target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
          </projectDesc>
          <editorialDecl>
             <p><!-- Describir aquí cómo se ha efectuado la transcripción --></p>
@@ -73,7 +73,8 @@
       </profileDesc>
       <revisionDesc>
          <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
-         <change when="2021-05-03" who="#JMFR" status="borrador">Añadida xml:lang en el encabezamiento</change>
+         <change when="2021-05-03" who="#JMFR" status="borrador">Añadida xml:lang en el
+            encabezamiento</change>
          <change when="2018-06-24" who="#JMFR" status="borrador">Modificados los nombres del
             ministerio</change>
          <change when="2015-06-08" who="#JMFR" status="borrador">Comenzada la transcripción /
