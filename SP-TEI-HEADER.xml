@@ -3,7 +3,7 @@
    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <teiHeader>
+   <teiHeader xml:lang="es">
       <fileDesc>
          <titleStmt>
             <title>Siete Partidas. Versión codificada <!--indicar cuál es el testimonio--></title>
@@ -73,6 +73,7 @@
       </profileDesc>
       <revisionDesc>
          <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2021-05-03" who="#JMFR" status="borrador">Añadida xml:lang en el encabezamiento</change>
          <change when="2018-06-24" who="#JMFR" status="borrador">Modificados los nombres del
             ministerio</change>
          <change when="2015-06-08" who="#JMFR" status="borrador">Comenzada la transcripción /
@@ -81,7 +82,7 @@
 
 
    </teiHeader>
-   <text>
+   <text xml:lang="es">
       <body>
          <p>TEXTO AQUÍ</p>
       </body>
