@@ -1,11 +1,13 @@
 ################################# Trankribus TEI a 7PD TEI ################################
-#              Numera títulos, leyes y folios una vez que han sido limpiados los          #
-#                  los ficheros transcritos automárticamente por Transkribus              #
-#                 El fichero de Transkribus ha sido modificado a base de regex            #
-#                     para eliminar <facsimile>, <zone> y otros elementos                 #
-#                         de escaso o nulo valor para el proyecto.                        #
-#                 También se han marcado con regex las divisiones textuales,              #
+#                    El fichero de Transkribus se modifica a base de regex                #
+#               para eliminar <facsimile>, <zone>, <graphic> y otros elementos            #
+#                               de nulo valor para el proyecto.                           #
+#                      De eso se encarga la primera parte de este script.                 #
+#                Desde oxygen y con regex se marcan las divisiones textuales.             #
 #                      Esto ha requirido una revisión «manual» del texto.                 #
+#                          La segunda parte del script se encarga de                      #
+#             numerar títulos, leyes y folios una vez que han sido limpiados los          #
+#                   los ficheros transcritos automáticamente por Transkribus.             #
 
 #  Proyecto 7PartidasDigital "Edición crítica digital de las Siete Partidas de Alfonso X" #
 #        Proyecto financiado por el MINECO, referencia FFI2016-75014-P AEI-FEDER, EU      #
@@ -20,8 +22,42 @@
 
 #                               EN DESARROLLO / WORKING ON IT
 
+# Primera limpieza
+lee <- readLines("7partidas1491_SegundaPartida.xml")
+
+
+lee <- gsub("\t+", "", lee, perl = T)
+lee <- gsub("</?facsimile.*", "", lee, perl = T)
+lee <- gsub("</?surface.*", "", lee, perl = T)
+lee <- gsub("</?graphic.*", "", lee, perl = T)
+lee <- gsub("</?zone.*", "", lee, perl = T)
+lee <- gsub("<pb.*/>", "<pb/>", lee, perl = T)
+lee <- gsub("^\t+$", "", lee, perl = T)
+lee <- lee[lee !=""]
+
+# Añade los números de folio
+pb <- grep("<pb/>", lee)
+# Puro control, no sirve de casi nada.
+lee[pb]
+# Calcula teniendo en cuenta el primer folio de la partida
+# Cambia el pimer número por el correspondiente
+87 + (length(pb)/2)
+# Hay que tener en cuenta el rangos de folios que se numera
+recto <- c(paste('<pb n="', 87:169, "r", '"/>', sep = ""))
+vuelto <- c(paste('<pb n="', 87:169, "v", '"/>', sep = ""))
+folios <- c(recto,vuelto)
+folios <- stringr::str_sort(folios, numeric = T)
+# Blucle que renumera los folios
+for (i in 1:length(pb)){
+  lee[pb[i]] <- gsub("<pb/>", folios[i], lee[pb[i]])
+}
+
+# Escribe una vez eliminados todo lo anterior
+write(lee, "INTERMEDIO.xml")
+
+# SEGUNDA PARTE
 # Establece un directorio de trabajo donde esté el fichero xml
-lee <- readLines("7-ICI-1.xml")
+lee <- readLines("INTERMEDIO.xml")
 lee <- c(lee, '<div type="titulo">') # Ojo es una tomadura
 # Averigua en que posiciones comienza cada título
 titulos <- grep('<div type="titulo">', lee)
