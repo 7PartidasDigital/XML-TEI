@@ -140,3 +140,14 @@ for (i in 1:length(pb)){
 
 # Graba el fichero revisado y totalmente formateado
 write(definitivo, "7-1-ini.xml")
+
+
+# Renumerar folios (imágenes)
+viejos <- list.files()
+rectos <- paste("7P-IDI-RAH-2-", stringr::str_pad(98:500, 3, pad="0"), "r.jpg", sep = "")
+vueltos <- paste("7P-IDI-RAH-2-", stringr::str_pad(98:500, 3, pad="0"), "v.jpg", sep = "")
+folios <- c(rectos,vueltos)
+folios <- stringr::str_sort(folios)
+folios <- folios[1:110]
+file.rename(viejos,folios)
+
