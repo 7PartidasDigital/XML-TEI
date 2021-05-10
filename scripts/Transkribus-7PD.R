@@ -27,13 +27,26 @@ entrada <- readLines("7partidas1491_SegundaPartida.xml")
 
 # Esta función limpia el contenido que no interesa
 limpia <- function(entrada){
+# Borra los espacios a comienzo de línea  
 lee <- gsub("\t+", "", entrada, perl = T)
+# Borra las líneas de facsimile, surface, graphic, y zone
 lee <- gsub("</?facsimile.*", "", lee, perl = T)
 lee <- gsub("</?surface.*", "", lee, perl = T)
 lee <- gsub("</?graphic.*", "", lee, perl = T)
 lee <- gsub("</?zone.*", "", lee, perl = T)
+#Borra los atributos de <pb/>
 lee <- gsub("<pb.*/>", "<pb/>", lee, perl = T)
+# Marca columnas
+lee <- gsub("<p facs.*1'", '<cb n="1"/', lee, perl = T)
+lee <- gsub("<p facs.*2'", '<cb n="2"/', lee, perl = T)
+# Borra finales de párrafo
+lee <- gsub("</p.*", "", lee, perl = T)
+# Borra los atributos de <lb/>
+lee <- gsub("<lb facs='#facs.*' n='N\\d+'/>", "<lb/>", lee, perl=T)
+# Borra líneas de <p facs que marcan los 
+# Borra las líneas que solo tengan tabuladores
 lee <- gsub("^\t+$", "", lee, perl = T)
+# Borra los elementos vacíos
 lee <- lee[lee !=""]
 }
 
@@ -68,6 +81,8 @@ for (i in 1:length(pb)){
 
 # Escribe una vez eliminados todo lo anterior
 write(entrada, "INTERMEDIO.xml")
+
+# Por medio de 
 
 # SEGUNDA PARTE
 # Establece un directorio de trabajo donde esté el fichero xml
