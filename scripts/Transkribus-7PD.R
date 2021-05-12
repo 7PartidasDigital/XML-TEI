@@ -82,7 +82,14 @@ for (i in 1:length(pb)){
 # Escribe una vez eliminados todo lo anterior
 write(entrada, "INTERMEDIO.xml")
 
-# Por medio de 
+# Por medio de reglas de expresión, que no parecen funcionar en oxygen
+
+# BUSCAR: <pb n="(\w+)"/>\n<p facs='#facs.*'>\n<lb/>(.*)\n<lb/>(.*)\n<cb
+# REEMPLAZAR: <pb n="\1"/>\n<fw type="encabezado">\2 — \3</fw>\n<cb
+
+#BUSCAR: <pb n="(\w+)"/>\n<p facs='#facs.*'>\n<lb/>(.*?)\n<lb/>(.*?)\n<lb/>(.*?)\n<cb
+#REEMPOLAZAR: <pb n="\1"/>\n<fw type="encabezado">\2 € \3 — \4</fw>\n<cb
+
 
 # SEGUNDA PARTE
 # Establece un directorio de trabajo donde esté el fichero xml
