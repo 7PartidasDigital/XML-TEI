@@ -20,6 +20,10 @@
 					<name>Transkribus</name>
 				</respStmt>
 				<respStmt>
+					<resp>modelo de transcripción diseñado por</resp>
+					<name>Stefano Bazzaco</name>
+				</respStmt>
+				<respStmt>
 					<resp>revisado por</resp>
 					<name>José Manuel Fradejas Rueda</name>
 				</respStmt>
