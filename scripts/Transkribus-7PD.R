@@ -63,8 +63,8 @@ pb <- grep("<pb/>", entrada)
 # de modificar en consonancia el primer dígito para que coincida
 # con el número del primer folio. El margen superior ha de ser
 # igual o mayor que le número de folios que tenga el códice.
-recto <- c(paste('<pb n="', 88:1000, "r", '"/>', sep = ""))
-vuelto <- c(paste('<pb n="', 88:1000, "v", '"/>', sep = ""))
+recto <- c(paste('<pb n="', 172:1000, "r", '"/>', sep = ""))
+vuelto <- c(paste('<pb n="', 172:1000, "v", '"/>', sep = ""))
 # Une los dos recto y vuelto
 folios <- c(recto,vuelto)
 # Los ordena por el número correspondiente, de manera
@@ -88,12 +88,13 @@ write(entrada, "INTERMEDIO.xml")
 # REEMPLAZAR: <pb n="\1"/>\n<fw type="encabezado">\2 — \3</fw>\n<cb
 
 #BUSCAR: <pb n="(\w+)"/>\n<p facs='#facs.*'>\n<lb/>(.*?)\n<lb/>(.*?)\n<lb/>(.*?)\n<cb
-#REEMPOLAZAR: <pb n="\1"/>\n<fw type="encabezado">\2 € \3 — \4</fw>\n<cb
+#REEMPLAZAR: <pb n="\1"/>\n<fw type="encabezado">\2 € \3 — \4</fw>\n<cb
 
 
 # SEGUNDA PARTE
 # Establece un directorio de trabajo donde esté el fichero xml
 lee <- readLines("INTERMEDIO.xml")
+lee <- gsub("^\\s+", "", lee, perl = T) # Borra espacios en blanco al principio de líneas
 lee <- c(lee, '<div type="titulo">') # Ojo es una tomadura
 # Averigua en que posiciones comienza cada título
 titulos <- grep('<div type="titulo">', lee)
@@ -106,7 +107,7 @@ nuevo <- gsub("^<hea", "\t<hea", nuevo, perl = T)
 # Numera e introduce xml:id de los títulos
 for (i in 1:length(titulos)){
   lee[titulos[i]] <- gsub('<div type="titulo">',
-                 paste('<div n="1.',
+                 paste('<div n="3.',
                        i,
                        '.0" type="titulo" xml:id="SPIDI1',
                        stringr::str_pad(i, 2, pad = 0),
@@ -126,11 +127,11 @@ for(j in 1:length(titulos)){
     leyes <- grep('<div type="ley">', titulo)
     for (k in 1:length(leyes)){
       titulo[leyes[k]] <- gsub('<div type="ley">',
-                              paste('<div n="1.',
+                              paste('<div n="3.',
                                     j,
                                     '.',
                                     k,
-                                    '" type="ley" xml:id="SPIDI1',
+                                    '" type="ley" xml:id="SPIDI3',
                                     stringr::str_pad(j, 2, pad = 0),
                                     stringr::str_pad(k, 3, pad = 0),
                                     '">',
@@ -159,31 +160,7 @@ for (i in 1:length(ficheros)){
 }
 # Una vez reconstruidos el fichero xml se borran los intermedios
 file.remove(ficheros)
-# Numera los folios
-# Localiza dónde se encuentra los <pb/>
-pb <- grep("<pb/>", definitivo)
-# Puro control, no sirve de casi nada.
-definitivo[pb]
-# Hay que tener en cuenta el rangos de folios que se numera
-recto <- c(paste('<pb n="', 1:86, "r", '"/>', sep = ""))
-vuelto <- c(paste('<pb n="', 1:86, "v", '"/>', sep = ""))
-folios <- c(recto,vuelto)
-folios <- stringr::str_sort(folios, numeric = T)
-# Blucle que renumera los folios
-for (i in 1:length(pb)){
-  definitivo[pb[i]] <- gsub("<pb/>", folios[i], definitivo[pb[i]])
-}
 
 # Graba el fichero revisado y totalmente formateado
-write(definitivo, "7-1-ini.xml")
-
-
-# Renumerar folios (imágenes)
-viejos <- list.files()
-rectos <- paste("7P-IDI-RAH-2-", stringr::str_pad(98:500, 3, pad="0"), "r.jpg", sep = "")
-vueltos <- paste("7P-IDI-RAH-2-", stringr::str_pad(98:500, 3, pad="0"), "v.jpg", sep = "")
-folios <- c(rectos,vueltos)
-folios <- stringr::str_sort(folios)
-folios <- folios[1:110]
-file.rename(viejos,folios)
+write(definitivo, "7-3-ini.xml")
 
