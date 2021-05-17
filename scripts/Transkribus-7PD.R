@@ -23,7 +23,7 @@
 #                               EN DESARROLLO / WORKING ON IT
 
 # Primera limpieza
-entrada <- readLines("7partidas1491_SegundaPartida.xml")
+entrada <- readLines("7partidas1491_TerceraPartida.xml")
 
 # Esta función limpia el contenido que no interesa
 limpia <- function(entrada){
