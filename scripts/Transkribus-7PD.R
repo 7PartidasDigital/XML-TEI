@@ -93,7 +93,7 @@ write(entrada, "INTERMEDIO.xml")
 
 # SEGUNDA PARTE
 # Establece un directorio de trabajo donde esté el fichero xml
-lee <- readLines("INTERMEDIO.xml")
+lee <- readLines("INTERMEDIO-3.xml")
 lee <- gsub("^\\s+", "", lee, perl = T) # Borra espacios en blanco al principio de líneas
 lee <- c(lee, '<div type="titulo">') # Ojo es una tomadura
 # Averigua en que posiciones comienza cada título
@@ -109,7 +109,7 @@ for (i in 1:length(titulos)){
   lee[titulos[i]] <- gsub('<div type="titulo">',
                  paste('<div n="3.',
                        i,
-                       '.0" type="titulo" xml:id="SPIDI1',
+                       '.0" type="titulo" xml:id="SPIDI3',
                        stringr::str_pad(i, 2, pad = 0),
                        '000">',
                        sep = ""),
@@ -150,6 +150,7 @@ for(j in 1:length(titulos)){
 
 
 write(nuevo, "titulo_00.txt")
+rm(list = ls())
 # Carga los ficheros intermedios 
 ficheros <- list.files(pattern = "*.txt")
 # Regenera el fichero completo
