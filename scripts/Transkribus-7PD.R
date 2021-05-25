@@ -23,32 +23,39 @@
 #                               EN DESARROLLO / WORKING ON IT
 
 # Primera limpieza
-entrada <- readLines("7partidas1491_TerceraPartida.xml")
 
 # Esta función limpia el contenido que no interesa
 limpia <- function(entrada){
-# Borra los espacios a comienzo de línea  
-lee <- gsub("\t+", "", entrada, perl = T)
+# Borra los espacios a comienzo de línea
+lee <- gsub("^\\s+", "", entrada, perl = T)
 # Borra las líneas de facsimile, surface, graphic, y zone
 lee <- gsub("</?facsimile.*", "", lee, perl = T)
 lee <- gsub("</?surface.*", "", lee, perl = T)
 lee <- gsub("</?graphic.*", "", lee, perl = T)
 lee <- gsub("</?zone.*", "", lee, perl = T)
 #Borra los atributos de <pb/>
-lee <- gsub("<pb.*/>", "<pb/>", lee, perl = T)
+lee <- gsub("<pb.*/>", "\n<pb/>", lee, perl = T)
 # Marca columnas
-lee <- gsub("<p facs.*1'", '<cb n="1"/', lee, perl = T)
-lee <- gsub("<p facs.*2'", '<cb n="2"/', lee, perl = T)
+lee <- gsub('<p facs.*1"', '\n<cb n="1"/', lee, perl = T)
+lee <- gsub('<p facs.*2"', '\n<cb n="2"/', lee, perl = T)
+lee <- gsub('<ab facs=.*heading">', '\n<fw type="encabezado">', lee, perl = T)
+lee <- gsub('<ab facs.*_1">', '\n<cb n="1"/>', lee, perl = T)
+lee <- gsub('<ab facs.*_1">', '\n<cb n="1"/', lee, perl = T)
+lee <- gsub('<ab facs.*_2"', '\n<cb n="2"/', lee, perl = T)
 # Borra finales de párrafo
 lee <- gsub("</p.*", "", lee, perl = T)
+lee <- gsub("</ab>", "", lee, perl = T)
 # Borra los atributos de <lb/>
-lee <- gsub("<lb facs='#facs.*' n='N\\d+'/>", "<lb/>", lee, perl=T)
+lee <- gsub('<lb facs="#facs.*" n="N\\d+"/>', "<lb/>", lee, perl=T)
 # Borra líneas de <p facs que marcan los 
 # Borra las líneas que solo tengan tabuladores
 lee <- gsub("^\t+$", "", lee, perl = T)
 # Borra los elementos vacíos
 lee <- lee[lee !=""]
 }
+
+# Lee el fichero de entrada
+entrada <- readLines("7partidas1491_QuartaPartida.xml")
 
 # Ejecutamos la función para que guarde en limpio lo que hay en entrada
 entrada <- limpia(entrada)
@@ -63,8 +70,8 @@ pb <- grep("<pb/>", entrada)
 # de modificar en consonancia el primer dígito para que coincida
 # con el número del primer folio. El margen superior ha de ser
 # igual o mayor que le número de folios que tenga el códice.
-recto <- c(paste('<pb n="', 172:1000, "r", '"/>', sep = ""))
-vuelto <- c(paste('<pb n="', 172:1000, "v", '"/>', sep = ""))
+recto <- c(paste('<pb n="', 1:1000, "r", '"/>', sep = ""))
+vuelto <- c(paste('<pb n="', 1:1000, "v", '"/>', sep = ""))
 # Une los dos recto y vuelto
 folios <- c(recto,vuelto)
 # Los ordena por el número correspondiente, de manera
