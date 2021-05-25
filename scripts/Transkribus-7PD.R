@@ -172,3 +172,38 @@ file.remove(ficheros)
 # Graba el fichero revisado y totalmente formateado
 write(definitivo, "7-3-ini.xml")
 
+
+
+
+
+
+# Renumeración de folios por si hay errores
+entrada <- readLines("INTERMEDIO.xml")
+pb <- grep("<pb/>", entrada)
+# Puro control, no sirve para nada.
+#entrada[pb]
+
+# Hay que tener en cuenta el rangos de folios que se numera,
+# por lo que los números de las dos órdenes siguientes se han
+# de modificar en consonancia el primer dígito para que coincida
+# con el número del primer folio. El margen superior ha de ser
+# igual o mayor que le número de folios que tenga el códice.
+recto <- c(paste('<pb n="', 1:1000, "r", '"/>', sep = ""))
+vuelto <- c(paste('<pb n="', 1:1000, "v", '"/>', sep = ""))
+# Une los dos recto y vuelto
+folios <- c(recto,vuelto)
+# Los ordena por el número correspondiente, de manera
+# que la alternacia recto vuelto sea perfecta.
+folios <- stringr::str_sort(folios, numeric = T)
+# Del enorme folios, solo se quedan con los números que corresponden
+# al número de folios que tiene el manuscrito según los ha detectado pb
+folios <- folios[1:length(pb)]
+
+# Bucle que renumera los folios
+for (i in 1:length(pb)){
+  entrada[pb[i]] <- gsub("<pb/>", folios[i], entrada[pb[i]])
+}
+
+writeLines(entrada, "INTERMEDIO-4.xml")
+
+
