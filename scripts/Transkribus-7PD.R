@@ -38,13 +38,13 @@ lee <- gsub("<pb.*/>", "\n<pb/>", lee, perl = T)
 # Marca columnas
 lee <- gsub('<p facs.*1"', '\n<cb n="1"/', lee, perl = T)
 lee <- gsub('<p facs.*2"', '\n<cb n="2"/', lee, perl = T)
-lee <- gsub('<ab facs=.*heading">', '\n<fw type="encabezado">', lee, perl = T)
-lee <- gsub('<ab facs.*_1">', '\n<cb n="1"/>', lee, perl = T)
-lee <- gsub('<ab facs.*_1">', '\n<cb n="1"/', lee, perl = T)
-lee <- gsub('<ab facs.*_2"', '\n<cb n="2"/', lee, perl = T)
+#lee <- gsub('<ab facs=.*heading">', '\n<fw type="encabezado">', lee, perl = T)
+#lee <- gsub('<ab facs.*_1">', '\n<cb n="1"/>', lee, perl = T)
+#lee <- gsub('<ab facs.*_1">', '\n<cb n="1"/', lee, perl = T)
+#lee <- gsub('<ab facs.*_2"', '\n<cb n="2"/', lee, perl = T)
 # Borra finales de párrafo
 lee <- gsub("</p.*", "", lee, perl = T)
-lee <- gsub("</ab>", "", lee, perl = T)
+#lee <- gsub("</ab>", "", lee, perl = T)
 # Borra los atributos de <lb/>
 lee <- gsub('<lb facs="#facs.*" n="N\\d+"/>', "<lb/>", lee, perl=T)
 # Borra líneas de <p facs que marcan los 
@@ -55,7 +55,7 @@ lee <- lee[lee !=""]
 }
 
 # Lee el fichero de entrada
-entrada <- readLines("7partidas1491_QuartaPartida.xml")
+entrada <- readLines("7partidas1491_QuintaPartida.xml")
 
 # Ejecutamos la función para que guarde en limpio lo que hay en entrada
 entrada <- limpia(entrada)
@@ -70,8 +70,8 @@ pb <- grep("<pb/>", entrada)
 # de modificar en consonancia el primer dígito para que coincida
 # con el número del primer folio. El margen superior ha de ser
 # igual o mayor que le número de folios que tenga el códice.
-recto <- c(paste('<pb n="', 1:1000, "r", '"/>', sep = ""))
-vuelto <- c(paste('<pb n="', 1:1000, "v", '"/>', sep = ""))
+recto <- c(paste('<pb n="', 44:1000, "r", '"/>', sep = ""))
+vuelto <- c(paste('<pb n="', 44:1000, "v", '"/>', sep = ""))
 # Une los dos recto y vuelto
 folios <- c(recto,vuelto)
 # Los ordena por el número correspondiente, de manera
@@ -87,7 +87,7 @@ for (i in 1:length(pb)){
 }
 
 # Escribe una vez eliminados todo lo anterior
-write(entrada, "INTERMEDIO.xml")
+write(entrada, "INTERMEDIO-5a.xml")
 
 # Por medio de reglas de expresión, que no parecen funcionar en oxygen
 
