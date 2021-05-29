@@ -36,8 +36,8 @@ lee <- gsub("</?zone.*", "", lee, perl = T)
 #Borra los atributos de <pb/>
 lee <- gsub("<pb.*/>", "\n<pb/>", lee, perl = T)
 # Marca columnas
-lee <- gsub('<p facs.*1"', '\n<cb n="1"/', lee, perl = T)
-lee <- gsub('<p facs.*2"', '\n<cb n="2"/', lee, perl = T)
+lee <- gsub("<p facs.*1'", '\n<cb n="1"/', lee, perl = T)
+lee <- gsub("<p facs.*2'", '\n<cb n="2"/', lee, perl = T)
 #lee <- gsub('<ab facs=.*heading">', '\n<fw type="encabezado">', lee, perl = T)
 #lee <- gsub('<ab facs.*_1">', '\n<cb n="1"/>', lee, perl = T)
 #lee <- gsub('<ab facs.*_1">', '\n<cb n="1"/', lee, perl = T)
@@ -46,7 +46,7 @@ lee <- gsub('<p facs.*2"', '\n<cb n="2"/', lee, perl = T)
 lee <- gsub("</p.*", "", lee, perl = T)
 #lee <- gsub("</ab>", "", lee, perl = T)
 # Borra los atributos de <lb/>
-lee <- gsub('<lb facs="#facs.*" n="N\\d+"/>', "<lb/>", lee, perl=T)
+lee <- gsub("<lb facs='#facs.*' n='N\\d+'/>", "<lb/>", lee, perl=T)
 # Borra líneas de <p facs que marcan los 
 # Borra las líneas que solo tengan tabuladores
 lee <- gsub("^\t+$", "", lee, perl = T)
