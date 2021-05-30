@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="es">
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada Incunable Diciembre 1491</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER<idno
+                  type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+                  FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>Transkribus</name>
+            </respStmt>
+            <respStmt>
+               <resp>modelo de transcripción diseñado por</resp>
+               <name xml:id="SB">Stefano Bazzaco</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+         <extent>1.1 MB</extent>
+         <publicationStmt>
+            <publisher>7PartidasDigital. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-IDI</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+                  <p>El fichero maestro está alojado en el repositorio del <ref
+                        target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-TEI-HEADER.xml"
+                        > proyecto en GitHub</ref>.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">7 Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>El ejemplar empleado en es el conservado en la biblioteca de la Real Academia de la
+               Historia. La reproducción utilizada es la alojada en la <ref
+                  target="https://bvpb.mcu.es/es/consulta/registro.do?id=406458">Biblioteca Virtual
+                  del Patrimonio Bibliográficos</ref>.</p>
+            <p>Para el proceso de edición se han tenido en cuenta los ejemplares digitalizados de la
+                  <ref
+                  target="http://www.bibliotecanacionaldigital.gob.cl/bnd/632/w3-article-331865.html"
+                  >Biblioteca Nacional de Chile</ref> (BNCL) en un solo volumen y el de la <ref
+                  target="http://bdh-rd.bne.es/viewer.vm?id=0000176662">Biblioteca Nacional de
+                  España</ref> (BNE), entres volúmenes. Todos ellos faltos de algún folio. Según se
+               expone en los párrafos siguientes.</p>
+            <p>La <title>Tercera Partida</title> en el ejemplar utilizado está falto de tres folios,
+               ddd6, ooo3 y ooo6. Se han extraido del ejemplar de la BNCL y se han marcado como
+               añadidos. Se ha hecho para dar cierta integridad al documento desde el punto de vista
+               textual, que no documental.</p>
+            <p>La <title>Cuarta Partida</title> en el ejemplar utilizado está falto de un folio,
+               entre los folios 3 y 4, se trata de la signatura aaaa2, aunque no está clara la
+               numeración de este primer cuaderno. Se han extraido del ejemplar de la BNCL y se han
+               marcado como añadido. Se ha hecho para dar cierta integridad al documento desde el
+               punto de vista textual, que no documental.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
+               financiado por el Ministerio de Ciencia, Innovación y Universidades de España,
+               referencia <idno type="referencia">FFI2016-75014-P</idno>. La descripción del
+               proyecto y sus participantes se recogen en la <ref
+                  target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>La transcripción se ha hecho por medio del sistema automático de <ref
+                  target="https://readcoop.eu/transkribus/?sc=Transkribus">Transkribus</ref> bajo la
+               supervisión técnica de Stefano Bazzaco. El fichero gnerado por Transkribus después ha
+               sido editado con un programa de edición de textos planos y por medio de expresiones
+               regulares se ha eliminado toda la información referente a los facsímiles, superficies
+               y zonas gráficas y se han establecido los lugares en los que comienza y finaliza cada
+               título y cada ley. Una vez lipiado y validado el fichero se ha procesado con un
+               script en R para la generación del xml:id de cada grupo textual (ley, título,
+               partida, preliminares) y su correspondiente número secuencial dentro de cada
+               agrupación (leyes, títulos, partidas) y se ha renumerado los folios.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene una copia de las <title>Siete Partidas</title> según el ejemplar de la Real
+               Academia de la Historia transcrito automáticamente por medio de Transkribus.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2021-05-30" who="#JMFR" status="borrador">Primera versión codificada de la
+            Quinta Partida según las pautas del proyecto.</change>
+         <change when="2021-05-28" who="#JMFR" status="borrador">Imágenes de los folios de la Quinta
+            Partida procesadas con Transkribus.</change>
+         <change when="2021-05-27" who="#JMFR" status="borrador">Primera versión codificada de la
+            Cuarta Partida según las pautas del proyecto.</change>
+         <change when="2021-05-23" who="#JMFR" status="borrador">Imágenes de los folios de la Cuarta
+            Partida procesadas con Transkribus.</change>
+         <change when="2021-05-23" who="#JMFR" status="borrador">Primera versión codificada de la
+            Tercera Partida según las pautas del proyecto.</change>
+         <change when="2021-05-12" who="#JMFR" status="borrador">Primera versión codificada de la
+            Segunda Partida según las pautas del proyecto.</change>
+         <change when="2021-04-03" who="#JMFR" status="borrador">Primera versión codificada de la
+            Primera Partida según las pautas del proyecto.</change>
+         <change when="2021-05-18" who="#SB" status="borrador">Transcripción automática de la
+            Tercera Partida.</change>
+         <change when="2021-04-18" who="#SB" status="borrador">Transcripción automática de la
+            Segunda Partida.</change>
+         <change when="2021-04-13" who="#SB" status="borrador">Transcripción automática de la
+            Primera Partida.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>
