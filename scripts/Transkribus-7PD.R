@@ -55,7 +55,7 @@ lee <- lee[lee !=""]
 }
 
 # Lee el fichero de entrada
-entrada <- readLines("7partidas1491_QuintaPartida.xml")
+entrada <- readLines("7partidas1491_SetimaPartida.xml")
 
 # Ejecutamos la función para que guarde en limpio lo que hay en entrada
 entrada <- limpia(entrada)
@@ -70,8 +70,8 @@ pb <- grep("<pb/>", entrada)
 # de modificar en consonancia el primer dígito para que coincida
 # con el número del primer folio. El margen superior ha de ser
 # igual o mayor que le número de folios que tenga el códice.
-recto <- c(paste('<pb n="', 44:1000, "r", '"/>', sep = ""))
-vuelto <- c(paste('<pb n="', 44:1000, "v", '"/>', sep = ""))
+recto <- c(paste('<pb n="', 98:1000, "r", '"/>', sep = ""))
+vuelto <- c(paste('<pb n="', 98:1000, "v", '"/>', sep = ""))
 # Une los dos recto y vuelto
 folios <- c(recto,vuelto)
 # Los ordena por el número correspondiente, de manera
@@ -87,7 +87,7 @@ for (i in 1:length(pb)){
 }
 
 # Escribe una vez eliminados todo lo anterior
-write(entrada, "INTERMEDIO-5a.xml")
+write(entrada, "INTERMEDIO-7a.xml")
 
 # Por medio de reglas de expresión, que no parecen funcionar en oxygen
 
@@ -100,7 +100,7 @@ write(entrada, "INTERMEDIO-5a.xml")
 
 # SEGUNDA PARTE
 # Establece un directorio de trabajo donde esté el fichero xml
-lee <- readLines("INTERMEDIO-3.xml")
+lee <- readLines("INTERMEDIO-7a.xml")
 lee <- gsub("^\\s+", "", lee, perl = T) # Borra espacios en blanco al principio de líneas
 lee <- c(lee, '<div type="titulo">') # Ojo es una tomadura
 # Averigua en que posiciones comienza cada título
@@ -114,9 +114,9 @@ nuevo <- gsub("^<hea", "\t<hea", nuevo, perl = T)
 # Numera e introduce xml:id de los títulos
 for (i in 1:length(titulos)){
   lee[titulos[i]] <- gsub('<div type="titulo">',
-                 paste('<div n="3.',
+                 paste('<div n="7.',
                        i,
-                       '.0" type="titulo" xml:id="SPIDI3',
+                       '.0" type="titulo" xml:id="SPIDI6',
                        stringr::str_pad(i, 2, pad = 0),
                        '000">',
                        sep = ""),
@@ -134,11 +134,11 @@ for(j in 1:length(titulos)){
     leyes <- grep('<div type="ley">', titulo)
     for (k in 1:length(leyes)){
       titulo[leyes[k]] <- gsub('<div type="ley">',
-                              paste('<div n="3.',
+                              paste('<div n="7.',
                                     j,
                                     '.',
                                     k,
-                                    '" type="ley" xml:id="SPIDI3',
+                                    '" type="ley" xml:id="SPIDI6',
                                     stringr::str_pad(j, 2, pad = 0),
                                     stringr::str_pad(k, 3, pad = 0),
                                     '">',
@@ -170,7 +170,7 @@ for (i in 1:length(ficheros)){
 file.remove(ficheros)
 
 # Graba el fichero revisado y totalmente formateado
-write(definitivo, "7-3-ini.xml")
+write(definitivo, "SP-IDI-7.xml")
 
 
 
