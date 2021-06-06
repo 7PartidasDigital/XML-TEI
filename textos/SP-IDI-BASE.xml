@@ -66,14 +66,17 @@
                   España</ref> (BNE), entres volúmenes. Todos ellos faltos de algún folio. Según se
                expone en los párrafos siguientes.</p>
             <p>La <title>Tercera Partida</title> en el ejemplar utilizado está falto de tres folios,
-               ddd6, ooo3 y ooo6. Se han extraido del ejemplar de la BNCL y se han marcado como
-               añadidos. Se ha hecho para dar cierta integridad al documento desde el punto de vista
-               textual, que no documental.</p>
+               ddd6, ooo3 y ooo6.</p>
             <p>La <title>Cuarta Partida</title> en el ejemplar utilizado está falto de un folio,
                entre los folios 3 y 4, se trata de la signatura aaaa2, aunque no está clara la
-               numeración de este primer cuaderno. Se han extraido del ejemplar de la BNCL y se han
-               marcado como añadido. Se ha hecho para dar cierta integridad al documento desde el
-               punto de vista textual, que no documental.</p>
+               numeración de este primer cuaderno.</p>
+            <p>La <title>Sexta Partida</title> en el ejemplar utilizado está falto de un bifolio, se
+               trata de la signatura BB1-BB82.</p>
+            <p>Todos los folios que faltan en el impreso de base, el de la RAH, se han extraido del
+               ejemplar de la BNCL y se han marcado como añadidos por medio del atributo @source y
+               el atributo @n tiene como valor la signatura de los folios faltantes. Se ha hecho
+               para dar cierta integridad al documento desde el punto de vista textual, que no
+               documental.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -87,14 +90,14 @@
          <editorialDecl>
             <p>La transcripción se ha hecho por medio del sistema automático de <ref
                   target="https://readcoop.eu/transkribus/?sc=Transkribus">Transkribus</ref> bajo la
-               supervisión técnica de Stefano Bazzaco. El fichero gnerado por Transkribus después ha
-               sido editado con un programa de edición de textos planos y por medio de expresiones
-               regulares se ha eliminado toda la información referente a los facsímiles, superficies
-               y zonas gráficas y se han establecido los lugares en los que comienza y finaliza cada
-               título y cada ley. Una vez lipiado y validado el fichero se ha procesado con un
-               script en R para la generación del xml:id de cada grupo textual (ley, título,
-               partida, preliminares) y su correspondiente número secuencial dentro de cada
-               agrupación (leyes, títulos, partidas) y se ha renumerado los folios.</p>
+               supervisión técnica de Stefano Bazzaco. El fichero generado por Transkribus después
+               ha sido editado con Oxygen y por medio de expresiones regulares se ha eliminado toda
+               la información referente a los facsímiles, superficies y zonas gráficas y se han
+               establecido los lugares en los que comienza y finaliza cada título y cada ley. Una
+               vez lipiado y validado el fichero se ha procesado con un script en R para la
+               generación del xml:id de cada grupo textual (ley, título, partida, preliminares) y su
+               correspondiente número secuencial dentro de cada agrupación (leyes, títulos,
+               partidas) y se ha renumerado los folios.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -105,8 +108,14 @@
       </profileDesc>
       <revisionDesc>
          <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2021-06-06" who="#JMFR" status="borrador">Primera versión codificada de la
+            Sexta Partida según las pautas del proyecto.</change>
+         <change when="2021-05-30" who="#JMFR" status="borrador">Imágenes de los folios de la Sexta
+            Partida procesadas con Transkribus.</change>
          <change when="2021-05-30" who="#JMFR" status="borrador">Primera versión codificada de la
             Quinta Partida según las pautas del proyecto.</change>
+         <change when="2021-05-30" who="#JMFR" status="borrador">Creación de teiHeader para el
+            dichero definitivo.</change>
          <change when="2021-05-28" who="#JMFR" status="borrador">Imágenes de los folios de la Quinta
             Partida procesadas con Transkribus.</change>
          <change when="2021-05-27" who="#JMFR" status="borrador">Primera versión codificada de la
