@@ -19,8 +19,9 @@
                <name>José Manuel FRADEJAS RUEDA</name>
             </respStmt>
             <respStmt>
-               <resp>transcrito por</resp>
-               <name>Transkribus</name>
+               <resp>transcrito automáticamente por</resp>
+               <name><ref target="https://readcoop.eu/transkribus/?sc=Transkribus"
+                  >Transkribus</ref></name>
             </respStmt>
             <respStmt>
                <resp>modelo de transcripción diseñado por</resp>
@@ -63,8 +64,13 @@
                   target="http://www.bibliotecanacionaldigital.gob.cl/bnd/632/w3-article-331865.html"
                   >Biblioteca Nacional de Chile</ref> (BNCL) en un solo volumen y el de la <ref
                   target="http://bdh-rd.bne.es/viewer.vm?id=0000176662">Biblioteca Nacional de
-                  España</ref> (BNE), entres volúmenes. Todos ellos faltos de algún folio. Según se
-               expone en los párrafos siguientes.</p>
+                  España</ref> (BNE), en tres volúmenes. Todos los ejemplares digitalizados están
+               faltos de algún folio.</p>
+            <p>Todos los folios que faltan en el impreso de base, el de la RAH, se han extraido del
+               ejemplar de la BNCL y se han marcado como añadidos por medio del atributo @source y
+               el atributo @n tiene como valor la signatura de los folios faltantes. Se ha hecho
+               para dar integridad al documento desde el punto de vista textual, que no
+               documental.</p>
             <p>La <title>Tercera Partida</title> en el ejemplar utilizado está falto de tres folios,
                ddd6, ooo3 y ooo6.</p>
             <p>La <title>Cuarta Partida</title> en el ejemplar utilizado está falto de un folio,
@@ -72,11 +78,6 @@
                numeración de este primer cuaderno.</p>
             <p>La <title>Sexta Partida</title> en el ejemplar utilizado está falto de un bifolio, se
                trata de la signatura BB1-BB82.</p>
-            <p>Todos los folios que faltan en el impreso de base, el de la RAH, se han extraido del
-               ejemplar de la BNCL y se han marcado como añadidos por medio del atributo @source y
-               el atributo @n tiene como valor la signatura de los folios faltantes. Se ha hecho
-               para dar cierta integridad al documento desde el punto de vista textual, que no
-               documental.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -108,6 +109,12 @@
       </profileDesc>
       <revisionDesc>
          <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2021-06-11" who="#JMFR" status="borrador">Primera versión codificada de todo
+            el ejemplar de la RAH.</change>
+         <change when="2021-06-11" who="#JMFR" status="borrador">Primera versión codificada de la
+            Séptima Partida según las pautas del proyecto.</change>
+         <change when="2021-05-31" who="#JMFR" status="borrador">Imágenes de los folios de la
+            Séptima Partida procesadas con Transkribus.</change>
          <change when="2021-06-06" who="#JMFR" status="borrador">Primera versión codificada de la
             Sexta Partida según las pautas del proyecto.</change>
          <change when="2021-05-30" who="#JMFR" status="borrador">Imágenes de los folios de la Sexta
@@ -136,7 +143,7 @@
             Primera Partida.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="es">
       <body>
          <p>Some text here.</p>
       </body>
