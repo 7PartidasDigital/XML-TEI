@@ -12,7 +12,6 @@ for(i in 1:length(ficheros)){
   uno <- gsub(" +\\| +", "\t", uno)
   uno <- gsub("^\\+-----.*$", "", uno)
   uno <- uno[uno !=""]
-  uno <- uno[-2:-9]
   writeLines(uno, ficheros[i])
 }
 
