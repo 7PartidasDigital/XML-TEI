@@ -20,6 +20,6 @@ for(i in 1:length(ficheros)){
 
 ficheros <- list.files(pattern = ".txt")
 hojas <- gsub("colacion_(.*)\\.txt", "\\1", ficheros)
-datos <- lapply(ficheros, read_tsv)
+datos <- lapply(ficheros, readr::read_tsv)
 names(datos) <- hojas
 writexl::write_xlsx(datos, "PRUEBA2.xlsx")
