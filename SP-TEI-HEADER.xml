@@ -8,6 +8,9 @@
          <titleStmt>
             <title>Siete Partidas. Versión codificada <!--indicar cuál es el testimonio--></title>
             <author>Alfonso X el Sabio</author>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno></funder>
             <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER<idno
                   type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
             <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
@@ -56,9 +59,10 @@
       <encodingDesc>
          <projectDesc>
             <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
-               financiado por el Ministerio de Ciencia, Innovación y Universidades de España,
-               referencia <idno type="referencia">FFI2016-75014-P</idno>. La descripción del
-               proyecto y sus participantes se recogen en la <ref
+               financiado por LA Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+               Universidades de España, referencia <idno type="referencia">FFI2016-75014-P</idno>.
+               La descripción del proyecto y sus participantes se recogen en la <ref
                   target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
          </projectDesc>
          <editorialDecl>
@@ -80,8 +84,6 @@
          <change when="2015-06-08" who="#JMFR" status="borrador">Comenzada la transcripción /
             codificación</change>
       </revisionDesc>
-
-
    </teiHeader>
    <text xml:lang="es">
       <body>
