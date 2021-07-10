@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader xml:lang="es">
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada de BA1</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno></funder>
+            <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER <idno
+                  type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el FEDER
+                  <idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name><!-- Nombre del revisor --></name>
+            </respStmt>
+         </titleStmt>
+         <extent><!-- Declarar el tamaño aproximado del fichero --></extent>
+         <publicationStmt>
+            <publisher>7PartidasDigital. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-BA1</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+                  <p>El fichero maestro está alojado en el repositorio del <ref
+                        target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-BA1.xml"
+                        > proyecto en GitHub</ref>.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">7 Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p><!--Aquí se decribirá el ejemplar utilizado--></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
+               financiado por el Ministerio de Ciencia, Innovación y Universidades de España,
+               referencia <idno type="referencia">PID2020-112621GB-I00</idno> y <idno
+                  type="referencia">FFI2016-75014-P</idno>. La descripción del proyecto y sus
+               participantes se recogen en la <ref target="https://7partidas.hypotheses.org"
+                  >web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p><!-- Describir aquí cómo se ha efectuado la transcripción --></p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene una copia (extensión: partidas, títulos, leyes que contiene) de las
+                  <title>Siete Partidas</title>.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2020-07-10" who="#JMFR" status="borrador">Comenzada la transcripción /
+            codificación</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="es">
+      <body>
+         <div n="4" xml:id="SPBA1400000">
+            <gap/>
+         <div n="4.21.0" xml:id="SPBA1421000">
+            <gap/>
+            <div n="4.21.8" xml:id="SPBA1421008">
+               <gap/>
+               <p><lb/>meses se cu<ex>m</ex>pliesen trabaja<ex>n</ex>dose el
+                  <lb/>sennor de venderle. se tornase xpisti-
+                  <lb/>ano no<ex>n</ex> p<ex>er</ex>deria por ende el judio o
+                  <lb/>>el moro todo el p<ex>re</ex>cio que ouiese <unclear/>
+                  <lb/>por el. Ant<ex>e</ex> dezimos q<ex>ue</ex> serie tenudo
+                  <lb/>de <add hand="copista" place="interlineado">dar</add> por si el o el q<ex>ue</ex><supplied> </supplied>lo fiziese tornar x<ex>pisti</ex>a-
+                  <lb break="no"/>no doze mrs de<supplied> </supplied>la moneda q<ex>ue</ex> corrie-
+                  <lb break="no"/>se en aquel lugar. <hi rend="rojo">¶</hi> E si<supplied> </supplied>no<ex>n</ex> oujere de
+                  <lb/>q<ex>ue</ex> los pagar deuel serujr por ellos no<ex>n</ex>
+                  <lb/>com<ex>m</ex>o sieruo. mas com<ex>m</ex>o lib<ex>r</ex>e fasta
+                  <lb/>q<ex>ue</ex> los aya meresçido. E si fasta los
+                  <lb/>tres meses no<ex>n</ex><supplied> </supplied>lo vendiere. maguer
+                  <lb/>se torne despu<ex>e</ex>s x<ex>pisti</ex>ano. no<ex>n</ex><supplied> </supplied>le finca al
+                  <lb/>q<ex>ue</ex> era su sennor derecho nj<ex>n</ex>gu<ex>n</ex>o en<supplied> </supplied>el.</p>
+            </div>
+         </div>
+            <div n="4.22.0" xml:id="SPBA1422000">
+            <head rend="rojo">Titulo xxij de·la libertad</head>
+            <p><hi rend="init3">A</hi>man  &amp; cobdiçian natural ment
+               todas las criaturas del mundo
+               la libertad quanto mas los omes
+               que han entendimiento sobre todas las otras
+               mayor+ment aquellos que son de mas no
+               ble coraçon. ¶ Ende pues que en·el titulo
+               
+               <gap/>
+               <cb n="2"/>
+            </p>
+            <div n="4.22.1">
+               <p><gap/>aforra  &amp; si lo quesiere aforrar de otra manera por
+                  carta o delante testigos o amigos no lo puede
+                  hazer amenos de auer el sennor veynte annos fueras
+                  ende si aquel a quie(u)[n] quesiere aforrar fuese
+                  su hijo o su hija que ouiese de alguna si sierua
+                  o si fuese su padre: o su madre: o su hermano:
+                  o su hermana: o su maestro quele ensennase o[˽]su
+                  amo o su ama quelo criase: o si fuese su criado
+                  o su criada: o si fuese con el criado a[˽]leche de vna
+                  muger. o si fuese tal sieruo que ouiese librado
+                  a su sennor de muerte o de mala fama: o si quesiese
+                  aforrar a alguno de sus sieruos para fazerlo
+                  procurador para recabdar sus cosas fuera de
+                  iuyzio aviendo el sieruo alo menos diez  &amp; siete
+                  annos conplidos o si aforrase su sierua para casar
+                  con ella. Pero eneste caso deue iurar que por
+                  tal razon la aforro  &amp; que casara con ella fasta
+                  <gap/></p>
+            </div>
+            <div n="4.22.3">
+               <head/>
+               <p>no quiera .
+                  Meresçen alas vegadas los sieruos por si mesmos
+                  ser aforrados por bondades que hazen
+                  maguer no los aforren sus sennores. E esto puede
+                  ser por quatro razones. La primera es quando
+                  algund siruo haze saber al rey: o alguno de
+                  los que iudgan por el como algun onbre forço
+                  o leuo robada alguna muger virgen. La segunda
+                  quando descubre a onbre que haze moneda
+                  falsa. La terçera es quando descubre alguno
+                  que es puesto por cabdillo de caualleros o de
+                  otros onbres en frondera: o en otro lugar por
+                  mandado del rey si los desanparan sin otorgamiento
+                  del rei. Eso mesmo seria si descubriese a
+                  cauallero que desanparase en tal lugar al rey: o
+                  a otro su cabdiello. La quarta es quando acusase
+                  al que ouiese muerto su sennor o lo vengase: o
+                  descubriese trayçion que quesiesen hazer al rey
+                  <cb n="2"/>
+                  <gap/></p>
+            </div>
+            <div n="4.22.6">
+               <p><gap/>mo el sieruo se haze
+                  libre haziendo se clerigo o recibiendo
+                  ordenes sagradas .
+                  ¶ Sieruo de alguno si se haze clerigo  &amp; reçibe
+                  ordenes sagradas sabiendolo su sennor  &amp; consintiendolo
+                  dezimos que es forro porende. E si el
+                  se haze clerigo no lo sabiendo su sennor puedelo
+                  demandar desque lo supiere hasta vn anno &amp;
+                  tornar lo en seruidunbre maguer ouiese reçebido
+                  ordenes de subdiacono o dende ayuso. Otrosi
+                  dezimos que auiendo reçebido el sieruo ordenes
+                  de misa cantano quel no podria el sennor demandar
+                  le para tornar le a seruidunbre pero seria
+                  tenudo de dar por si asu sennor tanto precio quanto
+                  el podria valer ante que fuese ordenado: o
+                  otro sieruo que vala tanto como el. Eso mismo dezimos
+                  <gap/></p>
+            </div>
+         </div>
+         <pb>
+         </div>
+      </body>
+   </text>
+</TEI>
