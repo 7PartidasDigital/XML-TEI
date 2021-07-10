@@ -9,11 +9,11 @@
             <title>Siete Partidas. Versión codificada de BA1</title>
             <author>Alfonso X el Sabio</author>
             <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
-                  >PID2020-112621GB-I00</idno></funder>
+               >PID2020-112621GB-I00</idno></funder>
             <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER <idno
-                  type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+               type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
             <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el FEDER
-                  <idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+               <idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
             <funder xml:id="UVA">Universidad de Valladolid</funder>
             <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
             <respStmt>
@@ -43,8 +43,8 @@
                   <p>Esta obra está bajo una licencia de Creative Commons
                      Reconocimiento-CompartirIgual 4.0 Internacional.</p>
                   <p>El fichero maestro está alojado en el repositorio del <ref
-                        target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-BA1.xml"
-                        > proyecto en GitHub</ref>.</p>
+                     target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-BA1.xml">
+                     proyecto en GitHub</ref>.</p>
                </licence>
             </availability>
          </publicationStmt>
@@ -52,7 +52,14 @@
             <title level="s" type="project">7 Partidas Digital</title>
          </seriesStmt>
          <sourceDesc>
-            <p><!--Aquí se decribirá el ejemplar utilizado--></p>
+            <p>Se trata de un fragmento de un folio de la <title>Cuarta Partida</title> que sirvió
+               de guarda a un legajo, de cuyo uso es muestra los dos trozos de tela que servían para
+               atarlo y las varias anotaciones que contiene. Dos ellas son el número 138, que se
+               corresponde con el número de la signatura Gaveta Matérias Inúteis 138. Se conserva la
+               mitad inferior del folio.</p>
+            <p>Este fragmento conserva pasajes de los títulos 4.21 y 4.22. La parte final de la ley
+               4.21.8, el comienzo del título 4.22, una parte de 4.22.1; el comienzo de 4.22.3 con
+               las últimas palabras de la rúbrica y el comienzo de 4.22.6.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -65,121 +72,131 @@
                   >web</ref> del mismo.</p>
          </projectDesc>
          <editorialDecl>
-            <p><!-- Describir aquí cómo se ha efectuado la transcripción --></p>
+            <p>La transcripción se ha realizado a la vista de una reproducción digital en .jpg
+               facilitada por el Arquivo Distrital de Braga (Portugal)</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <abstract resp="#JMFR">
             <p>Contiene una copia (extensión: partidas, títulos, leyes que contiene) de las
-                  <title>Siete Partidas</title>.</p>
+               <title>Siete Partidas</title>.</p>
          </abstract>
       </profileDesc>
       <revisionDesc>
          <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
-         <change when="2020-07-10" who="#JMFR" status="borrador">Comenzada la transcripción /
+         <change when="2020-07-10" who="#JMFR" status="borrador">Realizada la transcripción /
             codificación</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="es">
       <body>
          <div n="4" xml:id="SPBA1400000">
-            <gap/>
-         <div n="4.21.0" xml:id="SPBA1421000">
-            <gap/>
-            <div n="4.21.8" xml:id="SPBA1421008">
-               <gap/>
-               <p><lb/>meses se cu<ex>m</ex>pliesen trabaja<ex>n</ex>dose el
-                  <lb/>sennor de venderle. se tornase xpisti-
-                  <lb/>ano no<ex>n</ex> p<ex>er</ex>deria por ende el judio o
-                  <lb/>>el moro todo el p<ex>re</ex>cio que ouiese <unclear/>
-                  <lb/>por el. Ant<ex>e</ex> dezimos q<ex>ue</ex> serie tenudo
-                  <lb/>de <add hand="copista" place="interlineado">dar</add> por si el o el q<ex>ue</ex><supplied> </supplied>lo fiziese tornar x<ex>pisti</ex>a-
-                  <lb break="no"/>no doze mrs de<supplied> </supplied>la moneda q<ex>ue</ex> corrie-
-                  <lb break="no"/>se en aquel lugar. <hi rend="rojo">¶</hi> E si<supplied> </supplied>no<ex>n</ex> oujere de
-                  <lb/>q<ex>ue</ex> los pagar deuel serujr por ellos no<ex>n</ex>
-                  <lb/>com<ex>m</ex>o sieruo. mas com<ex>m</ex>o lib<ex>r</ex>e fasta
-                  <lb/>q<ex>ue</ex> los aya meresçido. E si fasta los
-                  <lb/>tres meses no<ex>n</ex><supplied> </supplied>lo vendiere. maguer
-                  <lb/>se torne despu<ex>e</ex>s x<ex>pisti</ex>ano. no<ex>n</ex><supplied> </supplied>le finca al
-                  <lb/>q<ex>ue</ex> era su sennor derecho nj<ex>n</ex>gu<ex>n</ex>o en<supplied> </supplied>el.</p>
+            <gap reason="folios perdidos"/>
+            <div n="4.21.0" xml:id="SPBA1421000">
+               <gap reason="folios perdidos"/>
+               <div n="4.21.8" xml:id="SPBA1421008">
+                  <gap reason="rotura"/>
+                  <p><lb/>meses se cu<ex>m</ex>pliesen trabaja<ex>n</ex>dose el
+                     <lb/>sen<ex>n</ex>or de venderle. se tornase xpisti-
+                     <lb/>ano no<ex>n</ex> p<ex>er</ex>deria por ende el judio o
+                     <lb/>>el moro todo el p<ex>re</ex>cio que ouiese <unclear/>
+                     <lb/>por el. Ant<ex>e</ex> dezimos q<ex>ue</ex> serie tenudo
+                     <lb/>de <add hand="copista" place="interlineado">dar</add> por si el o el q<ex>ue</ex><supplied> </supplied>lo fiziese tornar x<ex>pisti</ex>a-
+                     <lb break="no"/>no doze mrs de<supplied> </supplied>la moneda q<ex>ue</ex> corrie-
+                     <lb break="no"/>se en aquel lugar. <hi rend="rojo">¶</hi> E si<supplied> </supplied>no<ex>n</ex> oujere de
+                     <lb/>q<ex>ue</ex> los pagar deuel serujr por ellos no<ex>n</ex>
+                     <lb/>com<ex>m</ex>o sieruo. mas com<ex>m</ex>o lib<ex>r</ex>e fasta
+                     <lb/>q<ex>ue</ex> los aya meresçido. E si fasta los
+                     <lb/>tres meses no<ex>n</ex><supplied> </supplied>lo vendiere. maguer
+                     <lb/>se torne despu<ex>e</ex>s x<ex>pisti</ex>ano. no<ex>n</ex><supplied> </supplied>le finca al
+                     <lb/>q<ex>ue</ex> era su sen<ex>n</ex>or derecho nj<ex>n</ex>gu<ex>n</ex>o en<supplied> </supplied>el.</p>
+               </div>
             </div>
-         </div>
             <div n="4.22.0" xml:id="SPBA1422000">
-            <head rend="rojo">Titulo xxij de·la libertad</head>
-            <p><hi rend="init3">A</hi>man  &amp; cobdiçian natural ment
-               todas las criaturas del mundo
-               la libertad quanto mas los omes
-               que han entendimiento sobre todas las otras
-               mayor+ment aquellos que son de mas no
-               ble coraçon. ¶ Ende pues que en·el titulo
-               
-               <gap/>
-               <cb n="2"/>
-            </p>
-            <div n="4.22.1">
-               <p><gap/>aforra  &amp; si lo quesiere aforrar de otra manera por
-                  carta o delante testigos o amigos no lo puede
-                  hazer amenos de auer el sennor veynte annos fueras
-                  ende si aquel a quie(u)[n] quesiere aforrar fuese
-                  su hijo o su hija que ouiese de alguna si sierua
-                  o si fuese su padre: o su madre: o su hermano:
-                  o su hermana: o su maestro quele ensennase o[˽]su
-                  amo o su ama quelo criase: o si fuese su criado
-                  o su criada: o si fuese con el criado a[˽]leche de vna
-                  muger. o si fuese tal sieruo que ouiese librado
-                  a su sennor de muerte o de mala fama: o si quesiese
-                  aforrar a alguno de sus sieruos para fazerlo
-                  procurador para recabdar sus cosas fuera de
-                  iuyzio aviendo el sieruo alo menos diez  &amp; siete
-                  annos conplidos o si aforrase su sierua para casar
-                  con ella. Pero eneste caso deue iurar que por
-                  tal razon la aforro  &amp; que casara con ella fasta
-                  <gap/></p>
-            </div>
-            <div n="4.22.3">
-               <head/>
-               <p>no quiera .
-                  Meresçen alas vegadas los sieruos por si mesmos
-                  ser aforrados por bondades que hazen
-                  maguer no los aforren sus sennores. E esto puede
-                  ser por quatro razones. La primera es quando
-                  algund siruo haze saber al rey: o alguno de
-                  los que iudgan por el como algun onbre forço
-                  o leuo robada alguna muger virgen. La segunda
-                  quando descubre a onbre que haze moneda
-                  falsa. La terçera es quando descubre alguno
-                  que es puesto por cabdillo de caualleros o de
-                  otros onbres en frondera: o en otro lugar por
-                  mandado del rey si los desanparan sin otorgamiento
-                  del rei. Eso mesmo seria si descubriese a
-                  cauallero que desanparase en tal lugar al rey: o
-                  a otro su cabdiello. La quarta es quando acusase
-                  al que ouiese muerto su sennor o lo vengase: o
-                  descubriese trayçion que quesiesen hazer al rey
+               <head rend="rojo">Titulo xxij de<supplied> </supplied>la libertad</head>
+               <p><lb/><hi rend="init3">A</hi>ma<ex>n </ex> &amp; cobdiçia<ex>n</ex> natural<del> </del>me<ex>n</ex>t
+                  <lb/>todas las c<ex>r</ex>iaturas del mu<ex>n</ex>do
+                  <lb/>la libertad. q<ex>u</ex>anto mas los o<ex>mn</ex>es
+                  <lb/>q<ex>ue</ex> an ente<ex>n</ex>dimje<ex>n</ex>to sob<ex>r</ex>e todas las ot<ex>r</ex>as
+                  <lb/>Mayor<del> </del>me<ex>n</ex>t aq<ex>ue</ex>llos q<ex>ue</ex> son de mas no-
+                  <lb/>ble coraçon. <hi rend="rojo">¶</hi> Ende pu<ex>e</ex>s q<ex>ue</ex> en<supplied> </supplied><ex>e</ex>l tit<ex>u</ex>lo
                   <cb n="2"/>
-                  <gap/></p>
+                  <gap reason="roto"/></p>
+               <div n="4.22.1">
+                  <p><gap reason="roto"/><lb/>aforra <hi rend="rojo">¶</hi> E si lo q<ex></ex>siere aforrar de ot<ex>r</ex>a
+                     <lb/>man<ex>er</ex>a por carta o delante amigos no<ex>n</ex>
+                     <lb/>lo puede <unclear reason="reparacion">fazer a menos</unclear> de auer el
+                     <lb/>sen<ex>n</ex>or <unclear reason="reparacion">veynte an<ex>n</ex>os</unclear> fueras <unclear reason="reparacion" extent="2" unit="palabras"/> 
+                     <lb/>aquel. a<supplied> </supplied>q<ex>u</ex>ien q<ex>u</ex>isiere aforrar. fuese su fi-
+                     <lb break="no"/>jo o su fija. q<ex>ue</ex> oujese de alg<ex>un</ex>a si sierua
+                     <lb/>o si fuese su padre o su madre o su her-
+                     <lb break="no"/><unclear reason="roto">mano</unclear> o su hermana. o su maestro que
+                     <lb/>lo ensen<ex>n</ex>ase o su amo. o su ama q<ex>ue</ex><supplied> </supplied>lo
+                     <lb/>c<ex>r</ex>iase o si fuese su c<ex>r</ex>iado o su c<ex>r</ex>iada o si
+                     <lb/>fuese c<ex>r</ex>iado con<supplied> </supplied><ex>e</ex>l a leche de vna mug<ex>er</ex>
+                     <lb/>o si fuese tal sieruo que oujese libra-
+                     <lb break="no"/>do a su sen<ex>n</ex>or de muerte o de mala fa-
+                     <lb/>ma o si q<ex>u</ex>isiese aforrar algu<ex>n</ex>o de s<ex>us</ex>
+                     <lb/>sieruos para fazer<del> </del>le p<ex>ro</ex>curador p<ex>ar</ex>a
+                     <lb/>Recabdar sus cosas. fuera de juyzio
+                     <lb/>aujendo el sieruo a<supplied> </supplied>lo menos diez  &amp;
+                     <lb/>siete an<ex>n</ex>os co<ex>m</ex>plidos o si aforrase su
+                     <lb/>sierua para casar co<ex>n</ex> ella. Pero en
+                     <lb/>este caso deue jurar que por tal Razo<ex>n</ex>
+                     <lb/>la aforro  &amp; que casara con ella fasta
+                     <gap reason="roto"/></p>
+               </div>
+               <div n="4.22.3">
+                  <gap reason="roto"/>
+                  <p><lb/><hi rend="init3">M</hi>eresçen <seg>no q<ex>ui</ex>era</seg>
+                     <lb/>a<supplied> </supplied>las deuegadas por si mjs-
+                     <lb break="no"/>mos ser <unclear reason="desvaido">aforr</unclear>ados por las bo<ex>n</ex>-
+                     <lb/>dades q<ex>ue</ex> fazen. maguer no<ex>n</ex> los aforre<ex>n</ex>
+                     <lb/>sus sen<ex>n</ex>ores E esto puede ser por q<ex>u</ex>at<ex>r</ex>o
+                     <lb/>Razones <hi rend="rojo">¶</hi> La p<ex>r</ex>imera es q<ex>u</ex>ando algu<ex>n</ex>t
+                     <lb/>sieruo faze saber al Rey o a alguno
+                     <lb/>de<supplied> </supplied>los q<ex>ue</ex> judgan por el com<ex>m</ex>o <unclear reason="roto">algun</unclear>
+                     <lb/>om<ex>n</ex>e forço o leuo Rabida alguna
+                     <lb/>muger virgen <hi rend="rojo">¶</hi> La segu<ex>n</ex>da q<ex>u</ex>ando
+                     <lb/>descubre om<ex>n</ex>e q<ex>ue</ex> faze moneda falsa
+                     <lb/><hi rend="rojo">¶</hi> La terçera es q<ex>u</ex>ando descubre a alg<ex>un</ex>o
+                     <lb/>q<ex>ue</ex> es puesto por cabdillo de caua-
+                     <lb break="no"/>lleros o de otros om<ex>e</ex>s en<supplied> </supplied>frontera o
+                     <lb/>en lugar por ma<ex>n</ex>dado del Rey <hi rend="rojo">¶</hi> Esso		
+                     <lb/>mjsmo s<ex>er</ex>ie si descub<ex>r</ex>iese a cauallero
+                     <lb/>q<ex>ue</ex> desanparase en tal lugar al Rey
+                     <lb/>o a otro su cabdillo <hi rend="rojo">¶</hi> La q<ex>u</ex>arta es
+                     <lb/>q<ex>u</ex>ando acusase al q<ex>ue</ex> oujese muerto
+                     <lb/>a su sen<ex>n</ex>or. ol vengase o descub<ex>r</ex>iese
+                     <lb/>traiçion q<ex>ue</ex> q<ex>ui</ex>siesen fazer al Rey
+                     <cb n="2"/>
+                     <gap reason="rotura"/></p>
+               </div>
+               <div n="4.22.6">
+                  <head>Ley vj de co-
+                     <lb break="no"/>m<ex>m</ex>o el sieruo se faze libre faziendo-
+                     <lb break="no"/>se cl<ex>er</ex>igo o Reçibiendo orden<ex>e</ex>s ssagra-
+                     <lb/>das</head>
+                  <p><lb/><hi rend="init3">S</hi>ieruo de alguno si se faze clerigo
+                     <lb/>et Reaçibe orden<ex>e</ex>s sagradas sabi-
+                     <lb break="no"/>endo<del> </del>lo su sen<ex>n</ex>or  &amp; co<ex>n</ex>sentie<ex>n</ex>dolo
+                     <lb/>Dezimos q<ex>ue</ex> es forro por ende E si el
+                     <lb/>sieruo se fiziere cl<ex>er</ex>igo no<ex>n</ex> lo sabie<ex>n</ex>do
+                     <lb/>su sen<ex>n</ex>or puede<del> </del>lo dema<ex>n</ex>dar desque lo
+                     <lb/>sopiere fasta en vn anno &amp; tornar<del> </del>lo
+                     <lb/>en serujdu<ex>m</ex>bre maguer oujese Resçe-
+                     <lb break="no"/>bido orde<ex>n</ex> de subdiacono o dende ayu-
+                     <lb break="no"/>so <hi rend="rojo">¶</hi> Otrosi dezimos q<ex>ue</ex> aujendo Resçebi-
+                     <lb break="no"/>do el sieruo orden  de missaca<ex>n</ex>tano q<ex>ue</ex>
+                     <lb/>no pod<ex>r</ex>ie demandar el sen<ex>n</ex>or p<ex>ar</ex>a tornar-
+                     <lb break="no"/>le en serujdu<ex>m</ex>bre <hi rend="rojo">¶</hi> Pero serie tenu-
+                     <lb/>do de dar por si a<supplied> </supplied>su sen<ex>n</ex>or tanto p<ex>r</ex>es-
+                     <lb break="no"/>çio q<ex>u</ex>anto el podiera valer ante q<ex>ue</ex> fue-
+                     <lb break="no"/>se ordenado. o otro sieruo q<ex>ue</ex> vala
+                     <lb/>ta<ex>n</ex>to com<ex>m</ex>o el <hi rend="rojo">¶</hi> Eso mismo dezimos
+                     <gap/></p>
+               </div>
             </div>
-            <div n="4.22.6">
-               <p><gap/>mo el sieruo se haze
-                  libre haziendo se clerigo o recibiendo
-                  ordenes sagradas .
-                  ¶ Sieruo de alguno si se haze clerigo  &amp; reçibe
-                  ordenes sagradas sabiendolo su sennor  &amp; consintiendolo
-                  dezimos que es forro porende. E si el
-                  se haze clerigo no lo sabiendo su sennor puedelo
-                  demandar desque lo supiere hasta vn anno &amp;
-                  tornar lo en seruidunbre maguer ouiese reçebido
-                  ordenes de subdiacono o dende ayuso. Otrosi
-                  dezimos que auiendo reçebido el sieruo ordenes
-                  de misa cantano quel no podria el sennor demandar
-                  le para tornar le a seruidunbre pero seria
-                  tenudo de dar por si asu sennor tanto precio quanto
-                  el podria valer ante que fuese ordenado: o
-                  otro sieruo que vala tanto como el. Eso mismo dezimos
-                  <gap/></p>
-            </div>
-         </div>
-         <pb>
          </div>
       </body>
    </text>
