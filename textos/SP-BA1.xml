@@ -29,7 +29,7 @@
                <name><!-- Nombre del revisor --></name>
             </respStmt>
          </titleStmt>
-         <extent><!-- Declarar el tamaño aproximado del fichero --></extent>
+         <extent>14 KB</extent>
          <publicationStmt>
             <publisher>7PartidasDigital. Universidad de Valladolid</publisher>
             <pubPlace>Valladolid</pubPlace>
@@ -84,17 +84,18 @@
       </profileDesc>
       <revisionDesc>
          <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2020-07-11" who="#JMFR" status="borrador">Adición del atributo de titulo / ley en div</change>
          <change when="2020-07-10" who="#JMFR" status="borrador">Realizada la transcripción /
             codificación</change>
       </revisionDesc>
    </teiHeader>
    <text xml:lang="es">
       <body>
-         <div n="4" xml:id="SPBA1400000">
+         <div n="4" type="partida" xml:id="SPBA1400000">
             <gap reason="folios perdidos"/>
-            <div n="4.21.0" xml:id="SPBA1421000">
+            <div n="4.21.0" type="titulo" xml:id="SPBA1421000">
                <gap reason="folios perdidos"/>
-               <div n="4.21.8" xml:id="SPBA1421008">
+               <div n="4.21.8" type="ley" xml:id="SPBA1421008">
                   <gap reason="rotura"/>
                   <p><lb/>meses se cu<ex>m</ex>pliesen trabaja<ex>n</ex>dose el
                      <lb/>sen<ex>n</ex>or de venderle. se tornase xpisti-
@@ -112,7 +113,7 @@
                      <lb/>q<ex>ue</ex> era su sen<ex>n</ex>or derecho nj<ex>n</ex>gu<ex>n</ex>o en<supplied> </supplied>el.</p>
                </div>
             </div>
-            <div n="4.22.0" xml:id="SPBA1422000">
+            <div n="4.22.0" type="titulo" xml:id="SPBA1422000">
                <head rend="rojo">Titulo xxij de<supplied> </supplied>la libertad</head>
                <p><lb/><hi rend="init3">A</hi>ma<ex>n </ex> &amp; cobdiçia<ex>n</ex> natural<del> </del>me<ex>n</ex>t
                   <lb/>todas las c<ex>r</ex>iaturas del mu<ex>n</ex>do
@@ -122,7 +123,7 @@
                   <lb/>ble coraçon. <hi rend="rojo">¶</hi> Ende pu<ex>e</ex>s q<ex>ue</ex> en<supplied> </supplied><ex>e</ex>l tit<ex>u</ex>lo
                   <cb n="2"/>
                   <gap reason="roto"/></p>
-               <div n="4.22.1">
+               <div n="4.22.1" type="ley" xml:id="SPBA1422001">
                   <p><gap reason="roto"/><lb/>aforra <hi rend="rojo">¶</hi> E si lo q<ex></ex>siere aforrar de ot<ex>r</ex>a
                      <lb/>man<ex>er</ex>a por carta o delante amigos no<ex>n</ex>
                      <lb/>lo puede <unclear reason="reparacion">fazer a menos</unclear> de auer el
@@ -146,7 +147,7 @@
                      <lb/>la aforro  &amp; que casara con ella fasta
                      <gap reason="roto"/></p>
                </div>
-               <div n="4.22.3">
+               <div n="4.22.3" type="ley" xml:id="SPBA1422003">
                   <gap reason="roto"/>
                   <p><lb/><hi rend="init3">M</hi>eresçen <seg>no q<ex>ui</ex>era</seg>
                      <lb/>a<supplied> </supplied>las deuegadas por si mjs-
@@ -172,7 +173,7 @@
                      <cb n="2"/>
                      <gap reason="rotura"/></p>
                </div>
-               <div n="4.22.6">
+               <div n="4.22.6" type="ley" xml:id="SPBA1422006">
                   <head>Ley vj de co-
                      <lb break="no"/>m<ex>m</ex>o el sieruo se faze libre faziendo-
                      <lb break="no"/>se cl<ex>er</ex>igo o Reçibiendo orden<ex>e</ex>s ssagra-
