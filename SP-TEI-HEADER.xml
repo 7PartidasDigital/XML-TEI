@@ -50,7 +50,7 @@
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title level="s" type="project">7 Partidas Digital</title>
+            <title level="s" type="project">7PartidasDigital</title>
          </seriesStmt>
          <sourceDesc>
             <p><!--Aquí se decribirá el ejemplar utilizado--></p>
@@ -58,8 +58,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
-               financiado por LA Agencia Estatal de Investigación <idno type="referencia"
+            <p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+               financiado por la Agencia Estatal de Investigación <idno type="referencia"
                   >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
                Universidades de España, referencia <idno type="referencia">FFI2016-75014-P</idno>.
                La descripción del proyecto y sus participantes se recogen en la <ref
@@ -77,6 +77,7 @@
       </profileDesc>
       <revisionDesc>
          <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2021-11-01" who="#JMFR" status="borrador">Corrección memor</change>
          <change when="2021-05-03" who="#JMFR" status="borrador">Añadida xml:lang en el
             encabezamiento</change>
          <change when="2018-06-24" who="#JMFR" status="borrador">Modificados los nombres del
