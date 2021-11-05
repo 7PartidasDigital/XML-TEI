@@ -8,6 +8,8 @@
          <titleStmt>
             <title>Siete Partidas. Versión codificada del fragmento VA3</title>
             <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+               >PID2020-112621GB-I00</idno></funder>
             <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
                FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
             <funder xml:id="UVA">Universidad de Valladolid</funder>
@@ -55,7 +57,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-               <p>Este texto se ha creado como parte del proyecto <title>7 Partidas Digital</title>
+               <p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
                   financiado por el Minsterio de Industria, Economía y Competitivadad de España y el
                   FEDER, referencia FFI2016-75014-P AEI-FEDER, EU. La
                   descripción del proyecto y sus participantes se recogen en la <ref

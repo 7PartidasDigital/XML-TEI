@@ -6,8 +6,7 @@
     <teiHeader xml:lang="es">
         <fileDesc>
             <titleStmt>
-                <title>Siete Partidas. Versión codificada CC3></title>
-                <author>Alfonso X el Sabio</author>
+                <title>Siete Partidas. Versión codificada CC3</title>
                 <author>Alfonso X el Sabio</author>
                 <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
                         >PID2020-112621GB-I00</idno></funder>
@@ -89,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+            <change when="2021-11-05" who="#JMFR" status="candidato">Subido a GithHub</change>
             <change when="2021-11-05" who="#JMFR" status="borrador">Finalizada la transcripción /
                 codificación</change>
             <change when="2021-11-04" who="#JMFR" status="borrador">Comenzada la transcripción /
