@@ -24,10 +24,11 @@
 <li>Publicación en la red de los testimonios y del texto crítico.</li>
 <li>Actualización de la bibliografía sobre las <em>Siete Partidas</em>.</li>
 </ul>
-<p align="center">Financiado por el<br />
+<p align="center">Financiado por la<br />
 Agencia Estatal de Investigación<br />
 PID2020-112621GB-I00<br />
 2021-2024<br />
+<hr />
 Ministerio de Ciencia, Innovación y Universidades y el FEDER<br />
 FFI2016-75014-P AEI-FEDER, EU<br />
 2016-2020<br />
