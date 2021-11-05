@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento VA4</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+               >PID2020-112621GB-I00</idno></funder>
+            <funder>Ministerio de Economía y Competitividad <idno type="referencia"
+               >FFI2016-75014-P</idno></funder>
+            <funder>Universidad de Valladolid</funder>
+            <funder>Seminario de Crítica Textual</funder>
+            <principal>José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name xml:id="JMFR">José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-VA4</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+               proyecto<ref target="https://7partidas.hypotheses.org/testimonios/va4/"
+                  >7PartidasDigital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+               financiado por LA Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+               Universidades de España, referencia <idno type="referencia"
+                  >FFI2016-75014-P</idno>. La descripción del proyecto y la relación de los
+               participantes se recoge en la <ref target="https://7partidas.hypotheses.org"
+                  >web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de la
+               reproducción del documento ofrecida por <ref target="http://bit.ly/2fHxPVX"
+                  >PARES</ref>, ARCHV, Pergaminos 182, 4 y corregido con el original.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene fragmentos de la 4ª partida: 4.9.0-2 y tabla paracial de leyes para el título 4.9</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <!-- SEGMENTOS DE RUBRICA -->
+         <change when="2021-11-05" who="#JMFR" status="candidato">Subido a GithHub</change>
+         <change when="2021-11-05" who="#JMFR" status="borrador">Indicado el color de las iniciales y calderones</change>
+         <change when="2017-02-05" who="#JMFR" status="borrador">Añadido &lt;abstract&gt;</change>
+         <change when="2016-12-19" who="#JMFR" status="borrador">Añadidos / borrados espacios para unir / separar palabras unidas</change>
+         <change when="2016-12-07" who="#JMFR" status="borrador">Solucionado delcuelgue de la rubrica Prólogo</change>
+         <change when="2016-11-19" who="#JMFR" status="borrador">Transcipción y codificación básica</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="recto"/>
+         <fw type="encabezado">T<ex>itul</ex>o .IXº.</fw>
+         <div n="4" type="partida" xml:id="SPVA4400000">
+            <div n="4.9.0" type="titulo"  xml:id="SPVA4409000">
+               <list>
+                  <gap reason="nonsequitur"/>
+                  <item><lb/>formar el libelo de<supplied> </supplied>la acusaçion
+                     <lb/>p<ex>ar</ex>a desfazer el casamj<ex>en</ex>to.</item>
+                  <item><lb/><hi rend="rojo">L</hi>ey xijª q<ex>ue</ex> cosa es libello &amp;
+                     <lb/>com<ex>m</ex>o deue s<ex>er</ex> formado q<ex>u</ex>ando a
+                     <lb break="no"/>cusa algu<ex>n</ex>o el matri<ex>m</ex>onjo sinp<ex>l</ex>e
+                     <lb break="no"/>mje<ex>n</ex>t p<ex>ar</ex>a dep<ex>ar</ex>tir<del> </del>lo por rrazon
+                     <lb/>de adult<ex>er</ex>io.</item>
+                  <item><lb/><hi rend="azul">L</hi>ey xiijª. en q<ex>ue</ex> man<ex>er</ex>a se de
+                     <lb break="no"/>ue obligar a<supplied> </supplied>pen<ex>n</ex>a de talion o
+                     <lb/>en q<ex>ue</ex> no<ex>n</ex> el q<ex>ue</ex> acusare el ma
+                     <lb break="no"/>tri<ex>m</ex>onjo p<ex>or</ex> rrazo<ex>n</ex> de adult<ex>er</ex>io</item>
+                  <item><lb/><hi rend="rojo">L</hi>ey xiiijª q<ex>ue</ex> no<ex>n</ex> deue s<ex>er</ex> rreçe
+                     <lb break="no"/>bido el libelo q<ex>ue</ex> fu<ex>er</ex>e mal forma<ex>do</ex>.</item>
+                  <item><lb/><hi rend="azul">L</hi>ey xvª q<ex>u</ex>al<ex>e</ex>s puede<ex>n</ex> testigar
+                     <lb/>p<ex>ar</ex>a des<del> </del>faz<ex>er</ex> el matri<ex>m</ex>o<ex>n</ex>jo o p<ex>ar</ex>a a
+                     <lb break="no"/>yuntar<del> </del>lo.</item>
+                  <item><lb/><hi rend="rojo">L</hi>ey xvjª. en q<ex>ue</ex> man<ex>er</ex>a el q<ex>ue</ex>
+                     <lb/>dema<ex>n</ex>da pl<ex>e</ex>ito de casame<ex>nt</ex>o se po
+                     <lb break="no"/>de aduz<ex>er</ex> sus parent<ex>e</ex>s mjsmos
+                     <lb/>en proua o no<ex>n</ex>.</item>
+                  <item><lb/><hi rend="azul">L</hi>ey xvijª en q<ex>ue</ex> g<ex>u</ex>isa puede<ex>n</ex>
+                     <lb/>testi<ex>m</ex>o<ex>n</ex>jar los parent<ex>e</ex>s de aq<ex>ue</ex>llos
+                     <lb/>q<ex>ue</ex> q<ex>u</ex>ieren casar.</item>
+                  <item><lb/><hi rend="rojo">L</hi>ey xviijª q<ex>u</ex>ales desposaias se
+                     <lb/>enba<ex>r</ex>ga<ex>n</ex> de lig<ex>er</ex>o p<ex>or</ex> denu<ex>n</ex>çiaço<ex>n</ex>
+                     <lb/>d<ex>en</ex>tro dos parent<ex>e</ex>s &amp; q<ex>u</ex>al<ex>e</ex>s no<ex>n</ex>.</item>
+                  <item><lb/><hi rend="azul">L</hi>ey xixª q<ex>u</ex>ales deuen s<ex>er</ex> los
+                     <lb/>testigos p<ex>ar</ex>a desatar el casam<ex>ento</ex>
+                     <lb/>&amp; com<ex>m</ex>o los deue<ex>n</ex> juram<ex>en</ex>tar.</item>
+                  <item><lb/><hi rend="rojo">L</hi>ey xxª. q<ex>ue </ex>los q<ex>ue</ex> testiga<ex>n</ex> por
+                     <lb/>oydas no<ex>n</ex> deue<ex>n</ex> s<ex>er</ex> creydos.</item>
+</list>
+               <p><lb/><hi rend="init5">A</hi>cusam<ex>ento</ex> <seg xml:id="SPVA4409000.1" type="rubrica" rend="Azul+Rojo">Prologo</seg>
+                  <lb/>deue s<ex>er</ex> fecho
+                  <lb/>ant<ex>e</ex> los juezes
+                  <lb/>de s<ex>ant</ex>a egl<ex>es</ex>ia p<ex>ar</ex>a
+                  <lb/>dep<ex>ar</ex>tir<del> </del>se los
+<cb n="2"/>
+                  <lb/>casam<ex>en</ex>tos/. q<ex>u</ex>ando algu<ex>n</ex>o q<ex>u</ex>iere mos-
+                  <lb break="no"/>trar &amp; rrazonar q<ex>ue</ex> auia<ex>n</ex> atal en-
+                  <lb break="no"/>ba<ex>r</ex>go entre algu<ex>n</ex>os q<ex>ue</ex> fuese<ex>n</ex> casa-
+                  <lb break="no"/>dos por<del> </del>q<ex>ue</ex> el matri<ex>m</ex>o<ex>n</ex>io auia de
+                  <lb/>s<ex>er</ex> des<del> </del>fecho. <hi rend="rojo">E</hi>t pues q<ex>ue</ex> en
+                  <lb/>los titulos ant<ex>e</ex> deste mostram<ex>os</ex>
+                  <lb/>de<supplied> </supplied>los enba<ex>r</ex>gos q<ex>ue</ex> tuelle<ex>n</ex> a<supplied> </supplied>los om<ex>ne</ex>s
+                  <lb/>q<ex>ue</ex> no<ex>n</ex> pueden casar/. Et si ca
+                  <lb break="no"/>sare<ex>n</ex> por q<ex>ue</ex> l<ex>e</ex>s deue<ex>n</ex> s<ex>er</ex> des<del> </del>fech<ex>o</ex>s
+                  <lb/>los casam<ex>en</ex>tos. <hi rend="azul">C</hi>onviene q<ex>ue</ex> fa
+                  <lb break="no"/>blemos e<ex>n</ex><supplied> </supplied>este tit<ex>u</ex>lo/ de<supplied> </supplied>los acu-
+                  <lb break="no"/>sam<ex>en</ex>tos por q<ex>ue</ex> se dep<ex>ar</ex>ten los ma-
+                  <lb break="no"/>tri<ex>m</ex>o<ex>n</ex>ios. <hi rend="roja">E</hi>t q<ex>ue</ex> mostremos p<ex>ri</ex>m<ex>er</ex>a-
+                  <lb break="no"/>mje<ex>n</ex>t<ex>e</ex> q<ex>u</ex>ien puede acusar el casa-
+                  <lb break="no"/>mje<ex>n</ex>to <hi rend="azul">E</hi>t por q<ex>ue</ex> rrazon<ex>e</ex>s <hi rend="rojo">E</hi>t
+                  <lb/>ant<ex>e</ex> q<ex>u</ex>ien <hi rend="azul">E</hi>t en q<ex>ue</ex> man<ex>er</ex>a deue
+                  <lb/>s<ex>er</ex> fecha la acusaçio<ex>n</ex> <hi rend="rojo">E</hi>t q<ex>u</ex>ales
+                  <lb/>pueden testi<ex>m</ex>o<ex>n</ex>jar p<ex>ar</ex>a des<del> </del>faz<ex>er</ex>
+                  <lb/>el matri<ex>m</ex>o<ex>n</ex>io o<supplied> </supplied>p<ex>ar</ex>a ayu<ex>n</ex>tar<del> </del>lo.</p>
+<div n="4.9.1" type="ley" xml:id="SPVA4409001">
+                  <head rend="rojo"><lb/>¶ Ley .iª. q<ex>u</ex>ien puede acusar el
+                     <lb/>casamje<ex>n</ex>to Et por q<ex>ue</ex> rrazones.</head>
+                  <p><lb/><hi rend="init3">L</hi>a mug<ex>e</ex>r al marido/ Et el
+                     <lb/>marido a<supplied> </supplied>la mug<ex>e</ex>r puede<ex>n</ex>
+                     <lb/>acusar el vno al otro
+                     <lb/>p<ex>ar</ex>a dep<ex>ar</ex>tir<del> </del>se el casam<ex>en</ex>to./ Si el
+                     <lb/>enba<ex>r</ex>go q<ex>ue</ex> es entre ellos fu<ex>er</ex>e a-
+                     <lb break="no"/>tal q<ex>ue</ex> sea sin su culpa/ asi co<ex>m</ex>o
+                     <lb/>si el uaro<ex>n</ex> fuese de fria nat<ex>ur</ex>a
+                     <lb/>/ o la mug<ex>e</ex>r ta<ex>n</ex> estrecha q<ex>ue</ex> el ma-
+                     <lb break="no"/>rido no<ex>n</ex> podiese iacer co<ex>n</ex> ella
+                     <lb/>o si algu<ex>n</ex>o dellos fuese ligado
+                     <lb/>Ca por nj<ex>n</ex>gunos destos enba<ex>r</ex>gos
+                     <lb/>no<ex>n</ex> los puede otro acusar si no<ex>n</ex>
+                     <lb/>ellos mjsmos/ porq<ex>ue</ex> ellos son
+                     <lb/>ende mas sabidor<ex>e</ex>s q<ex>ue</ex> otro. <hi rend="rojo">P</hi>ero
+                     <lb/>si q<ex>u</ex>isiere<ex>n</ex> callar su enba<ex>r</ex>go/. et
+                     <lb/>veuir en uno/ no<ex>n</ex> com<ex>m</ex>o marido
+<pb n="vuelto"/>
+<fw type="encabezado">T<ex>itul</ex>o</fw>
+                     <lb/>&amp; mug<ex>e</ex>r p<ex>ar</ex>a ayuntar<del> </del>se carnalm<ex>iente</ex>
+                     <lb/>mas com<ex>m</ex>o h<ex>er</ex>manos/. pueden<del> </del>lo
+                     <lb/>fazer <hi rend="rojo">E</hi>sso mjsmo s<ex>er</ex>ia/. si alg<ex>un</ex>o
+                     <lb/>om<ex>n</ex>e libre casase co<ex>n</ex> muger <ex>ser</ex>ua
+                     <lb/>/. Et mug<ex>e</ex>r libre co<ex>n</ex> s<ex>er</ex>uo/. No<ex>n</ex> lo
+                     <lb/>sabendo/. Ca por tal enba<ex>r</ex>go
+                     <lb/>No<ex>n</ex> los puede ot<ex>r</ex>o ni<ex>n</ex>gu<ex>n</ex>o acusar
+                     <lb/>se no<ex>n</ex> ellos mjsmos el vno al ot<ex>r</ex>o
+                     <lb/><hi rend="rojo">E</hi>t la acusaçio<ex>n</ex> q<ex>ue</ex> fuere fecha
+                     <lb/>por algu<ex>n</ex>a de<supplied> </supplied>las rrazon<ex>e</ex>s sobr<ex>e</ex>-
+                     <lb break="no"/>dichas/. No<ex>n</ex> se entiende q<ex>ue</ex> es
+                     <lb/>dicho p<ex>ro</ex>piame<ex>n</ex>t acusamjento
+                     <lb/>/ Mas q<ex>ue</ex>rella o dema<ex>n</ex>da/. por<del> </del>q<ex>ue</ex>
+                     <lb/>aq<ex>ue</ex>llos q<ex>ue</ex> las fazen vnos cont<ex>r</ex>a
+                     <lb/>otros/. No<ex>n</ex> son en tal pecado q<ex>ue</ex>
+                     <lb/>por su culpa nasçiese entre
+                     <lb/>ellos aq<ex>ue</ex>llos enbargos/ Mas p<ex>or</ex>
+                     <lb/>mal fecho de otro o<supplied> </supplied>por oca-
+                     <lb break="no"/>sion de natura o<supplied> </supplied>por yerro
+                     <lb/>coydando casar co<ex>n</ex> libre &amp; ca-
+                     <lb break="no"/>sando co<ex>n</ex> s<ex>er</ex>uo.</p>
+</div>
+<div n="4.9.2" type="ley" xml:id="SPVA4409002">
+                  <head rend="rojo"><seg>Ley ijª ant<ex>e</ex>
+                     <lb/>q<ex>u</ex>ien deue s<ex>er</ex> fecha la acusaçio<ex>n</ex>
+                     <lb/>en rrazo<ex>n</ex> de adulterio &amp; en q<ex>ue</ex></seg></head>
+                  <p><lb/><hi rend="init3">A</hi>cusar<del> </del>se pode<ex>n</ex> <seg>man<ex>er</ex>a</seg>
+                     <lb/>au<ex>n</ex> en ot<ex>r</ex>a man<ex>er</ex>a sin las
+                     <lb/>q<ex>ue</ex> dixiemos en las leys
+                     <lb/>ant<ex>e</ex> desta/ el marido &amp; la mug<ex>e</ex>r
+                     <lb/><hi rend="rojo">¶</hi> Et esto es por rrazo<ex>n</ex> de adult<ex>er</ex>io
+                     <lb/><hi rend="rojo">E</hi>t si la acusaçio<ex>n</ex> fu<ex>er</ex>e fecha
+                     <lb/>p<ex>ar</ex>a dep<ex>ar</ex>tir<del> </del>les q<ex>ue</ex> no<ex>n</ex> biua<ex>n</ex> en vno
+                     <lb/>ni<ex>n</ex> se ayunten carnalme<ex>n</ex>t/. Por
+                     <lb/>tal rrazo<ex>n</ex> no<ex>n</ex> les puede otro ni<ex>n</ex>g<ex>un</ex>o
+                     <lb/>acusar si no<ex>n</ex> ellos mjsmos el
+                     <lb/>vno al otro <hi rend="rojo">E</hi>t tal acusaçio<ex>n</ex>
+                     <lb/>com<ex>m</ex>o esta pueden<del> </del>la fazer ta<ex>n</ex>
+                     <lb/>bien por si mjsmos com<ex>m</ex>o por
+                     <lb/>p<ex>er</ex>son<ex>er</ex>os. ¶ Et deue s<ex>er</ex> fecha antel
+                     <lb/>ob<ex>is</ex>po o su ofiçial <hi rend="rojo">E</hi>t todo
+<cb n="2"/>
+                     <lb/>om<ex>n</ex>e q<ex>ue</ex> sopiere q<ex>ue</ex> su muger
+                     <lb/>le faz adult<ex>er</ex>io/ tenudo es d<ex>e</ex><supplied> </supplied>la
+                     <lb/>acusar si ente<ex>n</ex>di<ex>er</ex>e q<ex>ue</ex> se no<ex>n</ex> q<ex>u</ex>i<ex>e</ex>r
+                     <lb/>p<ex>ar</ex>tir del pecado et q<ex>ui</ex>ere vsar
+                     <lb/>del ¶ Et si<supplied> </supplied>lo no<ex>n</ex> fizi<ex>er</ex>e peca
+                     <lb/>mortalme<ex>n</ex>te <hi rend="rojo">P</hi>ero si ente<ex>n</ex>di<ex>er</ex>e
+                     <lb/>q<ex>ue</ex> se parte del pecado/ et q<ex>ue</ex> faze
+                     <lb/>penj<ex>tenci</ex>a del <hi rend="rojo">¶</hi> Estonçe si no<ex>n</ex> la
+                     <lb/>q<ex>ui</ex>siere acusar no<ex>n</ex> peca <hi rend="rojo">E</hi>t
+                     <lb/>au<ex>n</ex> touo por bien s<ex>an</ex>ta egl<ex>es</ex>ia
+                     <lb/>q<ex>ue</ex> si algu<ex>n</ex>o fuese p<ex>ar</ex>tido de su
+                     <lb/>mug<ex>e</ex>r por rrazo<ex>n</ex> de adult<ex>er</ex>io de
+                     <lb/>man<ex>er</ex>a q<ex>ue</ex> no<ex>n</ex> ouiesen de beujr
+                     <lb/>en vno/ q<ex>ue</ex> si despues desto le
+                     <lb/>q<ex>u</ex>isiere p<ex>er</ex>donar el marido q<ex>ue</ex> lo
+                     <lb/>pudiese fazer/ Et q<ex>ue</ex> vjuesen
+                     <lb/>en vno/ et se ayu<ex>n</ex>tasen carnalm<ex>en</ex>te
+                     <lb/>ta<ex>n</ex> bie<ex>n</ex> com<ex>m</ex>o si no<ex>n</ex> fuesen de-
+                     <lb break="no"/>p<ex>ar</ex>tidos <hi rend="rojo">M</hi>as si<supplied> </supplied>la q<ex>u</ex>isiere el ma-
+                     <lb break="no"/>rido acusar p<ex>ar</ex>a q<ex>ue</ex>l desen pen<ex>n</ex>a-
+                     <lb/>segu<ex>n</ex> ma<ex>n</ex>dan las leys de los
+                     <lb/>legos/ Estonçe puede<del> </del>lo faz<ex>er</ex>
+                     <lb/>ant<ex>e</ex>l juiz seglar <hi rend="rojo">E</hi>t si por
+                     <lb/>vent<ex>ur</ex>a el marido no<ex>n</ex><supplied> </supplied>la q<ex>u</ex>isier
+                     <lb/>acusar/. et ella no<ex>n</ex><supplied> </supplied>se p<ex>ar</ex>tise de
+                     <lb/>aq<ex>ue</ex>l mal fecho/. Estonçe pue-
+                     <lb break="no"/>den<del> </del>la acusar sus parent<ex>e</ex>s d<ex>e</ex>lla
+                     <lb/>los mas p<ex>ro</ex>pi<ex>n</ex>cos/ o ot<ex>r</ex>o q<ex>ua</ex>l<del> </del>q<ex>ui</ex>er
+                     <lb/>del pueblo si ellos no<ex>n</ex> lo q<ex>u</ex>i-
+                     <lb break="no"/>siesen fazer <hi rend="rojo">C</hi>a touo por
+                     <lb/>bie<ex>n</ex> s<ex>an</ex>ta egl<ex>es</ex>ia q<ex>ue</ex> a<supplied> </supplied>la muger
+                     <lb/>que tal pecado fizi<ex>er</ex>e q<ex>ue</ex> todo om<ex>ne</ex>
+                     <lb/>la puede acusar/. Ca asi co<ex>m</ex>o
+                     <lb/>es defendido a<supplied> </supplied>todos comu<ex>n</ex>alm<ex>en</ex>te
+                     <lb/>q<ex>ue</ex> nj<ex>n</ex>gu<ex>n</ex>o no<ex>n</ex> faga adult<ex>er</ex>io/ asi
+                     <lb/>el q<ex>ue</ex><supplied> </supplied>lo faze yerra cont<ex>r</ex>a el de-
+                     <lb break="no"/>recho q<ex>ue</ex> ta<ex>n</ex>ge a<supplied> </supplied>todos. <hi rend="rojo">E</hi>t to-
+                     <lb break="no"/>das estas man<ex>er</ex>as sobre<del> </del>dichas
+                     <lb/>en estas dos leys q<ex>ue</ex> puede<gap reason="nonsequitur"/></p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
