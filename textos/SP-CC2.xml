@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <teiHeader xml:lang="es">
+        <fileDesc>
+            <titleStmt>
+                <title>Siete Partidas. Versión codificada CC3></title>
+                <author>Alfonso X el Sabio</author>
+                <author>Alfonso X el Sabio</author>
+                <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+                        >PID2020-112621GB-I00</idno></funder>
+                <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el
+                        FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+                <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+                        FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+                <funder xml:id="UVA">Universidad de Valladolid</funder>
+                <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+                <respStmt>
+                    <resp>Investigador principal</resp>
+                    <name>José Manuel FRADEJAS RUEDA</name>
+                </respStmt>
+                <respStmt>
+                    <resp>transcrito por</resp>
+                    <name>José Manuel Fradejas Rueda</name>
+                </respStmt>
+                <respStmt>
+                    <resp>revisado por</resp>
+                    <name><!-- Nombre del revisor --></name>
+                </respStmt>
+            </titleStmt>
+            <extent>25 KB</extent>
+            <publicationStmt>
+                <publisher>7PartidasDigital. Universidad de Valladolid</publisher>
+                <pubPlace>Valladolid</pubPlace>
+                <address>
+                    <addrLine>Plaza del Campus s/n</addrLine>
+                    <addrLine>E-47011 Valladolid</addrLine>
+                </address>
+                <idno>SP-CC3</idno>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>Esta obra está bajo una licencia de Creative Commons
+                            Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+                        <p>El fichero maestro está alojado en el repositorio del <ref
+                                target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-TEI-HEADER.xml"
+                                > proyecto en GitHub</ref>.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">7 Partidas Digital</title>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Se trata de dos folios de un códice que ha servido de hojas de guarda para la
+                    encuadernación de un incunable de la Biblioteca de la Catedral de Córodoba. El
+                    margen izquierdo de uno de los folio está cortado longitudinalmente, y solo se
+                    puede leer la mitad de las líneas de la columna correspondiente. El otro folio
+                    está adherido a la cubierta y solo se puede leer una cara.</p>
+                <p>Contiene desde el comienzo de 4.1.4 (desde la inicial de ley) hasta la mitad de
+                    4.1.8 y desde las dos últimas palabras de 4.5.2 hasta casi el final de
+                    4.5.4.</p>
+                <p>De este mismo manuscrito hay otro bifolio en la encuadernación de otro incunable
+                    de la Catedral. Véase <idno type="identificador">SP-CC3</idno>.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+                    financiado por LA Agencia Estatal de Investigación <idno type="referencia"
+                        >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+                    Universidades de España, referencia <idno type="referencia"
+                        >FFI2016-75014-P</idno>. La descripción del proyecto y la relación de los
+                    participantes se recoge en la <ref target="https://7partidas.hypotheses.org"
+                        >web</ref> del mismo.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>La trasncripción se ha realizado a la vista de un reproducción digital obtenida
+                    del Archivo de la Catedral de Córdoba.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <abstract resp="#JMFR">
+                <p>Contiene desde el comienzo de 4.1.4 (desde la inicial de ley) hasta la mitad de
+                    4.1.8 y desde las dos últimas palabras de 4.5.2 hasta casi el final de
+                    4.5.4.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+            <change when="2021-11-05" who="#JMFR" status="borrador">Finalizada la transcripción /
+                codificación</change>
+            <change when="2021-11-04" who="#JMFR" status="borrador">Comenzada la transcripción /
+                codificación</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="es">
+        <body>
+            <div n="4" type="partida" xml:id="SPCC2400000">
+                <pb n="recto"/> <fw type="encabezado" hand="otra">Lj<ex>br</ex>o iiij</fw>
+                <cb n="1"/>
+                <div n="4.1.0" type="titulo" xml:id="SPCC2401000">
+                    <div n="4.1.4" type="ley" xml:id="SPCC2401004">
+                        <gap/> 
+                        <p><lb/><hi rend="init3">D</hi>ifere<ex>n</ex>cia ni<ex>n</ex> dep<ex>ar</ex>timie<ex>n</ex>to ni<ex>n</ex>guno no<ex>n </ex><lb/>ha p<ex>ar</ex>a seer el mat<ex>r</ex>imonio ualido en-
+                            <lb break="no"/>tre aq<ex>ue</ex>l q<ex>ue</ex> se faze por palabras de p<ex>re</ex>-
+                            <lb break="no"/>sente &amp; el otro q<ex>ue</ex> es acabado ayu<ex>n</ex>danto<del> </del>se car-
+                            <lb break="no" />nal<del> </del>mie<ex>n</ex>t el marido co<ex>n</ex> la mug<ex>e</ex>r. <hi rend="rojo">¶</hi> Et esto<supplied > </supplied>es
+                            <lb/>por<del> </del>q<ex>ue</ex> el co<ex>n</ex>sentimie<ex>n</ex>to ta<ex>n</ex> solamie<ex>n</ex>t q<ex>ue</ex> se faze
+                            <lb/>por palabras de p<ex>re</ex>se<ex>n</ex>te abo<ex>n</ex>da p<ex>ar</ex>a ualer el ca-
+                            <lb/>samie<ex>n</ex>to. <hi rend="azul">¶</hi> P<ex>er</ex>o si el un matrimo<ex>n</ex>io es aca-
+                            <lb break="no"/>do de<supplied> </supplied>palabra &amp; de fech. Et el otro de pala-
+                            <lb break="no"/>bra tan solamie<ex>n</ex>t com<ex>m</ex>o q<ex>u</ex>ier q<ex>ue</ex> el casamie<ex>n</ex>-
+                            <lb break="no"/>to sea uerdadero q<ex>ue</ex> es fecho en qual<del> </del>q<ex>u</ex>ier destas
+                            <lb/>man<ex>er</ex>as q<ex>ue</ex> de suso dixiemos. ¶ P<ex>er</ex>o dep<ex>ar</ex>timi-
+                            <lb break="no"/>ento ha entre<supplied> </supplied>ellos en tres cosas. ¶ La p<ex>r</ex>i-
+                            <lb break="no"/>mera es com<ex>m</ex>o si algu<ex>n</ex>a mug<ex>e</ex>r u<ex>i</ex>rgen se des-
+                            <lb break="no"/>posasse co<ex>n</ex> alguno por palabras de p<ex>re</ex>se<ex>n</ex>te.<lb/>&amp; se muriesse el ante q<ex>ue</ex> se llegase a el-
+                            <lb break="no"/>la carnalmie<ex>n</ex>t. si depues se casasse ella
+                            <lb/>co<ex>n</ex> otro. com<ex>m</ex>o q<ex>u</ex>ier q<ex>ue</ex> el matrimonio uerda-
+                            <lb break="no"/>dero s<ex>er</ex>ie por esso bigamo este postrim<ex>er</ex>o que casas-
+                            <lb break="no"/>se co<ex>n</ex> ella. q<ex>ue</ex> q<ex>u</ex>iere ta<ex>n</ex>to dezir com<ex>m</ex>o om<ex>n</ex>e q<ex>ue</ex> a
+                            <lb/>auidas dos mug<ex>e</ex>r<ex>e</ex>s. <hi rend="rojo">¶</hi> Mas si el p<ex>r</ex>im<ex>er</ex>o la oui-<lb break="no"/>esse coñosçuda ayu<ex>n</ex>ta<ex>n</ex>do<del> </del>se a ella segu<ex>n</ex>t que
+                            <lb/>sobredich es. s<ex>er</ex>ie el otro q<ex>ue</ex> despues casasse
+                            <lb/>co<ex>n</ex> ella bigamo. &amp; mag<ex>ue</ex>r este atal non
+                            <lb/>ouiesse auidas dos mug<ex>e</ex>r<ex>e</ex>s s<ex>er</ex>ie bigamo
+                            <lb/>por esta razo<ex>n</ex>. por<del> </del>q<ex>ue</ex> aq<ex>ue</ex>lla co<ex>n</ex> q<ex>u</ex>ien casasse
+                            <lb/>desta man<ex>er</ex>a. no<ex>n</ex> la aurie ui<ex>r</ex>gen. ¶ Mas p<ex>ar</ex>a
+                            <lb/>no<ex>n</ex> seer bigamo ha menester q<ex>ue</ex> el uaro<ex>n</ex>
+                            <lb/>no<ex>n</ex> aya auido ot<ex>r</ex>a mug<ex>e</ex>r co<ex>n</ex> q<ex>u</ex>ien fuesse ca-
+                            <lb break="no"/>sado. ayu<ex>n</ex>ta<ex>n</ex>do<del> </del>se a ella carnal<del > </del>mie<ex>n</ex>t nin
+                            <lb/>otrossi la mug<ex>e</ex>r non aya auido otro ma-
+                            <lb break="no"/>rido &amp; q<ex>ue</ex> sea uirge<ex>n</ex>. <hi rend="rojo">¶</hi> Et la segu<ex>n</ex>da cosa es
+                            <lb/>la cuñadez q<ex>ue</ex> nasce de<supplied> </supplied>los mat<ex>r</ex>imonios
+                            <lb/>acabados. &amp; no<ex>n</ex> de<supplied> </supplied>los ot<ex>r</ex>os entre el marido
+                            <lb/>&amp;<supplied> </supplied>los parie<ex>n</ex>tes de su mug<ex>e</ex>r <add hand="copista" place="margen"><gap reason="corte"/>tre la mu-
+                                <lb break="no"/><gap reason="corte"/> &amp; los pari-
+                                <lb break="no"/><gap reason="corte"/>s de su ma-
+                                <lb break="no"/><gap reason="corte"/>o.</add> Ca de tal cuña-
+                            <lb break="no"/>dez uiene enbargo por<del> </del>q<ex>ue</ex> el marido non
+                            <lb/>puede despues casar co<ex>n</ex> ni<ex>n</ex>guna de<supplied> </supplied>las pa-
+                            <lb break="no"/>rie<ex>n</ex>tas fastal q<ex>u</ex>arto grado. ni<ex>n</ex> otrossi ella no<ex>n</ex>
+                            <lb/>puede casar co<ex>n</ex> ni<ex>n</ex>gu<ex>n</ex>o de<supplied> </supplied>los parie<ex>n</ex>tes de su
+                            <lb/>marido fasta en esse mismo grado. <hi rend="azul">¶</hi> Et
+                            <lb/>si casase<ex>n</ex> deue seer desfech el casamie<ex>n</ex>-
+                            <lb break="no"/>to. <hi rend="rojo">¶</hi> Mas del otro casamie<ex>n</ex>to q<ex>ue</ex> es fech por
+                            <lb/>palabras de p<ex>re</ex>sente. o<supplied> </supplied>por alguna de<supplied> </supplied>las ot<ex>r</ex>as
+                            <lb/>man<ex>er</ex>as q<ex>ue</ex> dize en la ley ante desta com<ex>m</ex>o
+                            <lb/>q<ex>u</ex>ier q<ex>ue</ex> no<ex>n</ex> nasçe cuñadez mueue ot<ex>r</ex>o en<del> </del>bargo
+                            <lb/>p<ex>ar</ex>a no<ex>n</ex> poder casar seg<ex>un</ex>t q<ex>ue</ex> de<supplied> </supplied>suso dize en es-
+                            <lb break="no"/>ta ley. <hi rend="azul">¶</hi> Et este en<del> </del>bargo es llamado en la-
+                            <lb break="no"/>tin <foreign xml:lang="la">publice honestatis justiçia</foreign>. q<ex>ue</ex> q<ex>u</ex>ier ta<ex>n</ex>-
+                            <lb break="no"/>to dez<ex>ir</ex> en roma<ex>n</ex>z com<ex>m</ex>o derecho q<ex>ue</ex> deue seer
+                            <cb n="2"/>
+                            <lb break="no"/>guardado. por h<gap/>
+                            <lb/><gap reason="roto"/>
+                            <lb/>no<ex>n</ex> poder casar <gap/>
+                            <lb/>del ot<ex>r</ex>o ta<ex>n</ex> bie<ex>n</ex> com<ex>m</ex>o e<gap/>
+                            <lb/>segu<ex>n</ex>t q<ex>ue</ex> es dich. <hi rend="rojo">¶</hi> <gap/>
+                            <lb break="no"/>p<ex>ar</ex>timie<ex>n</ex>to en los m<gap/>
+                            <lb/>q<ex>ue</ex><supplied> </supplied>si algu<ex>n</ex>os de los <gap/>
+                            <lb/>de<supplied> </supplied>p<ex>re</ex>se<ex>n</ex>te q<ex>u</ex>ier en <gap/>
+                            <lb break="no"/>zer mag<ex>ue</ex>r lo co<gap/>
+                            <lb/>casamie<ex>n</ex>to fue<gap/>
+                            <lb/>sin co<ex>n</ex>sintimie<gap/></p>
+                    </div>
+                    <div n="4.1.5" type="ley" xml:id="SPCC2401005"> 
+                        <head><gap/><lb/><gap/>el casamie<ex>n</ex>to</head> 
+                        <p><lb/><hi rend="init3">U</hi>erd<gap/>
+                            <lb/>q<ex>ue</ex> se <gap/>
+                            <lb/><unclear/><gap/>
+                            <lb/>desta. &amp; a <gap/>
+                            <lb break="no"/>me<ex>n</ex>tes. <hi rend="azul">¶</hi> <gap/>
+                            <lb/>q<ex>ue</ex><supplied> </supplied>se faze p<gap/>
+                            <lb break="no"/>tie<ex>n</ex>de s<ex>an</ex>c<ex>t</ex>a <gap/>
+                            <lb/>x<ex>r</ex>i<ex>sti</ex>ano a<supplied> </supplied>dio<gap/>
+                            <lb/>assi com<ex>m</ex>o <gap/>
+                            <lb break="no"/>q<ex>ue</ex>llos q<ex>ue</ex> casa<gap/>
+                            <lb/>otro. &amp; sobre <gap/>
+                            <lb/><persName>sa<ex>n</ex>t paulo</persName> q<ex>ue</ex> el <gap/>
+                            <lb/>sp<ex>irit</ex>u es co<ex>n</ex> el. <hi rend="rojo">¶</hi> Et <gap/>
+                            <lb/>es en otro casamie<ex>n</ex><gap/>
+                            <lb break="no"/>labra &amp; por fech a<supplied> </supplied>q<ex>ue</ex> <gap/>
+                            <lb/>por esto se entie<ex>n</ex>de el <gap/>
+                            <lb/>p<ex>er</ex>sona del fijo de di<gap/>
+                            <lb/>om<ex>n</ex>es. toma<ex>n</ex>do carne <gap/>
+                            <lb break="no"/>to dizo el apostol sa<ex>n</ex>t <gap/>
+                            <lb/>de dios se fiziera carn<gap/>
+                            <lb/>om<ex>n</ex>e. <hi rend="rojo">¶</hi> Et el terçero s<gap/>
+                            <lb break="no"/>te mismo mat<ex>ri</ex>monio <gap/>
+                            <lb/>com<ex>m</ex>o el q<ex>ue</ex> casa con una <gap/>
+                            <lb break="no"/>arda sie<ex>n</ex>pre el casami<gap/>
+                            <lb/>otra son amos com<ex>m</ex>o <gap/>
+                            <lb/>por tal casamie<ex>n</ex>to com<gap/>
+                            <lb/>la unidat de<supplied> </supplied>la egl<ex>es</ex>ia <gap/>
+                            <lb/>todas las ge<ex>n</ex>tes del m<gap/>
+                            <lb/>a<supplied> </supplied>n<ex>uest</ex>ro señor <sic>dios</sic> J<ex>es</ex>hu x<gap/>
+                            <lb break="no"/>mo el casamie<ex>n</ex>to q<ex>ue</ex> desta <gap/>
+                            <lb break="no"/>do sie<ex>n</ex>pre finca en unid<gap/>
+                            <lb/>parte. otrossi la egl<ex>es</ex>ia <gap/>
+                            <lb/>de J<ex>es</ex>hu x<ex>rist</ex>o desq<ex>ue</ex> fue ayun<gap/>
+                            <lb break="no"/>la.</p>
+                    </div>
+                    <div n="4.1.6" type="ley" xml:id="SPCC2401006"> 
+                        <head>Lay .vjª. de que hedat de <gap/></head> 
+                        <p><lb/><hi rend="init3">D</hi>esposar<del> </del>se pued<gap/>
+                            <lb break="no"/>rones ta<ex>n</ex> bie<ex>n</ex> co<gap/>
+                            <lb/>desq<ex>ue</ex> ouiere<ex>n</ex> vn <gap/>
+                            <lb break="no"/>tonce comie<ex>n</ex>çan a<supplied> </supplied>aue<gap/>
+                            <pb n="vuelto"/>
+                            <cb n="1"/>
+                            <lb/><gap/> las desposaias
+                            <lb/><gap/> <unclear reason="ilegible"/> se algu<ex>n</ex>os
+                            <lb/><gap/> <unclear reason="ilegible"/> s<ex>us</ex> parie<ex>n</ex>tes en no<ex>n</ex>-
+                            <lb break="no"/><gap/> <unclear reason="ilegible"/>ie ni<ex>n</ex>guna cosa lo q<ex>ue</ex>
+                            <lb/><gap/> <unclear reason="ilegible"/> desq<ex>ue</ex> pasasse desta he-
+                            <lb break="no"/><gap/> <unclear reason="ilegible"/> auie<ex>n</ex> fech. &amp;<supplied> </supplied>lo co<ex>n</ex>-
+                            <lb break="no"/><gap/> <unclear reason="ilegible"/>ie. <hi rend="azul">¶</hi> Et demas
+                            <lb/><gap/> <unclear reason="ilegible"/> este desposorio si
+                            <lb/><gap/> <unclear reason="ilegible"/>tiesse algu<ex>n</ex>o del-
+                            <lb break="no"/><gap/> <unclear reason="ilegible"/> casar des-
+                            <lb/><gap/> <unclear reason="ilegible"/> segu<ex>n</ex>t dize
+                            <lb/><gap/> <unclear reason="ilegible"/> <hi rend="rojo">¶</hi> Mas p<ex>ar</ex>a ca-
+                            <lb break="no"/><gap/> <unclear reason="ilegible"/>o<ex>n</ex> sea de
+                            <lb/><gap/> <unclear reason="ilegible"/> xij. Et
+                            <lb/><gap/> <unclear reason="ilegible"/> no<ex>n</ex> serie
+                            <lb/><gap/> <unclear reason="ilegible"/> ende si fu-
+                            <lb break="no"/><gap/> <unclear reason="ilegible"/>tar carnal-
+                            <lb break="no"/><gap/> <unclear reason="ilegible"/> q<ex>ue</ex> an <ex>par</ex>a
+                            <lb/><gap/> <unclear reason="ilegible"/> edat.</p>
+                    </div>
+                    <div n="4.1.7" type="ley" xml:id="SPCC1401007"> 
+                        <head><lb/><gap/>p<ex>re</ex>miar a<supplied> </supplied>los des-
+                            <lb break="no"/><gap/>mie<ex>n</ex>to &amp; en que
+                            <lb/><gap/>a premia</head> 
+                        <p><lb/><gap/>ob<ex>is</ex>pos. aq<ex>ue</ex>llos
+                            <lb/><gap/> <unclear reason="ilegible"/> desposados
+                            <lb/><gap/> <unclear reason="ilegible"/> Et esto s<ex>er</ex>ie
+                            <lb/><gap/> <unclear/>s q<ex>u</ex>isiesse dep<ex>ar</ex>tir
+                            <lb/><gap/> <unclear/> q<ex>u</ex>isiesse co<ex>n</ex>plir. ca
+                            <lb/><gap/> <unclear/> aq<ex>ue</ex>l q<ex>ue</ex> q<ex>u</ex>iere de<del > </del>p<ex>ar</ex>ti-
+                            <lb break="no"/><gap/> <unclear/> mat<ex>r</ex>imonio. ca los q<ex>ue</ex> p<ex>ro</ex>-
+                            <lb break="no"/><gap/> <unclear/>no co<ex>n</ex> otro auidos so<ex>n</ex> de
+                            <lb/><gap/> <unclear/> si alguno pusiesse
+                            <lb/><gap/> <unclear/> derecha atal q<ex>ue</ex> deuies-
+                            <lb break="no"/><gap/> <unclear/>usa no<ex>n</ex> ouiesse. puede<ex>n</ex>
+                            <lb/><gap/> <unclear/>a de s<ex>an</ex>c<ex>t</ex>a egl<ex>es</ex>ia fasta q<ex>ue</ex> lo
+                            <lb/><gap/> <unclear/>q<ex>u</ex>ier dellos q<ex>ue</ex> co<ex>n</ex>tra esto fizi-
+                            <lb break="no"/><gap/> co<ex>n</ex>plir el casamiento.
+                            <lb/><gap/> uez deue seer ap<ex>re</ex>mia-
+                            <lb break="no"/><gap/>ir el <unclear>p<ex>r</ex>im<ex>er</ex>o</unclear> desposorio.
+                            <lb/><gap/>e<ex>n</ex>de de<supplied> </supplied>los q<ex>ue</ex> so<ex>n</ex> de edat q<ex>u</ex>an-
+                            <lb break="no"/><gap/> esta premia deue seer
+                            <lb/><gap/> s<ex>an</ex>c<ex>t</ex>a egl<ex>es</ex>ia.</p>
+                    </div>
+                    <div n="4.1.8" type="ley" xml:id="SPCC1401008"> 
+                        <head>Ley .viij. por
+                            <lb/><gap/> se puede<ex>n</ex> enbargar o des-
+                            <lb break="no"/><gap/>ios q<ex>ue</ex> no<ex>n</ex> se cunplam.</head> 
+                        <p><lb/><gap/>ar &amp; enbargar se puede<ex>n</ex>
+                            <lb/><gap/>osorios p<ex>ar</ex>a no<ex>n</ex> co<ex>n</ex>plir<del> </del>se por
+                            <lb/><gap/> razones <hi rend="rojo">¶</hi> La prim<ex>er</ex>a es
+                            <lb/><gap/> desposados entra en orde<ex>n</ex>
+                            <lb/><gap/>uede<ex>n</ex> bie<ex>n</ex> faz<ex>er</ex> mag<ex>ue</ex>r el
+                            <lb/><gap/>dixiesse. Et esto se entie<ex>n</ex>de
+                            <lb/><gap/>te q<ex>ue</ex> se ayunten carnal-
+                            <cb n="2"/>
+                            <lb break="no"/>mie<ex>n</ex>t. Et el otro q<ex>ue</ex> no<ex>n</ex> entra en orde<ex>n</ex> pue-
+                            <lb break="no"/>de dema<ex>n</ex>dar lice<ex>n</ex>cia q<ex>ue</ex> case. &amp; deue<ex>n</ex> gela
+                            <lb/>dar. <hi rend="rojo">¶</hi> La .ijª. q<ex>u</ex>ando alguno dellos se ua
+                            <lb/>a otra t<ex>ie</ex>rra &amp; no<ex>n</ex> le puede<ex>n</ex> fallar ni<ex>n</ex> saber
+                            <lb/>do es. Ca por tal iuzio deuel esp<ex>er</ex>ar el otro
+                            <lb/>fasta tres años. &amp; si no<ex>n</ex> uiniere puede
+                            <lb/>dema<ex>n</ex>dar esto<ex>n</ex>çe lic<ex>e</ex>ncia p<ex>ar</ex>a casar &amp; deue<ex>n</ex>
+                            <lb/>gela otorgar p<ex>er</ex>o deue faz<ex>er</ex> p<ex>e</ex>n<ex>itenc</ex>ia de<supplied> </supplied>la ju-
+                            <lb break="no"/>ra &amp; p<ex>ro</ex>metimie<ex>n</ex>to q<ex>ue</ex> fizo q<ex>ue</ex> casarie co<ex>n</ex>
+                            <lb/>el. si por su culpa finco q<ex>ue</ex> se no<ex>n</ex> cunplio el
+                            <lb/>casamie<ex>n</ex>to. <hi rend="azul">¶</hi> La tercera es si alguno del-
+                            <lb break="no"/>los se fiziesse gafo o co<ex>n</ex>trecho. o cegasse o p<ex>er</ex>-
+                            <lb break="no"/>diesse las narizes o le abiniese ot<ex>r</ex>a co-
+                            <lb break="no"/>sa <unclear/> desaguisada q<ex>ue</ex> alguna destas so-
+                            <lb break="no"/>bredichas. <hi rend="rojo">¶</hi> La q<ex>u</ex>arta es si ante q<ex>ue</ex> ouies-
+                            <lb break="no"/>se<unclear/> en uno acahesciesse cuñadez
+                            <lb/> <unclear/> de<supplied> </supplied>manera q<ex>ue</ex> algu<ex>n</ex>o dellos se
+                            <lb/>ayuntasse carnalmie<ex>n</ex>t co<ex>n</ex><supplied> </supplied>parie<ex>n</ex>ta del ot<ex>r</ex>o
+                            <lb/><hi rend="azul">¶</hi> La .vª. es si los q<ex>ue</ex> so<ex>n</ex> desposados se desabie-
+                            <lb break="no"/>nen &amp; <unclear>co<ex>n</ex>sie<ex>n</ex>t</unclear> amas las p<ex>ar</ex>tes p<ex>ar</ex>a dep<ex>ar</ex>tir-
+                            <lb break="no"/>se. <hi rend="rojo">¶</hi> La .vj. es q<ex>u</ex>ando alguno dellos faze
+                            <lb/><unclear>for</unclear>nicio por<ex>que</ex> se pueda dep<ex>ar</ex>tir el desposo-
+                            <lb break="no"/>rio <hi rend="azul" >¶</hi> Ca si el om<ex>n</ex>e puede dexar su mug<ex>e</ex>r
+                            <lb/>faziendo adulterio much mas lo puede
+                            <lb/>faz<ex>er</ex> de no<ex>n</ex> recebir aq<ex>ue</ex>lla co<ex>n</ex> q<ex>u</ex>ien es desposa-
+                            <lb break="no"/>do q<ex>u</ex>ando tal yerro faze. <hi rend="rojo">¶</hi> La .vij. razo<ex>n</ex>
+                            <lb/>es si algunos se desposase<ex>n</ex> por palab<ex>r</ex>as
+                            <lb/>q<ex>ue</ex> muestra el t<ex>ien</ex>po q<ex>ue</ex> es por uenir. Et des-
+                            <lb break="no"/>pues desto se desposare algu<ex>n</ex>os dellos con
+                            <lb/>otro <unclear>o co<ex>n</ex> ot<ex>r</ex>a</unclear> por palabras de p<ex>re</ex>se<ex>n</ex>te desfaze<ex>n</ex>-
+                            <lb break="no" />se las p<ex>r</ex>im<ex>er</ex>as desposaias &amp; uale<ex>n</ex> las segun-
+                            <lb break="no"/>das. <hi rend="azul">¶</hi> Esso mismo s<ex>er</ex>ie si algu<ex>n</ex>o fuesse des-
+                            <lb break="no"/>posado co<ex>n</ex> alguna por palabra de futuro.
+                            <lb/>&amp; despues se desposase co<ex>n</ex><supplied> </supplied>otra en essa mis-
+                            <lb break="no"/>ma man<ex>er</ex>a Ca si ouiesse q<ex>ue</ex> ueer co<ex>n</ex> ella
+                            <lb/>el q<ex>ue</ex> se desposo a<supplied> </supplied>postremas. desfaz<ex>er</ex><del > </del>se<supplied> </supplied>ye
+                            <lb/>el desposorio p<ex>r</ex>imero &amp; ualdrie el segun-
+                            <lb break="no"/>do. <hi rend="rojo">¶</hi> Et esto es por<del> </del>q<ex>ue</ex> mayor fuerça ha &amp;
+                            <lb/>mas liga el casamie<ex>n</ex>to q<ex>ue</ex> se faze despues.
+                            <lb/>q<ex>ue</ex><supplied> </supplied>las desposaias q<ex>ue</ex> fu<ex>er</ex>on p<ex>r</ex>im<ex>er</ex>ame<ex>n</ex>t fechas
+                            <lb/><hi rend="azul">¶</hi> P<ex>er</ex>o q<ex>u</ex>al<del> </del><unclear>q<ex>u</ex>iera</unclear> dellos q<ex>ue</ex> esto fiziesse. deue
+                            <lb/>fazer p<ex>e</ex>n<ex>itenc</ex>ia del yerro q<ex>ue</ex> fizo. por<del> </del>q<ex>ue</ex> fallescio
+                            <lb/>lo q<ex>ue</ex><supplied> </supplied>p<ex>ro</ex>metiera en<supplied> </supplied>el p<ex>r</ex>im<ex>er</ex>o desposorio. <hi rend="rojo">¶</hi>
+                            <lb/>Mas si algu<ex>n</ex>os se desposasse<ex>n</ex> simplemi-
+                            <lb break="no"/>ent sin jura ni<ex>n</ex>guna por palabras del
+                            <lb/>tie<ex>n</ex>po q<ex>ue</ex> es por uenir. &amp; despues desto algu-
+                            <lb break="no"/>no dellos se desposasse en essa misma ma-
+                            <lb break="no"/>nera con otro o<supplied> </supplied>co<ex>n</ex>.otra. &amp; le jursasse q<ex>ue</ex><supplied> </supplied>lo cu<ex>n</ex>-
+                            <lb break="no"/>pliere. Com<ex>m</ex>o<del> </del>q<ex>u</ex>ier q<ex>ue</ex> algunos cuydarie<ex>n</ex> q<ex>ue</ex><supplied> </supplied>el
+                            <lb/>ijº. desposorio deue ualer por razo<ex>n</ex> de<supplied> </supplied>la <gap reason="FinFragmento" /></p> </div>
+                </div>
+                <div n="4.5.0" type="titulo" xml:id="SPCC24005000">
+                    <gap/>
+                    <div n="4.5.2" type="ley" xml:id="SPCC24005001">
+                        <gap/> 
+                        <p>
+                            <pb n="b"/>
+                            <cb n="1"/> 
+                            <gap/><lb/>&amp; la mug<ex>e</ex>r.</p>
+                    </div>
+                    <div n="4.5.3" type="ley" xml:id="SPCC24005003"> 
+                        <head><seg type="rubrica" xml:id="SPCC24005003.1">Ley .iijª. <gap reason="rotura"/>cho deue seer guarda-
+                            <lb break="no"/>do en<supplied> </supplied>el casamie<ex>n</ex>to <gap reason="rotura"/> es fech entre s<ex>ier</ex>uo &amp; li-</seg></head> 
+                        <p><lb/><hi rend="init3">S</hi>ierua de al<gap reason="rotura"/>no casada <unclear/> <seg type="rubrica" xml:id="SPCC24005003.2">bre</seg>
+                            <lb/>om<ex>n</ex>e libre <gap reason="rotura"/> sabie<ex>n</ex>do aq<ex>ue</ex>l q<ex>ue</ex> casa
+                            <lb/>con ella q<ex>ue</ex> era de s<ex>er</ex>uil co<ex>n</ex>dicio<ex>n</ex> no<ex>n</ex>
+                            <lb/>ualdrie el casamie<ex>n</ex>t<gap reason="rotura"/> q<ex>ue</ex> assi fuesse fech se-
+                            <lb break="no"/>gunt dize en el tit<gap reason="rotura"/>o de<supplied> </supplied>las co<ex>n</ex>diciones
+                            <lb/>en la ley q<ex>ue</ex><supplied> </supplied>comie<ex>n</ex><gap reason="rotura"/> <gap reason="rotura"/>il co<ex>n</ex>dicion. <hi rend="azul">¶</hi> <unclear>ot<ex>r</ex>o</unclear>-
+                            <lb break="no"/>si q<unclear>u</unclear>ando algun s<ex>ier</ex>uo casasse co<ex>n</ex> mug<ex>e</ex>r libr<gap reason="corte"/>
+                            <lb/>cuyda<ex>n</ex>do q<ex>ue</ex> era s<ex>ier</ex>ua no<ex>n</ex> se puede el partir del-
+                            <lb break="no"/>la dizie<ex>n</ex>do q<ex>ue</ex> erra<unclear>r</unclear>a <hi rend="rojo">¶</hi> <unclear/> q<ex>ue</ex> caso co<ex>n</ex> mug<gap reason="corte"/>
+                            <lb/>de<supplied> </supplied>meior co<ex>n</ex>dicio<ex>n</ex> q<ex>ue</ex> el no<ex>n</ex> puede dez<ex>ir</ex> q<ex>ue</ex> es enga-
+                            <lb break="no"/>ñado. <hi rend="azul">¶</hi> Et esto se entiende q<ex>ue</ex>re<ex>n</ex>do ella fi<ex>n</ex>car
+                            <lb/>con el sabiendo q<ex>ue</ex> era s<ex>ier</ex>uo. <hi rend="rojo">¶</hi> Et <add resp="copista" place="margen"><lb/>si q<ex>u</ex>ando
+                                <lb/>caso co<ex>n</ex>
+                                <lb/>el no<ex>n</ex> sa-
+                                <lb break="no"/>bie q<ex>ue</ex> era
+                                <lb/>sieruo</add> q<ex>u</ex>ando q<ex>u</ex>iere
+                            <lb/>q<ex>ue</ex><supplied> </supplied>lo sepa despues. en su escoge<ex>n</ex>cia es de fi<ex>n</ex>car
+                            <lb/>co<ex>n</ex> el si q<ex>u</ex>isiere. o de<gap reason="agujero"/> partirse del. <hi rend="azul">¶</hi> Et si al-
+                            <lb break="no"/>gun s<ex>ier</ex>uo cuyda<ex>n</ex>do casar con mug<ex>e</ex>r libre casa-
+                            <lb break="no"/>se con s<ex>ier</ex>ua non se puede departir de<unclear/> por
+                            <lb/>dez<ex>ir</ex> q<ex>ue</ex> erro. <hi rend="rojo" >¶</hi> Ca por tal yerro com<ex>m</ex>o este no<ex>n</ex>
+                            <lb/>se deue tener por engañado ni<ex>n</ex> deue seer des-
+                            <lb break="no"/>fecho tal casamie<ex>n</ex>to pues q<ex>ue</ex> caso co<ex>n</ex> mugier
+                            <lb/>de tal co<ex>n</ex>dicio<ex>n</ex> com<ex>m</ex>o el mismo era.</p>
+                    </div>
+                    <div n="4.5.4" type="ley" xml:id="SPCC24005004"> 
+                        <head><seg type="rubrica" xml:id="SPCC24005004.1">Ley .iiijª.
+                            <lb/>de<supplied> </supplied>los q<ex>ue</ex> cueda<ex>n</ex> casar co<ex>n</ex> mug<ex>e</ex>r<ex>e</ex>s libres &amp; ca-</seg></head> 
+                        <p><lb/><hi rend="init3">E</hi>ngaña<ex>n</ex>se los om<ex>n</ex>es <seg type="rubrica" xml:id="SPCC24005004.2">san co<ex>n</ex> s<ex>ier</ex>uas</seg>
+                            <lb/>a<supplied> </supplied>las uegadas <gap reason="rotura"/> los casamie<ex>n</ex>tos
+                            <lb/>cuyda<ex>n</ex>do casar co<ex>n</ex> mug<ex>e</ex>r<ex>e</ex>s libres &amp; ca-
+                            <lb break="no"/>san con s<ex>ier</ex>uas. <hi rend="rojo">¶</hi> Onde q<ex>u</ex>ando <sic>alguna cosa</sic> co<ex>n</ex>
+                            <lb/>tal mug<ex>e</ex>r no<ex>n</ex> lo sabie<ex>n</ex>do q<ex>ue</ex> era s<ex>ier</ex>ua &amp; despue<gap reason="corte"/>
+                            <lb/>desto la fra<ex>n</ex>q<ex>ue</ex>asse su señor mag<ex>ue</ex>r q<ex>ue</ex> algu<ex>n</ex>os
+                            <lb/>cuydarie<ex>n</ex> q<ex>ue</ex> por tal fra<ex>n</ex>q<ex>ue</ex>amie<ex>n</ex>to com<ex>m</ex>o este
+                            <lb/>q<ex>ue</ex> se afirmaua el matrimonio no<ex>n</ex> es assi.
+                            <lb/><hi rend="azul">¶</hi> Et esto es por el yerro que auino prim<ex>er</ex>ami-
+                            <lb break="no"/>ent en<supplied> </supplied>el co<ex>n</ex>se<ex>n</ex>timie<ex>n</ex>to cuyda<ex>n</ex>do q<ex>ue</ex> co<ex>n</ex>sintie en
+                            <lb/>mug<ex>e</ex>r libre &amp; no<ex>n</ex> lo era. <hi rend="rojo">¶</hi> P<ex>er</ex>o si despues
+                            <lb/>q<ex>ue</ex> sopiesse q<ex>ue</ex> era de tal co<ex>n</ex>dicio<ex>n</ex> consinties-
+                            <lb break="no"/>se en ella de palabra o de fech ualdrie el
+                            <lb/>casamie<ex>n</ex>to &amp; no<ex>n</ex> los deue<ex>n</ex> departir. <hi rend="azul">¶</hi> Et si
+                            <lb/>algun om<ex>n</ex>e libre seyendo ya casado con
+                            <lb/>mug<ex>e</ex>r s<ex>ier</ex>ua no<ex>n</ex> sabie<ex>n</ex>do q<ex>ue</ex> era tal le moui-
+                            <lb break="no"/>esse pleyto su señor de seruidu<ex>n</ex>bre despues
+                            <lb/>q<ex>ue</ex> el marido sopiere q<ex>ue</ex> es de tal co<ex>n</ex>dicio<ex>n</ex> no<ex>n</ex>
+                            <lb/>se deue a ella ayuntar carnal<del> </del>mie<ex>n</ex>t ma-
+                            <lb break="no"/>guer ella lo de<del> </del>ma<ex>n</ex>de. <hi rend="rojo">¶</hi> Ca si co<ex>n</ex> ella yo-
+                            <lb break="no" />guiesse si fuesse ue<ex>n</ex>çuda del pleyto mag<ex>ue</ex>r
+                            <lb/>tornasse a<supplied> </supplied>s<ex>er</ex>uidu<ex>n</ex>bre no<ex>n</ex> se podrie partir del-
+                            <lb break="no"/>la. <hi rend="azul">¶</hi> Esso mismo s<ex>er</ex>ie si ella fuese libre &amp;
+                            <lb/>mouiesse<ex>n</ex> pleyto al<supplied> </supplied>marido q<ex>ue</ex> era s<ex>ier</ex>uo. <hi rend="rojo">¶</hi> Et
+                            <lb/>si por aue<ex>n</ex>tura el marido se tornasse s<ex>ier</ex>uo
+                            <lb/>a<supplied> </supplied>ssabie<ex>n</ex>das por auer razo<ex>n</ex> de se p<ex>ar</ex>tir de su
+                            <lb/>mug<ex>e</ex>r no<ex>n</ex> deue ualer ni<ex>n</ex> se partira el casa-
+                            <cb n="2"/>
+                            <gap rend="FinFragmento"/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
