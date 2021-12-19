@@ -14,7 +14,6 @@
 setwd("PON/LA/RUTA/ADECUADA/AQUÍ") # Normalmente
 setwd("~/Desktop/work")
 # La siguiente instrucción, que cierra todo, es para lanzar automáticamente el proceso
-system.time({
 ficheros <- list.files(pattern = "xml")
 div.tit <- gsub("RAH-", "", ficheros)
 div.tit <- gsub("\\.xml", "", div.tit)
@@ -50,8 +49,6 @@ texto.todo <- gsub(" </p>", '\\.</p>', texto.todo, perl = T)
 texto.todo <- gsub("\\.\\.", '\\.', texto.todo, perl = T)
 texto.todo <- gsub("LEY ([IVXCL]+)\\.", 'LEY \\1\\.', texto.todo, perl = T)
 
-
-
 texto.todo <- gsub(" ([\\.,;:]) ", "\\1 ", texto.todo, perl = T) # Borra espacio antes de puntuación
 # Marca los divs de TITULO
 texto.todo <- gsub("<hi>T ?I ?T ?U ?L ?O ([IVXLC]+)\\.(.*)</hi>", '<div n="W.W.0" type="titulo" xml:id="Z.Z.0">\n<head>TITULO \\1\\. \\2</head>', texto.todo, perl = T)
@@ -65,6 +62,10 @@ texto.todo <- gsub("<hi>LEY ([IVXLC]+)\\. ?(.*)</hi>", '</div>\n<div n="W.W.0" t
 texto.todo <- gsub("<hi>LE Y ([IVXLC]+)\\. ?(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
 texto.todo <- gsub("<hi>L EY ([IVXLC]+)\\. ?(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
 texto.todo <- gsub("<hi>LET ([IVXLC]+)\\. ?(.*)</hi>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+
+texto.todo <- gsub("<p> ?<emph>LEY ([IVXLC]+)\\. ?(.*)</emph><emph>(.*)</emph> ?</p>", '</div>\n<div n="W.W.0" type="ley" xml:id="Z.Z.0">\n<head>LEY \\1\\. \\2</head>', texto.todo, perl = T)
+
+
 
 # Añade final del fichero TEI
 texto.todo <- gsub('</p>\n</body>\n</text>', '</p>\n</div>\n</div>\n</body>\n</text>', texto.todo, perl = T) # Añade el div de cierre de la última ley y del título
@@ -92,6 +93,6 @@ writeLines(texto.revision, paste("LIMPIO",ficheros[a],sep = "-")) # Graba a disc
 
 file.remove("mediolimpio.txt") # Borra fichero intermedio
 }
-})
+
 
 
