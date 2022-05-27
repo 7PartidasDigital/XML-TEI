@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+	<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Siete Partidas. Versión codificada de la edición del fragmento VA6</title>
+				<author>Alfonso X el Sabio</author>
+				<funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+					>PID2020-112621GB-I00</idno></funder>
+				<funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+					FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+				<funder xml:id="UVA">Universidad de Valladolid</funder>
+				<funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+				<principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+				<respStmt>
+					<resp>Investigador principal</resp>
+					<name>José Manuel FRADEJAS RUEDA</name>
+				</respStmt>
+				<respStmt>
+					<resp>transcrito por</resp>
+					<name><!-- Nombre del transcriptor --></name>
+				</respStmt>
+				<respStmt>
+					<resp>revisado por</resp>
+					<name><!-- Nombre del revisor --></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+				<pubPlace>Valladolid</pubPlace>
+				<address>
+					<addrLine>Plaza del Campus s/n</addrLine>
+					<addrLine>E-47011 Valladolid</addrLine>
+				</address>
+				<idno>SP-VA6</idno>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+						<p>Esta obra está bajo una licencia de Creative Commons
+							Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title level="s" type="project">Siete Partidas Digital</title>
+			</seriesStmt>
+			<sourceDesc>
+				<p>La descripción codicológica del documento original se encuentra en el sitio web
+					del proyecto<ref target="https://7partidas.hypotheses.org/testimonios/va6/"
+						>7PartidasDigital</ref>.</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+					financiado por la Agencia Estatal de Investigación <idno type="referencia"
+						>PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+					Universidades de España, referencia <idno type="referencia">FFI2016-75014-P</idno>.
+					La descripción del proyecto y sus participantes se recogen en la <ref
+						target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Transcripción efectuada a partir de la reproducción digital publicada en <ref
+						target="http://bit.ly/2hgVtKb">Pares</ref>, ARCHV, Pergaminos, carpeta
+					168,12.</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<abstract resp="#JMFR">
+				<p>Contiene fragmentos de la 3ª Partida: 3.2.37-43 y 3.4.17-20.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-11-05" who="#JMFR" status="borrador">Corregidos los xml:id de &lt;seg&gt;</change>
+			<change when="2017-02-05" who="#JMFR" status="borrador">Añadido &lt;abstract&gt;</change>
+			<change notAfter="2016-12-20" who="#JMFR" status="borrador">Corregido contra el original</change>
+			<change when="2016-12-09" who="#JMFR" status="borrador">Iniciada la transcripción codificada</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div n="3" type="partida">
+				<div n="3.2.0" type="titulo" xml:id="SPVA6302000">
+<div n="3.2.37" type="ley" xml:id="SPVA6302037">
+<pb n="1r"/>
+<fw type="encabezado">II</fw>
+<cb n="1"/>
+	<p><gap reason="nonsequitur"/><lb/>por bien &amp; mandamos q<ex>ue</ex><supplied> </supplied>los iuezes d<ex>e</ex>
+		<lb/>cada lugar sennallassen estos dos
+		<lb/>meses segunt la costumbre usada
+		<lb/>de<supplied> </supplied>la tierra a<supplied> </supplied>las sazones q<ex>ue</ex> el pan. &amp; el
+		<lb/>uino es p<ex>or</ex>a coger. &amp; mientre q<ex>ue</ex> durare
+		<lb/>q<ex>ue</ex> ningund omne no<ex>n</ex> pudiesse traer
+		<lb/>a otri en pleyto en ellos fueras ende
+		<lb/>en aq<ex>ue</ex>llas cosas sennalladas qu<ex>e</ex> di-
+		<lb break="no"/>xiemos en<supplied> </supplied>la tercera ley ante desta o
+		<lb/>si acaesçiesse contienda entre algu<ex>n</ex>os
+		<lb/>en estos dias por razon de<supplied> </supplied>los fructos
+		<lb/>que ouiessen de coger. Ca sobre tal<ex>e</ex>s
+		<lb/>pleytos como estos bien pueden los o<ex>mne</ex>s
+		<lb/>mouer demanda unos contra otros
+		<lb/>en juizio. Pero el<supplied> </supplied>iudgador ante q<ex>u</ex>ie<ex>n</ex>
+		<lb/>uinieren tales pleytos deuelos lib-
+		<lb break="no"/>rar &amp; acortar sin escatima &amp; sin ningun
+		<lb/>alongamiento assi que<supplied> </supplied>los fructos n-
+		<lb break="no"/>on se pierdan <unclear/> la contienda sea tolli-
+		<lb break="no"/>da <unclear>entre los</unclear> om<ex>ne</ex>s</p>
+</div>
+<div n="3.2.38" type="ley" xml:id="SPVA6302038">
+	<head><seg xml:id="SPVA6302038.1" type="rubrica">Ley .xxxviijª. en qua-
+		<lb break="no"/>les dias feriados puede el demanda-
+		<lb break="no"/>dor fazer su demanda plaziendo a su</seg></head>
+	<p><lb/><hi rend="init3">A</hi><unclear/> deman- <seg xml:id="SPVA6302038.2" type="rubrica"><ex>con</ex>tendor</seg>
+		<lb break="no"/>dador &amp; el demandado p<ex>or</ex>a en-
+		<lb break="no"/>trar en iuyzio en los dias
+		<lb/><unclear>feriados</unclear> que dixiemos q<ex>ue</ex> son p<ex>or</ex>a coger
+		<lb/>el pan &amp; el uino bien lo pueden faz<ex>er</ex>
+		<lb/>si <unclear/> los ques-
+		<lb break="no"/>iesse oyr <unclear>&amp; ualdra</unclear> todo lo que fue fech<ex>o</ex>
+		<lb/>en<supplied> </supplied>ellos bien assi como si no<ex>n</ex> fuessen
+		<lb/>feriados. Otrossi dezimos que si
+		<lb/>alguno ouiesse derecho sobre cosas
+		<lb/>q<ex>ue</ex>l pertenesciessen. si<supplied> </supplied>se temiesse que
+		<lb/>aquel derech<ex>o</ex> q<ex>ue</ex> auie en<supplied> </supplied>ellas se<supplied> </supplied>le per-
+		<lb break="no"/>derie por tienpo si<supplied> </supplied>lo non demandas-
+		<lb break="no"/>se en<supplied> </supplied>los dias feriados q<ex>ue</ex> son p<ex>or</ex>a cog<ex>er</ex>
+		<lb/>el pan &amp;<supplied> </supplied>el<supplied> </supplied>uino bien podrie<supplied> </supplied>mouer
+		<lb/>demanda en<supplied> </supplied>ellos sobre tal razon co-
+		<lb break="no"/>mo esta. Et el iudgador es tenudo d<ex>e</ex>
+		<lb/>oyrlo fasta que el pleyto sea come<ex>n</ex>-
+		<lb break="no"/>çado por respuesta por<add resp="lector" place="encima" >q<ex>ue</ex></add> finque e<ex>n</ex> sal-
+		<lb break="no"/>uo su derech<ex>o</ex> al demandador &amp; no<ex>n</ex> se
+		<lb/>le pierda por razon q<ex>ue</ex> passe tiempo
+		<lb/>contra el. Mas desque fuere come<ex>n</ex>-
+		<lb break="no"/>çado por respuesta no<ex>n</ex> deue el judga-
+<cb n="2"/>
+		<lb break="no"/>dor consentir a<supplied> </supplied>las partes q<ex>ue</ex><supplied> </supplied>uayan ad<ex>e</ex>-
+		<lb break="no"/>lante por el pleyto en estos dias ant<ex>e</ex>
+		<lb/>les deue poner plazo a<supplied> </supplied>que<supplied> </supplied>lo ue<ex>n</ex>ga<ex>n</ex>
+		<lb/>seguir despues que los dias feriad-
+		<lb break="no"/>os passaren.</p>
+</div>
+<div n="3.2.39" type="ley" xml:id="SPVA6302039">
+	<head><seg xml:id="SPVA6302039.1" type="rubrica">Ley .xxxixª. q<ex>ue</ex> el dema<ex>n</ex>da-
+		<lb break="no"/>dor deue catar ante q<ex>ue</ex> comiençe su d<ex>e</ex>-
+		<lb break="no"/>manda q<ex>ue</ex> recabdo tiene p<ex>or</ex>a prouar-</seg></head>
+	<p><lb/><hi rend="init3">A</hi><del resp="#JMFR" cause="repeticion">A</del>nuiso <add place="encima" resp="copista">&amp;</add> acucioso deue <seg xml:id="SPVA6302039.2" type="rubrica">la</seg>
+		<lb/>s<ex>er</ex> el demandador en catar q<ex>ue</ex>
+		<lb/>recabdo tiene pora prouar
+		<lb/>aquello q<ex>ue</ex> quiere demandar &amp; siem-
+		<lb break="no"/>pre ha mester de prouar lo q<ex>ue</ex> demanda
+		<lb/>en iuyzio si la<supplied> </supplied>otra parte gelo negare
+		<lb/>Et esta prueua ha de seer por testigos
+		<lb/>o por cartas o por otra manera q<ex>ue</ex> sea
+		<lb/>de creer ca si desto no<ex>n</ex> fuesse cierto ant<ex>e</ex>
+		<lb/>q<ex>ue</ex> començasse su demanda lo q<ex>ue</ex> cuyd-
+		<lb break="no"/>are faz<ex>er</ex> por su pro tornarsele ye en
+		<lb/>danno &amp; en<supplied> </supplied>uerguença ca aurie d<ex>e</ex> pe-
+		<lb break="no"/>char todas las costas al demandado
+		<lb/>demas fincarie por desentendudo co-
+		<lb break="no"/>mençando cosa q<ex>ue</ex> no<ex>n</ex> sopiesse ade<unclear/>-
+		<lb break="no"/><unclear/> que tenie pora d<ex>e</ex>mandar-
+		<lb break="no"/>la.</p>
+</div>
+<div n="3.2.40" type="ley" xml:id="SPVA6302040">
+	<head><seg xml:id="SPVA6302040.1" type="rubrica">Ley .xl. en q<ex>ue</ex> manera el demanda-</seg></head>
+	<p><lb/><foreign xml:lang="la"><hi rend="init3">L</hi>ibell<ex>us</ex></foreign> <seg xml:id="SPVA6302040.2" type="rubrica">dor deue faz<ex>er</ex> su d<ex>e</ex>ma<ex>n</ex>da</seg>
+		<lb/>en latin quiere dezir tanto co-
+		<lb break="no"/>mo demanda fecha por escrip-
+		<lb break="no"/>to esta es una d<ex>e</ex><supplied> </supplied>las maneras
+		<lb/>por<del> </del>q<ex>ue</ex> se puede faz<ex>er</ex>. &amp; la otra es por pala-
+		<lb break="no"/>bra pero la mas cierta es la q<ex>ue</ex> por esc<ex>ri</ex>-
+		<lb break="no"/>pto se faze porque no<ex>n</ex> se puede cam-
+		<lb break="no"/>iar nin negar assi como la otra
+		<lb/>Mas en qualquier destas dema<ex>n</ex>das
+		<lb/>pora seer fechas derechamientre deu-
+		<lb break="no"/>en y seer catadas cinco cosas ¶ La p<ex>r</ex>i<ex>m</ex>e-
+		<lb break="no"/>ra el nombre del juez ante quie<ex>n</ex> deu<ex>e</ex>
+		<lb/>seer fecha. ¶ La segunda el nombre
+		<lb/>del que<supplied> </supplied>la faze. ¶ La tercera el no<ex>m</ex>bre
+		<lb/>de aquel contra quien la quiere faz<ex>er</ex>
+		<lb/>¶ La quarta la cosa o la contia o el
+		<lb/>fech<ex>o</ex> q<ex>ue</ex> demanda ¶ La quinta por q<ex>ue</ex>
+		<lb/>razo<ex>n</ex> la pide ca seyendo todas estas
+		<lb/>cosas puestas en la demanda cierto
+		<lb/>puede el demandado seer por ellas
+		<lb/>en que manera deue responder &amp; otrosi
+<fw type="pie"><unclear reason="corte">II</unclear></fw>
+<pb n="1v"/>
+<cb n="1"/>
+		<lb/>sabra el demandador mas ciertam-
+		<lb break="no"/>ientre que es lo que ha de prouar
+		<lb/>&amp; sobr<ex>e</ex> todo tomara apercebimiento;
+		<lb/>el juez pora<supplied> </supplied>yr adelante por el pleyto de-
+		<lb break="no"/>rechamientre Et como quier q<ex>ue</ex> a<supplied> </supplied>los
+		<lb/>omnes entendudos complirie assaz
+		<lb/>esto q<ex>ue</ex> sobredicho es porque otros mu-
+		<lb break="no"/>chos y aurie q<ex>ue</ex> no entendrien queremos
+		<lb/>mostrar cierta manera de como se de-
+		<lb break="no"/>ue faz<ex>er</ex> la demanda por escripto o por
+		<lb/>palabra. Et es esta que el dema<ex>n</ex>dador
+		<lb/>quando fuere antel jueç deue dezir
+		<lb/>Ante uos don fulan jueç de tal logar
+		<lb/>yo tal omne me uos querello d<ex>e</ex> fula<ex>n</ex>
+		<lb/>q<ex>ue</ex> me deue tantos dineros quel p<ex>re</ex>ste
+		<lb/>onde uos pido quel mandedes por ju-
+		<lb break="no"/>yzio q<ex>u</ex>e<supplied> </supplied>me<supplied> </supplied>lo torne. Et esta misma
+		<lb/>manera deuen tener en todas las o-
+		<lb break="no"/>tras demandas que<supplied> </supplied>se fazen<supplied> </supplied>en juy-
+		<lb break="no"/>zio mudando las razones segund
+		<lb/>fuere la natura de<supplied> </supplied>las cosas que q<ex>u</ex>ie-
+		<lb break="no"/><del resp="editor" cause="repeticion">e</del>ren demandar.</p>
+</div>
+<div n="3.2.41" type="ley" xml:id="SPVA6302041">
+	<head><seg xml:id="SPVA6302041.1" type="rubrica">Ley .xljª. sobre q<ex>ue</ex> cosa
+		<lb/>no a mester de s<ex>er</ex> fecha la demanda por</seg></head>
+	<p><lb/><hi rend="init3">E</hi>Scripta touieron <seg xml:id="SPVA6302041.2" type="rubrica">escripto</seg>
+		<lb/>por bien los antigos qu<ex>e</ex> fu-
+		<lb break="no"/>esse fecha toda demanda q<ex>ue</ex>
+		<lb/>ouiessen a faz<ex>er</ex> d<ex>e</ex> dieç m<ex>a</ex>r<ex>auedi</ex>s arriba o<supplied> </supplied>d<ex>e</ex>
+		<lb/>cosa q<ex>ue</ex><supplied> </supplied>lo ualliesse. mas dent ayuso no<ex>n</ex>
+		<lb/>ha el demandador porque la faz<ex>er</ex> e<ex>n</ex> es-
+		<lb break="no"/>cripto si<supplied> </supplied>non quisiere. Ca abondal q<ex>ue</ex>
+		<lb/>diga por palabra antel jueç seyendo
+		<lb/>y el demandado que es lo q<ex>ue</ex> demanda
+		<lb/>&amp; por que razon assi como dessuso di-
+		<lb break="no"/>xiemos. Et esto touieron por bie<ex>n</ex> por
+		<lb/>que los pleytos pequennos se pued-
+		<lb break="no"/>an librar mas ayna &amp; sin gra<ex>n</ex>t costa
+		<lb/>. ¶ Otrossi dezimos que si aquel
+		<lb/>qui faze la demanda no<ex>n</ex> es raygado
+		<lb/>en la t<ex>ie</ex>rra que puede aquel q<ex>ue</ex> gela q<ex>u</ex>i-
+		<lb break="no"/>ere faz<ex>er</ex> demandarle fiador p<ex>or</ex>q<ex>ue</ex> este
+		<lb/>a derecho. &amp; el demandado es tenudo
+		<lb/>de gelo dar podiendolo auer. ¶ <unclear>Et</unclear>
+		<lb/>si no<ex>n</ex> fallasse quien<supplied> </supplied>le quisiesse fiar
+		<lb/><unclear/>e faz<ex>er</ex> jurar que este <unclear/>
+		<lb/>fasta que el pleyto sea acabado por
+<cb n="2"/>
+		<lb/>juyzio. Et depues q<ex>ue</ex> el juez ouie-
+		<lb break="no"/>re oyda la demanda del demandador
+		<lb/>deuela mostrar al demandado &amp; po-
+		<lb break="no"/>nerle plazo a<supplied> </supplied>que<supplied> </supplied>se pueda co<ex>n</ex>sei-
+		<lb break="no"/>ar &amp; respond<ex>e</ex>r a<supplied> </supplied>ella.</p>
+</div>
+<div n="3.2.42" type="ley" xml:id="SPVA6302042">
+	<head><seg xml:id="SPVA6302042.1" type="rubrica">Ley .xlijª. en q<ex>u</ex>a-
+		<lb break="no"/><del resp="#JMFR" cause="repeticion">qua</del>ntas maneras puede<ex>n</ex> los dem-
+		<lb break="no"/>andadores pon<ex>er</ex> en<supplied> </supplied>su demanda mas</seg></head>
+	<p><lb/><hi rend="init3">M</hi>as ponen <seg xml:id="SPVA6302042.2" type="rubrica">que no<ex>n</ex> deuen</seg>
+		<lb/>los demandadores en<supplied> </supplied>sus
+		<lb/>demandas algunas uezes
+		<lb/>q<ex>ue</ex> l<ex>e</ex>s non deuen. &amp; desto se deue<ex>n</ex> m-
+		<lb break="no"/>ucho guardar por<del> </del>que se les torna
+		<lb/>much<ex>o</ex> en danno &amp; no<ex>n</ex> en pro. &amp; esto
+		<lb/>serie en quatro maneras. ¶ La prim-
+		<lb break="no"/>era quando alguno pusiesse en su
+		<lb/>demanda mas contia de<supplied> </supplied>lo quel de-
+		<lb break="no"/>uiessen. como sil ouiessen a dar .x.
+		<lb/>m<ex>a</ex>r<ex>auedi</ex>s &amp; el demandasse ueynte o <unclear>otra</unclear>
+		<lb/>cosa semeiante desta. ¶ La segu<ex>n</ex>da
+		<lb/>quando faze la demanda de ot<ex>r</ex>a ma-
+		<lb break="no"/>nera que no<ex>n</ex> deue assi como si ou-
+		<lb break="no"/>iessen a<supplied> </supplied>dar de dos cosas la una n<ex>on</ex>
+		<lb/>mas dellas quisiesse el debdor &amp; el
+		<lb/>sennallasse qual dellas le diesse<ex>n</ex>.
+		<lb/>Et por esto dixieron que era adem-
+		<lb break="no"/>as porquel tuelle la escogencia al
+		<lb/>otro en cuyo pod<ex>e</ex>r era de dar qual q<ex>u</ex>i-
+		<lb break="no"/>siesse. ¶ La tercera que no<ex>n</ex> faze la d<ex>e</ex>m-
+		<lb break="no"/>anda en tiempo que no<ex>n</ex> deue como sil
+		<lb/>pidiesse quel pagasse ant del plazo
+		<lb/>a<supplied> </supplied>quel deuien pagar. ¶ La quarta q<ex>u</ex>an-
+		<lb break="no"/>do fiziesse su demanda quel pagasse<ex>n</ex>
+		<lb/>en<supplied> </supplied>logar o el demandado no<ex>n</ex> era te-
+		<lb break="no"/>nudo de faz<ex>er</ex> la paga como si<supplied> </supplied>en pley-
+		<lb break="no"/>to fuesse puesto de<supplied> </supplied>la faz<ex>er</ex> en un logar
+		<lb/>&amp; el pidiesse que la fiziesse en otro
+		<lb/>Et de cada<supplied> </supplied>una destas quatro man-
+		<lb break="no"/>eras diremos adelante complidam-
+		<lb break="no"/>ientre</p>
+</div>
+<div n="3.2.43" type="ley" xml:id="SPVA6302043">
+	<head><seg xml:id="SPVA6302043.1" type="rubrica">Ley .xliijª. q<ex>ue</ex> dan<ex>n</ex>o se sigue
+		<lb/>al dema<ex>n</ex>dador por poner mas e<ex>n</ex> su</seg></head>
+	<p><lb/><hi rend="init5">P</hi>onen los <seg xml:id="SPVA6302043.2" type="rubrica">dema<ex>n</ex>da q<ex>ue</ex> no<ex>n</ex> de-</seg>
+		<lb/>demandadores en sus <seg xml:id="SPVA6302043.3" type="rubrica">ue</seg>
+		<lb/>demandas <add resp="copista" place="margen" >a<supplied> </supplied>las ue-
+		<lb break="no"/>gadas</add> mas q<ex>ue</ex> no<ex>n</ex> deue<ex>n</ex>
+		<lb/>de manera q<ex>ue</ex> no<ex>n</ex> pueden depu-
+		<lb break="no"/>es aueriguar ni<ex>n</ex> prouar todo <gap reason="nonsequitur"/></p>
+</div>
+</div>
+<pb n="2r"/>
+<fw type="encabezado">III</fw>
+<cb n="1"/>
+<div n="3.4.0" type="titulo" xml:id="SPVA6304000">
+<div n="3.4.17" type="ley" xml:id="SPVA6304017">
+	<p><gap reason="nonsequitur"/><lb break="no"/>dinarios pueden seguramientre<supplied> </supplied>e<ex>n</ex>-
+		<lb break="no"/>comendar los pleytos que ellos o-
+		<lb break="no"/>uiessen de oyr a<supplied> </supplied>otros. &amp; maguer ell-
+		<lb break="no"/>os no<ex>n</ex> lo quisiessen recebir puede<ex>n</ex>-
+		<lb break="no"/>los apremiar que<supplied> </supplied>lo fagan &amp; ualdra
+		<lb/>todo lo que fizieren &amp; libraren dere-
+		<lb break="no"/>chamientre estos oydores a<supplied> </supplied>q<ex>ue</ex> dize<ex>n</ex>
+		<lb/>juezes delegados ta<ex>n</ex> bien como si<supplied> </supplied>los
+		<lb/>ordinarios por si mismos lo ouiese<ex>n</ex>
+		<lb/>fecho. &amp; si dotra guisa lo fiziesse<ex>n</ex> no<ex>n</ex>
+		<lb/>serien ualederos los juyzios dellos</p>
+</div>
+<div n="3.4.18" type="ley" xml:id="SPVA6304018">
+	<head><lb/>Ley .xviijª. quales son los pleytos q<ex>ue</ex>
+		<lb/>los juezes ordinarios pueden enco-
+		<lb break="no" rend="guion"/>mendar a<supplied> </supplied>otri q<ex>ue</ex><supplied> </supplied>los libre &amp; qual<ex>e</ex>s no<ex>n</ex></head>
+	<p><lb/><hi rend="init3">C</hi>Ontienden muchas de ue-
+		<lb break="no"/>gadas los om<ex>n</ex>es en pl<ex>e</ex>yto
+		<lb/>sobre q<ex>ue</ex> uienen a<supplied> </supplied>juyzio &amp;
+		<lb/>como quier q<ex>ue</ex> esto sea de muchas g<ex>u</ex>i-
+		<lb break="no"/>sas. pero los sabios antigos las depa-
+		<lb break="no"/>rtieron sennalladamientre en tres
+		<lb/>. ¶ La primera &amp; la mayor es todo
+		<lb/>pleyto sobre que puede seer dada se<ex>n</ex>-
+		<lb break="no"/>tencia de muerte <add place="margen" resp="copiasta">o de perdimie<ex>n</ex>-
+		<lb break="no"/>to d<ex>e</ex> mie<ex>n</ex>bro</add>, o de echamiento
+		<lb/>de t<ex>ie</ex>rra. o de tornar omne en seruidu<ex>m</ex>-
+		<lb break="no"/>bre. o darle por libre. Et a poderio de
+		<lb/>judgar tales pleytos como estos lla-
+		<lb break="no"/>maron <foreign xml:lang="la">merum imperium</foreign> q<ex>ue</ex> quier
+		<lb/>tanto dezir como esmerado &amp; puro se-
+		<lb break="no"/>n<ex>n</ex>orio q<ex>ue</ex> an los emperadores &amp; los Re-
+		<lb break="no"/>yes &amp;<supplied> </supplied>los grandes principes de judgar
+		<lb/>las tierras &amp;<supplied> </supplied>las yentes dellas. &amp; otro
+		<lb/>om<ex>n</ex>e nol puede ganar nin au<ex>er</ex> por
+		<lb/>linage nin por uso de luengo tie<ex>m</ex>po
+		<lb/>si sennalladamientre nol fuere o-
+		<lb break="no"/>torgado por priuillegio de alguno
+		<lb/>destos grandes sennores sobredich<ex>o</ex>s
+		<lb/>o por alguna ley deste nuestro libro
+		<lb/>q<ex>ue</ex> gelo otorgasse sennalladamie<ex>n</ex>te
+		<lb/>por razon del officio a que fuesse es-
+		<lb break="no"/>cogido. Pero aquellos q<ex>ue</ex> ouiesse<ex>n</ex> po-
+		<lb break="no"/>derio de judgar tales pleytos com<ex>o</ex>
+		<lb/>estos quier sean adelantados o ot<ex>r</ex>os
+		<lb/>judgadores ordinarios. ellos mis-
+		<lb break="no" rend="guion"/>mos en sus personas los deue<ex>n</ex> oyr
+		<lb/>&amp; librar &amp; no<ex>n</ex> pueden ni<ex>n</ex> deue<ex>n</ex> man-
+<cb n="2"/>
+		<lb break="no" rend="guion"/>dar<supplied> </supplied>a<supplied> </supplied>otri que los oya. fueras end<ex>e</ex> q<ex>u</ex>an<ex>d</ex>o
+		<lb/>ellos fuessen llamados del Rey que
+		<lb/>uiniessen<supplied> </supplied>a<supplied> </supplied>el. o ellos por<supplied> </supplied>si ouiese<ex>n</ex>
+		<lb/>a<supplied> </supplied>yr a<supplied> </supplied>alguna parte por alguna de-
+		<lb break="no"/>recha razon que no<ex>n</ex> pudiessen escu-
+		<lb break="no"/>sar. Ca estonce bien pueden man-
+		<lb break="no"/>dar a otri que los oya fasta que el
+		<lb/>pleyto llegare a<supplied> </supplied>aquel logar o se<supplied> </supplied>a
+		<lb/>a<supplied> </supplied>dar el juyzio. &amp; dent adelante
+		<lb/>los delegados no<ex>n</ex> se deuen entreme-
+		<lb break="no"/>ter de librarlos. mas los juezes<supplied> </supplied>or-
+		<lb break="no"/>dinarios depues q<ex>ue</ex> fuessen uenidos
+		<lb/>an<supplied> </supplied>de<supplied> </supplied>ueer todo lo que passo ant<ex>e</ex> los
+		<lb/>delegados. &amp; dar la sentencia segunt e<ex>n</ex>-
+		<lb break="no"/>tendieren que<supplied> </supplied>lo deuen faz<ex>er</ex> por d<ex>er</ex>ech<ex>o</ex>
+		<lb/>. ¶ La segunda &amp; la mediana man<ex>er</ex>a
+		<lb/>de librar pleyto es de dar guardado-
+		<lb break="no"/>res a<supplied> </supplied>huerfanos &amp; a<supplied> </supplied>locos &amp; a desm<ex>e</ex>mo-
+		<lb break="no"/>riados o apoderar algunos querellos-
+		<lb break="no"/>os en tenencia de bienes que fuero<ex>n</ex>
+		<lb/>dotri mostrando razon derecha d<ex>e</ex> co-
+		<lb break="no"/>mo les pertenesciesse la herencia dellos
+		<lb/>o mandar faz<ex>er</ex> entrega de algunos h<ex>e</ex>-
+		<lb break="no"/>redamientos o dotra cosa qual<del resp="#JMFR"> </del>q<ex>u</ex>ier
+		<lb/>por alguna razon guisada. o librar
+		<lb/>pleyto q<ex>ue</ex> sea de trezientos m<ex>a</ex>r<ex>auedi</ex>s doro
+		<lb/>en arriba. Ca tales pleytos como es-
+		<lb break="no"/>tos los judgadores los deuen oyr por
+		<lb/>si mismos &amp; no<ex>n</ex> los puede<ex>n</ex> encome<ex>n</ex>-
+		<lb break="no"/>dar a otros fueras ende en tres ma-
+		<lb break="no"/>neras ¶ La primera es quando el
+		<lb/>jueç ordinario ouiesse tan grant
+		<lb/>muchedumbre de pleytos q<ex>ue</ex><supplied> </supplied>el por si
+		<lb/>mismo no<ex>n</ex> pudiesse dar recabdo a
+		<lb/>todos. ¶ La segunda es quando el
+		<lb/>Rey le mandasse faz<ex>er</ex> alguna cosa
+		<lb/>q<ex>ue</ex> a<supplied> </supplied>su seruicio &amp; a pro de<supplied> </supplied>la t<ex>ie</ex>rra
+		<lb/>&amp; fuesse tan embargado por razon
+		<lb/>dello que non pudiesse oyr los pl-
+		<lb break="no"/>eytos. ca estonce bien podrie el dar
+		<lb/>otro jueç delegado q<ex>ue</ex> oyesse &amp; delibe<ex>r</ex>a-
+		<lb break="no"/>sse tales pleytos como estos bien &amp;
+		<lb/>derechamientre. ¶ La tercera ma-
+		<lb break="no"/>nera de pleytos &amp; la menor es toda
+		<lb/>contienda que fuesse sobre cosa
+<fw type="reclamo" hand="lector">De<supplied> </supplied>los juezes</fw>
+<fw type="pie">IIII</fw>
+<pb n="2v"/>
+<fw type="encabezado">L<ex>ibro</ex></fw>
+<cb n="1"/>
+		<lb/><unclear>que ua</unclear>lliesse de trezientos m<ex>a</ex>r<ex>auedi</ex>s do-
+		<lb break="no"/>ro en ayusso. Ca sobre el pleyto com<ex>o</ex>
+		<lb/>este bien puede el jueç ordinario dar
+		<lb/>otro delegado que lo oya &amp; lo libre
+		<lb/>en su lugar si<supplied> </supplied>quisiere magu<ex>e</ex>r no<ex>n</ex> a-
+		<lb break="no"/>ya ninguno de aquellos grandes en-
+		<lb break="no"/>bargos que dessusso Di<unclear>xiemos</unclear>.</p>
+</div>
+<div n="3.4.19" type="ley" xml:id="SPVA6304019">
+	<head>Ley
+		<lb/>.xix. que cosas an<supplied> </supplied>de<supplied> </supplied>guardar &amp;<supplied> </supplied>de<supplied> </supplied>faz<ex>er</ex>
+		<lb/>los juezes delegados q<ex>ue</ex> so<ex>n</ex> puestos p<ex>or</ex>a
+		<lb/>oyr algun pleyto sennallado.</head>
+	<p><lb/><hi rend="init3">D</hi>Elegados tanto quiere dez<ex>ir</ex>
+		<lb/>como juezes que so<ex>n</ex> puest-
+		<lb break="no"/>os p<ex>or</ex>a oyr algunos pleytos
+		<lb/>sennallados por mandato del Rey. o
+		<lb/>de<supplied> </supplied>los otros juezes ordinarios assi co-
+		<lb break="no"/>mo dessuso dixiemos. Et como q<ex>u</ex>ier
+		<lb/>que todos ayan un nombre. pero alg-
+		<lb break="no"/>un departimiento ha entrellos. Ca<supplied> </supplied>los
+		<lb/>que son puestos por mandado del Rey
+		<lb/>pueden poner otros en sus logares q<ex>ue</ex>
+		<lb/>oyan &amp; libren aquellos pleytos sen-
+		<lb break="no"/>nallados que el Rey les encome<ex>n</ex>da-
+		<lb break="no"/>ra quier sean <sic>encomençados</sic> antel-
+		<lb break="no"/>los por demanda o por respuesta q<ex>u</ex>i-
+		<lb break="no"/>er no<ex>n</ex>. mas los otros delegados q<ex>ue</ex>
+		<lb/>los juezes ordinarios mandan oyr
+		<lb/>&amp; librar algunos pleytos sennalla-
+		<lb break="no"/>dos no<ex>n</ex> pueden poner otros que los li-
+		<lb break="no"/>bren en logar dellos. si primeramie<ex>n</ex>-
+		<lb break="no"/>tre no<ex>n</ex> fueren començados por dema<ex>n</ex>-
+		<lb break="no"/>da &amp; por respuesta antellos. ¶ Ot<ex>r</ex>o-
+		<lb break="no"/>si dezimos que<supplied> </supplied>los delegados puede<ex>n</ex>
+		<lb/>oyr pleytos por mandamiento d<ex>e</ex> a-
+		<lb break="no"/>quellos que dessusso dixiemos e<ex>n</ex> dos
+		<lb/>maneras. ¶ La primera es quando
+		<lb/>les mandan oyr &amp; librar algun pl<ex>e</ex>y-
+		<lb break="no"/>to por juyzio. ¶ la segunda es q<ex>u</ex>an<ex>d</ex>o
+		<lb/>reciben mandamiento de oyr<del> </del>los
+		<lb/>tan solamientre reteniendo por si
+		<lb/>el ordinario de dar el<supplied> </supplied>juyzio a<supplied> </supplied>aq<ex>ue</ex>ll-
+		<lb break="no"/>os que gelo encomiendan. Et q<ex>u</ex>an<ex>d</ex>o
+		<lb/>en esta segunda manera les fuere
+		<lb/>encomendado deuenlo ellos assi
+		<lb/>fazer &amp; no<ex>n</ex> passar a<supplied> </supplied>mas por qu<ex>e</ex> el
+		<lb/>poderio de los delegados non pued<ex>e</ex>
+<cb n="2"/>
+		<lb/>seer mayor de quanto les fuere enco-
+		<lb break="no"/>mendado por carta o por palabra de
+		<lb/>Rey o de<supplied> </supplied>los otros sus mayorales a-
+		<lb break="no"/>ssi como adelante mostraremos
+		<lb/>¶ Et aun dezimos que depues
+		<lb/>que los delegados an assi oydos los
+		<lb/>pleytos como les fue mandado si<supplied> </supplied>a-
+		<lb break="no"/>quellos que gelos encomendaro<ex>n</ex>
+		<lb/>los quisiessen librar por juyzio de-
+		<lb break="no"/>uen<del> </del>se faz<ex>er</ex> dar en escripto todas las
+		<lb/>razones de como passaro<ex>n</ex> antellos
+		<lb/>&amp; ueer<del> </del>las &amp; catarlas afincadami-
+		<lb break="no"/>entre del comienço fasta en la fin
+		<lb/>&amp; depues que ellos las ouiere<ex>n</ex> uist-
+		<lb break="no"/>as pueden dar su juyzio segunt q<ex>ue</ex>
+		<lb/>ellos entendieren que<supplied> </supplied>lo deue<ex>n</ex> faz<ex>er</ex>
+		<lb/>Pero el<supplied> </supplied>judgador ordinario q<ex>ue</ex> fue-
+		<lb break="no"/>sse puesto por el Rey en algu<ex>n</ex> logar
+		<lb/>p<ex>or</ex>a oyr &amp; librar alçadas no<ex>n</ex> podrie
+		<lb/>acomendar pleyto sennallado a<supplied> </supplied>o-
+		<lb break="no"/>tro que<supplied> </supplied>lo oyesse reteniendo p<ex>or</ex>a si
+		<lb/>el poderio de judgarlo ca el<supplied> </supplied>lo deu<ex>e</ex>
+		<lb/>oyr &amp; librar por sentencia o encomen-
+		<lb break="no"/>darle a<supplied> </supplied>otri q<ex>ue</ex> assi lo faga.</p>
+</div>
+<div n="3.4.20" type="ley" xml:id="SPVA6304020">
+	<head>Ley .xxª.
+		<lb/>q<ex>ue</ex> cosas a<supplied> </supplied>de catar el Rey quando las
+		<lb/>partes le<supplied> </supplied>pidieren que<supplied> </supplied>les de jueç de-
+		<lb break="no"/>legado pora<supplied> </supplied>librar algun pleyto. &amp; qu<ex>e</ex>
+		<lb/>poderio an los Delegados.</head>
+	<p><lb/><hi rend="init3">E</hi>Stan delante el Rey amas
+		<lb/>las partes a<supplied> </supplied>las uegadas
+		<lb/>&amp; pidenle mercet que les
+		<lb/>de algun jueç delegado que les oya
+		<lb/>&amp; los libre el pleyto &amp; la contienda q<ex>ue</ex>
+		<lb/>an entre<supplied> </supplied>si. &amp;<supplied> </supplied>a<supplied> </supplied>las<supplied> </supplied>uegadas la una
+		<lb/>parte tan<supplied> </supplied>solamientre. Et por e<ex>n</ex>de
+		<lb/>dezimos que quando amas las par-
+		<lb break="no"/>tes lo pidieren q<ex>ue</ex> deue guardar el
+		<lb/>Rey o aquel que lo diere q<ex>ue</ex><supplied> </supplied>les de
+		<lb/>tal om<ex>n</ex>e pora<supplied> </supplied>ello q<ex>ue</ex> plega con el ta<ex>n</ex>
+		<lb/>bien a<supplied> </supplied>la<supplied> </supplied>una parte como a<supplied> </supplied>la otra
+		<lb/>Pero si aquel que<supplied> </supplied>les diesse fuese
+		<lb/>omne<supplied> </supplied>bueno &amp; sin sospecha. mag<ex>ue</ex>r
+		<lb/>lo contradixiesse la una de<supplied> </supplied>las par-
+		<lb break="no"/>tes no<ex>n</ex> deue dexar de gelo dar por es-
+		<lb break="no"/>so. Et si la una<supplied> </supplied>de<supplied> </supplied>las part<ex>e</ex>s lo pidi<gap reason="nonsequitur"/></p>
+</div>
+</div>
+</div>
+		</body>
+	</text>
+</TEI>

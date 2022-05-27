@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento DE MÓDENA</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+               >PID2020-112621GB-I00</idno></funder>
+            <funder>Ministerio de Economía y Competitividad <idno
+               type="referencia">FFI2016-75014-P</idno></funder>
+            <funder>Universidad de Valladolid</funder>
+            <funder>Seminario de Crítica Textual</funder>
+            <principal>José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-MOD</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+               <p>Esta obra está bajo una licencia de Creative Commons
+                  Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio <ref
+               target="https://7partidas.hypotheses.org/testimonios/mod/">web</ref> del proyecto.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
+               financiado por la Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+               Universidades de España, referencia <idno type="referencia">FFI2016-75014-P</idno>.
+               La descripción del proyecto y sus participantes se recogen en la <ref
+                  target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de las
+               reproducciones realizadas directamente en el Archivio de Stato.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene fragmentos de las 5ª y 6ª Partida: 5.1.4-10; 5.2.0; 5.4.8-11; 5.5.0;
+               5.5.22-26: 5.5.63-67; 5.6.0-1; 6.0.0 y 6.1.0.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-11-05" who="#JMFR" status="borrador">Añadido xml:lang al elemento &lt;text&gt;</change>
+         <change when="2021-11-05" who="#JMFR" status="borrador">Enmenadados los xml:id de las rubricas en &lt;seg&gt;</change>
+         <change when="2017-02-05" who="#JMFR" status="borrador">Añadido &lt;abstract&gt;</change>
+         <change when="2016-04-29" who="#JMFR" status="borrador">Iniciada transcripción codificada</change>
+      </revisionDesc>
+   </teiHeader>
+      <text xml:lang="es">
+      <body>
+         <div n="5" type="partida">
+            <div n="5.1.0" type="titulo" xml:id="SPMOD501000">
+         <gap/>
+      <div n="5.1.4" type="ley" xml:id="SPMOD501004">
+            <p>
+<pb n="1r"/>
+<fw type="encabezado" rend="azul">V</fw>
+<cb n="1"/>
+               <gap reason="nonsequitur"/><lb break="no"/>drie si lo fiziesse y no<ex>n</ex> gelo puede el
+               <lb/>padre uedar . <hi rend="rojo">¶</hi> Otrossi dezimos q<ex>ue</ex> si
+               <lb/>fijo o el nieto estando en poder de su
+               <lb/>padre o de su auuelo si a·la sazon q<ex>ue</ex> to<ex>m</ex>a-
+               <lb break="no"/>sse la cosa p<ex>re</ex>stada le p<ex>re</ex>guntasse su auie
+               <lb/>padre o auuelo o alguno de los otros
+               <lb/>ascendientes en cuyo pod<ex>e</ex>r estudiesse . &amp;
+               <lb/>el lo negasse diziendo q<ex>ue</ex> no<ex>n</ex> q<ex>ue</ex> por la men-
+               <lb break="no"/>tira q<ex>ue</ex> dize &amp; iuega la u<ex>er</ex>dat es tenudo de
+               <lb/>pagar aquello q<ex>ue</ex> tomo enp<ex>re</ex>stado . <hi rend="azul">¶</hi> O-
+               <lb break="no"/>trossi dezimos q<ex>ue</ex> qualquier q<ex>ue</ex> touiese
+               <lb/>algun officio publicamientre del Rey
+               <lb/>o de otro sennor . o de algun conçeio . o
+               <lb/>el q<ex>ue</ex> fuesse menestral de qualq<ex>u</ex>ier mes-
+               <lb break="no"/>ter q<ex>ue</ex> usasse a labrar . o a menest<ex>er</ex> bien
+               <lb/>assi como omne q<ex>ue</ex> no<ex>n</ex> esta en pod<ex>e</ex>r dot<ex>ro</ex>
+               <lb/>porq<ex>ue</ex> creen los omnes q<ex>ue</ex> este atal esta-
+               <lb break="no"/>ua sobre si . es tenudo de pafar lo q<ex>ue</ex> to<ex>m</ex>a-
+               <lb break="no"/>re prestado maguer este en pod<ex>e</ex>rd dotrie
+               <lb/>. <hi rend="rojo">¶</hi> Esso mismo dezimos qua<ex>n</ex>do aq<ex>ue</ex>l q<ex>ue</ex>
+               <lb/>es en pod<ex>e</ex>r dotrie es cauall<ex>er</ex>o . ca su algo
+               <lb/>tomare dotri enp<ex>re</ex>stado tenudo es de
+               <lb/>lo pagar . &amp; esto es porq<ex>ue</ex> no<ex>n</ex> deue om<ex>n</ex>e
+               <lb/>sospechar q<ex>ue</ex> lo q<ex>ue</ex> toma enp<ex>re</ex>stado no<ex>n</ex> ñp
+               <lb/>espiende en malos usos . mas en las co-
+               <lb break="no"/>sas q<ex>ue</ex> pertenescen a caualleria <hi rend="rojo">.</hi>
+            </p>
+         </div>
+      <div n="5.1.5" type="ley" xml:id="SPMOD501005">
+         <head rend="rojo"><seg xml:id="SPMOD501005.1" type="rubrica">Del
+         <lb/>enprestamo q<ex>ue</ex> faze un om<ex>n</ex>e menor d<ex>e</ex></seg></head>
+         <p><lb/><hi rend="init3">S</hi>i alguno q<ex>ue</ex> fuesse <seg xml:id="SPMOD501005.2" type="rubrica">edat a ot<ex>r</ex>o</seg>
+               <lb/>menor de . xxv. annos enp<ex>re</ex>s-
+               <lb break="no"/>tasse alguna cosaa otro ot<ex>r</ex>o-
+               <lb break="no"/>ssi q<ex>ue</ex> fuesse de menor edat . si este q<ex>ue</ex> tom<ex cert="low">o</ex>
+               <lb/>el enp<ex>re</ex>stido lo metio en su pro el finca e<ex>n</ex>
+               <lb/>saluo . tenudo es de lo tornar a aq<ex>ue</ex>l que
+               <lb/>gelo enpresto . mas si fuesse mayor de
+               <lb/>xxv . an<ex>n</ex>os tenudo es de gelo tornar e<ex>n</ex>
+               <lb/>todas guisas . quier lo meta en su p<ex>ro</ex>
+               <lb/>o·l finq<ex>ue</ex> en saluo quier no<ex>n</ex>. <hi rend="azul">¶</hi> Otrossi
+               <lb/>todo enp<ex>re</ex>stido q<ex>ue</ex> sacare el q<ex>ue</ex> estodiere e<ex>n</ex>
+               <lb/>poder do crie . si lo metiere en pro de aq<ex>ue</ex>l
+               <lb/>en cuyo poder estudiere . assi como e<ex>n</ex> ca-
+               <lb break="no"/>sar alguna su hermana . o e<ex>n</ex> comer o
+               <lb/>en·uestir . o en otra cosa q<ex>ue</ex> fuesse mest<ex>er</ex>
+               <lb/>assi como a la otra companna que
+               <lb/>auie de gou<ex>er</ex>nar p de proueer aq<ex>ue</ex>l en
+               <lb/>cuyo poder esta . Dezimos q<ex>ue</ex> tal enpres-
+<cb n="2"/>
+               <lb break="no"/>tido como este tenudo es de lo pagar
+               <lb/>el q<ex>ue</ex> lo toma . o aquel en cuyo poder esta</p>
+         </div>
+      <div n="5.1.6" type="ley" xml:id="SPMOD501006">
+               <head rend="rojo"><lb/><seg xml:id="SPMOD501006.1" type="rubrica">Del enp<ex>re</ex>stido q<ex>ue</ex> es fecho al fijo o al nie-
+               <lb break="no"/>to q<ex>ue</ex> esta en poder de su padre o de su a-
+               <lb break="no"/>uuello con otorgamiento de aquel</seg></head>
+               <p><lb/><hi rend="init3">S</hi>acando e<ex>n</ex> <seg xml:id="SPMOD50106Fin" type="rubrica">en cuyo poder esta</seg>-
+                  <lb break="no"/>p<ex>re</ex>stido el q<ex>ue</ex> esta en poder dot<ex>r</ex>i
+                  <lb/>con sabiduria . o co<ex>n</ex> ma<ex>n</ex>dado
+                  <lb/>daq<ex>ue</ex>l en cuyo pod<ex>e</ex>r es mag<ex>ue</ex>r no<ex>n</ex> lo ma<ex>n</ex>-
+                  <lb break="no"/>de sacar . si esta delante . &amp; si lo consie<ex>n</ex>-
+                  <lb break="no"/>te . &amp; si lo saca a otra parte &amp; gelo enbia
+                  <lb/>decir por carta . o de otra guisa . &amp; lo oto-
+                  <lb break="no"/>rga . o si paga depues alguna partida
+                  <lb/>de la debeda . dezimos q<ex>ue</ex> tenudos son de
+                  <lb/>lo pagar tal enp<ex>re</ex>stado el q<ex>ue</ex> lo saca . o aq<ex>ue</ex>-
+                  <lb break="no"/>l en cuyo poder esta . <hi rend="rojo">¶</hi> Otrossi dezi<ex>m</ex>os
+                  <lb/>q<ex>ue</ex> el q<ex>ue</ex> tomasse el enp<ex>re</ex>stido estando e<ex>n</ex>
+                  <lb/>pod<ex>e</ex>r dotri . si despues q<ex>ue</ex> fuesse de edat co<ex>n</ex>-
+                  <lb break="no"/>plida . o q<ex>ue</ex> salliesse de poder de aquel q<ex>ue</ex>·l
+                  <lb/>auie en guarda pagasse alguna pa-
+                  <lb break="no"/>rtida q<ex>ue</ex> tenudo es por ende de pagat to-
+                  <lb break="no"/>do lo al q<ex>ue</ex> finca . <hi rend="azul">¶</hi> Otrossi dezimos q<ex>ue</ex>
+                  <lb/>si alguno q<ex>ue</ex> esta en poder de otro ua
+                  <lb/>e<ex>n</ex> mandaderia o en escuelas &amp; sacca
+                  <lb/>alla algun enp<ex>re</ex>stido q<ex>ue</ex> tenudo es de
+                  <lb/>lo pagar el o aquel en cuyo poder esta
+                  <lb/>fasta en aq<ex>ue</ex>lla quantidat a lo me<ex>n</ex>os
+                  <lb/>q<ex>ue</ex> podrie despender en comer o e<ex>n</ex> uest-
+                  <lb break="no"/>ir o en las cosas q<ex>ue</ex> so<ex>n</ex> menester finca<ex>n</ex>-
+                  <lb break="no"/>do en su casa . &amp; aun de mas quanto
+                  <lb/>asmarien q<ex>ue</ex>l podrie costar el logu<ex>e</ex>ro
+                  <lb/>de la caza en q<ex>ue</ex> morasse &amp; lo q<ex>ue</ex> aurie
+                  <lb/>a dar a su maestro . &amp; a despender en
+                  <lb/>las otras cosas q<ex>ue</ex> serie<ex>n</ex> mester por
+                  <lb/>razon de su estudio . o daq<ex>ue</ex>lla ma<ex>n</ex>da-
+                  <lb break="no"/>deria en q<ex>ue</ex> fue <hi rend="rojo">.</hi>
+               </p>
+            </div>
+      <div n="5.1.7" xml:id="SPMOD501007">
+               <head rend="rojo">Del p<ex>re</ex>stamo q<ex>ue</ex> es
+               <lb/>fecho a aq<ex>ue</ex>l que esta en tienda de camios
+               <lb/>&amp; de pannos por otrie.</head>
+               <p><lb/><hi rend="init3">C</hi>amiador o mercador que toui-
+                  <lb break="no"/>esse tienda de pannos . o d<ex>e</ex>
+                  <lb/>algun otro mester . si aco
+                  <lb/>mendasse aq<ex>ue</ex>lla tienda a otrie q<ex>ue</ex> no<ex>n</ex>
+                  <lb/>estudiesse en su poder dexandolo y co
+                  <lb/>mo en su logar . si este atal tomare
+                  <lb/>algun enprestido por mandado del
+<fw type="pie" rend="rojo">I</fw>
+<pb n="1v"/>
+<fw type="encabezado" rend="rojo">L</fw>
+<cb n="1"/>
+                  <lb/>otro q<ex>ue</ex>l dexo . sin su mandado . &amp; lo me-
+                  <lb break="no"/>te en pro de aquel q<ex>ue</ex> lo y dexo . tal enp<ex>re</ex>st-
+                  <lb break="no"/>ido como este non es tendudo de los pa-
+                  <lb break="no"/>gar este q<ex>ue</ex> lo tomo . mas aq<ex>ue</ex>l en cuyo lo-
+                  <lb break="no"/>gar estaua . Pero sino<ex>n</ex> lo tomasse por su
+                  <lb/>mandado nin lo metiesse en su pro est-
+                  <lb break="no"/>once es tenudo de lo pagar aq<ex>ue</ex>l qu<ex>e</ex> lo
+                  <lb/>tomo . </p>
+            </div>
+      <div n="5.1.8" xml:id="SPMOD501008">
+               <head rend="rojo">Quando deue s<ex>er</ex> tornada la co-
+               <lb break="no"/>sa q<ex>ue</ex> fuere dada enp<ex>re</ex>stada &amp; en que logar</head>
+               <p><lb/><hi rend="init3">S</hi>i algunas de las cosas q<ex>ue</ex> se
+                  <lb/>pueden contar o pesar o m<ex>e</ex>dir
+                  <lb/>enp<ex>re</ex>stasse uno a otro si señal-
+                  <lb break="no"/>lo dia . o logar a que gelo deue dar el
+                  <lb/>debdor tenudo es de gelo pagar en aq<ex>ue</ex>l
+                  <lb/>dia &amp; en aq<ex>ue</ex>l logar q<ex>ue</ex> puso con el . Et si
+                  <lb/>por auentura no<ex>n</ex> touiere de q<ex>ue</ex>l de otro
+                  <lb/>tal &amp; tanto como aq<ex>ue</ex>llo q<ex>ue</ex>l fue p<ex>re</ex>stado .
+                  <lb/>deuel dar tanto precio por ende qua<ex>n</ex>to
+                  <lb/>montare o ualiere aquello q<ex>ue</ex>l enp<ex>re</ex>sto
+                  <lb/>&amp; deue s<ex>er</ex> contador segund ualiere otra
+                  <lb/>tal cosa como aquella q<ex>ue</ex> fue enp<ex>re</ex>sta-
+                  <lb break="no"/>da en aq<ex>ue</ex>lla sazon &amp; en aq<ex>ue</ex>l logar o lo
+                  <lb/>ouo de pagar . Et si no<ex>n</ex> fue sennallado
+                  <lb/>fia ni<ex>n</ex> logar en q<ex>ue</ex> deuiesse seer fecha
+                  <lb/>la paga . deue seer contado &amp; ap<ex>re</ex>ciado
+                  <lb/>segund ualiere en aq<ex>ue</ex>l logar o faze
+                  <lb/>la demanda a la sazon q<ex>ue</ex> gelo dema<ex>n</ex>-
+                  <lb break="no"/>dare en juyzio.</p>
+         </div>
+      <div n="5.1.9" xml:id="SPMOD501009">
+               <head rend="rojo"><seg xml:id="SPMOD501009.1" type="rubrica">Como aquel q<ex>ue</ex> ouis-
+               <lb break="no"/>se otorgado que recibiera alguna co-
+               <lb break="no"/>sa enprestafa si nok fuesse entrega-
+               <lb break="no"/>da depues como se puede amparar</seg></head>
+               <p><lb/><hi rend="init3">F</hi>iuza et <seg xml:id="SPMOD501009.2" type="rubrica" >si gela dema<ex>n</ex>dare<ex>n</ex></seg>
+                  <lb/>esperança fazen a las ve-
+                  <lb break="no"/>gadas los omes unos a
+                  <lb/>otros de se enp<ex>re</ex>star alguna cosa
+                  <lb/>&amp; aquellos a quie<ex>n</ex> fazen esta pro-
+                  <lb break="no"/>messa fazen carta sobre si ante que
+                  <lb/>sean entregados della otorgando q<ex>ue</ex>l
+                  <lb/>fazen demanda sobresta razo<ex>n</ex> bien
+                  <lb/>assi como si fuesse uerdaderamie<ex>n</ex>te
+                  <lb/>el enprestamo . Et quando tal cosa
+                  <lb/>como esta acaeciere . dezimos q<ex>ue</ex> este
+                  <lb/>q<ex>ue</ex> fizo la carta sobre si deue esto q<ex>ue</ex>rel-
+                  <lb break="no"/>lar al Rey . o a alguno de los otros
+<cb n="2"/>
+                  <lb/>q<ex>ue</ex> iudgan en su logar como aq<ex>ue</ex>l quel
+                  <lb/>prometio de p<ex>re</ex>star los m<ex>a</ex>r<ex>auedi</ex>s no<ex>n</ex> gelos q<ex>u</ex>i-
+                  <lb break="no"/>so enp<ex>re</ex>star nin contar nin dar . &amp; deue
+                  <lb/>pedir q<ex>ue</ex>l mande dar la carta q<ex>ue</ex> tiene so-
+                  <lb break="no"/>brel o los m<ex>a</ex>r<ex>auedi</ex>s q<ex>ue</ex>l prometio aprestar .
+                  <lb/>&amp; si se callare q<ex>ue</ex> lo no<ex>n</ex> muestre assi d<ex>e</ex> dos
+                  <lb/>annos q<ex>ue</ex> passen despues q<ex>ue</ex> fizo la carta
+                  <lb/>dent adelant<ex>e</ex> no<ex>n</ex> podrie poner tal q<ex>ue</ex>rel-
+                  <lb break="no"/>la si gelos demandassen depues . mas
+                  <lb/>serie tenudo de dar los m<ex>a</ex>r<ex>auedi</ex>s bien assi
+                  <lb/>como si los ouiesse recebido . Et si ante
+                  <lb/>q<ex>ue</ex> los dos annos se cumpliessen lo q<ex>ue</ex>rel-
+                  <lb break="no"/>lasse segund q<ex>ue</ex> es sobredicho no<ex>n</ex> serie
+                  <lb/>tenudo de responderle por la carta ni<ex>n</ex>
+                  <lb/>de pagarle los m<ex>a</ex>r<ex>auedi</ex>s . fueras ende si el
+                  <lb/>otro pudiesse prouar q<ex>ue</ex>l auie co<ex>n</ex>tado
+                  <lb/>los m<ex>a</ex>r<ex>auedi</ex>s q<ex>ue</ex>l prometiera de p<ex>re</ex>star o si el
+                  <lb/>debdor q<ex>ue</ex> auie otorgafo q<ex>ue</ex> auie receb-
+                  <lb break="no"/>ido los m<ex>a</ex>r<ex>auedi</ex>s enp<ex>re</ex>stados renunciasse a
+                  <lb/>la deffension de la peccunoa no<ex>n</ex> co<ex>n</ex>tada
+                  <lb/>ca entonce no se podrie amparar por
+                  <lb/>esta razon . si este renunciamiento a
+                  <lb/>tal fue escripto en la carta .</p>
+            </div>
+      <div n="5.1.10" xml:id="SPMOD501010">
+               <head rend="rojo"><seg xml:id="SPMOD501010.1" type="rubrica">Q<ex>ue</ex> fuerça
+                  <lb/>ha el p<ex>re</ex>stamos . &amp; que pena deue auer el q<ex>ue</ex></seg></head>
+               <p><lb/><hi rend="init3">T</hi>al fuerça ha <seg xml:id="SPMOD501010.2" type="rubrica" >lo non torna</seg>
+                  <lb/>el p<ex>re</ex>stamo q<ex>ue</ex> los omnes faze<ex>n</ex>
+                  <lb/>unos a otros de las cosas q<ex>ue</ex>
+                  <lb/>se pueden pesar o contar o medir qu<ex>e</ex>
+                  <lb/>luego q<ex>ue</ex> es passada la cosa a poder de a-
+                  <lb break="no"/>q<ex>ue</ex>l a quie<ex>n</ex> fue p<ex>re</ex>stada q<ex>ue</ex> maguer la q<ex>ue</ex>-
+                  <lb break="no"/>me fuego . o la lieua agua o la furte<ex>n</ex>
+                  <lb/>ladrones . o se pierda por otra man<ex>er</ex>a
+                  <lb/>qualquier . a aq<ex>ue</ex>l q<ex>ue</ex> la recibio p<ex>re</ex>stada
+                  <lb/>se pierde &amp; no<ex>n</ex> al otro q<ex>ue</ex> la enprestos . O-
+                  <lb break="no"/>trossi dezimos q<ex>ue</ex> aq<ex>ue</ex>l q<ex>ue</ex> toma la cosa
+                  <lb/>enp<ex>re</ex>stada si no<ex>n</ex> la torna a la sazo<ex>n</ex> q<ex>ue</ex>
+                  <lb/>deue . q<ex>ue</ex> tenudo es de pechar aq<ex>ue</ex>lla
+                  <lb/>pena a q<ex>ue</ex> se obligo sobresta razon
+                  <lb/>Et si pena non fue y puesta deue pechar
+                  <lb/>los dannos &amp; los menoscabos q<ex>ue</ex> recibi-
+                  <lb break="no"/>o el otro en demandar la cosa q<ex>ue</ex>l e<ex>n</ex>p<ex>re</ex>s-
+                  <lb break="no"/>to . Et pora esto pagar son tenudos
+                  <lb/>tambien los herederos de los q<ex>ue</ex> toma-
+                  <lb break="no"/>ro<ex>n</ex> el enp<ex>re</ex>stido como ellos mismos</p>
+            </div>
+         </div>
+            <div n="5.2.0" type="titulo" xml:id="SPMOD502000">
+               <head rend="rojo"><lb/>Titulo .ijº. del prestamo a que dizen en latin . <foreign xml:lang="la">aco-
+               <lb break="no"/>modatum</foreign></head>
+               <gap reason="nonsequitur"/>
+            </div>
+            <div n="5.4.0" type="titulo" xml:id="SPMOD504000">
+            <div n="5.4.8" type="ley" xml:id="SPMOD504008">
+<pb n="2r"/>
+<fw type="encabezado">V</fw>
+<cb n="1"/>
+      <p><gap reason="nonsequitur"/><lb/>Et por ende dezimos q<ex>ue</ex> si alguno p<ex>or</ex>
+                  <lb/>tal razon diesse a algun om<ex>n</ex>e todo
+                  <lb/>lo suyo . grand partida dello . q<ex>ue</ex> si
+                  <lb/>despues ouiesse fijo o fija de su mu-
+                  <lb break="no"/>g<ex>e</ex>r legitima &amp; ondrada mug<ex>e</ex>r con
+                  <lb/>quien casasse despues maguer q<ex>ue</ex> les
+                  <lb/>ha en barragana ca por ende la dona-
+                  <lb break="no"/>cio<ex>n</ex> no<ex>n</ex> deue ualer en ninguna ma<ex>n</ex>e-
+                  <lb break="no"/>ra . Et si por auentura alguno q<ex>ue</ex> o-
+                  <lb break="no"/>uiesse sijos legitimos quisiesse fa-
+                  <lb break="no"/>z<ex>er</ex> donacion a otro . puedelo faz<ex>er</ex> e<ex>n</ex> tal
+                  <lb/>manera que toda uia finq<ex>ue</ex> en saluo a
+                  <lb/>fijos la su parte legitima ta<ex>n</ex> bien
+                  <lb/>en uida de su padre como despues de
+                  <lb/>su muerte . &amp; la parte legitima es se-
+                  <lb break="no"/>gund dize en el titulo de los estable-
+                  <lb break="no"/>cimientos de los herederos . Et si el pa-
+                  <lb break="no"/>dre fiziere mayor donacion puede<ex>n</ex>la
+                  <lb/>reuogar los fijos fata en la quantia
+                  <lb/>de su parte legitima .</p>
+               </div>
+              
+<div n="5.4.9" type="ley" xml:id="SPMOD504009">
+                  <head rend="rojo">fasta q<ex>ue</ex> qua<ex>n</ex>tia
+                     <lb/>puede faz<ex>er</ex> omne donacio<ex>n</ex> de lo suyo . &amp;
+                     <lb/>q<ex>ue</ex> de mas fiziere deue seer reouacada</head>
+                  <p><lb/><hi rend="init3">E</hi>Mperador . o Rey pueden fa-
+                     <lb break="no"/>zer donacion de lo que se qui-
+                     <lb break="no"/>sieren por carta . &amp; sin carta
+                     <lb/>&amp; ualdra . Esso mismo dezimos que
+                     <lb/>pueden faz<ex>er</ex> los otros om<ex>n</ex>es q<ex>ua</ex>n<ex>d</ex>o qui-
+                     <lb break="no"/>eren dar algo de lo suyo al emperador
+                     <lb/>o al Rey . ca guisada cosa es como el-
+                     <lb break="no"/>los pueden faz<ex>er</ex> donaciones por carta
+                     <lb/>&amp; sin carta q<ex>ue</ex> los otros puedan dar a el-
+                     <lb break="no"/>los lo q<ex>ue</ex> quisieren en essa misma m-
+                     <lb break="no"/>anera . Pero dezimos q<ex>ue</ex> quando el e<ex>n</ex>-
+                     <lb break="no"/>perador . o el Rey faze donacion a e-
+                     <lb break="no"/>gl<ex>es</ex>ia o a orden . o a otro persona qual-
+                        <lb break="no"/>quier . assi como de uilla o de castiel-
+                        <lb break="no"/>lo . o de otro logar en q<ex>ue</ex> ouiesse pue-
+                        <lb break="no"/>blo o q<ex>ue</ex> se poblasse depues . si qua<ex>n</ex>do
+                        <lb/>gelo dio otorgo por su priuilegio q<ex>ue</ex>
+                        <lb/>gela daua con todos sus derechos q<ex>ue</ex>
+                        <lb/>el auie en aquel logar &amp; deue auer
+                        <lb/>no<ex>n</ex> sacando ende ninguna cosa . enti-
+                        <lb break="no"/>endese q<ex>ue</ex> gelo dio con todos los pec-
+                        <lb break="no"/>h<ex>o</ex>s &amp; co<ex>n</ex> todas las rendas q<ex>ue</ex> a el solie<ex>n</ex>
+                        <lb/>dar &amp; fazer . Pero no<ex>n</ex> se entiende q<ex>ue</ex>l da
+                        <cb n="2"/>
+                        <lb/>ninguna cosa de las q<ex>ue</ex> pertenesce<ex>n</ex>
+                        <lb/>al sennorio del regnado senallada-
+                        <lb break="no"/>mientre . assi como moneda &amp; justi-
+                        <lb break="no"/>cia de sangre . Mas si todas estas
+                        <lb/>fuessen puestas &amp; otorgafas en el p<ex>r</ex>i-
+                        <lb break="no" />uilegio de la donacio<ex>n</ex> . estonce bien
+                        <lb/>passarse al logar . o a la persona a
+                        <lb/>quien fuesse fecha tal donacion . sal-
+                        <lb break="no"/>uo ende que las alçadas de aquel lo-
+                        <lb break="no"/>gar deuen s<ex>er</ex> yudagadas por el Rey q<ex>ue</ex> fi-
+                        <lb break="no"/>zo la donacion . o por sus herederos . a
+                        <lb/>que deue faz<ex>er</ex> guerra &amp; paç por su ma<ex>n</ex>-
+                        <lb break="no"/>dado . <hi rend="rojo">¶</hi> Otrossi dezimos q<ex>ue</ex> todo om<ex>n</ex>e
+                        <lb/>puede faz<ex>er</ex> donacion por carta . &amp; si<ex>n</ex> ella
+                        <lb/>dando quanto quisiere pora sacar ca-
+                        <lb break="no"/>tiuos . &amp; p<ex>or</ex>a refaz<ex>er</ex> alguna egl<ex>es</ex>ia . o ca-
+                        <lb break="no"/>sa derribada . o por dote . o donacion q<ex>ue</ex>
+                        <lb/>se faze por razon de casamiento . E
+                        <lb/>aun dezimos . q<ex>ue</ex> si algun omne qui-
+                        <lb break="no"/>siesse fazer donacion a alguna egl<ex>es</ex>ia
+                        <lb/>o a logar religioso . o a hospital que
+                        <lb/>lo puede fazer sin carta . Pero si qui-
+                        <lb break="no"/>siere dar a otro omne . o a otro logar
+                        <lb/>puedelo faz<ex>er</ex> sin carta fata quinien-
+                        <lb break="no"/>tos m<ex>a</ex>r<ex>auedi</ex>s . de oro . Mas si quisiere faz<ex>er</ex>
+                        <lb/>mayor donacion de lo que es sobre-
+                        <lb break="no"/>dicho en esta ley lo q<ex>ue</ex> fuesse de mas
+                        <lb/>no<ex>n</ex> ualdrie fueras ende su lo fiziesse
+                        <lb/>por carta . o con sabiduria del mayor
+                        <lb/>iudgador del logar en q<ex>ue</ex> fiziesse la do-
+                        <lb break="no"/>nacion <hi rend="rojo">.</hi></p>
+               </div>
+<div n="5.4.10" type="ley" xml:id="SPMOD504010">
+                  <head rend="rojo">Como por razon de descon<ex>n</ex>o-
+                     <lb break="no"/>scencia se puede reuocar la donacio<ex>n</ex></head>
+                  <p><lb/><hi rend="init3">D</hi>Esconnoscientes son los
+                     <lb/>omne a las uegadas co<ex>n</ex>t<ex>r</ex>a
+                     <lb/>aquellos que les dan algo
+                     <lb/>o les fazen alguna gr<ex>azi</ex>a . Et por end<ex>e</ex>
+                     <lb/>touieron por bien los sabios antigos
+                     <lb/>que no fincassen sin pena . &amp; esta-
+                     <lb break="no"/>blecieron quatro razones q<ex>ue</ex> por q<ex>u</ex>al-
+                     <lb break="no"/>quier dellas deue perder la cosa q<ex>ue</ex>l
+                     <lb/>fue fada . <hi rend="azul">¶</hi> la prim<ex>er</ex>a es quando a-
+                     <lb break="no"/>quel q<ex>ue</ex> recige el donadio es descon<ex>n</ex>o-
+                     <lb break="no"/>cido contra aquel que gelo fizo fa-
+                     <lb break="no"/>ziendol grant desonta denosta<ex>n</ex>dolo
+                     <lb/>de palabra . o acusandolo de algun
+                     <fw type="pie">IIII</fw>
+                     <pb n="2v"/>
+                     <fw type="encabezado">V</fw>
+                     <cb n="1"/>
+                     <lb/>yerro por q<ex>ue</ex> ouiesse a recebir muerte . o
+                     <lb/>perd<ex>e</ex>r algun miembro . o cayesse en en-
+                     <lb break="no"/>famamiento . o perdiesse la mayor p<ex>ar</ex>-
+                     <lb break="no"/>tidav de lo suyo sil fuesse prouado . ca como
+                     <lb/>quier q<ex>ue</ex> otro alguno pue<del rend="sobreescrito" >a</del><add rend="sobreescrito" place="inline">d</add><add place="inline" >a</add> dezir cont<ex>r</ex>a
+                     <lb/>la persona del que faze el donadio no<ex>n</ex>
+                     <lb/>lo puede dezir nin deue el omne q<ex>ue</ex> re
+                     <lb/>cibe algo del . <hi rend="rojo">¶</hi> La segunda es fazien-
+                     <lb break="no"/>dol tuerto de decho metiendo manos
+                     <lb/>yradas en el . <hi rend="azul">¶</hi> la tercera es fazie<ex>n</ex>dol
+                     <lb/>grand danno en sus cosas . <hi rend="rojo">¶</hi> La q<ex>u</ex>arta
+                     <lb/>es si se trabaia en alguna man<ex>er</ex>a . de
+                     <lb/>su muerte . Mas si alguna mug<ex>e</ex>r aui-
+                     <lb break="no"/>endo fijo de su marido despues de la
+                     <lb/>muerte del q<ex>ue</ex> fizo la donacion al fijo . &amp;
+                     <lb/>se cada con otro . como quier q<ex>ue</ex> dixie<ex>m</ex>os
+                     <lb/>dessuso q<ex>ue</ex> son quatro razones por q<ex>ue</ex>
+                     <lb/>puede omne reougar la donacion en
+                     <lb/>tal caso domo este non son mas de
+                     <lb/>tres . <hi rend="azul">¶</hi> El primero es si despues de la
+                     <lb/>donacion se trabaiare el fojo de muert<ex>e</ex>
+                     <lb/>de su madre . <hi rend="rojo">¶</hi> El segunod si metiere
+                     <lb/>en ella manos yradas . <hi rend="azul">¶</hi> El terç<ex>er</ex>o
+                     <lb/>si se trabaiare de faz<ex>er</ex>le <sic>perderd<ex>e</ex>r</sic> todos
+                     <lb/>sus bienes . o la mayor partida dellos
+                     <lb/>Et por qualquier destas tres sodas so-
+                     <lb break="no" />bredichas puede la madre reougar
+                     <lb/>la donacion q<ex>ue</ex> ouiesse fecha a su fijo
+                     <lb/>Et estas razones de descon<ex>n</ex>oscençia q<ex>ue</ex>
+                     <lb/>contamos en esta ley puede las pon<ex>er</ex>
+                     <lb/>&amp; razonar aq<ex>ue</ex>l que fizo la donaçion
+                     <lb/>Et si se callare ende en su uida sus here-
+                     <lb break="no"/>deros non lo pueden retraer ni<ex>n</ex> q<ex>ue</ex>rellar
+                     <lb/>depues .</p>
+               </div>           
+            <div n="5.4.11" type="ley" xml:id="SPMOD504011">
+                  <head rend="rojo"><seg xml:id="SPMOD504011.1" type="rubrica">De las donaciones q<ex>ue</ex> fazen
+                  <lb/>los omnes seyendo enfermos qual<ex>e</ex>s</seg></head>
+               <p><lb/><hi rend="rojo">A</hi> las uega<seg xml:id="SPMOD504011.2" type="rubrica">deue<ex>n</ex> ual<ex>e</ex>r &amp; q<ex>u</ex>ales no<ex>n</ex></seg>-
+                  <lb break="no"/>das fazen los omnes dona-
+                  <lb break="no"/>ciones estando coytados
+                  <lb/>de enfermedades . o temiendo otros
+                  <lb/>periglos de q<ex>ue</ex> non cuedan estorçer . p<ex>or</ex>
+                  <lb/>ende q<ex>ue</ex>remos aqui fablar de tales
+                  <lb/>donaciones . &amp; dezimos q<ex>ue</ex> la donaçio<ex>n</ex>
+                  <lb/>q<ex>ue</ex> omne faze de su uoluntat esta<ex>n</ex>do
+                  <lb/>enfermo . &amp; temiendose de muerte
+                  <lb/>o de otro periglo que uale . Pero
+<cb n="2"/>
+                  <lb/>tl donacio<ex>n</ex> como esta puedese reuo-
+                  <lb break="no"/>gar en tres man<ex>er</ex>as . <hi rend="rojo">¶</hi> La primera
+                  <lb/>es si muera ante aquel a quien es
+                  <lb/>fecha que el otro q<ex>ue</ex> la fizo . <hi rend="azul">¶</hi> la se-
+                  <lb break="no"/>gunda es . si el q<ex>ue</ex> la fizo . guaresce de a-
+                  <lb break="no"/>q<ex>ue</ex>lla enfermedat o estuerçe de aquel
+                  <lb/>periglo porq<ex>ue</ex> se mouio a faz<ex>er</ex> aq<ex>ue</ex>lla do-
+                  <lb break="no"/>nacion . <hi rend="rojo">¶</hi> la terc<ex>er</ex>a es sis se repiente e<ex>n</ex>
+                  <lb/>ante q<ex>ue</ex> muera . Et tal donacion como
+                  <lb/>esta puede seer fecha por todo om<ex>n</ex>e q<ex>ue</ex>
+                  <lb/>ha poder de faz<ex>er</ex> testamento . &amp; deuese fa-
+                  <lb break="no"/>zer delante çinco testigos a lo me<ex>n</ex>os
+                  <lb/>Et maguer dixiemos en el titulo d<ex>e</ex>
+                  <lb/>los testamentos que el fijo q<ex>ue</ex> esta en
+                  <lb/>poder del padre non puede faz<ex>er</ex> testam<ex>en</ex>-
+                  <lb break="no"/>to . con todo esso bien puede fazer tal
+                  <lb/>donacion como esta con otorgamie<ex>n</ex>-
+                  <lb break="no"/>to de su padre &amp; sera ualed<ex>er</ex>a . Et sobre to-
+                  <lb break="no"/>do dezimos que el omne q<ex>ue</ex> fiziesse do-
+                  <lb break="no"/>nacion por premia q<ex>ue</ex>l fiziessen . o por
+                  <lb/>miedo que ouiesse q<ex>ue</ex>l matarien . q<ex>ue</ex> tal
+                  <lb/>donacion como esta no<ex>n</ex> ualdrie</p>
+               </div>
+            </div>
+            <div n="5.5.0" type="titulo" xml:id="SPMOD505000">
+                  <head rend="rojo"><seg xml:id="MOD505000.1" type="rubrica">Titulo . vº . de las uendidas &amp; d<ex>e</ex> las co<ex>n</ex></seg></head>
+               <p><lb/><hi rend="init8">U</hi>End<ex>e</ex>r &amp; com <seg xml:id="MOD505000.2" type="rubrica">pras</seg>-
+                  <lb break="no"/>prar es una ma-
+                  <lb break="no"/>nera de contrato q<ex>ue</ex>
+                  <lb/>usan mucho los omnes
+                  <lb/>entre si porq<ex>ue</ex> es co-
+                  <lb break="no"/>sa q<ex>ue</ex> non pueden
+                  <lb/>escusar . <hi rend="azul">¶</hi> Ond<ex>e</ex>
+                  <lb/>pues que en el titulo ante deste fabla-
+                  <lb break="no"/>mos de las donaciones . q<ex>ue</ex>remos aq<ex>u</ex>i de-
+                  <lb break="no"/>zir de las uendidas &amp; de las compras
+                  <lb/>. <hi rend="rojo">¶</hi> Et mostraremos que cosa es uen-
+                  <lb break="no"/>dida . <hi rend="azul">¶</hi> Et quien son aquellos q<ex>ue</ex> la
+                  <lb/>pueden faz<ex>er</ex> . <hi rend="rojo">¶</hi> Et en q<ex>ue</ex> manera deue
+                  <lb/>seer fecha . <hi rend="azul">¶</hi> Et de q<ex>ue</ex> cosas . <hi rend="rojo">¶</hi> Et a
+                  <lb/>quien pertenescen el pro . o el dan<ex>n</ex>o
+                  <lb/>daquello que es uendido si se enpe-
+                  <lb break="no"/>ora . o se meiora . <hi rend="azul">¶</hi> Et que cosas o q<ex>ue</ex>
+                  <lb/>periglos son aquellos que deuen guar-
+                  <lb break="no"/>dar &amp; faz<ex>er</ex> entre si los q<ex>ue</ex> uenden &amp; co<ex>n</ex>pra<ex>n</ex>
+                  <lb/>. <hi rend="rojo">¶</hi> Et sobre todo mostraremos por q<ex>u</ex>al<ex>e</ex>s
+                  <lb/>razones se puede desatar la uendida
+                  <gap reason="nonsequitur"/>
+                  </p>
+
+<div n="5.5.22" type="ley" xml:id="SPMOD50522">
+<pb n="3r"/>
+<fw type="encabezado">V</fw>
+<cb n="1"/>
+               <p><gap reason="nonsequitur"/>o pora beuer mientre que y moraren . Et
+                     <lb/>si alguno contra esto fiziere ma<ex>n</ex>damos
+                     <lb/>q<ex>ue</ex> pierda por ende todo lo q<ex>ue</ex> ouiere . &amp; q<ex>ue</ex>
+                     <lb/>este su cuerpo a la merçet del Rey . Ca
+                     <lb/>dar armas a los enemigos de la fe o fa
+                     <lb break="no"/>zerles otra ayuda con q<ex>ue</ex> se pueda<ex>n</ex> an
+                     <lb break="no"/>parar . es como man<ex>er</ex>a de trayçion .</p>
+                  </div>
+<div n="5.5.23" type="ley" xml:id="SPMOD505023">
+                  <head rend="rojo"><seg xml:id="SPMOD505023.1" type="rubrica">a
+                     <lb/>quien pertenesce el pro . o el danno de
+                     <lb/>aq<ex>ue</ex>llo q<ex>ue</ex> es uendido . si se meiora o se e<ex>n</ex>-</seg></head>
+               <p><lb/><hi rend="init3">C</hi>umplese la uendida <seg xml:id="SPMOD505023.2" type="rubrica">peora</seg>
+                  <lb/>en dos maneras segund dixie-
+                  <lb break="no"/>mos en el comcienço deste . T<ex>itul</ex>o
+                  <lb/>&amp; la una se faze en escripto . &amp; la otra si<ex>n</ex>
+                  <lb/>escripto . Et quando la compra se faze
+                  <lb/>sin escripto . abiniendose el comp<ex>r</ex>ador
+                  <lb/>&amp; el uendedor el uno de la cosa &amp; el otro
+                  <lb/>del precio . dent adelante el danno que
+                  <lb/>uiene en la cosa comprada es del con-
+                  <lb break="no"/>prador . <hi rend="azul">¶</hi> Esso mismo dezimos qua<ex>n</ex>-
+                  <lb break="no"/>do se faze el escripto q<ex>ue</ex> luego q<ex>ue</ex> la car-
+                  <lb break="no"/>ta es acabada et firmada con testig-
+                  <lb break="no"/>os . dend adelante es otrossi el danno
+                  <lb/>del comprador maguer la cosa no<ex>n</ex> sea
+                  <lb/>passada a su poder . Et esto serie como
+                  <lb/>si ouiesse comprado algun sieruo . o o-
+                  <lb break="no"/>tra cosa qualquier . &amp; depues q<ex>ue</ex> la ue<ex>n</ex>-
+                  <lb break="no"/>dida fuere complida enfermasse de gui-
+                  <lb break="no"/>sa q<ex>ue</ex> se perdiesse algun miembro . o se
+                  <lb/>muriesse sin culpa del uendedor . o si
+                  <lb/>ouiesse comprado otra cosa alguna
+                  <lb/>&amp; la q<ex>ue</ex>masse fuego . o la derribasse toda
+                  <lb/>o parte della . o se empeorasse dotra gui-
+                  <lb break="no"/>sa sin culpa del uendedor . <hi rend="rojo">¶</hi> Esso mis
+                  <lb/>mo dezimos q<ex>ue</ex> serie si la cosa se perdie-
+                  <lb break="no"/>se . o se empeorasse en otra otra manera
+                  <lb/>qualquier semeiante destas q<ex>ue</ex> abin-
+                  <lb break="no"/>iesse sin culpa del uendedor . ca en estos
+                  <lb/>casos o en otros semeiantes dellos
+                  <lb/>el danno q<ex>ue</ex> uiniesse a la cosa co<ex>n</ex>prada
+                  <lb/>serie del comprador tan solamiente
+                  <lb/>. <hi rend="azul">¶</hi> Otrossi dezimos q<ex>ue</ex> complida sey-
+                  <lb break="no"/>endo la uendida en alguna de las ma-
+                  <lb break="no"/>neras q<ex>ue</ex> dessuso dixiemos q<ex>ue</ex> la pro q<ex>ue</ex>
+                  <lb/>despues uiniesse a la cosa comprada
+                  <lb/>serie del comprador maguer la cosa
+<cb n="2"/>
+                  <lb/>non fuesse passada a su poder . Et esto
+                  <lb/>serie como si ouiesse comprado alg-
+                  <lb break="no"/>un campo . o uinna &amp; depues q<ex>ue</ex> la
+                  <lb/>uendida fuesse fecha abenidas de Ri-
+                  <lb break="no"/>os acreciessen a la cosa comprada al-
+                  <lb break="no"/>guna partida de tierra en q<ex>ue</ex> uiniesse<ex>n</ex>
+                  <lb/>arboles . o otra cosa por q<ex>ue</ex> se meiora-
+                  <lb break="no"/>sen . o si quando la uendida fue aca-
+                  <lb break="no"/>bada ualie la cosa çient m<ex>a</ex>r<ex>auedi</ex>s . &amp; depu-
+                  <lb break="no"/>es desso por mudamiento de tienpo
+                  <lb/>ualiesse dozientos . o trezientos m<ex>a</ex>r<ex>auedi</ex>
+                  <lb/>o mas . ca quando quier q<ex>ue</ex> se meio-
+                  <lb break="no"/>rasse la cosa depues que la ue<ex>n</ex>dida
+                  <lb/>es complida <unclear reason="mancha">en</unclear> estas maneras so-
+                  <lb break="no"/>bredichas . o en otras semeiantes
+                  <lb/>dellas toda la meiora serie del com
+                  <lb break="n"/>prador . ca guisada cosa es como a
+                  <lb/>el pertenesce el danno segund dixi-
+                  <lb break="no"/>emos . si la cosa se pierde o se enpeo-
+                  <lb break="no"/>ra quel pertenezva otrossi la me-
+                  <lb break="no"/>ioria q<ex>ue</ex> en ella uiniere .</p>
+               </div>
+<div n="5.5.24" type="ley" xml:id="SPMOD505024">
+                  <head rend="rojo"><seg xml:id="SPMOD505024.1" type="rubrica">a quie<ex>n</ex> per-
+                  <lb break="no"/>tenesce el pro o el danno que auini-
+                  <lb break="no"/>esse en las cosas que se pueden contar
+                  <lb/>o pesar o medir . o gostar depues</seg></head>
+               <p><lb/><hi rend="init3">E</hi>l dan<ex>n</ex>o <seg xml:id="SPMOD505024.2" type="rubrica">xxiiij</seg>
+                  <lb/>q<ex>ue</ex> acaesciesse a la cosa depu--
+                  <lb break="no"/>es q<ex>ue</ex> la uendida es co<ex>n</ex>plida
+                  <lb/>dixiemos q<ex>ue</ex> es del comprador ma--
+                  <lb break="no"/>guer no<ex>n</ex> sea passada la cosa q<ex>ue</ex> com--
+                  <lb break="no"/>pro a su poder . Pero ay en q<ex>ue</ex> no<ex>n</ex> serie
+                  <lb/>assi . Ca si alguno comprasse uino
+                  <lb/>o argente uiuo o cinnamomo . o al-
+                  <lb break="no"/>guna de las otras cosas semeia<ex>n</ex>tes
+                  <lb/>destas q<ex>ue</ex> an los omnes por costum-
+                  <lb break="no"/>bre de las gostar ante que las con-
+                  <lb break="no"/>pren . &amp; si tales cosas como estas se
+                  <lb/>uendiessen por peso o por medida
+                  <lb/>&amp; se perdiessen o se empeorasse<ex>n</ex> ant<ex>e</ex>
+                  <lb/>q<ex>ue</ex> fuessen pesadas o gostadas . o me-
+                  <lb break="no"/>didas . estonce serie el periglo d<ex>e</ex>l ue<ex>n</ex>-
+                  <lb break="no"/>dedor . &amp; non del comprador magu<ex>e</ex>r
+                  <lb/>fuessen amos abenidos en el precio
+                  <lb/>Mas si despues que fuessen pesadas
+                  <lb/>&amp; medidas &amp; gostadas se perdiessen
+                  <lb/>o se enperorassen serie el periglo q<ex>ue</ex>
+<pb n="3v"/>
+<fw type="encabezado" rend="azul">L</fw>
+<cb n="1"/>
+                  <lb/>ende auiniesse del comprador . &amp; no<ex>n</ex> d<ex>e</ex>l
+                  <lb/>uendedor . Pero si abiniessen el com-
+                  <lb break="no"/>prador &amp; el uendedor en el precio &amp; sen<ex>n</ex>a-
+                  <lb break="no"/>lassen dia a q<ex>ue</ex> gostasse el comprador
+                  <lb/>la cosa &amp; en q<ex>ue</ex> pessassen . o la midiessen
+                  <lb/>si el comprador no<ex>n</ex> uiniesse a aq<ex>ue</ex>l dia
+                  <lb/>sennallador . &amp; depues desso se perdiesse
+                  <lb/>la cosa o se menoscabasse estonce se-
+                  <lb break="no"/>rie el periglo del comprador . Mas si p<ex>or</ex>
+                  <lb/>auentura acaesciesse q<ex>ue</ex> el uendedor &amp; el
+                  <lb/>comprador seyendo abenidos en el pre-
+                  <lb break="no"/>cio no<ex>n</ex> sen<ex>n</ex>allassen dia . en q<ex>ue</ex> gostasse
+                  <lb/>el comprador la cosa no en que la pesa-
+                  <lb break="no"/>sen ni<ex>n</ex> la midiessen . sefund dixiemos
+                  <lb/>estonce el uendedor puede faz<ex>er</ex> affrue<ex>n</ex>-
+                  <lb break="no"/>ta al comprador delante testigos que
+                  <lb/>uaya gostar o pesar o medir la cosa
+                  <lb/>quel uendio . &amp; si lo no<ex>n</ex> quisiere fazer
+                  <lb/>dend adelant<ex>e</ex> si la cosa se pierde o se en-
+                  <lb break="no"/>peora es el periglo del comprador . E
+                  <lb/>aun dezimos que el uendedor despu-
+                  <lb break="no"/>es q<ex>ue</ex> esta afruenta aya fecha puede
+                  <lb/>uend<ex>e</ex>r la cosa a otro si quisiere . et
+                  <lb/>si algo menoscabare en la uendida
+                  <lb/>es tenudo el comprador de reffazerle
+                  <lb/>aquello q<ex>ue</ex> por esta razon menoscab-
+                  <lb break="no"/>are . Otrossi dezimos q<ex>ue</ex> podrie mas
+                  <lb/>faz<ex>er</ex> el uendedor . q<ex>ue</ex> si ouiesse menest<ex>er</ex>
+                  <lb/>aq<ex>ue</ex>llos uasos en q<ex>ue</ex> touiesse el uino o
+                  <lb/>otra cosa q<ex>ue</ex> assi ouiesse uendido . q<ex>ue</ex>
+                  <lb/>puede logar a otros a costa &amp; a mission
+                  <lb/>del comprador . Et si por auentura
+                  <lb/>no<ex>n</ex> fallasse uasos a loguer . &amp; aq<ex>ue</ex>llo q<ex>ue</ex>
+                  <lb/>ouiesse uendido fuesse tal cosa q<ex>ue</ex> o-
+                  <lb break="no"/>uiesse de coger otro fructo atal com<ex>o</ex>
+                  <lb/>aquel &amp; no<ex>n</ex> ouiesse en q<ex>ue</ex> lo meter assi
+                  <lb/>como uino o otra cosa semeiante
+                  <lb/>estonce puede echar en la cal o en la
+                  <lb/>carrera publica aq<ex>ue</ex>llo que assi oui
+                  <lb/>esse uendido pesandolo . o midie<ex>n</ex>do-
+                  <lb break="no"/>lo prim<ex>er</ex>amientre &amp; echandolo assi
+                  <lb/>de fuera . Et estonces puede fazer el
+                  <lb/>uendedor desde el dia en adelant<ex>e</ex> q<ex>ue</ex>
+                  <lb/>fue puesto en q<ex>ue</ex> uiniesse el co<ex>n</ex>prador
+                  <lb/>pesar o medir las cosas sob<ex>re</ex>dichas
+<cb n="2"/>
+                  <lb/>o despues q<ex>ue</ex> fue affrontado q<ex>ue</ex> las uin-
+                  <lb break="no"/>iesse a tomar assi como sobredich<ex>o</ex> es
+                  <lb/>Et lo q<ex>ue</ex> dixiemos en esta ley a logar
+                  <lb/>en todas las cosas q<ex>ue</ex> los om<ex>n</ex>es an p<ex>or</ex>
+                  <lb/>costumbre de gostar &amp; de pesar . &amp; de me-
+                  <lb break="no"/>dir . Mas si la uendida fuesse fecha d<ex>e</ex>
+                  <lb/>oro . o de plata . o de ciuera . o de otra co-
+                  <lb break="no"/>sa sem<ex>e</ex>iante q<ex>ue</ex> se suele uenden a peso
+                  <lb/>o a medida tan solamientre . estonc<ex>e</ex>
+                  <lb/>dezimos q<ex>ue</ex> si periglo aceasce en aq<ex>ue</ex>lla
+                  <lb/>cosa perdiendose . o dannandose della
+                  <lb/>o toda ant<ex>e</ex> q<ex>ue</ex> sea pesada o medida qu<ex>e</ex>
+                  <lb/>es del uendedor . Pero si enrafecassen
+                  <lb/>o encareciessen en aquel logar las
+                  <lb/>otras cosas q<ex>ue</ex> fuessen tales como aq<ex>ue</ex>l-
+                  <lb break="no"/>las . la meioria . o el menoscabo q<ex>ue</ex> aui-
+                  <lb break="no"/>niesse por esta razon serie del compra-
+                  <lb break="no"/>dor tan solamientre <hi rend="rojo">.</hi></p>
+               </div>
+<div n="5.5.25" type="ley" xml:id="SPMOD50525">
+                  <head rend="rojo"><seg xml:id="SPMOD505025.1" type="rubrica">a quien pertene-
+                  <lb break="no"/>ce la pro . o el danno de las cosas que
+                  <lb/>se suelen contar o pesar o medir q<ex>u</ex>an-
+                  <lb break="no"/>do las uende<ex>n</ex> a uista si se enpeor<unclear reason="tinta">an</unclear> o</seg></head>
+               <p><lb/><hi rend="init3">A</hi>viene a las ue- <seg xml:id="SPMOD505025.2" type="rubrica">xxvª.</seg>
+                  <lb break="no"/>gadas q<ex>ue</ex> algunas de las
+                  <lb/>cosas q<ex>ue</ex> se podrien contar
+                  <lb/>o pesar o medir que las uenden los
+                  <lb/>omnes aunadamientre a uista no<ex>n</ex>
+                  <lb/>las pesando nin las midiendo assi co
+                  <lb/>mo quando uende un om<ex>n</ex>e a otro . el
+                  <lb/>uino de alguna bodega . o el olio d<ex>e</ex> al
+                  <lb/>gun almazen . o la uu de alguna ui<ex>n</ex>-
+                  <lb break="no"/>na o otra cosa semeiante . Et por e<ex>n</ex>-
+                  <lb break="no"/>de dezimos q<ex>ue</ex> depues q<ex>ue</ex> el comprador
+                  <lb/>&amp; el uendedor se abienen en el precio so-
+                  <lb break="no"/>bre alguna de las cosas sobredichas
+                  <lb/>o otra semejante dellas faziendo la ue<ex>n</ex>-
+                  <lb break="no"/>dida a uista assi como sobredicho es
+                  <lb/>q<ex>ue</ex> su depues desso se pierde o se menos-
+                  <lb break="no"/>caba o encareçe la cosa q<ex>ue</ex> assi es ue<ex>n</ex>di-
+                  <lb break="no"/>da . q<ex>ue</ex> la pro o el danno es del co<ex>n</ex>prador
+                  <lb/>tan solamientre . </p>
+               </div>
+<div n="5.5.26" type="ley" xml:id="SPMOD505026">
+                  <head rend="rojo"><seg xml:id="SPMOD505026.1" type="rubrica">a quien perteneçe
+                  <lb/>el pro o el dan<ex>n</ex>o de la cosa uendida
+                  <lb/>quando por tardanña de la no<ex>n</ex> entr<ex>e</ex></seg></head>
+               <p><lb/><hi rend="init3">C</hi>ondi <seg xml:id="SPMOD505026.2" type="rubrica">gar el uendedor se e<ex>n</ex></seg>-
+                  <lb break="no"/>cion seyendo puesta <seg xml:id="SPMOD505026.3" type="rubrica">xxvi</seg>  
+                  <lb/>en la uendida . si la cosa q<ex>ue</ex>
+                  <gap reason="nonsequitur"/>
+                  </p>
+               </div>
+ <div n="5.5.63" type="ley" xml:id="SPMOD505063">
+<pb n="4r"/>
+<fw type="encabezado" rend="azul">V</fw>
+<cb n="1"/>
+                  <head rend="rojo"><lb/><seg xml:id="SPMOD505063.1" type="rubrica"><gap/>el uendedor encubre la seruidumbre
+                  <lb/><unclear reason="tinta" extent="7letras"/>so . o la maldat q<ex>ue</ex> auie en la</seg></head>
+               <p><lb/><hi rend="init3">C</hi>asa . o torre <seg xml:id="SPMOD505063.2" type="rubrica">lxiij</seg>
+                  <lb/>q<ex>ue</ex> deue seruidumbre a otro
+                  <lb/>o q<ex>ue</ex> fuesse tributaria uendi-
+                  <lb break="no"/>endo un omne a otro callando el ue<ex>n</ex>-
+                  <lb break="no"/>dedor . q<ex>ue</ex> no<ex>n</ex> apercibiendo dello a aq<ex>ue</ex>l q<ex>ue</ex>
+                  <lb/>la compraua . por tal razo<ex>n</ex> como esta
+                  <lb/>puede el comprador desfaz<ex>er</ex> la uendida
+                  <lb/>&amp; es tenudo el uendedor de tornarle el
+                  <lb/>precio co<ex>n</ex> todos los dannos &amp; los menosc-
+                  <lb break="no"/>abos quel uinieron por esta razon . O-
+                  <lb break="no"/>trossi dezimo q<ex>ue</ex> si uendiesse algu<ex>n</ex> o<ex>mn</ex>e
+                  <lb/>a otro algun campo o prado que sopi-
+                  <lb break="no"/>esse q<ex>ue</ex> criauan malas yeruas &amp; dan<ex>n</ex>o-
+                  <lb break="no"/>sas pora las bestias q<ex>ue</ex> las paciesse<ex>n</ex> . &amp;
+                  <lb/>quando lo uendiesse se callasse q<ex>ue</ex> non
+                  <lb/>lo quisiesse dezir al comprador q<ex>ue</ex> es
+                  <lb/>tenudo el uendedor por ende de tornar
+                  <lb/>el p<ex>re</ex>cio al comprador con todos los dan-
+                  <lb break="no"/>nos quel uinieron ende . Mas si esto
+                  <lb/>no<ex>n</ex> sopiesse el uendedor quando la uen-
+                  <lb break="no"/>dio non serie tenudo de tornar mas d<ex>e</ex>l
+                  <lb/>precio tan solamientre.</p>
+               </div>
+ <div n="5.5.64" type="ley" xml:id="SPMOD50564">
+                  <head rend="rojo">
+                  <lb/>de desfaz<ex>er</ex> la uendida <unclear reason="tinta" extent="10letras"/> el se<ex>n</ex>-
+                  <lb break="no"/>nor encubre la ta<unclear reason="tinta" extent="3letras">cha</unclear> o la <unclear reason="tinta" extent="6letras"/></head>
+               <p><lb/><hi rend="init3">T</hi>acha o maldat auiendo el
+                  <lb/>sieruo q<ex>ue</ex> un omne uendies-
+                  <lb break="no"/>se a otro . assi como si fuesse
+                  <lb/>ladron . o ouiesse por costumbre de fo-
+                  <lb break="no"/>yr a su sennor . o otra maldar semeia<ex>n</ex>-
+                  <lb break="no"/>te destas . si el uendedor sabie esto &amp;
+                  <lb/>no<ex>n</ex> lo dixo al comprador . tenudo es
+                  <lb/>de recebir el sieruo . &amp; de tornarle el p<ex>re</ex>
+                  <lb/>cio co<ex>n</ex> los dannos &amp; con los menoscabos q<ex>ue</ex>l
+                  <lb/>uinieron ende . Et si no<ex>n</ex> lo sabie de-
+                  <lb break="no"/>ue fincar el sieruo al comprador .
+                  <lb/>Pero es tenudo el uendedor de tornar-
+                  <lb break="no"/>le tanta parte del precio quanto fu-
+                  <lb break="no"/>esse fallado en u<ex>er</ex>dat q<ex>ue</ex> uale menos
+                  <lb/>por razon de aq<ex>ue</ex>lla tacha . <hi rend="rojo">¶</hi> Esso mi-
+                  <lb break="no"/>smo dezimos que serie . si el sieruo o-
+                  <lb break="no"/>uiesse alguna enfermedat mala e<ex>n</ex>-
+                  <lb break="no"/>cubierta .</p>
+               </div>
+ <div n="5.5.65" type="ley" xml:id="SPMOD505065">
+               <head rend="rojo"><seg xml:id="SPMOD505065.1" type="rubrica">Como se puede desfazer la uen-
+                  <lb break="no"/>dida de cauallo o dotra bestia . si el ue<ex>n</ex>-
+<cb n="2"/>
+                  <lb break="no"/>dedor non dize . o encubre la tacha o</seg></head>
+               <p><lb/><hi rend="init3">C</hi>auallo o <seg xml:id="SPMOD505065.2" type="rubrica">lxv</seg>
+                  <lb/>mulo . o otra bestia ue<ex>n</ex>di-
+                  <lb break="no"/>endo un omne a otro q<ex>ue</ex> o-
+                  <lb break="no"/>uiesse alguna mala enfermedat .
+                  <lb/>o tacha que ualiesse menos  . si lo sa-
+                  <lb break="no"/>be el uendedor quando la uende d<ex>e</ex>ue-
+                  <lb break="no"/>lo dezir . &amp; su lo non dize luego q<ex>ue</ex> el
+                  <lb/>comprador entendiere aq<ex>ue</ex>lla enfer-
+                  <lb break="no"/>medat o tacha fata seys meses pu-
+                  <lb break="no"/>edela tornar al uendedor . &amp; cobrar el
+                  <lb/>precio q<ex>ue</ex> dio por ella . &amp; el uendedor es
+                  <lb/>tenudo de la recebir . et tornarle el
+                  <lb/>precio maguer non quiera . &amp; si fa-
+                  <lb break="no"/>ta los .vj. meses no<ex></ex>n demandasse el
+                  <lb/>precio . despues no<ex>n</ex> lo podrie deman
+                  <lb/>dar &amp; fincarie la uendida ualedera
+                  <lb/>como quier q<ex>ue</ex> fata un anno pueda
+                  <lb/>el comprador faz<ex>er</ex> demanda a aq<ex>ue</ex>l q<ex>ue</ex>l
+                  <lb/>uendio la bestia quel peche ol torne
+                  <lb/>tanta parte del precio quanto falla-
+                  <lb break="no"/>ssen en u<ex>er</ex>dat que uale menos por
+                  <lb/>razon de la tacha . o de la enfermedat
+                  <lb/>q<ex>ue</ex> era en ella . Et destos plazos adela<ex>n</ex>-
+                  <lb break="no"/>te no<ex>n</ex> podrie el comprador faz<ex>er</ex> ni<ex>n</ex>gu-
+                  <lb break="no"/>na destas demandas . Et este tie<ex>n</ex>po
+                  <lb/>de los seys meses &amp; del anno sobredic-
+                  <lb break="no"/>ho se deue començar a contar desd<ex>e</ex>
+                  <lb/>el dia que fue fecha la uendida .</p>
+               </div>
+ <div n="5.5.66" type="ley" xml:id="SPMOD505066">
+                  <head rend="rojo"><seg xml:id="SPMOD505066.1" type="rubrica">Co-
+                  <lb break="no"/>mo no<ex>n</ex> puede <unclear reason="tintas"/>-
+                  <lb break="no"/>dida de la  <unclear reason="tintas"/>
+                  <lb/>paladinamientre <unclear reason="tintas"/></seg></head>
+               <p><lb/><hi rend="init3">M</hi>anifiesta- <seg xml:id="SPMOD505066.2" type="rubrica">lxvj</seg>
+                  <lb break="no"/>mientre diziendo la tacha
+                  <lb/>o la enfermedat el uende-
+                  <lb break="no"/>dor al comprador del sieruo o de la be-
+                  <lb break="no"/>stia quel uende . si el comprador se-
+                  <lb break="no"/>yendo ende sabidor le plaze de la co<ex>n</ex>-
+                  <lb break="no"/>prar . &amp; recibe la cosa por suya &amp; da el
+                  <lb/>precio por ello . Si despues desto se q<ex>u</ex>i-
+                  <lb break="no"/>siesse repentir no<ex>n</ex> podrie . nin serie
+                  <lb/>tenudo el uendedor de recebir la cosa
+                  <lb/>nin de tornarle el precio . <hi rend="azul">¶</hi> Esso
+                  <lb/>mismo dezimos que serie si se abi-
+                  <lb break="no"/>niessen amos en el precio . &amp; fuesse
+<pb n="4v"/>
+<cb n="1"/>
+                  <fw type="encabezado" rend="azul">L</fw>
+                  <lb/>fecha la uendida en tal man<ex>er</ex>a . qu<ex>e</ex>
+                  <lb/>por tacha q<ex>ue</ex> ouiesse la bestia no<ex>n</ex> la
+                  <lb/>pudiesse desechar el comprador . Mas
+                  <lb/>si el uendedor dixiesse generalmie<ex>n</ex>-
+                  <lb break="no"/>tre q<ex>ue</ex> la bestia q<ex>ue</ex> auie tachas . &amp; encu-
+                  <lb break="no"/>briesse callando las q<ex>ue</ex> auie . &amp; dizie<ex>n</ex>-
+                  <lb break="no"/>dolas enbuelta con otras engan<ex>n</ex>o
+                  <lb/>semejante de guisa q<ex>ue</ex> el comprador
+                  <lb/>no<ex>n</ex> se pudiesse apercebir ende . esto<ex>n</ex>-
+                  <lb break="no"/>ce dezimos q<ex>ue</ex> serie tenudo de recebir
+                  <lb/>la cosa q<ex>ue</ex> assi uendiesse &amp; de tornar
+                  <lb/>el precio al comprador a los plazos
+                  <lb/>que dixiemos en la ley ante desta .</p>
+               </div>
+ <div n="5.5.67" type="ley" xml:id="SPMOD505067">
+                  <head rend="rojo"><lb/><seg xml:id="SPMOD505067.1" type="rubrica">Como si la cosa uendida es dada de-
+                  <lb break="no"/>pues a pennos q<ex>ue</ex> deue seer tornada
+                  <lb/>a su duenno si se desfiziere la ue<ex>n</ex>di</seg></head>
+               <p><lb/><hi rend="init3">S</hi>i el comprador despu- <seg xml:id="SPMOD505067.2" type="rubrica">lxvij</seg>
+                  <lb break="no"/>es q<ex>ue</ex> ouiesse la cosa co<ex>n</ex>pra-
+                  <lb break="no"/>da en alguna de las ma-
+                  <lb break="no"/>neras q<ex>ue</ex> dixiemos en las leyes an-
+                  <lb break="no"/>tes desta la enpennasse a otro &amp; desp-
+                  <lb break="no"/>ues desto la desatasse la uendida
+                  <lb/>por algunas de las razones q<ex>ue</ex> dessu-
+                  <lb break="no"/>so dixiemos . estonce el q<ex>ue</ex> tomo la
+                  <lb/>cosa a pennos tenudo es de la tornar
+                  <lb/>al uendedor cuya fue . &amp; puedela de-
+                  <lb break="no"/>mandar al que gela enpenno q<ex>ue</ex> pa-
+                  <lb break="no"/>gue lo q<ex>ue</ex> dio sobrella a pennos . <hi rend="azul">¶</hi> O-
+                  <lb break="no"/>trossi dezimos q<ex>u</ex>e si un omne p<ex>re</ex>stas-
+                  <lb break="no"/>se a otro alguna cosa . obligandose
+                  <lb/>en tal manera . q<ex>ue</ex> la no<ex>n</ex> pudiesse
+                  <lb/>uend<ex>e</ex>r . nin dar nin enagenar en
+                  <lb/>ninguna guisa . fata q<ex>ue</ex> la ouiesse
+                  <lb/>quitada del . si despues q<ex>ue</ex> la ouiese
+                  <lb/>enpennada assi la uendiesse a otro
+                  <lb/>non valdrie la uendida . &amp; pod<ex>e</ex>rseye
+                  <lb/>desatar por esta razon.</p>
+               </div>
+            </div>
+            <div n="5.6.0" type="intro" xml:id="SPMOD506000">
+               <head rend="rojo"><lb/>Titulo . vjº .
+                  <lb/>de los camios</head>
+               <p><lb/><hi rend="init8">C</hi>amiar una
+                  <lb/>cosa por otra
+                  <lb/>es bue<ex>n</ex>a ma<ex>n</ex>e-
+                  <lb break="no"/>ra de pleyto
+                  <lb/>q<ex>ue</ex> semeia mas
+                  <lb/>al de las uen-
+                  <lb break="no"/>didas &amp; de las
+<cb n="2"/>
+                  <lb/>compras q<ex>ue</ex> a otro fazen . assi como o<ex>mn</ex>e
+                  <lb/>gana la cosa q<ex>ue</ex> a comprada por precio
+                  <lb/>q<ex>ue</ex> da p<ex>or</ex> ella . bien assi la gana por aq<ex>ue</ex>l-
+                  <lb break="no"/>lo q<ex>ue</ex> camio por ella . <hi rend="rojo">¶</hi> Onde pues
+                  <lb/>q<ex>ue</ex> en el titulo ante deste fablamos de
+                  <lb/>las uendidas &amp; de las compras . q<ex>ue</ex>re-
+                  <lb break="no"/>mos aqui dezir de los camios . Et
+                  <lb/>mostraremos q<ex>ue</ex> cosa es camio .  <hi rend="azul">¶</hi> E
+                  <lb/>en q<ex>ue</ex> man<ex>er</ex>a se puede faz<ex>er</ex> . <hi rend="rojo">¶</hi> Et q<ex>u</ex>ien
+                  <lb/>lo puede faz<ex>er</ex> . <hi rend="azul">¶</hi> Et de q<ex>ue</ex> cosas . <hi rend="rojo">¶</hi> Et
+                  <lb/>q<ex>ue</ex> fuerça ha . <hi rend="azul">¶</hi> Et porq<ex>ue</ex> razones pu-
+                  <lb break="no"/>ede s<ex>er</ex> desatado depues que fuere fech<ex>o</ex>
+                  <lb/>. <hi rend="rojo">¶</hi> Et sobre todo esto mostraremos
+                  <lb/>de los otros pleytos a q<ex>ue</ex> dizen en lati<ex>n</ex>
+                  <lb/><foreign xml:lang="la">contractus innominatos</foreign> q<ex>ue</ex> an se-
+                  <lb break="no"/>meianza con el camio .</p>
+ <div n="5.6.1" type="ley" xml:id="SPMOD506001">
+                  <head rend="rojo">Que cosa
+                  <lb/>es el camio . &amp; e<ex>n</ex> q<ex>ue</ex> manera se faze .</head>
+               <p><lb/><hi rend="init3">C</hi>amio es dar o otorgar alg-
+                  <lb break="no"/>una cosa por otra . &amp; puede-
+                  <lb break="no"/>se faz<ex>er</ex> el camio en tres ma-
+                  <lb break="no"/>neras . <hi rend="azul">¶</hi> La penna es quando se fa-
+                  <lb break="no"/>ze con plazer de amas las partes &amp;
+                  <lb/>con otorgamiento &amp; con complimi-
+                  <lb break="no"/>ento d<ex>e</ex> la faz<ex>er</ex> complir . &amp; esto serie dizi-
+                  <lb break="no"/>do el uno al otro . plaze uos de ca-
+                  <lb break="no"/>miar conmigo . tal u<ex>uest</ex>ra cosa por tal
+                  <lb/>nombrando cada una dellas sen<ex>n</ex>ala-
+                  <lb break="no"/>damientre . deue el otro dezir . plaze-
+                  <lb break="no"/>me . &amp; otrosolo . &amp; prometo de lo co<ex>n</ex>plir
+                  <lb/>. <hi rend="azul">¶</hi> La otra man<ex>er</ex>a es quando lo fa-
+                  <lb break="no"/>ze por palabrassimples no<ex>n</ex> lo otorg
+                  <lb/>ando . nin prometiendo de lo conplir
+                  <lb/>mas diziendo assi . quiero camiar
+                  <lb/>tal cosa con uusco . &amp; el otro le respo<ex>n</ex>-
+                  <lb break="no"/>de q<ex>ue</ex>l plaze . por tales palabras como
+                  <lb/>estas . o por otras semeiantes dellas
+                  <lb/>se faze el camio maguer las cosas
+                  <lb/>q<ex>ue</ex> camian no<ex>n</ex> sean presentes nin pa-
+                  <lb break="no"/>ssadas a pod<ex>e</ex>r de ninguna de las par-
+                  <lb break="no"/>tes . <hi rend="rojo">¶</hi> La tercera manera es qua<ex>n</ex>do
+                  <lb/>se faze el camio por palabra . cump-
+                  <lb break="no"/>liendolo despues de fecho amos a dos
+                  <lb/>o la una de las partes tan solamien-
+                  <lb break="no"/>tre . ca en tal camio como este abon-
+                  <lb break="no"/>da quales palabras quier q<ex>ue</ex> diga<ex>n</ex>
+                  <gap reason="nonsequitur"/></p> 
+            </div>
+         </div>
+         </div>
+<pb n="5r"/>
+<cb n="1"/>
+         <div n="6" type="partida">
+ <div n="6.0.0" type="prol" xml:id="SPMOD60000">
+                  <head rend="rojo"><lb/>Aqui se comiença la sexta partida des-
+                  <lb break="no"/>te libro que fabla de los testamentos
+                  <lb/>&amp; de las herencias .</head>
+               <p><lb/><hi rend="init7">S</hi>esudame<ex>n</ex>t dixie-
+                  <lb break="no"/>ron los sabios
+                  <lb/>antigos que passa<ex>n</ex>
+                  <lb/>so tie<ex>n</ex>po aq<ex>ue</ex>llos q<ex>ue</ex>
+                  <lb/>mie<ex>n</ex>tre biue<ex>n</ex> faz-
+                  <lb break="no"/>en bien su fazie<ex>n</ex>-
+                  <lb break="no"/>da toma<ex>n</ex>do guar-
+                  <lb break="no"/>da en las posturas et en los pleytos . q<ex>ue</ex>
+                  <lb/>ponen unos co<ex>n</ex> otros. <hi rend="azul">¶</hi> Mas mayorme-
+                  <lb break="no"/>nt tomaro<ex>n</ex> q<ex>ue</ex> ha<ex>n</ex> muy grand seso los que
+                  <lb/>a su finamie<ex>n</ex>to saben ordenar lo suyo en
+                  <lb/>tal recabdo de q<ex>ue</ex> ellos reciben plazer . &amp; fa-
+                  <lb break="no"/>zen pro de sus almas . &amp; fi<ex>n</ex>ca despues de su
+                  <lb/>muerte lo suyo sin dubda . &amp; sin co<ex>n</ex>tienda a
+                  <lb/>sus herederos . <hi rend="rojo">¶</hi> Onde pues q<ex>ue</ex> en la q<ex>u</ex>inta
+                  <lb/>partida deste nuestro libro fablamos d<ex>e</ex>
+                  <lb/>todas las posturas y pleytos &amp; co<ex>n</ex>uenien-
+                  <lb break="no"/>ças que los om<ex>ne</ex>s fazen entre si en su uida
+                  <lb/>queremos aqui dezir . de los testame<ex>n</ex>tos
+                  <lb/>que fazen a su fin porq<ex>ue</ex> esto es en çerra-
+                  <lb break="no"/>mie<ex>n</ex>to de su fecho <hi rend="azul">¶</hi> E desi diremos de las
+                  <lb/>here<ex>n</ex>cias que los otros heredan dellos des-
+                  <lb break="no"/>pues q<ex>ue</ex> muere<ex>n</ex> ta<ex>n</ex> bien por testame<ex>n</ex>to cu-
+                  <lb break="no"/>emo por manda . o por otra manera qual-
+                  <lb break="no"/>quier . <hi rend="rojo">¶</hi> E otrossi mostraremos cuemo
+                  <lb/>los huerfanos &amp; los ninnos chiquiellos
+                  <lb/>&amp; sus cosas deue<ex>n</ex> seer guardadas &amp; puestas
+                  <lb/>en recabdo despues de muerte de sus pad-
+                  <lb break="no"/>res . &amp; de todas las otras que pertenescen
+                  <lb/>a estas razones.</p>
+            </div>
+            <div n="6.1.0" type="titulo" xml:id="SPMOD601000">
+                <head rend="rojo"><seg xml:id="MOD601000.1" type="rubrica">Titulo primero d<ex>e</ex> los</seg></head>
+                <p><lb/><hi rend="init3">T</hi>estamento <seg xml:id="MOD601000.2" type="rubrica">testamentos .</seg>
+                   <lb/>es una de las cosas del mu<ex>n</ex>do
+                   <lb/>en q<ex>ue</ex> mas deue<ex>n</ex> los om<ex>ne</ex>s auer
+                   <lb/>cordura quando lo fazen . E esto es por dos
+                   <lb/>razones . <hi rend="azul">¶</hi> La una porq<ex>ue</ex> ellos muestran
+                   <lb/>qual es la su postrera uolu<ex>n</ex>tad <hi rend="rojo">¶</hi> E
+                   <lb/>la otra porq<ex>ue</ex> despues q<ex>ue</ex> los han fechos si
+                   <lb/>se muere<ex>n</ex> no puede<ex>n</ex> tornar otra uez a
+                   <lb/>endereçarlos . ni a fazerlos de cabo . On-
+                   <lb break="no"/>de pues que en el comie<ex>n</ex>ço desta partida
+                   <lb/>faremos mie<ex>n</ex>te dellos . q<ex>ue</ex>remos dezir
+                   <lb/><unclear reason="borron">en e</unclear>ste titulo . la guarda que deuen auer
+ <cb n="2"/>
+                  <lb/>los om<ex>ne</ex>s quando los quisieren fazer <hi rend="rojo">¶</hi> e mo-
+                   <lb break="no"/>mostraremos q<ex>ue</ex> quier dezir testamiento <hi rend="azul">¶</hi> e
+                   <lb/>a que tiene pro. <hi rend="rojo">¶</hi> e qua<ex>n</ex>tas maneras so<ex>n</ex>
+                   <lb/>del <hi rend="azul">¶</hi> Et cuemo deue seer fecho <hi rend="rojo">¶</hi> Et
+                   <lb/>quales no puede<ex>n</ex> seer testigos en·el <hi rend="azul">¶</hi> e
+                   <lb/>quie<ex>n</ex> lo puede fazer <hi rend="rojo">¶</hi> e qua<ex>n</ex>do <hi rend="azul">¶</hi> e por
+                   <lb/>q<ex>ue</ex> razones se puede delatar <hi rend="rojo">¶</hi> e que pe-
+                   <lb break="no"/>na deue<ex>n</ex> auer los q<ex>ue</ex> embargan a otros.
+                   <lb/>que lo non fagan.</p>
+  <div n="6.1.1" type="ley" xml:id="SPMOD601001">
+                <head rend="rojo">Ley .iª. Que q<ex>u</ex>ier dezir
+                   <lb/>testame<ex>n</ex>to &amp; a qui tiene pro. &amp; q<ex>u</ex>antas ma-
+                   <lb break="no"/>neras son del. &amp; como deue seer fecho.</head>
+                <p><lb/><foreign xml:lang="la"><hi rend="init3">T</hi>estacio &amp; me<ex>n</ex>s</foreign> son dos palabras
+                <lb/>en lati<ex>n</ex> que quiere<ex>n</ex> ta<ex>n</ex>to dezir
+                <lb/>en romanz cuemo testimonio
+                   <lb/>de·la miente del om<ex>n</ex>e. <hi rend="azul">¶</hi> e destas palabras
+                   <lb/>fue tomado el nombre d<ex>e</ex>l testame<ex>n</ex>to <hi rend="azul">¶</hi> Ca
+                <lb/>en·el se ençierra &amp; se pone ordenadamie<ex>n</ex>-
+                <lb break="no"/>tre la uolu<ex>n</ex>tad daq<ex>ue</ex>l que·lo faze estableci-
+                <lb break="no"/>endo en el su heredero. &amp; departie<ex>n</ex>do lo su-
+                <lb break="no"/>yo en aq<ex>ue</ex>lla manera que el tiene por bie<ex>n</ex>
+                   <lb/>que fin<ex>que</ex> despues de su muerte. <hi rend="rojo">¶</hi> e tiene
+                   <lb/>grand pro a·los om<ex>n</ex>es el testame<ex>n</ex>to quando
+                   <lb/>es fecho derechamie<ex>n</ex>tre. <hi rend="azul">¶</hi> Ca luego fue-
+                   <lb/>lga el coraçon daquel quel fizo. &amp; tuelle+se
+                   <lb/>por·el·el desacuerdo q<ex>ue</ex> podrie acaescer ent-
+                   <lb break="no"/>re·los parie<ex>n</ex>tes que ouiesse<ex>n</ex> esperança de
+                   <lb/>heredar los bienes d<ex>e</ex>l finado <hi rend="rojo">¶</hi> Et so<ex>n</ex> dos
+                   <lb/>maneras de testame<ex>n</ex>to <hi rend="azul">¶</hi> La una es a q<ex>ue</ex>
+                   <lb/>llama<ex>n</ex> en·lati<ex>n</ex> testame<ex>n</ex>to no<ex>n</ex>cuatiuo que
+                   <lb/>quier ta<ex>n</ex>to dezir. como ma<ex>n</ex>da que se faze
+                   <lb/>paladinamie<ex>n</ex>tre ante siete testigos en q<ex>ue</ex>
+                   <lb/>demuestra el q<ex>ue</ex> la faze por palabra o por
+                   <lb/>escripto quie<ex>n</ex> establece por heredero. &amp; co.
+                   <lb break="no"/>mo ordena &amp; departe las otras sus cosas.
+                   <lb/><hi rend="rojo">¶</hi> eLa otra manera es a que dize<ex>n</ex> en lati<ex>n</ex> <foreign xml:lang="la">tes-
+                   <lb break="no"/>tame<ex>n</ex>tu<ex>m</ex> in scriptis</foreign>. que quier tanto dezir
+                   <lb/>cuemo ma<ex>n</ex>da q<ex>ue</ex> se faze por escripto &amp; non do-
+                   <lb break="no"/>tra guisa. <hi rend="azul">¶</hi> e el testame<ex>n</ex>to deue seer fe-
+                   <lb break="no"/>cho ante siete testigos que sea<ex>n</ex> llamados
+                   <lb/>rogados daq<ex>ue</ex>l que lo faze <hi rend="rojo">¶</hi> e ni<ex>n</ex>guno des-
+                   <lb break="no"/>tos testigos no deue seer sieruo nj menor
+                   <lb/>de catorze años ni muger ni om<ex>n</ex>e mal
+                   <lb/>enfamado <hi rend="azul">¶</hi> Otrossi dezimos q<ex>ue</ex> cada uno
+                   <lb/>dellos deue escriuir su no<ex>n</ex>bre en la fin d<ex>e</ex>l
+                   <lb/>testame<ex>n</ex>to. dizie<ex>n</ex>do assi yo ffulan so testigo
+<fw type="pie"><hi rend="azul">T<ex>itulo</ex></hi> <hi rend="rojo">I</hi></fw>
+                <gap reason="nonsequitur"/></p>
+                   </div>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

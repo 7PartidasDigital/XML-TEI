@@ -1,204 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+	<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <teiHeader xml:lang="es">
-      <fileDesc>
-         <titleStmt>
-            <title>Siete Partidas. Versión codificada de BA1</title>
-            <author>Alfonso X el Sabio</author>
-            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
-               >PID2020-112621GB-I00</idno></funder>
-            <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER <idno
-               type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
-            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el FEDER
-               <idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
-            <funder xml:id="UVA">Universidad de Valladolid</funder>
-            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
-            <respStmt>
-               <resp>Investigador principal</resp>
-               <name>José Manuel FRADEJAS RUEDA</name>
-            </respStmt>
-            <respStmt>
-               <resp>transcrito por</resp>
-               <name>José Manuel Fradejas Rueda</name>
-            </respStmt>
-            <respStmt>
-               <resp>revisado por</resp>
-               <name><!-- Nombre del revisor --></name>
-            </respStmt>
-         </titleStmt>
-         <extent>14 KB</extent>
-         <publicationStmt>
-            <publisher>7PartidasDigital. Universidad de Valladolid</publisher>
-            <pubPlace>Valladolid</pubPlace>
-            <address>
-               <addrLine>Plaza del Campus s/n</addrLine>
-               <addrLine>E-47011 Valladolid</addrLine>
-            </address>
-            <idno>SP-BA1</idno>
-            <availability status="free">
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>Esta obra está bajo una licencia de Creative Commons
-                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
-                  <p>El fichero maestro está alojado en el repositorio del <ref
-                     target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-BA1.xml">
-                     proyecto en GitHub</ref>.</p>
-               </licence>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s" type="project">7 Partidas Digital</title>
-         </seriesStmt>
-         <sourceDesc>
-            <p>Se trata de un fragmento de un folio de la <title>Cuarta Partida</title> que sirvió
-               de guarda a un legajo, de cuyo uso es muestra los dos trozos de tela que servían para
-               atarlo y las varias anotaciones que contiene. Dos ellas son el número 138, que se
-               corresponde con el número de la signatura Gaveta Matérias Inúteis 138. Se conserva la
-               mitad inferior del folio.</p>
-            <p>Este fragmento conserva pasajes de los títulos 4.21 y 4.22. La parte final de la ley
-               4.21.8, el comienzo del título 4.22, una parte de 4.22.1; el comienzo de 4.22.3 con
-               las últimas palabras de la rúbrica y el comienzo de 4.22.6.</p>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p>Este texto se ha creado como parte del proyecto <title>Siete Partidas</title>
-               financiado por el Ministerio de Ciencia, Innovación y Universidades de España,
-               referencia <idno type="referencia">PID2020-112621GB-I00</idno> y <idno
-                  type="referencia">FFI2016-75014-P</idno>. La descripción del proyecto y sus
-               participantes se recogen en la <ref target="https://7partidas.hypotheses.org"
-                  >web</ref> del mismo.</p>
-         </projectDesc>
-         <editorialDecl>
-            <p>La transcripción se ha realizado a la vista de una reproducción digital en .jpg
-               facilitada por el Arquivo Distrital de Braga (Portugal)</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <abstract resp="#JMFR">
-            <p>Contiene fragmentos de los titulos 4.21 y 4.22 de las
-               <title>Siete Partidas</title>.</p>
-         </abstract>
-      </profileDesc>
-      <revisionDesc>
-         <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
-         <change when="2020-07-11" who="#JMFR" status="borrador">Adición del atributo de titulo / ley en div</change>
-         <change when="2020-07-10" who="#JMFR" status="borrador">Realizada la transcripción /
-            codificación</change>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="es">
-      <body>
-         <div n="4" type="partida" xml:id="SPBA1400000">
-            <gap reason="folios perdidos"/>
-            <div n="4.21.0" type="titulo" xml:id="SPBA1421000">
-               <gap reason="folios perdidos"/>
-               <div n="4.21.8" type="ley" xml:id="SPBA1421008">
-                  <gap reason="rotura"/>
-                  <p><lb/>meses se cu<ex>m</ex>pliesen trabaja<ex>n</ex>dose el
-                     <lb/>sen<ex>n</ex>or de venderle. se tornase xpisti-
-                     <lb/>ano no<ex>n</ex> p<ex>er</ex>deria por ende el judio o
-                     <lb/>>el moro todo el p<ex>re</ex>cio que ouiese <unclear/>
-                     <lb/>por el. Ant<ex>e</ex> dezimos q<ex>ue</ex> serie tenudo
-                     <lb/>de <add hand="copista" place="interlineado">dar</add> por si el o el q<ex>ue</ex><supplied> </supplied>lo fiziese tornar x<ex>pisti</ex>a-
-                     <lb break="no"/>no doze mrs de<supplied> </supplied>la moneda q<ex>ue</ex> corrie-
-                     <lb break="no"/>se en aquel lugar. <hi rend="rojo">¶</hi> E si<supplied> </supplied>no<ex>n</ex> oujere de
-                     <lb/>q<ex>ue</ex> los pagar deuel serujr por ellos no<ex>n</ex>
-                     <lb/>com<ex>m</ex>o sieruo. mas com<ex>m</ex>o lib<ex>r</ex>e fasta
-                     <lb/>q<ex>ue</ex> los aya meresçido. E si fasta los
-                     <lb/>tres meses no<ex>n</ex><supplied> </supplied>lo vendiere. maguer
-                     <lb/>se torne despu<ex>e</ex>s x<ex>pisti</ex>ano. no<ex>n</ex><supplied> </supplied>le finca al
-                     <lb/>q<ex>ue</ex> era su sen<ex>n</ex>or derecho nj<ex>n</ex>gu<ex>n</ex>o en<supplied> </supplied>el.</p>
-               </div>
-            </div>
-            <div n="4.22.0" type="titulo" xml:id="SPBA1422000">
-               <head rend="rojo">Titulo xxij de<supplied> </supplied>la libertad</head>
-               <p><lb/><hi rend="init3">A</hi>ma<ex>n </ex> &amp; cobdiçia<ex>n</ex> natural<del> </del>me<ex>n</ex>t
-                  <lb/>todas las c<ex>r</ex>iaturas del mu<ex>n</ex>do
-                  <lb/>la libertad. q<ex>u</ex>anto mas los o<ex>mn</ex>es
-                  <lb/>q<ex>ue</ex> an ente<ex>n</ex>dimje<ex>n</ex>to sob<ex>r</ex>e todas las ot<ex>r</ex>as
-                  <lb/>Mayor<del> </del>me<ex>n</ex>t aq<ex>ue</ex>llos q<ex>ue</ex> son de mas no-
-                  <lb/>ble coraçon. <hi rend="rojo">¶</hi> Ende pu<ex>e</ex>s q<ex>ue</ex> en<supplied> </supplied><ex>e</ex>l tit<ex>u</ex>lo
-                  <cb n="2"/>
-                  <gap reason="roto"/></p>
-               <div n="4.22.1" type="ley" xml:id="SPBA1422001">
-                  <p><gap reason="roto"/><lb/>aforra <hi rend="rojo">¶</hi> E si lo q<ex></ex>siere aforrar de ot<ex>r</ex>a
-                     <lb/>man<ex>er</ex>a por carta o delante amigos no<ex>n</ex>
-                     <lb/>lo puede <unclear reason="reparacion">fazer a menos</unclear> de auer el
-                     <lb/>sen<ex>n</ex>or <unclear reason="reparacion">veynte an<ex>n</ex>os</unclear> fueras <unclear reason="reparacion" extent="2" unit="palabras"/> 
-                     <lb/>aquel. a<supplied> </supplied>q<ex>u</ex>ien q<ex>u</ex>isiere aforrar. fuese su fi-
-                     <lb break="no"/>jo o su fija. q<ex>ue</ex> oujese de alg<ex>un</ex>a si sierua
-                     <lb/>o si fuese su padre o su madre o su her-
-                     <lb break="no"/><unclear reason="roto">mano</unclear> o su hermana. o su maestro que
-                     <lb/>lo ensen<ex>n</ex>ase o su amo. o su ama q<ex>ue</ex><supplied> </supplied>lo
-                     <lb/>c<ex>r</ex>iase o si fuese su c<ex>r</ex>iado o su c<ex>r</ex>iada o si
-                     <lb/>fuese c<ex>r</ex>iado con<supplied> </supplied><ex>e</ex>l a leche de vna mug<ex>er</ex>
-                     <lb/>o si fuese tal sieruo que oujese libra-
-                     <lb break="no"/>do a su sen<ex>n</ex>or de muerte o de mala fa-
-                     <lb/>ma o si q<ex>u</ex>isiese aforrar algu<ex>n</ex>o de s<ex>us</ex>
-                     <lb/>sieruos para fazer<del> </del>le p<ex>ro</ex>curador p<ex>ar</ex>a
-                     <lb/>Recabdar sus cosas. fuera de juyzio
-                     <lb/>aujendo el sieruo a<supplied> </supplied>lo menos diez  &amp;
-                     <lb/>siete an<ex>n</ex>os co<ex>m</ex>plidos o si aforrase su
-                     <lb/>sierua para casar co<ex>n</ex> ella. Pero en
-                     <lb/>este caso deue jurar que por tal Razo<ex>n</ex>
-                     <lb/>la aforro  &amp; que casara con ella fasta
-                     <gap reason="roto"/></p>
-               </div>
-               <div n="4.22.3" type="ley" xml:id="SPBA1422003">
-                  <gap reason="roto"/>
-                  <p><lb/><hi rend="init3">M</hi>eresçen <seg>no q<ex>ui</ex>era</seg>
-                     <lb/>a<supplied> </supplied>las deuegadas por si mjs-
-                     <lb break="no"/>mos ser <unclear reason="desvaido">aforr</unclear>ados por las bo<ex>n</ex>-
-                     <lb/>dades q<ex>ue</ex> fazen. maguer no<ex>n</ex> los aforre<ex>n</ex>
-                     <lb/>sus sen<ex>n</ex>ores E esto puede ser por q<ex>u</ex>at<ex>r</ex>o
-                     <lb/>Razones <hi rend="rojo">¶</hi> La p<ex>r</ex>imera es q<ex>u</ex>ando algu<ex>n</ex>t
-                     <lb/>sieruo faze saber al Rey o a alguno
-                     <lb/>de<supplied> </supplied>los q<ex>ue</ex> judgan por el com<ex>m</ex>o <unclear reason="roto">algun</unclear>
-                     <lb/>om<ex>n</ex>e forço o leuo Rabida alguna
-                     <lb/>muger virgen <hi rend="rojo">¶</hi> La segu<ex>n</ex>da q<ex>u</ex>ando
-                     <lb/>descubre om<ex>n</ex>e q<ex>ue</ex> faze moneda falsa
-                     <lb/><hi rend="rojo">¶</hi> La terçera es q<ex>u</ex>ando descubre a alg<ex>un</ex>o
-                     <lb/>q<ex>ue</ex> es puesto por cabdillo de caua-
-                     <lb break="no"/>lleros o de otros om<ex>e</ex>s en<supplied> </supplied>frontera o
-                     <lb/>en lugar por ma<ex>n</ex>dado del Rey <hi rend="rojo">¶</hi> Esso		
-                     <lb/>mjsmo s<ex>er</ex>ie si descub<ex>r</ex>iese a cauallero
-                     <lb/>q<ex>ue</ex> desanparase en tal lugar al Rey
-                     <lb/>o a otro su cabdillo <hi rend="rojo">¶</hi> La q<ex>u</ex>arta es
-                     <lb/>q<ex>u</ex>ando acusase al q<ex>ue</ex> oujese muerto
-                     <lb/>a su sen<ex>n</ex>or. ol vengase o descub<ex>r</ex>iese
-                     <lb/>traiçion q<ex>ue</ex> q<ex>ui</ex>siesen fazer al Rey
-                     <cb n="2"/>
-                     <gap reason="rotura"/></p>
-               </div>
-               <div n="4.22.6" type="ley" xml:id="SPBA1422006">
-                  <head>Ley vj de co-
-                     <lb break="no"/>m<ex>m</ex>o el sieruo se faze libre faziendo-
-                     <lb break="no"/>se cl<ex>er</ex>igo o Reçibiendo orden<ex>e</ex>s ssagra-
-                     <lb/>das</head>
-                  <p><lb/><hi rend="init3">S</hi>ieruo de alguno si se faze clerigo
-                     <lb/>et Reaçibe orden<ex>e</ex>s sagradas sabi-
-                     <lb break="no"/>endo<del> </del>lo su sen<ex>n</ex>or  &amp; co<ex>n</ex>sentie<ex>n</ex>dolo
-                     <lb/>Dezimos q<ex>ue</ex> es forro por ende E si el
-                     <lb/>sieruo se fiziere cl<ex>er</ex>igo no<ex>n</ex> lo sabie<ex>n</ex>do
-                     <lb/>su sen<ex>n</ex>or puede<del> </del>lo dema<ex>n</ex>dar desque lo
-                     <lb/>sopiere fasta en vn anno &amp; tornar<del> </del>lo
-                     <lb/>en serujdu<ex>m</ex>bre maguer oujese Resçe-
-                     <lb break="no"/>bido orde<ex>n</ex> de subdiacono o dende ayu-
-                     <lb break="no"/>so <hi rend="rojo">¶</hi> Otrosi dezimos q<ex>ue</ex> aujendo Resçebi-
-                     <lb break="no"/>do el sieruo orden  de missaca<ex>n</ex>tano q<ex>ue</ex>
-                     <lb/>no pod<ex>r</ex>ie demandar el sen<ex>n</ex>or p<ex>ar</ex>a tornar-
-                     <lb break="no"/>le en serujdu<ex>m</ex>bre <hi rend="rojo">¶</hi> Pero serie tenu-
-                     <lb/>do de dar por si a<supplied> </supplied>su sen<ex>n</ex>or tanto p<ex>r</ex>es-
-                     <lb break="no"/>çio q<ex>u</ex>anto el podiera valer ante q<ex>ue</ex> fue-
-                     <lb break="no"/>se ordenado. o otro sieruo q<ex>ue</ex> vala
-                     <lb/>ta<ex>n</ex>to com<ex>m</ex>o el <hi rend="rojo">¶</hi> Eso mismo dezimos
-                     <gap/></p>
-               </div>
-            </div>
-         </div>
-      </body>
-   </text>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Siete Partidas. Versión codificada de la edición del fragmento BA1</title>
+				<author>Alfonso X el Sabio</author>
+				<funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+						>PID2020-112621GB-I00</idno></funder>
+				<funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+						FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+				<funder xml:id="UVA">Universidad de Valladolid</funder>
+				<funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+				<principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+				<respStmt>
+					<resp>Investigador principal</resp>
+					<name>José Manuel FRADEJAS RUEDA</name>
+				</respStmt>
+				<respStmt>
+					<resp>transcrito por</resp>
+					<name><!-- Nombre del transcriptor --></name>
+				</respStmt>
+				<respStmt>
+					<resp>revisado por</resp>
+					<name><!-- Nombre del revisor --></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+				<pubPlace>Valladolid</pubPlace>
+				<address>
+					<addrLine>Plaza del Campus s/n</addrLine>
+					<addrLine>E-47011 Valladolid</addrLine>
+				</address>
+				<idno>SP-VA6</idno>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+						<p>Esta obra está bajo una licencia de Creative Commons
+							Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title level="s" type="project">Siete Partidas Digital</title>
+			</seriesStmt>
+			<sourceDesc>
+				<p>La descripción codicológica del documento original se encuentra en el sitio web
+					del proyecto<ref target="https://7partidas.hypotheses.org/testimonios/ba1/"
+						>7PartidasDigital</ref>.</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+					financiado por la Agencia Estatal de Investigación <idno type="referencia"
+						>PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+					Universidades de España, referencia <idno type="referencia"
+						>FFI2016-75014-P</idno>. La descripción del proyecto y sus participantes se
+					recogen en la <ref target="https://7partidas.hypotheses.org">web</ref> del
+					mismo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<p>Transcripción efectuada a partir de la reproducción digital del fragmento.</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<abstract resp="#JMFR">
+				<p>Contiene fragmentos de la 4ª Partida: 4.21.8 (final) 4.22.0 (comienzo), 4.22.1,
+					4.22.3 (parte intermedia) y 4.22.6 (comienzo)</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-11-27" who="#JMFR" status="borrador">Iniciada la transcripción
+				codificada</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div n="4" type="partida">
+				<div n="4.21.0" type="titulo" xml:id="SPBA1421000">
+					<div n="4.21.8" type="ley" xml:id="SPBA1421008">
+<pb n="recto"/>
+<cb n="1"/>
+						<p><gap reason="nonsequitur"/><lb/>meses se cu<ex>n</ex>pliesen trabaja<ex>n</ex>dose el
+						<lb/>señor de vender<del> </del>le. se tornase c<ex>r</ex>isti-
+						<lb break="no"/>ano no<ex>n</ex> p<ex>er</ex>derie por ende el judio o
+						<lb/>el moro todo el p<ex>re</ex>sçio q<ex>ue</ex> ouj<unclear reason="reparacion">ese dado</unclear>
+						<lb/>por el. Ant<ex>e</ex> dezimos q<ex>ue</ex> serie tenudo
+						<lb/>de <add place="encima" resp="copista">dar</add> por si el o el q<ex>ue</ex><supplied> </supplied>lo fiziese tornar x<ex>pisti</ex>a-
+						<lb break="no"/>no doze m<ex>a</ex>r<ex>auedi</ex>s de<supplied> </supplied>la moneda q<ex>ue</ex> corrie-
+						<lb break="no"/>se en aq<ex>ue</ex>l lugar <hi rend="rojo">¶</hi> E si<supplied> </supplied>no<ex>n</ex> oujere de
+						<lb/>q<ex>ue</ex><supplied> </supplied>los pagar deuel serujr por ellos no<ex>n</ex>
+						<lb/>com<ex>m</ex>o sieruo. mas com<ex>m</ex>o lib<ex>r</ex>e. fasta
+						<lb/>q<ex>ue</ex><supplied> </supplied>los aya meresçido E si fasta los
+						<lb/>tres meses no<ex>n</ex><supplied> </supplied>lo ve<ex>n</ex>diere. maguer
+						<lb/>se torne despu<ex>e</ex>s x<ex>pristi</ex>ano. no<ex>n</ex><supplied> </supplied>le finca el
+						<lb/>q<ex>ue</ex> era su señor derecho njnguno en<supplied> </supplied>el.</p>
+					</div>
+				</div>
+				<div n="4.22.0" type="titulo" xml:id="SPBA1422000">
+					<head><lb/>Titulo xx<del> </del>ij de<supplied> </supplied>la libertad</head>
+					<p><lb/><hi rend="init3">A</hi>ma<ex>n</ex> &amp; cobdicia<ex>n</ex> natural<del> </del>me<ex>n</ex>t
+					<lb/>todas las c<ex>r</ex>iaturas del mu<ex>n</ex>do
+					<lb/>la libertad. q<ex>u</ex>anto mas los o<ex>mn</ex>es
+					<lb/>q<ex>ue</ex> an ente<ex>n</ex>dimje<ex>n</ex>to sob<ex>r</ex>e todas las ot<ex>r</ex>as
+					<lb/>Mayor<del> </del>me<ex>n</ex>t aq<ex>ue</ex>llos q<ex>ue</ex> son de mas no-
+					<lb break="no"/>ble coraçon <hi rend="rojo">¶</hi> Ende pu<ex>e</ex>s q<ex>ue</ex> en<supplied> </supplied><ex>e</ex>l tit<ex>u</ex>lo
+<cb n="2"/>
+					<gap reason="nonsequitur"/></p>
+			<div n="4.22.1" type="ley" xml:id="SPBA1422001">
+				<p><lb/>aforra <hi rend="rojo">¶</hi> E si<supplied> </supplied>lo <unclear reason="corte">q<ex>ue</ex>siere</unclear> aforrar de ot<ex>r</ex>a
+				<lb/>man<ex>e</ex>ra por carta o delante amigos no<ex>n</ex>
+				<lb/>lo puede fazer <unclear reason="reparacion">a menos</unclear> de auer el
+				<lb/>señor veynte años fueras <unclear reason="reparacion"/>
+				<lb/>aq<ex>ue</ex>l. a<supplied> </supplied>q<ex>u</ex>ien q<ex>ue</ex>siere aforrar. fuere su fi-
+				<lb break="no"/>jo o su fija. q<ex>ue</ex> oujese de alg<ex>un</ex>a su sierua
+				<lb/>o si fuese su padre o su madre o su her-
+				<lb break="no"/>mano o su hermana o su amo. o su ama q<ex>ue</ex><supplied> </supplied>lo
+				<lb/>c<ex>r</ex>iase o si fuese su c<ex>r</ex>iado o su c<ex>r</ex>iada o si
+				<lb/>fuese c<ex>r</ex>iado co<ex>n</ex><supplied> </supplied>el a leche de vna mug<ex>e</ex>r
+				<lb/>o si fuese tal sieruo que oujese libra-
+				<lb break="no"/>do a<supplied> </supplied>su señor de muerte o de la mala fa-
+				<lb break="no"/>ma o si q<ex>u</ex>isiese aforrar algu<ex>n</ex>o de s<ex>us</ex>
+				<lb/>sieruos para fazer<del> </del>le su p<ex>ro</ex>curador p<ex>ar</ex>a
+				<lb/>Recabdar sus cosas. fuera de juyzio
+				<lb/>aujendo el sieruo a<supplied> </supplied>lo menos diez &amp;
+				<lb/>siete años co<ex>n</ex>plidos o si aforrase su
+				<lb/>sierua para casar co<ex>n</ex> ella <hi rend="rojo">¶</hi> Pero en
+				<lb/>este caso deue jurar q<ex>ue</ex> por tal Razo<ex>n</ex>
+				<lb/>le aforra. &amp; q<ex>ue</ex> casara co<ex>n</ex> ella fasta
+<pb n="vuelto"/>
+<cb n="1"/>
+					<gap reason="nonsequitur"/></p>
+				</div>
+			<div n="4.22.3" type="ley" xml:id="SPBA1422003">
+						<head><seg xml:id="SPBA1422003.1"></seg></head>
+						<p><lb/><hi rend="init3">M</hi>eresçe <gap rend="corte"/> <seg xml:id="SPBA1422003.2">non q<ex>u</ex>iera.</seg>
+						<lb/>a<supplied> </supplied>las deuegadas por si mis-
+						<lb break="no"/>mos ser aforrados por las bo<ex>n</ex>-
+						<lb break="no"/>dades q<ex>ue</ex> fazen. maguer no<ex>n</ex><supplied> </supplied>los aforre<ex>n</ex>
+						<lb/>sus señores E esto puede ser por q<ex>u</ex>at<ex>r</ex>o
+						<lb/>Razon<ex>e</ex>s <hi rend="rojo">¶</hi> La p<ex>r</ex>imera es q<ex>u</ex>ando algu<ex>n</ex>t
+						<lb/>sieruo faze saber al Rey o a alguno
+						<lb/>de<supplied> </supplied>los q<ex>ue</ex> judgan por el com<ex>m</ex>o <unclear reason="roto">algu<ex>n</ex>d</unclear>
+						<lb/>om<ex>n</ex>e forço o leuo Rabida alguna
+						<lb/>muger virgen <hi rend="rojo">¶</hi> La segu<ex>n</ex>da q<ex>u</ex>ando
+						<lb/>descubre om<ex>n</ex>e q<ex>ue</ex> faze moneda falsa
+						<lb/><hi rend="rojo">¶</hi> La terçera es q<ex>u</ex>ando descubre a alg<ex>un</ex>o
+						<lb/>q<ex>ue</ex> es puesto por cabdiello de caua-
+						<lb/>lleros o de otros om<ex>ne</ex>s en fro<ex>n</ex>tera o
+						<lb/>en lugar por ma<ex>n</ex>dado del Rey <hi rend="rojo">¶</hi> Esso
+						<lb/>mismo s<ex>er</ex>ie si descub<ex>r</ex>iese a cauallero
+						<lb/>q<ex>ue</ex> desanparase en tal lugar al Rey
+						<lb/>o a otro su cabdillo. <hi rend="rojo">¶</hi> La q<ex>u</ex>arta es
+						<lb/>q<ex>u</ex>ando acusase al q<ex>ue</ex> oujese muerto
+						<lb/>a<supplied> </supplied>su señor. ol vengase o descub<ex>r</ex>iese
+						<lb/>traiçion que quisiesen fazer al Rey
+<cb n="2"/>
+						<gap reason="nonsequitur"/></p>
+					</div>
+			<div n="4.22.4" type="ley" xml:id="SPBA1422004">
+						<p><gap/><lb/>la sierua libre por ende.</p>
+			</div>
+			<div n="4.22.5" type="ley" xml:id="SPBA1422005">
+						<head>ley vj de co-
+						<lb break="no"/>m<ex>m</ex>o el sieruo se faze libre faziendo-
+						<lb break="no"/>se cl<ex>er</ex>igo o Reçibiendo orden<ex>e</ex>s ssagra-
+						<lb break="no"/>das.</head>
+						<p><lb/><hi rend="init3">S</hi>ieruo de alguno si se faze cl<ex>er</ex>igo
+						<lb/>et Resçibe orden<ex>e</ex>s sagradas sabi-
+						<lb break="no"/>endo<del> </del>lo su señor &amp; co<ex>n</ex>sentie<ex>n</ex>dolo
+						<lb/>Dezimos q<ex>ue</ex> es forro por ende E si el
+						<lb/>sieruo se fiziere cl<ex>er</ex>igo no<ex>n</ex><supplied> </supplied>lo sabie<ex>n</ex>do
+						<lb/>su señor fasta en vn año &amp; tornar<del> </del>lo
+						<lb/>en serujdu<ex>n</ex>bre maguer oujese Resçe-
+						<lb break="no"/>bido orde<ex>n</ex> de subdiacono o dende ayu-
+						<lb break="no"/>so <hi rend="rojo">¶</hi> Otrosi dezimos q<ex>ue</ex> auje<ex>n</ex>do Resçebi-
+						<lb break="no"/>do el sieruo orden de missaca<ex>n</ex>tano q<ex>ue</ex>
+						<lb/>nol pod<ex>r</ex>ie dema<ex>n</ex>dar el señor p<ex>ar</ex>a tornar-
+							<lb break="no"/>le en serujdu<ex>n</ex>bre <hi rend="rojo">¶</hi> Pero serie tenu-
+						<lb break="no"/>do de dar por si a<supplied> </supplied>su señor tanto p<ex>r</ex>es-
+						<lb break="no"/>çio q<ex>u</ex>anto podiera valer ante q<ex>ue</ex> fue-
+						<lb break="no"/>se ordenado. o otro sieruo q<ex>ue</ex> vala
+							<lb/>tanto commo el <hi rend="rojo">¶</hi> Eso mismo dezimos
+						<gap reason="nonsequitur"/></p>
+			</div>
+				</div>
+			</div>
+		</body>
+	</text>
 </TEI>

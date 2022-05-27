@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader xml:lang="es">
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada MNZ</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno></funder>
+            <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER<idno
+                  type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+                  FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name><!-- Nombre del revisor --></name>
+            </respStmt>
+         </titleStmt>
+         <extent><!-- Declarar el tamaño aproximado del fichero --></extent>
+         <publicationStmt>
+            <publisher>7PartidasDigital. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-MNZ</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+                  <p>El fichero maestro está alojado en el repositorio del <ref
+                        target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-MNZ.xml">
+                        proyecto en GitHub</ref>.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">7PartidasDigital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p><!--Aquí se decribirá el ejemplar utilizado--></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+               financiado por la Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+               Universidades de España, referencia <idno type="referencia">FFI2016-75014-P</idno>.
+               La descripción del proyecto y sus participantes se recogen en la <ref
+                  target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Se ha transcrito directamente desde la reproducción digital ofrecida por la <ref
+                  target="http://bdh-rd.bne.es/viewer.vm?id=0000007737">Biblioteca Digital
+                  Hispánica</ref></p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene una copia abreeviada e incompleta (faltan 7.6.5 y 7.6.6) del título 7.6
+               de las <title>Siete Partidas</title>.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2021-11-25" who="#JMFR" status="borrador">Comenzada la transcripción /
+            codificación</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="es">
+      <body>
+         <pb n="89r"/>
+         <cb n="1"/>
+         <div n="7.6.0" type="titulo" xml:id="SPMNZ0706000">
+            <head><lb/>¶ aq<ex>ui</ex> se pone el t<ex>itul</ex>o de<supplied> </supplied>los
+               <lb/>ynfamados. t<ex>itul</ex>o .vj.</head>
+            <p><lb/><hi rend="init2H">y</hi>nfamados sson algu<ex>n</ex>os onbr<ex>e</ex>s por ot<ex>r</ex>os yerros q<ex>ue</ex>
+               fazen q<ex>ue</ex> no<ex>n</ex> son tan g<ex>r</ex>and<ex>e</ex>s com<ex>m</ex>o los de<supplied> </supplied>las trayçio-
+               <lb break="no"/>n<ex>e</ex>s &amp; de<supplied> </supplied>los aleues &amp; pues en<supplied> </supplied><ex>e</ex>l t<ex>itul</ex>o ante deste fablamos de<supplied> </supplied>las
+               <lb/>cosas q<ex>ue</ex> faze<ex>n</ex> a<supplied> </supplied>los om<ex>e</ex>s valer menos segund fuero d<placeName>españa</placeName>
+               <lb/>diremos aq<ex>u</ex>i de<supplied> </supplied>las otras q<ex>ue</ex> traen daño a<supplied> </supplied>la fama del
+               <lb/>onbre maguer no<ex>n</ex> sea por ello Reptados nj<ex>n</ex> gelas diga<ex>n</ex> en
+               <lb/>façerimj<ex>ent</ex>o &amp; q<ex>u</ex>antas man<ex>er</ex>as son de ynfamja &amp; porq<ex>ue</ex> Razon<ex>e</ex>s
+               <lb/>q<ex>ue</ex>da ek onbree por ynfamado &amp; q<ex>ue</ex> fuerça ha &amp; q<ex>ue</ex> pena me-
+               <lb break="no"/>resçe el<supplied> </supplied>q<ex>ue</ex> a<supplied> </supplied>tuerto ynfama a otro.</p>
+               
+            <div n="7.6.1" type="ley" xml:id="SPMNZ706001">
+               <head>ley p<ex>r</ex>im<ex>er</ex>a q<ex>ue</ex> cosa es fama
+                  <lb/>&amp; q<ex>ue</ex> q<ex>u</ex>iere dezir enfamamj<ex>ent</ex>o</head>
+                  <p>¶ fama es el bue<ex>n</ex> estado del om<ex>n</ex>e
+                     <lb/>q<ex>ue</ex> biue derecha<del> </del>me<ex>n</ex>te &amp; <sic>segud</sic> ley &amp; buenas costu<ex>n</ex>bres no<ex>n</ex> avien-
+                     <lb break="no"/>do en<supplied> </supplied>ssy manzilla de mala fama ¶ dos man<ex>er</ex>as sson de yn-
+                     <lb break="no"/>famamj<ex>ent</ex>o. La<supplied> </supplied>vna es la q<ex>ue</ex> nasçe del fecho ta<ex>n</ex> sola<del> </del>me<ex>n</ex>te &amp; la ot<ex>r</ex>a
+                     <lb/>q<ex>ue</ex> nasçe de ley q<ex>ue</ex> les da por ynfamados por los fechos q<ex>ue</ex>
+                     <lb/>fazen.</p>
+            </div>
+            <div n="7.6.2" type="ley" xml:id="SPMNZ706002">
+                 <p>¶ ynfamado es de fecho el q<ex>ue</ex> no es nacido de casamj<ex>ent</ex>o derecho
+                    <lb/>segu<ex>n</ex>d manda s<ex>an</ex>ta <sic>ygleja</sic> o q<ex>u</ex>ando el padre disfama a<supplied> </supplied>su fijo en
+                    <lb/>su testamento diziendo algu<ex>n</ex>d mal del. asi mesmo es ynfamado
+                    <lb/>aq<ex>ue</ex>l a<supplied> </supplied>q<ex>u</ex>ien manda la justiçia q<ex>ue</ex> haga mejor vida de<supplied> </supplied>la q<ex>ue</ex> haze</p>
+            </div>   
+            <div n="7.6.3" type="ley" xml:id="SPMNZ706003">
+               <p>¶ sse-
+                  <lb break="no"/>yendo la muger fallada en algun lugar q<ex>ue</ex> se presuma hazer adulterio
+                  <lb/>con otro es ynfamada o si casa por palabras de presente con ot<ex>r</ex>o
+                  <lb/>seyendo byuda ante q<ex>ue</ex> cu<ex>n</ex>pla el año en q<ex>ue</ex> murio su marido &amp;
+                  <lb/>avn seria ynfamado aq<ex>ue</ex>l q<ex>ue</ex> caso con<supplied> </supplied>ella sabiendolo</p>
+            </div>
+            <div n="7.6.4" type="ley" xml:id="SPMNZ706004">
+               <head>¶ los q<ex>ue</ex> son
+               <lb/>ynfamados por derecho faziendo algu<ex>n</ex>a cosa q<ex>ue</ex> no<ex>n</ex> dana</head>
+               <p>¶ leno
+                  <lb/>en latyn tanto q<ex>u</ex>iere dezir com<ex>m</ex>o alca<add place="encima" resp="copista">h</add>uete tal com<ex>m</ex>o este q<ex>u</ex>ier te<ex>n</ex>ga
+                  <lb/>sus sieruas o otras muger<ex>e</ex>s libres en su casa faziendolas hazer
+                  <lb/>adulterio / o sosacando muger<ex>e</ex>s p<ex>ar</ex>a otro es ynfamado por ende
+                  <lb/>¶ otrosi lo son los juglar<ex>e</ex>s e los Remedador<ex>e</ex>s &amp; los q<ex>ç</ex> hazen
+                  <lb/>çaharron<ex>e</ex>s &amp; andan pu<ex>bli</ex>ca<del> </del>me<ex>n</ex>te por el pueblo a ca<ex>n</ex>tar &amp; baylar
+                  <lb/>&amp; fazer juegos por presçio son ynfamados esto es por<del> </del>q<ex>ue</ex><supplied> </supplied>se enuj-
+                  <lb break="no"/>leçen ante todos por presçio q<ex>ue</ex> les dan ¶ mas los q<ex>ue</ex> tanje-
+                  <lb break="no"/>ren estormentos o cantaren syn presçio por hazer solaz
+                  <lb/>asy mesmos
+             <pb n="89v"/>
+             <cb n="1"/>
+                  <lb/>o por fazer plazer a<supplied> </supplied>sus amjgos o dar solaz a<supplied> </supplied>los
+                  <lb/>Reyes o a<supplied> </supplied>los g<ex>r</ex>and<ex>e</ex>s señor<ex>e</ex>s no<ex>n</ex> seria<ex>n</ex> por ende ynfama-
+                  <lb break="no"/>dos. ta<ex>n</ex> bien lo son los que ljdian con bestias brauas por
+                  <lb/>dyneros q<ex>ue</ex><supplied> </supplied>les dan. &amp; avn lo seria q<ex>u</ex>ien ljdiase con otro
+                  <lb/>por dyneros. Ca estos a tales pues pone<ex>n</ex> sus cuerpos
+                  <lb/>en aventuran por dyneros creese q<ex>ue</ex> haria<ex>n</ex> qual<del> </del>q<ex>u</ex>ier mal
+                  <lb break="no"/>dat por ellos. en<del> </del>p<ex>er</ex>o ljdiando vno de su voluntad con
+                  <lb/>bestia braua o por saluar algu<ex>n</ex>d su amjgo o por p<ex>ro</ex>uar
+                  <lb/>su fuerça ant<ex>e</ex>s ganara prez de om<ex>n</ex>e esforçado q<ex>ue</ex>
+                  <lb/>no caeria por ello en ynfamja asi mesmo s<ex>er</ex>ya yn-
+                  <lb break="no"/>famado &amp; mucho al q<ex>ue</ex> q<ex>u</ex>itasen onrra de caualleria cor-
+                  <lb break="no"/>tandole las espuelas o la espada q<ex>ue</ex> toujesse cinta
+                  <lb/>¶ &amp; asi lo seria asi mjsmo q<ex>u</ex>ando el cauallero q<ex>ue</ex> se deuria
+                  <lb/>trabajar en fecho de armas arrendasse Rentas o here-
+                  <lb break="no"/>dad<ex>e</ex>s agenas en forma de merchante. ¶ Otrosy sson
+                  <lb/>tenjdos por muy ynfamados los vsureros &amp; todos
+                  <lb/>aq<ex>ue</ex>llos q<ex>ue</ex> faze<ex>n</ex> pecado contra nat<ex>ur</ex>a asi com<ex>m</ex>o los sso.
+                  <lb break="no"/>dometicos &amp; los semeja<ex>n</ex>tes. &amp; los que q<ex>ue</ex>branta<ex>n</ex> pl<ex>e</ex>ito
+                  <lb/>&amp; postura q<ex>ue</ex> aya<ex>n</ex> jurado de g<ex>u</ex>ardar. ¶ Ca por q<ex>u</ex>al<del> </del>q<ex>u</ex>ier
+                  <lb/>destas Razon<ex>e</ex>s sobredichas es el om<ex>n</ex>e ynfamado ta<ex>n</ex>
+                  <lb/>sola<del> </del>me<ex>n</ex>te por el fecho maguer no<ex>n</ex> sea dada sente<ex>n</ex>çia
+                  <lb/>contra el porq<ex>ue</ex> su vileza <add place="encima" resp="copista">&amp;</add> la ley &amp; el drecho los ynfama</p>
+            </div>
+            <div n="7.6.7" type="ley" xml:id="SPMNZ706007">
+               <head><lb/>¶ ley .vij. que fuerça ha el ynfamamj<ex>ent</ex>o.</head>
+               <p>¶ ynfamjs en latyn
+                  <lb/>quiere om<ex>n</ex>e ynfamado &amp; tan g<ex>r</ex>ande es la fuerça del
+                  <lb/>ynfamamj<ex>ent</ex>o. q<ex>ue</ex> los tal<ex>e</ex>s ynfamados no<ex>n</ex> puede<ex>n</ex> ganar
+                  <lb/>de njngu<ex>n</ex>o nj<ex>n</ex>guna onrra nj<ex>n</ex> dignjdatde aq<ex>ue</ex>llas p<ex>ar</ex>a q<ex>ue</ex>
+                  <lb/>deue<ex>n</ex> ser escogidos om<ex>ne</ex>s de b<ex>ue</ex>na fama. ¶ &amp; avn las q<ex>ue</ex>
+                  <lb/>auja<ex>n</ex> ganado de ant<ex>e</ex>s las deue<ex>n</ex> p<ex>er</ex>der luego q<ex>ue</ex> fuere<ex>n</ex>
+                  <lb/>prouados por tal<ex>e</ex>s ¶ &amp; demas dezjmos q<ex>ue</ex> nj<ex>n</ex>guno de<supplied> </supplied>los
+                  <lb/>ynfamados no<ex>n</ex> puede s<ex>er</ex> juzgador nj<ex>n</ex> consejero de rrey
+                  <lb/>nj<ex>n</ex> de comu<ex>n</ex> nj<ex>n</ex> de g<ex>r</ex>an señor ¶ nj<ex>n</ex> puede s<ex>er</ex> p<ex>ro</ex>cudador de
+                  <lb/>nj<ex>n</ex>gu<ex>n</ex>o dellos ¶ nj<ex>n</ex> deue morar nj<ex>n</ex> hazer vida en corte de
+                  <lb/>Rey nj<ex>n</ex> de g<ex>r</ex>an señor nj<ex>n</ex> deue av<ex>er</ex> ofiçio p<ex>ar</ex>a el q<ex>u</ex>al om<ex>n</ex>e b<ex>ue</ex>no
+                  <lb/>sea escogido.</p>
+            </div> 
+            <div n="7.6.8" type="ley" xml:id="SPMNZ706008">
+               <head>¶ ley viijº. q<ex>ue</ex> pena meresçe q<ex>u</ex>ien ynfama a
+                  <lb/>ot<ex>r</ex>o</head>
+               <p>¶ disfama<ex>n</ex>do co<ex>n</ex>tra Razon vn onbre a<supplied> </supplied>otro de tal yerro
+                  <lb/>que se le fuese p<ex>ro</ex>uado / deurja morir por ello o ser desterrado
+<pb n="90r"/>
+<cb n="1"/>
+                  <lb/>por sienpre ¶ dezimos q<ex>ue</ex> deue Resçebir esa mjsma pena
+                  <lb/>aq<ex>ue</ex>l q<ex>ue</ex><supplied> </supplied>lo ynfamo. mas sy lo ynfamase de otro yerro algu<ex>n</ex>o
+                  <lb/>de q<ex>ue</ex> no meresçiese ta<ex>n</ex> g<ex>r</ex>and pena / deue hazer enmjenda de
+                  <lb/>derecho a aq<ex>ue</ex>l a<supplied> </supplied>q<ex>u</ex>ien ynfamo / segu<ex>n</ex>d aluedrio d<ex>e</ex>l judgador
+                  <lb/>Catando todas las cosas q<ex>ue</ex> diximos en<supplied> </supplied><ex>e</ex>l titulo de<supplied> </supplied>las
+                  <lb/>desonrras en Razon de<supplied> </supplied>la enmjenda d<ex>e</ex>llas ¶ P<ex>er</ex>o sy aq<ex>ue</ex>l q<ex>ue</ex>
+                  <lb/>oujese ynfamado a<supplied> </supplied>otro q<ex>u</ex>isiese p<ex>ro</ex>uar <del resp="copista" rend="raspado"><unclear/></del> q<ex>ue</ex> era verdad lo
+                  <lb/>q<ex>ue</ex> auja dicho p<ex>ro</ex>uandolo no avra pena.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

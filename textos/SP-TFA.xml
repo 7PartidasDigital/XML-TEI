@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento TFA</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno></funder>
+            <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER<idno
+                  type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+                  FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-VA5</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+               <p>El fichero maestro está alojado en el repositorio del <ref
+                     target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-TFA.xml">
+                     proyecto en GitHub</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">7PartidasDigital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+                  proyecto<ref target="https://7partidas.hypotheses.org/testimonios/tfa/"
+                  >7PartidasDigital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+               financiado por la Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+               Universidades de España, referencia <idno type="referencia">FFI2016-75014-P</idno>.
+               La descripción del proyecto y sus participantes se recogen en la <ref
+                  target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de la
+               reproducción del documento.</p>
+            <p>Es una testimonio con un fortísimo betacismo gráfico, es decir, usa la misma
+               grafía para la &lt;b&gt; y &lt;v&gt;. Se ha transcrito siempre como &lt;b&gt; salvo
+               en aquellos lugares en que ha de tener valor vocálico &lt;vna&gt; y no &lt;buna&gt;.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene tres leyes de la 3ª Partida: 3.11.19-21</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-11-05" who="#JMFR" status="borrador">Transcipción y codificación
+            básica</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+<pb n="51v"/>
+         <fw type="invocacion">Jh<ex>es</ex>us</fw>
+<cb n="1"/>
+         <div n="3" type="partida">
+            <div n="3.11.0" type="titulo" xml:id="SPTFA311000">
+         <div n="3.11.19" type="ley" xml:id="SPTFA311019">
+            <head><lb/>Ley xixª. en q<ex>ue</ex> man<ex>er</ex>a deue<ex>n</ex>
+               <lb/>jurar los xp<ex>ist</ex>ianos.</head>
+            <p><lb/>Qujtar deuemos a<supplied> </supplied>los om<ex>n</ex>es q<ex>u</ex>anto podieremos de co<ex>n</ex>tiendas E por<supplied> </supplied>q<ex>ue</ex>
+               <lb/>muchas bezes acaescen sobre las juras q<ex>ue</ex>remos mostrar çierta man<ex>er</ex>a
+               <lb/>en<supplied> </supplied><ex>e</ex>sta ley com<ex>m</ex>o deue<ex>n</ex> jurar los xp<ex>isti</ex>anos E despues mostraremos
+               <lb/>com<ex>m</ex>o deuen jurar los judios &amp; los moros. E dezjmos q<ex>ue</ex><supplied> </supplied>los xp<ex>isti</ex>a-
+               <lb break="no"/>nos deue<ex>n</ex> jurar assi poniendo las manos sobre alg<ex>un</ex>a de aq<ex>ue</ex>llas cosas
+               <lb/>q<ex>ue</ex> dize en<supplied> </supplied>la p<ex>r</ex>im<ex>er</ex>a ley deste tit<ex>u</ex>lo E aq<ex>ue</ex>l q<ex>ue</ex> tomare la jura del q<ex>ue</ex> oujere
+               <lb/>de jurar ha<del> </del>le de co<ex>n</ex>iurar dezjendo desta gujsa. vos me jurades por
+               <lb/>dios padre q<ex>ue</ex> fizo el çielo &amp; la t<ex>ie</ex>rra &amp; todas las ot<ex>r</ex>as cosas q<ex>ue</ex> en ella son, &amp;
+               <lb/>por jh<ex>es</ex>u xp<ex>ist</ex>o su fijo q<ex>ue</ex> naçio d<ex>e</ex><supplied> </supplied>la birge<ex>n</ex> glo<ex>ri</ex>osa s<ex>an</ex>ta maria &amp; por el
+               <lb/>sp<ex>irit</ex>u s<ex>an</ex>to q<ex>ue</ex> son tres p<ex>er</ex>sonas e vn dios E por estos s<ex>an</ex>tos eua<ex>n</ex>g<ex>e</ex>lios
+               <lb/>q<ex>ue</ex> cue<ex>n</ex>ta<ex>n</ex> las palabras &amp; los fechos de n<ex>uest</ex>ro señor jh<ex>es</ex>u xp<ex>ist</ex>o E si touj-
+               <lb break="no"/>ere las manos sobre en la cruz diga q<ex>ue</ex> jura por aquella cruz q<ex>ue</ex> es seme-
+               <lb break="no"/>ia<ex>n</ex>ça de aq<ex>ue</ex>lla en q<ex>ue</ex> priso muerte n<ex>uest</ex>ro señor jh<ex>es</ex>u xp<ex>ist</ex>o por los pecado-
+               <lb break="no"/>res saluar E si las toujere sobre el altar sobre q<ex>ue</ex> fue co<ex>n</ex>sag<ex>r</ex>ado el
+               <lb/>cuerpo de n<ex>uest</ex>ro señor jh<ex>es</ex>u xp<ex>ist</ex>o q<ex>ue</ex> aq<ex>ue</ex>llo q<ex>ue</ex>l dema<ex>n</ex>da<ex>n</ex> q<ex>ue</ex> no<ex>n</ex> es, assi com<ex>m</ex>o
+               <lb/>su co<ex>n</ex>tendor dize o q<ex>ue</ex> assi com<ex>m</ex>o el mjsmo Razona E esto segu<ex>n</ex>d
+               <lb/>la Razo<ex>n</ex> sobre q<ex>ue</ex> oujere de jurar E sobre todas estas palabras ha
+               <lb/>de Responder aq<ex>ue</ex>l q<ex>ue</ex> faze la jura al ot<ex>r</ex>o q<ex>ue</ex> gela toma assi lo juro yo
+               <lb/>com<ex>m</ex>o bos lo auedes dicho E despues desto hale de dezjr aq<ex>ue</ex>l que toma
+               <lb/>la jura del q<ex>ue</ex> assi le ayude dios &amp; aq<ex>ue</ex>llas palabras q<ex>ue</ex> el le dixo &amp;
+               <lb/>los eua<ex>n</ex>g<ex>e</ex>lios o la cruz o el altar sobre q<ex>ue</ex> jura com<ex>m</ex>o dize verdat
+               <lb/>E aq<ex>ue</ex>l q<ex>ue</ex> jura deue Responder ame<ex>n</ex> sin Refierta nj<ex>n</ex>guna. Ca no<ex>n</ex>
+               <lb/>es guisado que aq<ex>ue</ex>l q<ex>ue</ex> toma la jura sea maltraydo por su derecho
+               <lb/>q<ex>ue</ex> dema<ex>n</ex>da.</p>
+         </div>
+<pb n="52r"/>
+         <fw type="invocacion">Jh<ex>es</ex>us</fw>
+<cb n="1"/>
+         <div n="3.11.20" type="ley" xml:id="SPTFA311020">
+            <head><lb/>Ley .xxª. En q<ex>ue</ex> man<ex>er</ex>a
+               <lb/>deue<ex>n</ex> jurar los judios</head>
+            <p><lb/>Judios aujendo de jurar deue<ex>n</ex><supplied> </supplied>lo fazer en<supplied> </supplied><ex>e</ex>sta man<ex>er</ex>a. aq<ex>ue</ex>l q<ex>ue</ex> dema<ex>n</ex>da la
+               <lb/>jura al judio deue yr a<supplied> </supplied>la <sic>sinoga</sic> con<supplied> </supplied><ex>e</ex>l E el judio q<ex>ue</ex> ha de jurar deue
+               <lb/>poner las manos sobre la tora co<ex>n</ex> q<ex>ue</ex> faze<ex>n</ex> la oracio<ex>n</ex> E deue<ex>n</ex> ser dela<ex>n</ex>te
+               <lb/>x<ex>rist</ex>ianos &amp; judios por<supplied> </supplied>q<ex>ue</ex> vean com<ex>m</ex>o jura E aq<ex>ue</ex>l que toma la jura del
+               <lb/>judio ha<del> </del>le de co<ex>n</ex>jurar desta manera. jura tu fula<ex>n</ex> judio por aq<ex>ue</ex>l
+               <lb/>dios que es poderoso sobre todos &amp; q<ex>ue</ex> crio el çielo &amp; la t<ex>ie</ex>rra e todas las
+               <lb/>ot<ex>r</ex>as cosas E q<ex>ue</ex> dixo no<ex>n</ex> jures por el mi no<ex>n</ex>bre en bano E por aq<ex>ue</ex>l
+               <lb/>dios que fizo a <persName>adam</persName> el p<ex>r</ex>im<ex>er</ex>o om<ex>n</ex>e q<ex>ue</ex> el puso en p<ex>ar</ex>ayso &amp; q<ex>ue</ex><supplied> </supplied>le ma<ex>n</ex>do
+               <lb/>q<ex>ue</ex> no<ex>n</ex> comjesse de aq<ex>ue</ex>lla fructa q<ex>ue</ex> el le bedo E por<supplied> </supplied>q<ex>ue</ex> comjo d<ex>e</ex>lla
+               <lb/>echo<del> </del>lo del parayso E por aq<ex>ue</ex>l dios q<ex>ue</ex> Resçibio el sac<ex>r</ex>iffiçio de <persName>abel</persName>
+               <lb/>&amp; desecho el de <persName>cayn</persName> &amp; saluo a <persName>Noe</persName> en<supplied> </supplied><ex>e</ex>l arca en<supplied> </supplied><ex>e</ex>l t<ex>ien</ex>po del diluujo
+               <lb/>&amp; a su mug<ex>er</ex> &amp; sus fijos co<ex>n</ex> sus mugeres &amp; a<supplied> </supplied>todas las ot<ex>r</ex>as co-
+               <lb break="no"/>sas biuas que ay metio porq<ex>ue</ex> se poblasse el mu<ex>n</ex>do despues E por
+               <lb/>aq<ex>ue</ex>l dios q<ex>ue</ex> saluo a <persName>loth</persName> &amp; a<supplied> </supplied>sus fijos d<persName>e</persName><supplied> </supplied>la destrucçio<ex>n</ex> de <placeName>sodoma</placeName>
+               <lb/>&amp; <placeName>gomorra</placeName> E por aq<ex>ue</ex>l dios q<ex>ue</ex> dixo a <persName>abraha<ex>n</ex></persName> q<ex>ue</ex> en su linaje
+               <lb/>serien bendichas todas las gentes &amp; escogio a<supplied> </supplied>el &amp; a <persName>ysac</persName> su
+               <lb/>fijo &amp; a <persName>jacob</persName> por pat<ex>r</ex>iarchas E ma<ex>n</ex>do q<ex>ue</ex> se çircu<ex>n</ex>çidassen todos
+               <lb/>los que benjessen de su linaie E saluo a <persName>josep</persName> de mano de sus
+               <lb/>h<ex>er</ex>manos q<ex>ue</ex> no<ex>n</ex> le matassen &amp; le dio gr<ex>aci</ex>a del Rey <persName>pharao<ex>n</ex></persName> porq<ex>ue</ex> no<ex>n</ex>
+               <lb/>peresçiesse<del resp="copista">n</del> su linaje en<supplied> </supplied><ex>e</ex>l t<ex>ien</ex>po d<ex>e</ex><supplied> </supplied>la fa<ex>n</ex>bre E guardo a <persName>moysen</persName>
+               <lb/>seyendo njño q<ex>ue</ex> no<ex>n</ex> moriesse q<ex>ua</ex>ndo lo echaro<ex>n</ex> en<supplied> </supplied><ex>e</ex>l Rio E despues
+               <lb/>q<ex>u</ex>ando fue gra<ex>n</ex>de apareçiole en semejança de fuego &amp; dio las
+               <lb/>diez plagas en <placeName>egipto</placeName> por<del> </del>q<ex>ue</ex> <placeName>pharao<ex>n</ex></placeName> no<ex>n</ex> dexaua yr a<supplied> </supplied>los fijos
+               <lb/>de <placeName>israel</placeName> E fizo<del> </del>les carrera en<supplied> </supplied>la mar por do passassen en seco
+               <lb/>E mato a <persName>pharao<ex>n</ex></persName> &amp; a su hueste q<ex>ue</ex> yua<ex>n</ex> enpos dellos en aq<ex>ue</ex>lla
+               <lb/>mar E dio la ley a <persName>moysen</persName> en<supplied> </supplied><ex>e</ex>l mo<ex>n</ex>te <placeName>sinay</placeName> &amp; la sc<ex>r</ex>iuio co<ex>n</ex>
+               <lb/>su dedo en tablas de piedra E fizo a <persName>aro<ex>n</ex></persName> su sacerdote &amp; destru-
+               <lb break="no"/>yo a<supplied> </supplied>sus fijos por<del> </del>q<ex>ue</ex> fazja<ex>n</ex> sac<ex>r</ex>ifiçio co<ex>n</ex> fuego ageno E fizo q<ex>ue</ex>
+               <lb/>la t<ex>ie</ex>rra so<add place="encima" resp="copista">r</add>biesse biuos <persName>datha<ex>n</ex></persName> &amp; <persName>abiro<ex>n</ex></persName> &amp; a<supplied> </supplied>los ot<ex>r</ex>os sus co<ex>n</ex>pa-
+               <lb break="no"/>ñeros E dio a comer a<supplied> </supplied>los judios en<supplied> </supplied><ex>e</ex>l desierto mana<ex>n</ex> E
+               <lb/>fizo sallir d<ex>e</ex><supplied> </supplied>la piedra seca agua dulçe q<ex>ue</ex> beujessen E gouer-
+               <lb break="no"/>no los judios en<supplied> </supplied><ex>e</ex>l desierto q<ex>u</ex>arenta años q<ex>ue</ex> sus bestiduras
+               <lb/>no<ex>n</ex> enuegesçieron nj<ex>n</ex> se ro<ex>n</ex>pieron E fizo q<ex>ue</ex> q<ex>ua</ex>ndo lidiaua<ex>n</ex>
+<pb n="52v"/>
+<cb n="1"/>
+               <lb/>los fijos de <placeName>israel</placeName> con<supplied> </supplied>los del pueblo de <placeName>amalech</placeName> &amp; alçaua <persName>moysen</persName>
+               <lb/>las manos arriba q<ex>ue</ex> bençiessen E ma<ex>n</ex>do a <persName>moysen</persName> q<ex>ue</ex> subiesse
+               <lb/>en<supplied> </supplied><ex>e</ex>l mo<ex>n</ex>te &amp; despues nu<ex>n</ex>ca fue bisto E ot<ex>r</ex>osi no<ex>n</ex> q<ex>u</ex>iso q<ex>ue</ex> nj<ex>n</ex>gu<ex>n</ex>o
+               <lb/>d<ex>e</ex><supplied> </supplied>los q<ex>ue</ex> saliero<ex>n</ex> de <placeName>egipto</placeName> entrasse en<supplied> </supplied>la t<ex>ie</ex>rra de p<ex>ro</ex>missio<ex>n</ex> porq<ex>ue</ex>
+               <lb/>Non le era<ex>n</ex> obedientes nj<ex>n</ex> le conosçia<ex>n</ex> co<ex>n</ex>plida<del> </del>me<ex>n</ex>te el bie<ex>n</ex> q<ex>ue</ex> les
+               <lb/>fazja fueras <persName>calef</persName> &amp; <persName>josue</persName> a<supplied> </supplied>q<ex>u</ex>ien fizo q<ex>ue</ex> passassen el Rio de <placeName>jorda<ex>n</ex></placeName>
+               <lb/>por seco torna<ex>n</ex>do las aguas arriba E derribo los muros d<ex>e</ex><supplied> </supplied>la
+               <lb/>çibdat de <placeName>jerico</placeName> porq<ex>ue</ex> <placeName>josue</placeName> la prisiesse mas ayna E fizo ot<ex>r</ex>o-
+               <lb break="no"/>si el sol estar en medio dia fasta q<ex>ue</ex> <persName>josue</persName> bençio sus enemj-
+               <lb break="no"/>gos E escogio a <persName>saul</persName> por el p<ex>r</ex>imero Rey del pueblo de <placeName>israel</placeName>
+               <lb/>E despues de su <sic>su</sic> muerte fizo a <persName>daujd</persName> Reynar E metio
+               <lb/>en<supplied> </supplied><ex>e</ex>l sp<ex>irit</ex>u de p<ex>ro</ex>ph<ex>ec</ex>ia E en todos los ot<ex>r</ex>os p<ex>ro</ex>ph<ex>et</ex>as E guardol
+               <lb/>de muchos peligros E dixo por<del> </del>q<ex>ue</ex>l fallara om<ex>n</ex>e segu<ex>n</ex>d su
+               <lb/>coraço<ex>n</ex> E subio a <persName>elyas</persName> al çielo en carros de fuego &amp; fizo
+               <lb/>muchas birtudes &amp; muchas maraujllas en<supplied> </supplied><ex>e</ex>l pueblo d<ex>e</ex><supplied> </supplied>los
+               <lb/>judios E juras ot<ex>r</ex>osi por los diez ma<ex>n</ex>dami<ex>ent</ex>os d<ex>e</ex><supplied> </supplied>la ley q<ex>ue</ex> dios
+               <lb/>dio a <persName>moysen</persName> Todas estas cosas dichas deue<del resp="copista" rend="cancelada"><ex>n</ex></del> dezjr vna
+               <lb/>bez juro E desi deue<del> </del>le dezjr aq<ex>ue</ex>l q<ex>ue</ex> le toma la jura q<ex>ue</ex> si u<ex>er</ex>dat
+               <lb/>sabe &amp; la njega o la encubre &amp; no<ex>n</ex> la dize en aq<ex>ue</ex>lla Razo<ex>n</ex> por
+               <lb/>q<ex>ue</ex> jura que benga<ex>n</ex> sobre el todas las plagas q<ex>ue</ex> benjero<ex>n</ex> sobre
+               <lb/>los <add place="encima" resp="copista">de</add> <placeName>egypto</placeName> E todas las maldiçiones d<ex>e</ex><supplied> </supplied>la ley q<ex>ue</ex> son pues-
+               <lb break="no"/>tas co<ex>n</ex>tra los q<ex>ue</ex> despreçian los ma<ex>n</ex>damj<ex>ent</ex>os de dios E todo esto
+               <lb/>dicho deue Responder vna bez sin Reffierta nj<ex>n</ex>gu<ex>n</ex>a assi co-
+               <lb break="no"/>m<ex>m</ex>o diximos en<supplied> </supplied>la ley ante desta.</p>
+         </div>
+         <div  n="3.11.21" type="ley" xml:id="SPTFA311021">
+            <head><lb/>Ley .xxjª. en q<ex>ue</ex> man<ex>er</ex>a
+               <lb/>deue<ex>n</ex> jurar los moros.</head>
+            <p><lb/>Moros ha<ex>n</ex> su jura apartada q<ex>ue</ex> deue<ex>n</ex> fazer en<supplied> </supplied><ex>e</ex>sta guisa deue yr
+               <lb/>ta<ex>n</ex>bie<ex>n</ex> el q<ex>ue</ex> ha de jurar com<ex>m</ex>o el q<ex>ue</ex> ha de Resçebir la jura a<supplied> </supplied>la puer-
+               <lb break="no"/>ta d<ex>e</ex><supplied> </supplied>la mezq<ex>u</ex>ita si<supplied> </supplied>la ouiere y o si no<ex>n</ex> en<supplied> </supplied><ex>e</ex>l logar ol ma<ex>n</ex>dare el jud-
+               <lb break="no"/>gador E el moro q<ex>ue</ex> oujere de<supplied> </supplied>jurar deue estar en pie &amp; tornarse de ca-
+               <lb break="no"/>ra &amp; alçar la mano cont<ex>r</ex>a medio<del> </del>dia a<supplied> </supplied>q<ex>ue</ex> llama<ex>n</ex> ellos alq<ex>u</ex>ibla E
+               <lb/>aq<ex>ue</ex>l q<ex>ue</ex> oujere de tomar la jura deue dezjr estas palabras juras-
+<pb n="53r"/>
+<cb n="1"/>
+               <lb break="no"/>me tu fula<ex>n</ex> moro por aq<ex>ue</ex>l dios q<ex>ue</ex> no<ex>n</ex> ha ot<ex>r</ex>o si<supplied> </supplied>el non aq<ex>ue</ex>l q<ex>ue</ex> es
+               <lb/>dema<ex>n</ex>dador &amp; conosçedor &amp; destruydor &amp; alca<ex>n</ex>çador de todas las co-
+               <lb break="no"/>sas E q<ex>ue</ex> crio aq<ex>ue</ex>sta p<ex>ar</ex>te de alqujbla co<ex>n</ex>tra q<ex>ue</ex> tu fazes oraçio<ex>n</ex> E
+               <lb/>ot<ex>r</ex>osi juras<del> </del>me por lo q<ex>ue</ex> Resçibio <persName>jacob</persName> d<ex>e</ex><supplied> </supplied>la fe de dios p<ex>ar</ex>a si &amp;
+               <lb/>p<ex>ar</ex>a sus fijos E por el omenaje q<ex>ue</ex> fizo d<ex>e</ex><supplied> </supplied>la guarda &amp; por la
+               <lb/>u<ex>er</ex>dad q<ex>ue</ex> tu tienes q<ex>ue</ex> puso dios en<supplied> </supplied>la<supplied> </supplied>boca de <persName>mahomat</persName> fijo
+               <lb/>de <persName>audalla</persName> q<ex>u</ex>ando lo fizo su p<ex>ro</ex>pheta &amp; su ma<ex>n</ex>dadero segu<ex>n</ex>d q<ex>ue</ex>
+               <lb/>tu crees q<ex>ue</ex> esto q<ex>ue</ex> yo digo q<ex>ue</ex> no<ex>n</ex> es u<ex>er</ex>dad o q<ex>ue</ex> es assi com<ex>m</ex>o
+               <lb/>tu dizes E si me<ex>n</ex>tira juras q<ex>ue</ex> seas apartado de todos los bie-
+               <lb break="no"/>nes de dios &amp; de <persName>mahomat</persName> aq<ex>ue</ex>l q<ex>ue</ex> tu dizes q<ex>ue</ex> fue su p<ex>ro</ex>ph<ex>et</ex>a &amp;
+               <lb/>su ma<ex>n</ex>dadero &amp; no<ex>n</ex> ayas p<ex>ar</ex>te con<supplied> </supplied><ex>e</ex>l nj<ex>n</ex> co<ex>n</ex> las ot<ex>r</ex>as p<ex>ro</ex>ph<ex>et</ex>as en
+               <lb/>nj<ex>n</ex>gu<ex>n</ex>o d<ex>e</ex><supplied> </supplied>los paraysos mas todas las penas q<ex>ue</ex> dize en<supplied> </supplied><ex>e</ex>l
+               <lb/><title>alcora<ex>n</ex></title> q<ex>ue</ex> dara dios a<supplied> </supplied>los q<ex>ue</ex> no<ex>n</ex> cree<ex>n</ex> en<supplied> </supplied>la tu ley bengan sobre
+               <lb/>ti a todo esso sobredicho deue Responder el moro q<ex>ue</ex> jurare
+               <lb/>assi lo juro dizjendo todas las palabras el mismo assi
+               <lb/>com<ex>m</ex>o las dixere aq<ex>ue</ex>l q<ex>ue</ex> toma la jura desde el comjenço
+               <lb/>fasta en cabo E sobre todo esto deue dezjr ame<ex>n</ex>.</p>
+         </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

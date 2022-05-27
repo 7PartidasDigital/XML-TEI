@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento VA2</title>
+            <author>Alfonso X el Sabio</author>
+         	<funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+         		FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+         	<funder xml:id="UVA">Universidad de Valladolid</funder>
+         	<funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+         	<principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-VA2</idno>
+         	<availability status="free">
+         		<licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+         			<p>Esta obra está bajo una licencia de Creative Commons
+         				Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+         		</licence>
+         	</availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+               proyecto<ref target="https://7partidas.hypotheses.org/testimonios/va2/"
+                  >7PartidasDigital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+         	<p>Este texto se ha creado como parte del proyecto <title>7 Partidas Digital</title>
+         		financiado por el Minsterio de Industria, Economía y Competitivadad de España y el
+         		FEDER, referencia <idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno>. La
+         		descripción del proyecto y sus participantes se recogen en la web <ref
+         			target="https://7partidas.hypotheses.org">7 Partidas Digital</ref></p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de la
+               reproducción del documento ofrecida por <ref target="http://bit.ly/2fh6RUQ"
+               	>PARES</ref>, ARCHV, Pergaminos, carpeta 121, 13 y corregido con el original.</p>
+         </editorialDecl>
+      </encodingDesc>
+   	<profileDesc>
+   		<abstract resp="#JMFR">
+   			<p>Contiene fragmentos de la 7ª partida: 7.15.11-19 y 28; 7.16.1-7; 7.22.2; 7.23.1-3 y
+   				7.24.1-6.</p>
+   		</abstract>
+   	</profileDesc>
+      <revisionDesc>
+      	<change when="2017-02-05" who="#JMFR" status="candidato">Añadido &lt;abstract&gt;</change>
+      	<change when="2017-01-12" who="#JMFR" status="candidato">Finalizado</change>
+        <change when="2016-12-08" who="#JMFR" status="borrador">Adición / borrado espacios en palabras unidas / separadas</change>
+      	<change when="2016-12-07" who="#JMFR" status="borrador">Codificiación de rúbricas encabalgadas</change>
+        <change when="2016-11-20" who="#JMFR" status="borrador">Transcipción y codificación básica</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+ <pb n="A1"/>
+<cb n="1"/>
+<div n="7" type="partida">
+<div n="7.15.0" type="titulo">
+<div n="7.15.11" type="ley" xml:id="SPVA271511">
+	<p><gap reason="nonsequitur"/>
+		<lb/>q<ex>ue</ex> se coziesse en<supplied> </supplied>el. ¶ Esso <gap reason="roto"/>o serie si
+		<lb/>el dan<ex>n</ex>o q<ex>ue</ex> auiniesse por su c<ex>u</ex>lpa o en otra
+		<lb/>man<ex>er</ex>a no<ex>n</ex> pe<ex>n</ex>sa<ex>n</ex>do del forno como deuie.</p>
+</div>
+<div n="7.15.12" type="ley" xml:id="SPVA271512">
+	<head><lb/>Ley .xij. Como aquel que <unclear>de</unclear>riba la cassa
+		<lb/>de<supplied> </supplied>su uizino por medo q<ex>ue</ex> a q<ex>ue</ex> uerna el
+		<lb/>fogo a<supplied> </supplied>la suya no<ex>n</ex> es tenido de<supplied> </supplied>pechar
+		<lb/>el dan<ex>n</ex>o q<ex>ue</ex> y feziesse por<supplied> </supplied>tal razo<ex>n</ex>.</head>
+	<p><lb/><hi rend="init2">E</hi>nçiendesse fuego a<supplied> </supplied>las uegadas en<supplied> </supplied>las
+		<lb/>çibdades &amp; en<supplied> </supplied>las uillas. &amp; en<supplied> </supplied>los otros
+		<lb/>lugares de man<ex>er</ex>a q<ex>ue</ex> se apodera ta<ex>n</ex>to en<supplied> </supplied>aq<ex>ue</ex>
+		<lb break="no"/>la casa q<ex>ue</ex> comienza a<supplied> </supplied>arder q<ex>ue</ex> lo no<ex>n</ex> pode<ex>n</ex> am
+		<lb break="no"/>atar a<supplied> </supplied>menos de destroyr las casas q<ex>ue</ex> son
+		<lb/>çerca della. ¶ Et por<supplied> </supplied>ende dizimos q<ex>ue</ex> si al
+		<lb break="no"/>gu<ex>n</ex>o deribasse la casa de otro <gap/>ino q<ex>ue</ex>
+		<lb/>estodiesse entre aq<ex>ue</ex>lla q<ex>ue</ex> ardiesse &amp; la suya
+		<lb/>por destaiar el fuego q<ex>ue</ex> no<ex>n</ex> q<ex>ue</ex>masse las
+		<lb/>suyas q<ex>ue</ex> no<ex>n</ex> cae em<supplied> </supplied>pena ni<ex>n</ex> es tenido de
+		<lb/>fazer emie<ex>n</ex>da de<supplied> </supplied>tal dan<ex>n</ex>o como este Et
+		<lb/>esto es por<del resp="editor"> </del>q<ex>ue</ex> aq<ex>ue</ex>l q<ex>ue</ex> deriba la cassa por tal
+		<lb/>raço<ex>n</ex> como esta no<ex>n</ex> faz pora<supplied> </supplied>si ta<ex>n</ex> sola<del resp="editor"> </del>mie<ex>n</ex>
+		<lb break="no"/>tre mas a<supplied> </supplied>toda<supplied> </supplied>la çibdade ¶ Ca podrie seer
+		<lb/>si el fuego no<ex>n</ex> fuesse asi destaiado q<ex>ue</ex> se apo
+		<lb break="no"/>derarie ta<ex>n</ex>to q<ex>ue</ex> q<ex>ue</ex>marie toda la uilla o gra<ex>n</ex>
+		<lb break="no"/>de p<ex>ar</ex>tida della. ¶ Onde pues q<ex>ue</ex> a<supplied> </supplied>buena en
+		<lb break="no"/>tenzio<ex>n</ex> lo faze no<ex>n</ex> deue por<supplied> </supplied>ende reçebi
+		<lb break="no"/>er pen<ex>n</ex>a.</p>
+</div>
+<div n="7.15.13" type="ley" xml:id="SPVA271513">
+	<head><seg xml:id="RubSPVA271513Ini" next="#RubSPVA271513Med">Ley .xiij. Como aq<ex>ue</ex>l q<ex>ue</ex> fura
+		<lb break="no"/>da la naue deue pechar el dan<ex>n</ex>o q<ex>ue</ex> au
+		<lb break="no"/>iene en<supplied> </supplied>ella. &amp;<supplied> </supplied>en<supplied> </supplied>las mercaduras q<ex>ue</ex></seg></head>
+	<p><lb/><hi rend="init2">F</hi>oracando algu<ex>n</ex> om<ex>ne</ex> <seg xml:id="RubSPVA271513Med" prev="#RubSPVA271513Ini" next="#RubSPVA271513Fin">uiene<ex>n</ex> y por esta</seg>
+		<lb/>a<supplied> </supplied>sabiendas algu<ex>n</ex>a naue de <seg xml:id="RubSPVA271513Fin" prev="#RubSPVA271513Med">raçon</seg>
+		<lb/>man<ex>er</ex>a q<ex>ue</ex> por aq<ex>ue</ex>l foraco entrasse agua q<ex>ue</ex>
+		<lb/>feziesse dan<ex>n</ex>o en<supplied> </supplied>las mercaduras o e<ex>n</ex><supplied> </supplied>las
+		<lb/>cosas q<ex>ue</ex> estodiesse<ex>n</ex> en ella serie tenido este
+		<lb/>atal de<supplied> </supplied>faz<ex>er</ex> emie<ex>n</ex>da <sic>delle</sic> dan<ex>n</ex>o q<ex>ue</ex> fiço a<supplied> </supplied>la
+		<lb/>naue. &amp;<supplied> </supplied>de<supplied> </supplied>todo el otro dan<ex>n</ex>o &amp; menoscabo
+		<lb/>q<ex>ue</ex> auiniesse en<supplied> </supplied>las cosas q<ex>ue</ex> estaua<ex>n</ex> en<supplied> </supplied>ella
+		<lb/>por raço<ex>n</ex> daq<ex>ue</ex>l furaco q<ex>ue</ex> fiço. ¶ Otrosi diçi
+		<lb break="no"/>mos q<ex>ue</ex> si algu<ex>n</ex>o echase a<supplied> </supplied>sabiendas alg
+		<lb break="no"/>u<ex>n</ex>a cosa en<supplied> </supplied>el ui<ex>n</ex>o o en<supplied> </supplied>el olio dotro o en
+		<lb/>algu<ex>n</ex>a de<supplied> </supplied>las otras cosas semeia<ex>n</ex>tes de<supplied> </supplied>l
+		<lb break="no"/>las q<ex>ue</ex> so<ex>n</ex> lamadas corrietes de man<ex>er</ex>a q<ex>ue</ex>
+<cb n="2"/>
+		<lb/>por aq<ex>ue</ex>llo q<ex>ue</ex> echassen <gap/> menos
+		<lb break="no"/>cabasse o se enpeorasse el otro. &amp; si algu<ex>n</ex>o
+		<lb/>q<ex>ue</ex>bra<ex>n</ex>tasse o forazasse los uassos en q<ex>ue</ex> esto
+		<lb break="no"/>diesse<ex>n</ex> algu<ex>n</ex>as destas cosas sobredichas
+		<lb/>de guisa q<ex>ue</ex> se uertiesse o se p<ex>er</ex>desse lo q<ex>ue</ex> era
+		<lb/>ençerado en<supplied> </supplied>ellos tenidos serie este atal
+		<lb/>de faz<ex>er</ex> emie<ex>n</ex>da del dan<ex>n</ex>o. &amp; del menoscabo
+		<lb/>q<ex>ue</ex> auiniesse y por raço<ex>n</ex> daq<ex>ue</ex>llo q<ex>ue</ex> el y echo
+		<lb/>o fizo. ¶ Esso mismo serie si lo feziesse
+		<lb/>en<supplied> </supplied>çeuera o<supplied> </supplied>en<supplied> </supplied>algu<ex>n</ex>a de<supplied> </supplied>llas otras cosas
+		<lb/>semeia<ex>n</ex>tes dela. ca<supplied> </supplied>si echasse y algu<ex>n</ex>a co
+		<lb break="no"/>sa por que se empeorasse o<supplied> </supplied>se menoscabas
+		<lb break="no"/>se tenido serie el q<ex>ue</ex> esto fe<gap/>sse de faze<ex>r</ex>
+		<lb/>emie<ex>n</ex>da del dan<ex>n</ex>o q<ex>ue</ex> auinie<gap reason="ilegible"/>e y por raçon
+		<lb/>daq<ex>ue</ex>llo q<ex>ue</ex> y echaua.</p>
+</div>
+<div n="7.15.14" type="ley" xml:id="SPVA271514">
+	<head><seg xml:id="RubSPVA271514Ini" next="#RubSPVA271514Fin">Le<gap/> .xiiij. Como si
+		<lb/>un<supplied> </supplied>nauio top en otro por f<gap reason="roto"/>a de ui
+		<lb break="no"/>ento non son te<gap reason="roto"/>dos los sen<ex>n</ex>ores de<gap reason="roto"/> de
+		<lb/>pechar el dan<ex>n</ex><gap reason="roto"/> q<ex>ue</ex> <gap reason="roto"/>esç<gap reason="roto"/>a</seg></head>
+	<p><lb/><hi rend="init2">A</hi>ncora<ex>n</ex>do estando algu<ex>n</ex> nauio <seg xml:id="RubSPVA271514Fin" prev="#RubSPVA271514Ini"><gap  reason="roto"/>n</seg>
+		<lb/>em<supplied> </supplied>puerto o<supplied> </supplied>en<supplied> </supplied>ribera del mar. &amp; an
+		<lb break="no"/>dando a<supplied> </supplied>uella o<gap/> remos o si acaesciese q<ex>ue</ex>
+		<lb/>por te<ex>n</ex>pestat o p<gap/> uie<ex>n</ex>to <gap/> gra<ex>n</ex>de q<ex>ue</ex> de
+		<lb break="no"/>sapoderasse a<supplied> </supplied>llos q<ex>ue</ex> ueniessen <gap/> f<gap/>esse
+		<lb/>topar en otro nauio mag<gap/>r <gap/>i<gap/>sse
+		<lb/>dan<ex>n</ex>o en<supplied> </supplied>el otro non serie tenido el sen<ex>n</ex>or
+		<lb/>daq<ex>ue</ex>l nauio de faz<ex>er</ex> emie<ex>n</ex>da<supplied> </supplied>de tal dan<ex>n</ex>o por
+		<lb break="no"/>q<ex>ue</ex> no<ex>n</ex> auino por su c<ex>u</ex>lpa. ¶ Esso mismo
+		<lb/>deue seer guardado en<supplied> </supplied>los otros casos
+		<lb/>semeia<ex>n</ex>tes q<ex>ue</ex> acaessçiesse<ex>n</ex> en rio o en o
+		<lb break="no"/>tros lugares.</p>
+</div>
+<div n="7.15.15" type="ley" xml:id="SPVA271515">
+	<head><seg xml:id="RubSPVA271515Ini" next="#RubSPVA271515Fin">Ley .xv. Como q<gap reason="ilegible"/>
+		<lb/>mochos om<ex>n</ex>es se açierta<ex>n</ex> en fazer
+		<lb/>dan<ex>n</ex>o matando un sieruo o una bestia
+		<lb/>pode seer demandado emienda a<supplied> </supplied>cada</seg></head>
+	<p><lb/><hi rend="init2">A</hi>çerta<ex>n</ex>do<del resp="editor"> </del>se en<supplied> </supplied>un moc- <seg xml:id="RubSPVA271515Fin" prev="#RubSPVA271515Ini">uno dellos.</seg>
+		<lb/>hos om<ex>ne</ex>s en matar algu<ex>n</ex>o sieruo
+		<lb/>o algu<ex>n</ex>a bestia de guissa q<ex>ue</ex><supplied> </supplied>llo fiera<ex>n</ex> todos
+		<lb/>&amp; q<ex>ue</ex> no<ex>n</ex> sepa<ex>n</ex> çierta<del resp="editor"> </del>mie<ex>n</ex>tre de qual feri
+		<lb break="no"/>da morio esto<ex>n</ex>ze pode<ex>n</ex> demandar a<supplied> </supplied>todos
+		<lb/>o a<supplied> </supplied>cada uno dellos q<ex>u</ex>al mas q<ex>ue</ex>ssiere<ex>n</ex> q<ex>ue</ex>
+		<lb/>faga<ex>n</ex> emienda pechando<supplied> </supplied>la estimazio<ex>n</ex>
+		<lb/>daq<ex>ue</ex>lla cosa q<ex>ue</ex> mataron. <gap/> emie<ex>n</ex>da
+<pb n="A2"/>
+<cb n="1"/>
+		<lb/>recebie<gap reason="roto"/> adelante no<ex>n</ex>
+		<lb/>la pode d<gap reason="ilegible"/> otros. ¶ Mas
+		<lb/>si podiesse <gap reason="ilegible"/>ta<del resp="editor"> </del>mie<ex>n</ex>tre de q<ex>u</ex>al fe
+		<lb break="no"/>rida morio <gap/>ue aq<ex>ue</ex>l q<ex>ue</ex> iela dio.
+		<lb/>esto<ex>n</ex>ze po<gap/>dar a<supplied> </supplied>aq<ex>ue</ex>l q<ex>ue</ex><supplied> </supplied>la mato
+		<lb/>q<ex>ue</ex> faga la <gap/> de<supplied> </supplied>lla morte el sue
+		<lb break="no"/>lo &amp; todos los otros deue<ex>n</ex> faz<ex>er</ex> emie<ex>n</ex>
+		<lb break="no"/>da de<supplied> </supplied>las feridas.</p>
+</div>
+<div n="7.15.16" type="ley" xml:id="SPVA271516">
+	<head>Ley .xvj. Como a
+		<lb break="no"/>q<ex>ue</ex>l q<ex>ue</ex> niega el dan<ex>n</ex>o q<ex>ue</ex> dize<ex>n</ex> q<ex>ue</ex> fiço si ie
+		<lb break="no"/>lo p<ex>ro</ex>uare<ex>n</ex> lo deue pechar doblado.</head>
+	<p><lb/><hi rend="init2">D</hi>emandando un om<ex>n</ex>e a<supplied> </supplied>otro en juy
+		<lb break="no"/>zio q<ex>ue</ex>l <gap reason="ilegible"/>esse emie<ex>n</ex>da del dan<ex>n</ex>o q<ex>ue</ex><supplied> </supplied>l
+		<lb/>ouiese fecho <gap reason="ilegible"/> el dema<ex>n</ex>dado negas
+		<lb break="no"/>se q<ex>ue</ex><supplied> </supplied>lo no<ex>n</ex> <gap reason="ilegible"/> &amp; el otro ielo p<ex>ro</ex>uas
+		<lb break="no"/>se despues <gap reason="ilegible"/> testigos. estonze el q<ex>ue</ex>
+		<lb/>lo n<gap reason="ilegible"/> pechar el dan<ex>n</ex>o doblado
+		<lb/>mas <gap reason="ilegible"/> auentura el dema<ex>n</ex>dador no<ex>n</ex>
+		<lb/>p<ex>ro</ex>ua<gap reason="ilegible"/> testigos mas por
+		<lb/>su jura o por otorgamie<ex>n</ex>to del dema<ex>n</ex>da
+		<lb break="no"/>do q<ex>ue</ex> el feziesse despues no<ex>n</ex> deue pech
+		<lb break="no"/>ar el doblo. mas eme<ex>n</ex>dar sie<ex>n</ex>pre mi
+		<lb break="no"/>entre el dan<ex>n</ex>o que fiço. ¶ P<ex>e</ex>ro si este q<ex>ue</ex>
+		<lb/>negasse <gap reason="ilegible"/> fuesse menos de .xxv. an<ex>n</ex>os
+		<lb/>o fu<gap reason="ilegible"/> a<supplied> </supplied>q<ex>ue</ex> feziesse tal dem
+		<lb break="no"/>anda <gap reason="ilegible"/>rido o el marido a<supplied> </supplied>quien
+		<lb/>la <gap reason="ilegible"/> su muger esto<ex>n</ex>ze ne<ex>n</ex>gu<ex>n</ex>o
+		<lb/>de<gap reason="ilegible"/> de pechar el dan
+		<lb break="no"/>no <gap/> magar despues lo p<ex>ro</ex>uas
+		<lb break="no"/>se q<ex>ue</ex>l <gap reason="ilegible"/> mas deue eme<ex>n</ex>dar ta<ex>n</ex>
+		<lb/>solamie<gap/>e el <gap reason="ilegible"/> q<ex>ue</ex> fiço.</p>
+</div>
+<div n="7.15.17" type="ley" xml:id="SPVA271517">
+	<head>Ley .xv
+		<lb break="no"/>ijª. Como algu<ex>n</ex>o conosçe en juyzio
+		<lb/>que fizo dan<ex>n</ex>o a<supplied> </supplied>otro es tenido de<supplied> </supplied>llo pec
+		<lb break="no"/>char <gap reason="ilegible"/>gar lo feziesse otro &amp; no<ex>n</ex> el.</head>
+	<p><lb/><hi rend="init2">C</hi>onosçiendo algu<ex>n</ex> om<ex>n</ex>e en juyzio
+<gap/> dan<ex>n</ex>o en algu<ex>n</ex>a dotri
+		<lb/>tenido es <gap reason="ilegible"/>mie<ex>n</ex>da dello magar
+		<lb/>otro ou<gap reason="ilegible"/>el dan<ex>n</ex>o &amp; non el.
+		<lb/>Mas s<gap reason="ilegible"/> el dan<ex>n</ex>o q<ex>ue</ex> el conos
+		<lb break="no"/>çiess<gap reason="roto"/> lo o<gap  reason="ilegible"/> 
+		<lb/>fecho ni<ex>n</ex> <gap reason="ilegible"/> no<ex>n</ex> em<gap reason="ilegible"/>
+		<lb/>tal conos<gap reason="ilegible"/>a como esta.</p>
+</div>
+<div n="7.15.18" type="ley" xml:id="SPVA271518">
+	<head><seg xml:id="RubSPVA2711518Ini" next="#RubSPVA2711518Fin">Ley .xviij.
+<cb n="2"/>
+		<lb/>Que dep<ex>ar</ex>timie<ex>n</ex>to ha entre<supplied> </supplied>las cosas
+		<lb/>de<supplied> </supplied>q<ex>ue</ex><supplied> </supplied>es fecho el<supplied> </supplied>dan<ex>n</ex>o &amp; el<supplied> </supplied>aprezamie<ex>n</ex>-</seg></head>
+	<p><lb/><hi rend="init2">Q</hi>uerellando<del resp="editor"> </del>se algu<ex>n</ex> om<ex>n</ex>e <seg xml:id="RubSPVA2711518Fin" prev="#RubSPVA2711518Ini">to dellas</seg>
+		<lb/>dellante del julgador del dan<ex>n</ex>o q<ex>ue</ex> ou
+		<lb break="no"/>uiesse fecho por raçon de algu<ex>n</ex> s<ex>er</ex>uo q<ex>ue</ex>l
+		<lb/>ouiesse morto o de cauallo o de<supplied> </supplied>rozin
+		<lb/>o de mullo o<supplied> </supplied>de mulla. o de asno o de<supplied> </supplied>asna
+		<lb/>o de ygua o<supplied> </supplied>camello o de alifant. o de
+		<lb/>toro o de<supplied> </supplied>uaca o de nouiello por domar
+		<lb/>o<supplied> </supplied>de buey o<supplied> </supplied>de puerco o<supplied> </supplied>de puerca o<supplied> </supplied>de car
+		<lb break="no"/>nero o de oueya o de cabro<ex>n</ex> o de cabra
+		<lb/>o de<supplied> </supplied>llos fijos de algu<ex>n</ex>as destias bestias
+		<lb/>sobredichas esto<ex>n</ex>ze el juyz deue ma<ex>n</ex>
+		<lb break="no"/>dar fazer emie<ex>n</ex>da sobre cada una del
+		<lb break="no"/>las de man<ex>er</ex>a q<ex>ue</ex> peche por ella aq<ex>ue</ex>l q<ex>ue</ex> fizo
+		<lb/>lo dan<ex>n</ex>o ta<ex>n</ex>to qua<ex>n</ex>to mas podrie ualer
+		<lb/>aquella cosa desde un an<ex>n</ex>o ant<ex>e</ex> fasta aq<ex>ue</ex>l
+		<lb/>dia q<ex>ue</ex><supplied> </supplied>la mato. ¶ Et si por aue<ex>n</ex>tura el
+		<lb/>dan<ex>n</ex>o q<ex>ue</ex> feziesse<ex>n</ex> en algu<ex>n</ex>as destas besti
+		<lb break="no"/>as sobredichas no<ex>n</ex> fuesse de morte.
+		<lb/>mas de ferida q<ex>ue</ex> reçebiesse algu<ex>n</ex>a del
+		<lb break="no"/>las porq<ex>ue</ex> se empeorasse<ex>n. </ex>o si matasse<ex>n</ex>
+		<lb/>o feriesse<ex>n</ex> otra bestia q<ex>ue</ex> fuesse destas so
+		<lb break="no"/>bredichas o q<ex>ue</ex>masse<ex>n</ex> o diribasse<ex>n </ex>o destro
+		<lb break="no"/>ysse<ex>n</ex> o feciesse<ex>n</ex> dan<ex>n</ex>o en otra cosa qual
+		<lb break="no"/>q<ex>ui</ex>er esto<ex>n</ex>ze el empeoramie<ex>n</ex>to o la mor
+		<lb break="no"/>te o el dan<ex>n</ex>o en algu<ex>n</ex>a destas cosas de
+		<lb break="no"/>uello el julgador ap<ex>re</ex>ciar &amp; ma<ex>n</ex>dar<del resp="editor"> </del>le
+		<lb/>pechar ta<ex>n</ex>to qua<ex>n</ex>to mas podrie ualer
+		<lb/>la<supplied> </supplied>cosa q<ex>ue</ex> reçebio el dan<ex>n</ex>o desde tri<ex>n</ex>ta di
+		<lb break="no"/>as ant<ex>e</ex> fasta en aq<ex>ue</ex>l dia q<ex>ue</ex> feziero<ex>n</ex> el 
+		<lb/>dan<ex>n</ex>o o el empeoramie<ex>n</ex>to en ella. Ca
+		<lb/>la emie<ex>n</ex>da de tal dan<ex>n</ex>o como este es de
+		<lb/>tal natura q<ex>ue</ex> sie<ex>n</ex>p<ex>re</ex> cata atras qua<ex>n</ex>to
+		<lb/>mas pode ualler la cosa en<supplied> </supplied>el tie<ex>n</ex>po pa
+		<lb break="no"/>sado asi como sobredicho es. en la ley
+		<lb/>q<ex>ue</ex> ma<ex>n</ex>da este dan<ex>n</ex>o asi julgar es lam
+		<lb break="no"/>ada en latin ley aquilla. ¶ E este ap<ex>re</ex>
+		<lb break="no"/>ciamie<ex>n</ex>to se deue faz<ex>er</ex> 
+<ex>con</ex> la jura del q<ex>ue</ex> de
+		<lb break="no"/>manda emie<ex>n</ex>da del dan<ex>n</ex>o luego q<ex>ue</ex> fue
+		<lb/>p<ex>ro</ex>uado dela<ex>n</ex>t del julgador.</p>
+</div>
+<div n="7.15.19" type="ley" xml:id="SPVA271519">
+	<head>Ley .xix. <gap reason="nonsequitur"/></head>
+</div>
+<pb n="A3"/>
+<cb n="1"/>
+<div n="7.15.28" type="ley" xml:id="SPVA271528">
+	<p><gap reason="nonsequitur"/>
+		<lb/>por ende auer pen<ex>n</ex>a ne<ex>n</ex>gu<ex>n</ex>a.</p>
+</div>
+</div>
+<div n="7.16.0" type="titulo">
+	<head><seg xml:id="RubSPVA271600Ini" next="#RubSPVA271600Med">T<ex>itu</ex>lo .xvj.
+		<lb/>De<supplied> </supplied>llos enganos mallos. &amp; buenos &amp;</seg></head>
+	<p><lb/><hi rend="init2">E</hi>nguano es una pala <seg xml:id="RubSPVA271600Med" next="#RubSPVA271600Fin" prev="#RubSPVA271600Ini" >de<supplied> </supplied>llos baratado-</seg>
+		<lb break="no"/>bra general q<ex>ue</ex> cae sobre mochos <seg xml:id="Fin" prev="#RubSPVA271600Med">res.</seg>
+		<lb/>yerros q<ex>ue</ex> los om<ex>ne</ex>s faze<ex>n</ex> q<ex>ue</ex> no<ex>n</ex> ha<ex>n</ex> no<ex>n</ex>bres
+		<lb/>sen<ex>n</ex>alados. ¶ Onde pues q<ex>ue</ex> en<supplied> </supplied>el t<ex>itu</ex>lo ant<ex>e</ex>
+		<lb/>deste fablamos de<supplied> </supplied>llos dan<ex>n</ex>os. &amp; q<ex>ue</ex>remos
+		<lb/>a<ex>qu</ex>i dizer de<supplied> </supplied>llos engan<ex>n</ex>os q<ex>ue</ex> faze<ex>n</ex> los o<ex>mne</ex>s
+		<lb/>unos a<supplied> </supplied>otros. ¶ Et mostrar q<ex>ue</ex> cosa es. &amp;
+		<lb/>qua<ex>n</ex>tas man<ex>er</ex>as son del. ¶ Et quie<ex>n</ex> pode
+		<lb/>ende demandar emie<ex>n</ex>da qua<ex>n</ex>do fu<ex>er</ex>e fecho
+		<lb/>el dan<ex>n</ex>o. ¶ Et a<supplied> </supplied>qualles. &amp; ant<ex>e</ex> quie<ex>n</ex>. ¶ Et
+		<lb/>fasta qua<ex>n</ex>to tie<ex>n</ex>po. ¶ Et como deue seer fe
+		<lb break="no"/>cha emie<ex>n</ex>da. ¶ Et desi mostraremos por
+		<lb/>enxe<ex>n</ex>plos como<supplied> </supplied>se faze<ex>n</ex> los enganos. ¶ Et
+		<lb/>q<ex>ue</ex> pena meressçe<ex>n</ex> los q<ex>ue</ex><supplied> </supplied>llos fazen o<supplied> </supplied>llos
+		<lb/>q<ex>ue</ex><supplied> </supplied>llos ajuda<ex>n</ex> o en<del resp="editor"> </del>cobren.</p>
+<div n="7.16.1" type="ley" xml:id="SPVA271601">
+	<head>Ley .jª. <gap reason="roto"/>ue co
+		<lb break="no"/>sa es enguano &amp; q<ex>u</ex>a<ex>n</ex>tas man<ex>er</ex>as <gap reason="roto"/>el.</head>
+	<p><lb/><hi rend="init2">D</hi>olus en<supplied> </supplied>lati<ex>n</ex> ta<ex>n</ex>to quier dizer en roman
+		<lb/>como engano. &amp; enguano es enar
+		<lb break="no"/>tame<ex>n</ex>to q<ex>ue</ex> algu<ex>n</ex>os om<ex>ne</ex>s faze<ex>n</ex> unos a<supplied> </supplied>ot<ex>r</ex>os
+		<lb/>por palabras mi<ex>n</ex>trossas. o en<del resp="editor"> </del>cobiertas
+		<lb/>acoloradas q<ex>ue</ex> se dize<ex>n</ex> <ex>con</ex> entenzio<ex>n</ex> de<supplied> </supplied>llos
+		<lb/>enguanar o<supplied> </supplied>de<supplied> </supplied>llos deçebir. &amp; este engua
+		<lb break="no"/>no dize<ex>n</ex> en<supplied> </supplied>lati<ex>n</ex> dollus malus q<ex>ue</ex> q<ex>u</ex>ier ta<ex>n</ex>to
+		<lb/>dizer como malo enguano. ¶ Et como
+		<lb/>q<ex>u</ex>ier q<ex>ue</ex><supplied> </supplied>llos enguanos se faga<ex>n</ex> en mochas
+		<lb/>man<ex>er</ex>as las p<ex>ri</ex>ncipales de<supplied> </supplied>las dos son.
+		<lb/>¶ La p<ex>r</ex>im<ex>er</ex>a es qua<ex>n</ex>do lo faze<ex>n</ex> por palabras
+		<lb/>mintrossas &amp; arteras. ¶ La segu<ex>n</ex>d<gap/> qua<ex>n</ex>
+		<lb break="no"/>do p<ex>r</ex>igu<ex>n</ex>ta algu<ex>n</ex>o om<ex>n</ex>e sobre alg<gap/> cosa
+		<lb/>&amp; el cala enganosa<del resp="editor"> </del>mie<ex>n</ex>tre no<ex>n</ex> q<ex>ue</ex>rendo
+		<lb/>respo<ex>n</ex>der o si respue<ex>n</ex>de diz pabras [sic] en<del resp="editor"> </del>co
+		<lb break="no"/>biertas de man<ex>er</ex>a q<ex>ue</ex> por estas no<ex>n</ex> se po
+		<lb break="no"/>de om<ex>n</ex>e guardar del enguano.</p>
+</div>
+<div n="7.16.2" type="ley" xml:id="SPVA271602">
+	<head><seg>Ley .ij.
+		<lb/>Que dep<ex>ar</ex>timie<ex>n</ex>to ha entre<supplied> </supplied>llos engua-</seg></head>
+	<p><lb/><hi rend="init2">D</hi>ep<ex>ar</ex>timie<ex>n</ex>to ha entre<supplied> </supplied>llos eng<ex>u</ex>a <seg>nos</seg>
+		<lb break="no"/>nos. ca<supplied> </supplied>tales y<supplied> </supplied>a dellos q<ex>ue</ex> so<ex>n</ex> bue<ex>n</ex>os
+		<lb/>&amp; atales q<ex>ue</ex> malos. &amp; los bue<ex>n</ex>os so<ex>n</ex> aq<ex>ue</ex>l
+		<lb break="no"/>los q<ex>ue</ex><supplied> </supplied>llos om<ex>ne</ex>s faze<ex>n</ex> <gap/> enten
+		<lb break="no"/>çion. asi como por prender ladrones o
+<cb n="2"/>
+		<lb/>robadores o algu<ex>n</ex>os otros que fuesen malos
+		<lb/>o<supplied> </supplied>danossos al Rey o a<supplied> </supplied>llos otros de<gap/> sen
+		<lb break="no"/>norio o a<supplied> </supplied>llos q<ex>ue</ex> fuesse<ex>n</ex> fechos <ex>con</ex>tra <gap/> e
+		<lb break="no"/>nimigos conosçidos o <ex>con</ex>tra otros q<ex>ue</ex> no<ex>n</ex> fu
+		<lb break="no"/>esse<ex>n</ex> enemigos. &amp; q<ex>ue</ex> se trabaiasse<ex>n</ex> de buscar
+		<lb/>mal a<supplied> </supplied>aq<ex>ue</ex>llos q<ex>ue</ex><supplied> </supplied>llos q<ex>u</ex>iere<ex>n</ex> enguanar. &amp; los
+		<lb/>enguanos malos so<ex>n</ex> todos los otros <ex>con</ex>t<ex>r</ex>a
+		<lb break="no"/>rios destos. ¶ P<ex>er</ex>o como q<ex>u</ex>ier q<ex>ue</ex> pode om<ex>n</ex>e en
+		<lb break="no"/>guanar sus enimigos <ex>co</ex>n todo esso no<ex>n</ex> lo
+		<lb/>pode fazer en<supplied> </supplied>aq<ex>ue</ex>l tie<ex>n</ex>po q<ex>ue</ex> an tregua <ex>con</ex> se
+		<lb break="no"/>guranzia <ex>con</ex> el por<del resp="editor"> </del>q<ex>ue</ex><supplied> </supplied>la fe &amp; la u<ex>er</ex>dat q<ex>ue</ex> om<ex>n</ex>e p<ex>ro</ex>
+		<lb break="no"/>mete deuela guardar entra<del resp="editor"> </del>mie<ex>n</ex>tre a<supplied> </supplied>to
+		<lb break="no"/>do om<ex>n</ex>e de qual ley q<ex>u</ex>ier q<ex>ue</ex> sea magar sea
+		<lb/>su enemigo.</p>
+</div>
+<div n="7.16.3" type="ley" xml:id="SPVA271603">
+	<head><seg>Ley .iijª. quie<ex>n</ex> pode deman
+		<lb break="no"/>dar emie<ex>n</ex>da del enguano &amp; ant<ex>e</ex> quie<ex>n</ex> &amp;<supplied> </supplied>a</seg></head>
+	<p><lb/><hi rend="init2">E</hi>l q<ex>ue</ex> reçebio el enguano &amp; sus h<ex>ere</ex>de<del resp="editor"> </del> <seg>quales</seg>
+		<lb/>ros pode<ex>n</ex> demandar emie<ex>n</ex>da del q<ex>ue</ex>rello
+		<lb break="no"/>so dela<ex>n</ex>tre del julgador del lugar &amp; p<ex>ro</ex>uan
+		<lb break="no"/>do el enguano q<ex>ue</ex>l es fecho. ¶ Otrosi dezim<ex>os</ex>
+		<lb/>q<ex>ue</ex> si engano es fecho en raço<ex>n</ex> de uendida
+		<lb/>o de <ex>con</ex>pra o de camio o sobre algu<ex>n</ex>o otro p<ex>re</ex>y
+		<lb break="no"/>to o postura q<ex>ue</ex><supplied> </supplied>llos om<ex>ne</ex>s ha<ex>n</ex> entre<supplied> </supplied>ssi son
+		<lb/>los h<ex>ere</ex>deros del enganador tenidos de ende
+		<lb break="no"/>renzar &amp; de faz<ex>er</ex> emie<ex>n</ex>da del ta<ex>n</ex> bie<ex>n</ex> como
+		<lb/>aquellos a<supplied> </supplied>quie<ex>n</ex> ellos h<ex>ere</ex>daron. ¶ Mas si el
+		<lb/>enguano no<ex>n</ex> fuesse fecho sobre tal pl<ex>e</ex>i
+		<lb break="no"/>to como algu<ex>n</ex>o destos sobredichos o so
+		<lb break="no"/>bre otro q<ex>ue</ex> los semeiasse. mas en algu<ex>n</ex>a
+		<lb/>otra man<ex>er</ex>a en q<ex>ue</ex> cayesse maldat. q<ex>ue</ex> no<ex>n</ex> o
+		<lb break="no"/>uiesse bie<ex>n</ex> sennalado asi como adela<ex>n</ex>tre
+		<lb/>si mostra. esto<ex>n</ex>ze los h<ex>ere</ex>deros del q<ex>ue</ex> lo fe
+		<lb break="no"/><gap reason="ilegible"/>iesse no<ex>n</ex> serie<ex>n</ex> tenidos de<supplied> </supplied>fazer emie<ex>n</ex>da
+		<lb/><gap reason="ilegible"/> foras ende en<supplied> </supplied>ta<ex>n</ex>to qua<ex>n</ex>to se acresçe<ex>n</ex>to
+		<lb/>lo q<ex>ue</ex> ellos h<ex>ere</ex>daro<ex>n</ex> por razo<ex>n</ex> del enguano
+		<lb/><gap/>o<ex>n</ex> <gap reason="ilegible"/>. ¶ Otrosi dizimos q<ex>ue</ex> si mo
+		<lb break="no"/>chos a<gap reason="ilegible"/>taro<ex>n</ex> desuno en faz<ex>er</ex> algu<ex>n</ex>o enga
+		<lb break="no"/>no q<ex>ue</ex> acude a<supplied> </supplied>cada uno dellos pode dema<ex>n</ex>
+		<lb break="no"/>dar el q<ex>ue</ex><supplied> </supplied>llos recebio q<ex>ue</ex> faga emie<ex>n</ex>da del
+		<lb/>p<ex>er</ex>o desq<ex>ue</ex> ouiese ya reçebida entera<del resp="editor"> </del>mie<ex>n</ex>
+		<lb break="no"/>tre emienda del uno de<supplied> </supplied>llos enguanadores
+		<lb/>dende adela<ex>n</ex>t no<ex>n</ex> pode dema<ex>n</ex>dar mas a ne<ex>n</ex>gu<ex>n</ex>o
+<pb n="A4"/>
+<cb n="1"/>
+		<lb/>de<supplied> </supplied>llos otros.</p>
+</div>
+<div n="7.16.4" type="ley" xml:id="SPVA271604">
+	<head><seg xml:id="RubSPVA271604Ini" next="#RubSPVA271604Fin">Ley .iiij. a<supplied> </supplied>q<ex>u</ex>alles p<ex>er</ex>sonas
+		<lb/>no<ex>n</ex>pode seer dema<ex>n</ex>dada emie<ex>n</ex>da por <sic>raco<ex>n</ex></sic></seg></head>
+	<p><lb/><hi rend="init2">E</hi>nguanan a<supplied> </supplied>las uega <seg xml:id="RubSPVA271604Med" prev="#RubSPVA271604Ini" next="#RubSPVA271604Fin">enguano magar</seg>
+		<lb break="no"/>das el padre o la madre a <seg xml:id="RubSPVA271604Fin" prev="#RubSPVA271604Med">lo fagan</seg>
+		<lb/>sus fijos. o<supplied> </supplied>el <sic>auulo</sic> a<supplied> </supplied>su nieto. o el sen<ex>n</ex>or
+		<lb/>al aforado. o<supplied> </supplied>llos q<ex>ue</ex> tiene<ex>n</ex> gra<ex>n</ex>de lugar a<supplied> </supplied>l
+		<lb break="no"/>los otros q<ex>ue</ex> so<ex>n</ex> de<supplied> </supplied>menor guissa. &amp; dixiero<ex>n</ex>
+		<lb/>los sabios antigos q<ex>ue</ex> negu<ex>n</ex>o destos sobre
+		<lb break="no"/>dichos no<ex>n</ex> pode<ex>n</ex> dema<ex>n</ex>dar a<supplied> </supplied>sus mayora
+		<lb break="no"/>les emie<ex>n</ex>da del enguano de<supplied> </supplied>la<supplied> </supplied>p<ex>er</ex>dida q<ex>ue</ex><supplied> </supplied>lles
+		<lb/>ouiesse<ex>n</ex> fecho como enguanadores. ¶ Et
+		<lb/>esto es por<del resp="editor"> </del>q<ex>ue</ex> son tenidos de auerles reue
+		<lb break="no"/>re<ex>n</ex>zia. &amp; fazerles onra. &amp; no<ex>n</ex> les deue<ex>n</ex> dize<ex>r</ex>
+		<lb/>palabras de q<ex>ue</ex> ficassen como enguanados &amp;
+		<lb/>enfamados. ¶ Otrosi dizimos q<ex>ue</ex> no<ex>n</ex> pode
+		<lb/>seer dema<ex>n</ex>dada emienda en<supplied> </supplied>raço<ex>n</ex> de engua
+		<lb break="no"/>no de qua<ex>n</ex>tia q<ex>ue</ex> fuesse de dos mr. de oro en
+		<lb/>ajusso. p<ex>er</ex>o qual<del resp="editor"> </del>quie<ex>r</ex> q<ex>ue</ex> ouiesse reçebido
+		<lb/>menoscabo en algu<ex>n</ex>a destas man<ex>er</ex>as sob<ex>re</ex>
+		<lb break="no"/>dichas como q<ex>u</ex>ier q<ex>ue</ex> no<ex>n</ex> poda dema<ex>n</ex>dar em
+		<lb break="no"/>ienda por razo<ex>n</ex> del engano. bie<ex>n</ex> pode pi
+		<lb break="no"/>dir al julgador q<ex>ue</ex> ielo faga endere<ex>n</ex>zar
+		<lb/>como si no<ex>n</ex> ouiesse fecho a<supplied> </supplied>sabie<ex>n</ex>das a<supplied> </supplied>que
+		<lb/>dize<ex>n</ex> en<supplied> </supplied>lati<ex>n</ex> i<ex>n</ex>fanzia. &amp; el juyz deuelo
+		<lb/>fazer.</p>
+</div>
+<div n="7.16.5" type="ley" xml:id="SPVA271605">
+	<head><seg xml:id="RubSPVA271605Ini" next="#RubSPVA271604Med">Ley .v. Quales om<ex>ne</ex>s son tenidos
+		<lb/>de eme<ex>n</ex>dar el enguano q<ex>ue</ex> a<supplied> </supplied>otri feziesse</seg></head>
+	<p><lb/><hi rend="init2">R</hi>ey o sen<ex>n</ex>or de algu<ex>n</ex>a çib <seg xml:id="RubSPVA271605Med" prev="#RubSPVA271605Ini" next="#RubSPVA271605Fin">auie<ex>n</ex>do<del resp="editor"> </del>les pro</seg>
+		<lb break="no"/>dade o uilla o castiello o dotro <seg xml:id="RubSPVA271605Fin" prev="#RubSPVA271605Med">del.</seg>
+		<lb/>lugar qual<del resp="editor"> </del>q<ex>u</ex>ier fazie<ex>n</ex>do enguano a<supplied> </supplied>o
+		<lb break="no"/>tro tenido es de faz<ex>er</ex> emie<ex>n</ex>da del enga
+		<lb break="no"/>no a<supplied> </supplied>aq<ex>ue</ex>l a<supplied> </supplied>quie<ex>n</ex><supplied> </supplied>lo fizo en<supplied> </supplied>la man<ex>er</ex>a q<ex>ue</ex> dix
+		<lb break="no"/>iemos en<supplied> </supplied>la ley ant<ex>e</ex> desta. ¶ Et aun son
+		<lb/>tenidos de faz<ex>er</ex> aq<ex>ue</ex>llos q<ex>ue</ex> fuere<ex>n</ex> morado
+		<lb break="no"/>res en<supplied> </supplied>aq<ex>ue</ex>l lugar onde el es sen<ex>n</ex>or fasta
+		<lb/>en aq<ex>ue</ex>lla qua<ex>n</ex>tia q<ex>ue</ex> ellos se aprouechase<ex>n</ex>
+		<lb/>del enguan<ex>n</ex>o. ¶ Esso mismo serie si
+		<lb/>algu<ex>n</ex>o <ex>con</ex>zeio se ap<ex>ro</ex>uechasse de engua
+		<lb break="no"/>no q<ex>ue</ex> ouiesse fecho su mayordomo o so
+		<lb/>p<ex>er</ex>sonero a<supplied> </supplied>otri. ¶ Otrosi dizimos q<ex>ue</ex><supplied> </supplied>si el
+		<lb/>enguano q<ex>ue</ex> fizo el p<ex>er</ex>sonero se ap<ex>ro</ex>ue
+		<lb break="no"/>cho el duen<ex>n</ex>o q<ex>ue</ex><supplied> </supplied>llo establesçio o el hu-
+<cb n="2"/>
+		<lb break="no"/>erphano de<supplied> </supplied>llo q<ex>ue</ex> fizo su gardador. q<ex>ue</ex> cada
+		<lb/>uno dellos es tenido de fazer emie<ex>n</ex>da
+		<lb/>de<supplied> </supplied>tal enguano fasta en aq<ex>ue</ex>lla qua<ex>n</ex>tia q<ex>ue</ex><supplied> </supplied>se
+		<lb/>ende aprouecho. ¶ Et aun son tenidos de
+		<lb/>lo pechar de<supplied> </supplied>llo suyo los q<ex>ue</ex> feziero<ex>n</ex> el en
+		<lb break="no"/>guano a<supplied> </supplied>los q<ex>ue</ex> fuesse<ex>n</ex> asi engu<ex>n</ex>ados. p<ex>er</ex>o si
+		<lb/>fuer enganado uno destos una uez
+		<lb/>dalgu<ex>n</ex>o destos no<ex>n</ex> pode despues dema<ex>n</ex>
+		<lb break="no"/>dar emie<ex>n</ex>da del enguano a<supplied> </supplied>los otros asi
+		<lb/>como dixiemos en<supplied> </supplied>la t<ex>er</ex>çera ley ant<ex>e</ex> des
+		<lb break="no"/>ta.</p>
+</div>
+<div n="7.16.6" type="ley" xml:id="SPVA271606">
+	<head>Ley .vjª. fasta qua<ex>n</ex>to tie<ex>n</ex>po pode omn<ex>e</ex>
+		<lb/>dema<ex>n</ex><supplied> </supplied>dar emie<ex>n</ex>da del en<del resp="editor"> </del>guan<ex>n</ex>o. &amp; en q<ex>ue</ex>
+		<lb/>man<ex>er</ex>a le deue seer fecha.</head>
+	<p><lb/><hi rend="init2">F</hi>asta<supplied> </supplied>dos an<ex>n</ex>os desdel dia q<ex>ue</ex> algu<ex>n</ex>o o
+		<lb break="no"/>uiesse reçebido el engano pode
+		<lb/>de<del resp="editor"> </del>mandar emie<ex>n</ex>da del en juyzio. ¶ Et
+		<lb/>si en <gap/>ste tie<ex>n</ex>po no<ex>n</ex> la dema<ex>n</ex>dasse dent ade
+		<lb break="no"/>la<gap/> no<ex>n</ex> la podrie fazer en<supplied> </supplied>man<ex>er</ex>a de
+		<lb/>engano como q<ex>u</ex>ier q<ex>ue</ex> fasta .xxxª. an<ex>n</ex>os
+		<lb/>el o<supplied> </supplied>su h<ex>ere</ex>dero pode dema<ex>n</ex>dar a<supplied> </supplied>llos enga
+		<lb break="no"/>nadores q<ex>ue</ex>l peche<ex>n</ex> o<supplied> </supplied>q<ex>ue</ex>l endereze<ex>n</ex> la p<ex>er</ex>dida
+		<lb/>o<supplied> </supplied>el menoscabo q<ex>ue</ex> p<ex>ro</ex>uare q<ex>ue</ex> reçebiopor
+		<lb/>tal raço<ex>n</ex> como esta. ¶ Et el julgador de
+		<lb break="no"/>ue ma<ex>n</ex>dar faz<ex>er</ex> la emie<ex>n</ex>da del enguan<ex>n</ex>o
+		<lb/>pues q<ex>ue</ex> fuer auiriguado en<supplied> </supplied>esta man<ex>er</ex>a
+		<lb/>faziendo q<ex>ue</ex>l aprezie aq<ex>ue</ex>ll q<ex>ue</ex><supplied> </supplied>lo fizo reçe
+		<lb break="no"/>bio &amp; taxando<del resp="editor"> </del>lo el segu<ex>n</ex>d su aluidrio
+		<lb/>&amp; despues deuel fazer jurar q<ex>ue</ex> ca<ex>n</ex>to me
+		<lb break="no"/>noscabo. o p<ex>er</ex>dio por razo<ex>n</ex> daquel engan<ex>n</ex>o
+		<lb/>¶ Et despues q<ex>ue</ex> asi fu<ex>er</ex>e fecho deuel ma<ex>n</ex>
+		<lb break="no"/>dar faz<ex>er</ex> emie<ex>n</ex>da sin alongamie<ex>n</ex>to ne<ex>n</ex>gu<ex>n</ex>o
+		<lb/>segu<ex>n</ex>dla qua<ex>n</ex>tia q<ex>ue</ex> asi jurasse. faziendol
+		<lb/>pechar demas las custas. &amp; las misio
+		<lb break="no"/>nes q<ex>ue</ex> fizo ensiguiendo el pl<ex>e</ex>ito.</p>
+</div>
+<div n="7.16.7" type="ley" xml:id="SPVA271607">
+	<head>Ley
+.vij. De<supplied> </supplied>las man<ex>er</ex>as en<supplied> </supplied>q<ex>ue</ex><supplied> </supplied>llos om<ex>ne</ex>s se
+		<lb/>faze<ex>n</ex> enguanos los unos a<supplied> </supplied>llos otros.</head>
+	<p><lb/><hi rend="init2">P</hi>or enxe<ex>n</ex>plos no<ex>n</ex> podrie recontar en
+		<lb/>qua<ex>n</ex>tas man<ex>er</ex>as faze<ex>n</ex> los om<ex>n</ex>es en
+		<lb break="no"/>guan<ex>n</ex>o los unos a<supplied> </supplied>los otros. p<ex>er</ex>o fabla
+		<lb break="no"/>remos dalgu<ex>n</ex>os dellos segu<ex>n</ex>d mostra<ex>n</ex>
+		<lb/>los sabios antiguos porq<ex>ue</ex><supplied> </supplied>llos om<ex>e</ex>s
+<gap reason="nonsequitur"/></p>
+</div>
+</div>
+<pb n="B1"/>
+<cb n="1"/>
+<div n="7.22.0" type="titulo">
+<div n="7.22.2" type="ley" xml:id="SPVA272202">
+	<p><gap reason="nonsequitur"/>otrossi a<supplied> </supplied>las mog<ex>er</ex>es q<ex>ue</ex> se trabaia<ex>n</ex> de fecho
+		<lb/>de alcahotaria.</p>
+</div>
+</div>
+<div n="7.23.0" type="titulo">
+	<head>T<ex>itu</ex>lo de<supplied> </supplied>llos agoreros. &amp;
+		<lb/>de<supplied> </supplied>llos sorteieros. &amp; de<supplied> </supplied>llos otros adiui
+		<lb break="no"/>nos. &amp; de<supplied> </supplied>llos fechizeros. &amp; de<supplied> </supplied>llos truanes.</head>
+	<p><lb/><hi rend="init2">A</hi>goreyros &amp; adiuinar las cosas q<ex>ue</ex> han
+		<lb/>de<supplied> </supplied>uenir. natural<del resp="editor"> </del>mie<ex>n</ex>tre <ex>con</ex>dan<ex>n</ex>a los o<ex>mne</ex>s
+		<lb/>Et por<del resp="editor"> </del>q<ex>ue</ex> algunos dellos p<ex>ro</ex>uan esto en ma
+		<lb break="no"/>n<ex>er</ex>as que erra<ex>n</ex> en<supplied> </supplied>ellos. &amp; meten a<supplied> </supplied>otros moc
+		<lb break="no"/>hos en<supplied> </supplied>erro. ¶ Onde pues q<ex>ue</ex> en<supplied> </supplied>el t<ex>itu</ex>lo ant<ex>e</ex>
+		<lb/>deste fablamos de<supplied> </supplied>llos alcauotes q<ex>ue</ex> faze<ex>n</ex>
+		<lb/>errar a<supplied> </supplied>los om<ex>e</ex>s &amp; a<supplied> </supplied>las mog<ex>er</ex>es en muchas
+		<lb/>man<ex>er</ex>as q<ex>ue</ex>remos aq<ex>u</ex>i dizer destos otrossi
+		<lb/>que son muy dan<ex>n</ex>ossos a<supplied> </supplied>lla t<ex>ier</ex>ra. ¶ Et mostra
+		<lb break="no"/>remos q<ex>ue</ex> q<ex>u</ex>ier dizer adiuina<ex>n</ex>zia &amp; qua<ex>n</ex>tas
+		<lb/>man<ex>er</ex>as son della. ¶ Et quie<ex>n</ex> pode acusar
+		<lb/>a<supplied> </supplied>los fazedores della. &amp; ant<ex>e</ex> quie<ex>n</ex>. &amp; q<ex>ue</ex> pe
+		<lb break="no"/>na meresçe<ex>n</ex> los q<ex>ue</ex> se trabaia<ex>n</ex> de obrar de
+		<lb break="no"/>la como no<ex>n</ex> deue<ex>n</ex>.</p>
+<div n="7.23.1" type="ley" xml:id="SPVA272301">
+	<head>Ley .jª. Que q<ex>u</ex>ier diz<ex>er</ex>
+		<lb/>adiuina<ex>n</ex>zia. &amp; qua<ex>n</ex>tas man<ex>er</ex>as so<ex>n</ex> della.</head>
+	<p><lb/><hi rend="init2">A</hi>diuinanzia ta<ex>n</ex>to q<ex>u</ex>ier dizer como toma<ex>r</ex>
+		<lb/>poder de dios pora saber las cosas q<ex>ue</ex>
+		<lb/>son por uenir. &amp; son dos man<ex>er</ex>as de adiui
+		<lb break="no"/>nanzias. ¶ La p<ex>r</ex>im<ex>er</ex>a es la q<ex>ue</ex><supplied> </supplied>se faz por arte
+		<lb/>de astrono<ex>m</ex>ia q<ex>ue</ex> es una de<supplied> </supplied>llas siete artes li
+		<lb break="no"/>berales. ¶ Et esta segu<ex>n</ex>do el fuero de<supplied> </supplied>llas
+		<lb/>leys no<ex>n</ex> es defendido de<supplied> </supplied>husar a<supplied> </supplied>llos q<ex>ue</ex> so<ex>n</ex>
+		<lb/>ende maestros. &amp; la entende<ex>n</ex> u<ex>er</ex>dadera<del resp="editor"> </del>mi
+		<lb break="no"/>e<ex>n</ex>tre por<del resp="editor"> </del>q<ex>ue</ex><supplied> </supplied>llos juyzios &amp; los asmamie<ex>n</ex>
+		<lb break="no"/>tos q<ex>ue</ex> se da<ex>n</ex> por esta ley so<ex>n</ex> catados por el c<ex>ur</ex>
+		<lb break="no"/>so natural de<supplied> </supplied>las planetas &amp; de<supplied> </supplied>llas otras
+		<lb/>est<ex>r</ex>elas &amp; tomados de<supplied> </supplied>llos libros p<ex>ro</ex>lomeo
+		<lb/>&amp; de<supplied> </supplied>llos otros sabidores q<ex>ue</ex> se trabaiaro<ex>n</ex> de
+		<lb break="no"/>sta scie<ex>n</ex>zia. ¶ Mas los otros q<ex>ue</ex> son ende
+		<lb/>sabedores no<ex>n</ex> deue<ex>n</ex> obrar por<supplied> </supplied>ella. como
+		<lb/>quier q<ex>ue</ex><supplied> </supplied>se poda<ex>n</ex> trabaiar de aprenderla
+		<lb/>estodudando ellos en<supplied> </supplied>los libros de<supplied> </supplied>llos sa
+		<lb break="no"/>bios. ¶ La segu<ex>n</ex>da man<ex>er</ex>a de adiuina<ex>n</ex>zia
+		<lb/>es de<supplied> </supplied>llos agoreros. &amp; de<supplied> </supplied>llos sorteieros.
+		<lb/>&amp; de<supplied> </supplied>llos fechizeros q<ex>ue</ex> cata<ex>n</ex> aguero de au<ex>e</ex>s
+		<lb/>&amp; de ag estarnudos. o<supplied> </supplied>de palabras a<supplied> </supplied>que
+		<lb/>lama<ex>n</ex> p<ex>ro</ex>uerbio. o echa<ex>n</ex> suertes o<supplied> </supplied>cata<ex>n</ex> ag
+<cb n="2"/>
+		<lb break="no"/>ua <gap reason="ilegible"/> o en<supplied> </supplied>espeio o<supplied> </supplied>en<supplied> </supplied>espada<supplied> </supplied>o<supplied> </supplied>en
+		<lb/>otra cosa luzia <gap reason="ilegible"/>echizos de metal
+		<lb/>o<supplied> </supplied>dotra cosa qual<del resp="editor"> </del>q<ex>u</ex>ier <gap reason="ilegible"/>uina<ex>n</ex>zia en<supplied> </supplied>cabe
+		<lb break="no"/>za de o<ex>mn</ex>e o morto o de <gap reason="ilegible"/> o en pal
+		<lb break="no"/>ma de nino o<supplied> </supplied>de moger <gap reason="ilegible"/>ge<ex>n</ex>. &amp;<supplied> </supplied>estos
+		<lb/>trua<ex>n</ex>tes atales &amp; todos lo<gap reason="ilegible"/> semeia<ex>n</ex>
+		<lb break="no"/>tes dellos por<del resp="editor"> </del>q<ex>ue</ex> son om<ex>ne</ex>s dan<ex>n</ex>osos<supplied> </supplied>&amp;<supplied> </supplied>en
+		<lb break="no"/>ganadores &amp; nasçe<ex>n</ex> de<supplied> </supplied>s<ex>us</ex> fechos muy gra<ex>n</ex>
+		<lb break="no"/>des dan<ex>n</ex>os a<supplied> </supplied>lla <ex>tier</ex>ra &amp;<supplied> </supplied>defendemos q<ex>ue</ex> ne<ex>n</ex>
+		<lb break="no"/>gu<ex>n</ex>o dellos no<ex>n</ex> more en n<ex>ost</ex>ro sen<ex>n</ex>orio:
+		<lb/>ni<ex>n</ex> use dello y destas cosas. &amp; otrosi q<ex>ue</ex>
+		<lb/>negu<ex>n</ex>o no<ex>n</ex> sea osado de coie<gap reason="ilegible"/> en<supplied> </supplied>sus
+		<lb/>casas ni<ex>n</ex> de encobrilos.</p>
+</div>
+<div n="7.23.2" type="ley" xml:id="SPVA272302">
+	<head>Ley .ijª. De<supplied> </supplied>l
+		<lb break="no"/>los q<ex>ue</ex> esca<ex>n</ex>ta<ex>n</ex> los sp<ex>ir</ex>itus o faze<ex>n</ex> ymagi<ex>n</ex>es
+		<lb/>o<supplied> </supplied>otros fechizos o dan yeruas pora na
+		<lb break="no"/>moramie<ex>n</ex>to de<supplied> </supplied>llos om<ex>ne</ex>s. &amp; de<supplied> </supplied>llas mog<ex>>ere</ex>s.</head>
+	<p><lb/><hi n="init2">N</hi>igroma<ex>n</ex>zia dize<ex>n</ex> en<supplied> </supplied>lati<ex>n</ex> es un saber es
+		<lb break="no"/>tranio q<ex>ue</ex> es pora enca<ex>n</ex>tar los sp<ex>ir</ex>itus
+		<lb/>mallos. &amp; por<del resp="editor"> </del>q<ex>ue</ex> de<supplied> </supplied>llos om<ex>ne</ex>s se trabaia<ex>n</ex>
+		<lb/>a<supplied> </supplied>fazer esto uiene muy gra<ex>n</ex>d dan<ex>n</ex>o. a<supplied> </supplied>la
+		<lb/>t<ex>ier</ex>ra &amp; sen<ex>n</ex>alada<del resp="editor"> </del>mie<ex>n</ex>tre a l<gap reason="ilegible"/>os cree<ex>n</ex> &amp;<supplied> </supplied>los
+		<lb/>dema<ex>n</ex>da<ex>n</ex> algu<ex>n</ex>a cosa en <gap reason="ilegible"/>azo<ex>n</ex> o caes
+		<lb break="no"/>çi<ex>n</ex>doles mochas ocassiones por el espa<ex>n</ex>to
+		<lb/>q<ex>ue</ex> reçebe<ex>n</ex> andando de noche busca<ex>n</ex>do es
+		<lb break="no"/>tas cosas atales en<supplied> </supplied>los lugares estran
+		<lb break="no"/>nios de<supplied> </supplied>man<ex>er</ex>a q<ex>ue</ex> algu<ex>n</ex>os dellos morren
+		<lb/>o<supplied> </supplied>fica<ex>n</ex> locos o demoiados. por<supplied> </supplied>ende deffe<ex>n</ex>
+		<lb break="no"/>demos q<ex>ue</ex> ne<ex>n</ex>gu<ex>n</ex>o no<ex>n</ex> sea osa<gap reason="ilegible"/> de<supplied> </supplied>trabaiar
+		<lb break="no"/>se de usar tal nemiga como esta por<del resp="editor"> </del>que
+		<lb/>es cosa q<ex>ue</ex> pesa a<supplied> </supplied>dios. &amp; <gap reason="ilegible"/> ende muy
+		<lb/>gra<ex>n</ex>de dan<ex>n</ex>o a<supplied> </supplied>los om<ex>e</ex>s. ¶ Otrosi defende
+		<lb break="no"/>mos q<ex>ue</ex> ne<ex>n</ex>gu<ex>n</ex>o no<ex>n</ex> sea osado <gap reason="ilegible"/> fazer ym
+		<lb break="no"/>agenes de zera ni<ex>n</ex> de metal ni<ex>n</ex> otros fe
+		<lb break="no"/>chizos malos pora ennamorar los o<ex>mne</ex>s
+		<lb/><ex>con</ex><supplied> </supplied>las mog<ex>er</ex>es. ni<ex>n</ex> pora dep<ex>ar</ex>tir el amor q<ex>ue</ex>
+		<lb/>algu<ex>n</ex>os entre<supplied> </supplied>ssi ha<ex>n</ex>. ¶ <gap reason="ilegible"/> defendem<ex>os</ex>
+		<lb/>q<ex>ue</ex> ne<ex>n</ex>gu<ex>n</ex>o no sea osado de dar yeruas ni<ex>n</ex>
+		<lb/>beueraie<ex>n</ex> a<supplied> </supplied>negu<ex>n</ex>o om<ex>n</ex>e o moger por ra
+		<lb break="no"/>zo<ex>n</ex> de namoramie<ex>n</ex>to. por <gap/> acaesçe a<supplied> </supplied>las
+		<lb/>uegadas q<ex>ue</ex> destos beurages <gap/>ales uie
+		<lb break="no"/>ne<ex>n</ex> amores los q<ex>ue</ex> los toma<ex>n</ex> <gap reason="ilegible"/>a<ex>n</ex> muy gra<ex>n</ex>-
+<pb n="B2"/>
+<cb n="1"/>
+		<lb/>des enfermedades de q<ex>ue</ex> fica<ex>n</ex> ocassionados
+		<lb/>pora sie<ex>n</ex>pre.</p>
+</div>
+<div n="7.23.3" type="ley" xml:id="SPVA272303">
+	<head>Ley iijª. Quie<ex>n</ex> pode acu
+		<lb break="no"/>sar a<supplied> </supplied>llos<supplied> </supplied>truanes &amp;<supplied> </supplied>a<supplied> </supplied>los baratadores
+		<lb/>sobredichos &amp; q<ex>ue</ex> pen<ex>n</ex>a meresçe<ex>n</ex>.</head>
+	<p><lb/><hi rend="init2">A</hi>cusar pode cada uno del pueluo dela<ex>n</ex>
+		<lb break="no"/>tre del julgador a<supplied> </supplied>los agoreros &amp;<supplied> </supplied>a
+		<lb/>los sorteieros &amp;<supplied> </supplied>a<supplied> </supplied>llos otros baratadores
+		<lb/>de<supplied> </supplied>q<ex>ue</ex> fablamos en<supplied> </supplied>las leys deste t<ex>itu</ex>lo. ¶ Et
+		<lb/>si<supplied> </supplied>les fuer p<ex>ro</ex>uado por testigos &amp; por <ex>con</ex>çie<ex>n</ex>
+		<lb break="no"/>çia dellos mismos q<ex>ue</ex> faze<ex>n</ex> o obra<ex>n</ex> <ex>con</ex>tra
+		<lb/>n<ex>ost</ex>ro deffendime<ex>n</ex>to. algu<ex>n</ex>o de<supplied> </supplied>llos yerros
+		<lb/>sobredichos deue morir por ello. &amp; los
+		<lb/>q<ex>ue</ex><supplied> </supplied>llos encobre<ex>n</ex> a<supplied> </supplied>sabiendas deue<ex>n</ex> seer
+		<lb/>echados de<supplied> </supplied>lla <ex>tierr</ex>a pora sie<ex>n</ex>pre. ¶ P<ex>er</ex>o
+		<lb/>los q<ex>ue</ex> feziesse<ex>n</ex> enca<ex>n</ex>tamie<ex>n</ex>tos. o<supplied> </supplied>otras
+		<lb/>cosas en<supplied> </supplied>buena entenzio<ex>n</ex> asi como por
+		<lb/>sacar demo<ex>n</ex>ios de<supplied> </supplied>llos corpos de<supplied> </supplied>llos
+		<lb/>om<ex>ne</ex>s &amp; pora des<del resp="editor"> </del>legar a<supplied> </supplied>los q<ex>ue</ex> fuesse<ex>n</ex> ma
+		<lb break="no"/>rido &amp; moger &amp; no<ex>n</ex> podiesse<ex>n</ex> <ex>con</ex>uenir en
+		<lb/>uno. o pora<supplied> </supplied>desechar nuue q<ex>ue</ex> echasse
+		<lb/>granizo o niebra. porq<ex>ue</ex> no<ex>n</ex> corro<ex>n</ex>pie
+		<lb break="no"/>sse los fruchos de<supplied> </supplied>lla t<ex>ie</ex>rra. o<supplied> </supplied>pora matar
+		<lb/>lagosta o<supplied> </supplied>pulga<ex>n</ex> q<ex>ue</ex> dan<ex>n</ex>a el pa<ex>n</ex> o el uin<ex>n</ex>o
+		<lb/>o pora algu<ex>n</ex>a otra razo<ex>n</ex> p<ex>ro</ex>uechossa se
+		<lb break="no"/>meia<ex>n</ex>te destas no<ex>n</ex> deue auer pen<ex>n</ex>a a<ex>n</ex>t
+		<lb/>dizimos q<ex>ue</ex> deuen reçeber galardon
+		<lb/>por<supplied> </supplied>ello.</p>
+</div>
+</div>
+<div n="7.24.0" type="titulo">
+	<head>Ti<ex>tu</ex>lo .xxiv. de<supplied> </supplied>llos judios</head>
+	<p><lb/><hi rend="init2">I</hi>udios son una man<ex>er</ex>a de om<ex>ne</ex>s q<ex>ue</ex> como
+		<lb/>quier q<ex>ue</ex> no<ex>n</ex> cree la fee de n<ex>uest</ex>ro sen<ex>n</ex>or ih<ex>esu</ex>
+		<lb/>xp<ex>ist</ex>o pora los gra<ex>n</ex>des sen<ex>n</ex>ores de<supplied> </supplied>llos x<ex>risti</ex>a
+		<lb break="no"/>nos sie<ex>n</ex>pre sufriero<ex>n</ex> q<ex>ue</ex> uiuiero<ex>n</ex> entrel
+		<lb break="no"/>los. Onde pues q<ex>ue</ex> en<supplied> </supplied>el ti<ex>tu</ex>lo ant<ex>e</ex> deste
+		<lb/>fablamos de<supplied> </supplied>llos adiuinos. &amp; de<supplied> </supplied>llos
+		<lb/>otros om<ex>ne</ex>s q<ex>ue</ex> tiene<ex>n</ex> q<ex>ue</ex> sabe<ex>n</ex> las cosas
+		<lb/>q<ex>ue</ex> ha<ex>n</ex> de<supplied> </supplied>uenir q<ex>ue</ex> es como man<ex>er</ex>a despre
+		<lb break="no"/>çiame<ex>n</ex>to de dios. querendose egualdar
+		<lb/><ex>con</ex> el en<supplied> </supplied>saber los sus fechos. &amp; las sus
+		<lb/>puridades. queremos. ora dizer aq<ex>u</ex>i
+		<lb/>de<supplied> </supplied>llos judios q<ex>ue</ex> <ex>con</ex>tra<del resp="editor"> </del>dize<ex>n</ex> &amp; denostan
+		<lb/>el su fecho marauilloso &amp; s<ex>ant</ex>o q<ex>ue</ex> el fizo
+		<lb/>qua<ex>n</ex>do enuio su fijo n<ex>uest</ex>ro sen<ex>n</ex>or jh<ex>es</ex>u xp<ex>ist</ex>o
+<cb n="2"/>
+		<lb/>en<supplied> </supplied>el mu<ex>n</ex>do por saluar los pecadores.
+		<lb/>¶ Et m<gap/>traremos q<ex>ue</ex> q<ex>u</ex>ier diz<ex>er</ex> judio. &amp;
+		<lb/>onde tomo este no<ex>n</ex>bre. ¶ Et porq<ex>ue</ex> ra
+		<lb break="no"/>zo<ex>n</ex> la ygl<ex>es</ex>ia &amp; los grandes sen<ex>n</ex>ores x<ex>risti</ex>a
+		<lb break="no"/>nos los dexa<ex>n</ex> uiuir entre<supplied> </supplied>ssi. ¶ Et en q<ex>ue</ex>
+		<lb/>man<ex>er</ex>a deu<ex>e</ex>n fazer su uida mie<ex>n</ex>tre ui
+		<lb break="no"/>uiere<ex>n</ex> entrellos. ¶ Et quales cosas no<ex>n</ex>
+		<lb/>deue<ex>n</ex> usar ni<ex>n</ex> faz<ex>er</ex> segu<ex>n</ex>d n<ex>uest</ex>ra ley. ¶ Et
+		<lb/>quales son aq<ex>ue</ex>llos juyzes q<ex>ue</ex><supplied> </supplied>los pode<ex>n</ex>
+		<lb/>aprimiar por malefiçios q<ex>ue</ex> aya<ex>n</ex> fech<ex>o</ex>s
+		<lb/>o por debdo q<ex>ue</ex> deua<ex>n</ex>. &amp; como no<ex>n</ex> deue<ex>n</ex> seer
+		<lb/>ap<ex>r</ex>imiados los juydios q<ex>ue</ex> se torne<ex>n</ex> xp<ex>isti</ex>a
+		<lb break="no"/>nos. &amp; q<ex>ue</ex> meioria ha el judio de tornar
+		<lb break="no"/>se xp<ex>isti</ex>ano de<supplied> </supplied>llos otros q<ex>ue</ex> se no<ex>n</ex> torna<ex>n</ex>
+		<lb/>¶ Et q<ex>ue</ex> pen<ex>n</ex>a meresçe<ex>n</ex> los q<ex>ue</ex><supplied> </supplied>les fezies
+		<lb break="no"/>sen dan<ex>n</ex>o. o dessondra por ello. &amp; que
+		<lb/>pen<ex>n</ex>a deue<ex>n</ex> auer los xp<ex>isti</ex>anos q<ex>ue</ex> se tor
+		<lb break="no"/>na<ex>n</ex> judios. ¶ Et que los judios q<ex>ue</ex> fezie
+		<lb break="no"/>re<ex>n</ex> a<supplied> </supplied>llos moros q<ex>ue</ex> fuesse<ex>n</ex> sus sieruos
+		<lb/>tornar a<supplied> </supplied>su ley.</p>
+<div n="7.24.1" type="ley" xml:id="SPVA272401">
+	<head><seg xml:id="RubSPVA272401Ini" next="#RubSPVA270401Fin">Ley .jª. Que q<ex>u</ex>ier diz<ex>er</ex>judio. &amp; onde tomo este no<ex>n</ex>bre. &amp; por
+		<lb/>q<ex>ue</ex> razones la ygl<ex>es</ex>ia &amp; los grades se
+		<lb break="no"/>n<ex>n</ex>ores xp<ex>isti</ex>anos los dexaron uiuer</seg></head>
+	<p><lb/><hi rend="init2">I</hi>udio es dicho aq<ex>ue</ex>l que <seg xml:id="RubSPVA272401Fin" prev="#RubSPVA270401Ini">entre<supplied> </supplied>ssi.</seg>
+		<lb/>cree &amp; tie<ex>n</ex> la ley de moysse<ex>n</ex> segu<ex>n</ex>d
+		<lb/>suena la letra dellos &amp; q<ex>ue</ex> se circu<ex>n</ex>çi
+		<lb break="no"/>da &amp; faz las otras cosas q<ex>ue</ex> ma<ex>n</ex>da essa
+		<lb/>su ley. ¶ Et tomo este no<ex>n</ex>bre de t<ex>r</ex>ibu
+		<lb/>juda q<ex>ue</ex> fue mas nobre &amp; mays esfor
+		<lb break="no"/>zado de todos los otros. ¶ Et demas
+		<lb/>auie otra meioria q<ex>ue</ex> daq<ex>ue</ex>l t<ex>ri</ex>bo auie<ex>n</ex>
+		<lb/>a<supplied> </supplied>esleer Rey. de<supplied> </supplied>llos judios. ¶ Et otro
+		<lb break="no"/>si en<supplied> </supplied>las batalas los daq<ex>ue</ex>l tribu ouie
+		<lb break="no"/>ro<ex>n</ex> sie<ex>n</ex>pre las p<ex>r</ex>im<ex>er</ex>as firidas. ¶ Et la yg
+		<lb break="no"/>l<ex>es</ex>ia porq<ex>ue</ex><supplied> </supplied>los emp<ex>er</ex>adores de<supplied> </supplied>llos Reys
+		<lb/>&amp; los otros p<ex>r</ex>incepes sofrero<ex>n</ex> a<supplied> </supplied>llos
+		<lb/>judios uiuir entre<supplied> </supplied>ssi los xp<ex>ist</ex>ianos es
+		<lb/>esta. por<del resp="editor"> </del>q<ex>ue</ex> ellos uiuiesse<ex>n</ex> como en ca
+		<lb break="no"/>tiuerio pora sie<ex>n</ex>pre &amp; fuesse rene<ex>n</ex>bra<ex>n</ex>
+		<lb break="no"/>zia a<supplied> </supplied>los om<ex>ne</ex>s q<ex>ue</ex> ellos uinie<ex>n</ex> del<supplied> </supplied>lin<ex>n</ex>a
+		<lb break="no"/>ge<ex>n</ex> daq<ex>ue</ex>llos q<ex>ue</ex> cruzificaro<ex>n</ex> a<supplied> </supplied>n<ex>uest</ex>ro sen<ex>n</ex>or.
+<pb n="B3"/>
+<cb n="1"/>
+		<lb/>jh<ex>es</ex>u xp<ex>rist</ex>o.</p>
+</div>
+<div n="7.24.2" type="ley" xml:id="SPVA272402">
+	<head><seg>Ley .ijª. En q<ex>ue</ex> man<ex>er</ex>a deue<ex>n</ex> fa
+		<lb break="no"/>zer los judios su uida mie<ex>n</ex>tra uis
+		<lb break="no"/>quiere<ex>n</ex> entre<supplied> </supplied>llos xp<ex>rist</ex>ianos &amp; quales
+		<lb/>cosas no<ex>n</ex> deue<ex>n</ex> husar ni<ex>n</ex> fazer seg<ex>un</ex>d
+		<lb/><ex>n</ex>uestra ley. &amp; q<ex>ue</ex> pen<ex>n</ex>a meresçe<ex>n</ex> los q<ex>ue</ex> <ex>con</ex>tra</seg></head>
+	<p><lb/><hi rend="init2">M</hi>ansa<del resp="editor"> </del>mie<ex>n</ex>tre &amp; sin mala <seg>esto feziere<ex>n</ex></seg>
+		<lb/>cobdizia deue<ex>n</ex> fazer uida los judios
+		<lb/>entre<supplied> </supplied>llos xp<ex>rist</ex>ianos guardando su ley. &amp;
+		<lb/>no<ex>n</ex> diziendo mal de<supplied> </supplied>la fe de<supplied> </supplied>n<ex>uest</ex>ro sen<ex>n</ex>or jh<ex>es</ex>u
+		<lb/>x<ex>rist</ex>o. q<ex>ue</ex><supplied> </supplied>guarda<ex>n</ex> los xp<ex>isti</ex>anos. ¶ Otrossi de
+		<lb break="no"/>ue mocho guardar de<supplied> </supplied>no<ex>n</ex> predicar ni<ex>n</ex>
+		<lb/><ex>con</ex>uertir a<supplied> </supplied>negu<ex>n</ex>o x<ex>r</ex>i<ex>sti</ex>ano q<ex>ue</ex> se torne judio
+		<lb/>alabando su ley. &amp; denostando la n<ex>uest</ex>ra.
+		<lb/>¶ Et qual<del resp="editor"> </del>q<ex>u</ex>ier q<ex>ue</ex> <ex>con</ex>tra esto feziesse deue.
+		<lb/>morrir por<supplied> </supplied>ende. &amp; p<ex>er</ex>der lo q<ex>ue</ex> ha. ¶ Et por
+		<lb break="no"/>q<ex>ue</ex> oymos dizer q<ex>ue</ex> algu<ex>n</ex>os lugares fa
+		<lb break="no"/>zie<ex>n</ex> &amp; faze<ex>n</ex> el dia del uiernes s<ex>ant</ex>o &amp; rene<ex>n</ex>
+		<lb break="no"/>bra<ex>n</ex>za de<supplied> </supplied>lla passio<ex>n</ex> de<supplied> </supplied>n<ex>uest</ex>ro sen<ex>n</ex>or ih<ex>es</ex>u
+		<lb/>xp<ex>ist</ex>o en<supplied> </supplied>man<ex>er</ex>a de escarnio furta<ex>n</ex>do<supplied> </supplied>los
+		<lb/>ninos &amp; poniendolos en<supplied> </supplied>la cruz. o fa
+		<lb break="no"/>ziendo ymagines de çera. &amp; cruçifiga<ex>n</ex>
+		<lb break="no"/>dolas qua<ex>n</ex>do los nin<ex>n</ex>os no<ex>n</ex> pode<ex>n</ex> auer
+		<lb/>mandamos q<ex>ue</ex> si fama fuer daqui ade
+		<lb break="no"/>lantre q<ex>ue</ex> algu<ex>n</ex>o lugar de n<ex>uest</ex>ro sen<ex>n</ex>orio tal
+		<lb/>cosa sea y fecha se<supplied> </supplied>se podier auiriguar
+		<lb/>q<ex>ue</ex> todos aq<ex>ue</ex>llos q<ex>ue</ex><supplied> </supplied>sse açertare<ex>n</ex> en aq<ex>ue</ex>l fe
+		<lb break="no"/>cho q<ex>ue</ex> sean pressos &amp; recabdados. &amp; adozi
+		<lb break="no"/>dos ant<ex>e</ex>l Rey. ¶ Otrosi deffendemos
+		<lb/>q<ex>ue</ex><supplied> </supplied>el dia del uernes. ne<ex>n</ex>gu<ex>n</ex> judio non
+		<lb/>sea ossado de salir de su bario. mas q<ex>ue</ex>
+		<lb/>este<ex>n</ex> y enzerados fastal saba<add place="encima">do</add> en<supplied> </supplied>la m
+		<lb break="no"/>anana. ¶ Et si <ex>con</ex>tra esto feziesse<ex>n</ex> dizi
+		<lb break="no"/>mos q<ex>ue</ex> del dan<ex>n</ex>o. &amp; de<supplied> </supplied>la dessondra q<ex>ue</ex> de
+		<lb/>los xp<ex>isti</ex>anos reçebiesse<ex>n</ex> esto<ex>n</ex>ze <add place="above">no<ex>n</ex></add> deue
+		<lb/>auer negu<ex>n</ex>a emie<ex>n</ex>da.</p>
+</div>
+<div n="7.24.3" type="ley" xml:id="SPVA272403">
+	<head><seg>Ley .iij. Que
+		<lb/>negu<ex>n</ex>o judio no<ex>n</ex> pode auer offiçio ni<ex>n</ex> dignidat pora poder ap<ex>r</ex>imiar a<supplied> </supplied>ne<ex>n</ex>g-</seg></head>
+	<p><lb/><hi rend="init2">A</hi>ntigua<del resp="editor"> </del>mie<ex>n</ex>tre los <seg>u<ex>n</ex>o xp<ex>isti</ex>ano.</seg>
+		<lb/>judios fuero<ex>n</ex> muy ondrados &amp;
+		<lb/>auie<ex>n</ex> muy gra<ex>n</ex>de p<ex>r</ex>iuilegio sobre to
+		<lb break="no"/>das las otras gentes. ¶ Ca ellos tan
+<cb n="2"/>
+		<lb/>sola<del resp="editor"> </del>mie<ex>n</ex>tre era<ex>n</ex> lamados pueblo de dios
+		<lb/>mas por<del resp="editor"> </del>q<ex>ue</ex> ellos fuero<ex>n</ex> desconesçie<ex>n</ex>tes
+		<lb/>a<supplied> </supplied>aq<ex>ue</ex>l<supplied> </supplied>q<ex>ue</ex><supplied> </supplied>llos auie onrados &amp; p<ex>r</ex>iuilegiados
+&amp; en<supplied> </supplied>lugar de<supplied> </supplied>fazer<del resp="editor"> </del>le ondra dessonraro<ex>n</ex>
+		<lb break="no"/>lo &amp; diero<ex>n</ex>le muy uiltada morte en<supplied> </supplied>la
+		<lb/>cruz. guissada cosa fue &amp; derecha q<ex>ue</ex> por
+		<lb/>ta<ex>n</ex> gra<ex>n</ex>de yerro &amp; maldat q<ex>ue</ex> feçiero<ex>n</ex> q<ex>ue</ex> p<ex>er</ex>die
+		<lb break="no"/>sse<ex>n</ex> la ondra &amp;<supplied> </supplied>el p<ex>r</ex>iuilegio q<ex>ue</ex> auie<ex>n</ex>. ¶ Et por
+		<lb/>ende daq<ex>ue</ex>l dia en<supplied> </supplied>adelantre q<ex>ue</ex> cruzifiga
+		<lb break="no"/>ro<ex>n</ex> a<supplied> </supplied>n<ex>uest</ex>ro sen<ex>n</ex>or jh<ex>es</ex>u xp<ex>ist</ex>o. nu<ex>n</ex>ca ouiero<ex>n</ex> Rey
+		<lb/>nin sazerdote de<supplied> </supplied>si mismos assi como lo
+		<lb/>auie<ex>n</ex> en<supplied> </supplied>a<ex>n</ex>t. &amp;<supplied> </supplied>los emp<ex>er</ex>adores q<ex>ue</ex> fuero<ex>n</ex> an
+		<lb break="no"/>tigua<del resp="editor"> </del>mie<ex>n</ex>tre sen<ex>n</ex>ores de<supplied> </supplied>todo el mu<ex>n</ex>do.
+		<lb/>touiero<ex>n</ex> por bie<ex>n</ex> &amp; por derecho q<ex>ue</ex> por la tra
+		<lb break="no"/>yzio<ex>n</ex> q<ex>ue</ex> feziero<ex>n</ex> en matar su sen<ex>n</ex>or q<ex>ue</ex> p<ex>er</ex>di
+		<lb break="no"/>esse<ex>n</ex> por ende todas las s<ex>us</ex> ondras &amp;<supplied> </supplied>los
+		<lb/>p<ex>r</ex>iuillegios q<ex>ue</ex> auie<ex>n</ex> de<supplied> </supplied>man<ex>er</ex>a q<ex>ue</ex> negu<ex>n</ex>o ju
+		<lb break="no"/>dio nu<ex>n</ex>ca touiesse yamas lugar ondra
+		<lb break="no"/>do ni<ex>n</ex> ofiçio publico <ex>con</ex> que podiesse<ex>n</ex> ap<ex>r</ex>i
+		<lb break="no"/>miar a<supplied> </supplied>negu<ex>n</ex>o xp<ex>isti</ex>ano en ne<ex>n</ex>gu<ex>n</ex>a ma
+		<lb break="no"/>n<ex>er</ex>a.</p>
+</div>
+<div n="7.24.4" type="ley" xml:id="SPVA272404">
+	<head>Ley .iiij. Como los judios poden a
+		<lb break="no"/>uer sinagoga entre<supplied> </supplied>llos xp<ex>isti</ex>anos.</head>
+	<p><lb/><hi rend="init2">S</hi>inagoga es un lugar o<supplied> </supplied>llos judios
+		<lb/>faze<ex>n</ex> orazio<ex>n</ex>. &amp; tal cosa como esta n<ex>on</ex>
+		<lb/>pode<ex>n</ex> faz<ex>er</ex> nueua<del resp="editor"> </del>mie<ex>n</ex>tre en<supplied> </supplied>negu<ex>n</ex>o luga<ex>r</ex>
+		<lb/>de<supplied> </supplied>n<ex>uest</ex>ro sen<ex>n</ex>orio a<supplied> </supplied>menos de<supplied> </supplied>n<ex>uest</ex>ro ma<ex>n</ex>dado
+		<lb/>p<ex>er</ex>o las auie<ex>n</ex> antigua<del resp="editor"> </del>mie<ex>n</ex>tre se acaes
+		<lb break="no"/>çiesse q<ex>ue</ex><supplied> </supplied>se diribasse<ex>n</ex> pode<ex>n</ex>las reparar
+		<lb/>o fazer en<supplied> </supplied>aq<ex>ue</ex>l mismo lugar assi como
+		<lb/>ant<ex>e</ex> estaua<ex>n</ex> no<ex>n</ex> las en<del resp="editor"> </del>largando mas ni<ex>n</ex>
+		<lb/>las alza<ex>n</ex>do ni<ex>n</ex> las faziendo pi<ex>n</ex>tar. ¶ Et
+		<lb/>la sinagoga q<ex>ue</ex> dotra guissa fuesse fecha
+		<lb/>deue<ex>n</ex>la p<ex>er</ex>dier los judios &amp; seer de<supplied> </supplied>lla yg
+		<lb break="no"/>l<ex>es</ex>ia mayor del lugar o<supplied> </supplied>lla feziere<ex>n</ex>. Et por
+		<lb break="no"/>q<ex>ue</ex><supplied> </supplied>lla sinagoga es lugar o se loa no<ex>n</ex>
+		<lb break="no"/>bre<supplied> </supplied>de<supplied> </supplied>dios deffendemos q<ex>ue</ex> negu<ex>n</ex>o x<ex>r</ex>i<ex>sti</ex>ano
+		<lb/>no<ex>n</ex> sea osado de<supplied> </supplied>la q<ex>ue</ex>bra<ex>n</ex>tar ni<ex>n</ex> de sacar.
+		<lb/>ende ni<ex>n</ex> de tomar negu<ex>n</ex>a cossa por fuer
+		<lb break="no"/>za foras ende si algu<ex>n</ex>o om<ex>n</ex>e malfe
+		<lb break="no"/>chor se acogiesse en ella. ¶ C<gap reason="roto"/> atal
+		<lb/>bie<ex>n</ex><supplied> </supplied>lo pode<ex>n</ex> y prender por fuerza pora
+<pb n="B4"/>
+<cb n="1"/>
+		<lb/>leu<gap  reason="ilegible"/> la justiçia. ¶ Otrossi def
+		<lb break="no"/>fendemos q<ex>ue</ex> los x<ex>risti</ex>anos no<ex>n</ex> meta<ex>n</ex> y <gap reason="ilegible"/>tias
+		<lb/>ni<ex>n</ex> <gap reason="ilegible"/> faga<ex>n</ex> y embargo a<supplied> </supplied>l
+		<lb break="no"/>los judios mie<ex>n</ex>tre y estodiesse faziendo
+		<lb/>orazio<ex>n</ex> segu<ex>n</ex>do su<supplied> </supplied>ley.</p>
+</div>
+<div n="7.24.5" type="ley" xml:id="SPVA272405">
+	<head>Ley .v. Como no<ex>n</ex>
+		<lb/>deue<ex>n</ex> ap<ex>r</ex>imiar a<supplied> </supplied>llos judios en<supplied> </supplied>dia de<supplied> </supplied>sa
+		<lb break="no"/>bado &amp;<supplied> </supplied>quales juyzes lo pode<ex>n</ex> ap<ex>ri</ex>miar.</head>
+	<p><lb/><hi rend="init2">S</hi>abado es dia en<supplied> </supplied>q<ex>ue</ex><supplied> </supplied>llos judios faze<ex>n</ex> ora
+		<lb break="no"/>ziones &amp;<supplied> </supplied>esta<ex>n</ex> q<ex>ue</ex>dados en s<ex>us</ex> possadas &amp;
+		<lb/>no<ex>n</ex> se trabaia<ex>n</ex> de<supplied> </supplied>fazer merca ni<ex>n</ex> pl<ex>e</ex>ito n<ex>en</ex>
+		<lb break="no"/>guno. ¶ Et en tal dia como este son ellos te
+		<lb break="no"/>nidos de guardar segu<ex>n</ex>d su ley. no<ex>n</ex> los.
+		<lb/>deue ne<ex>n</ex>gu<ex>n</ex>d om<ex>n</ex>e emplazar ni<ex>n</ex><supplied> </supplied>traer a<supplied> </supplied>iuy
+		<lb break="no"/>zio en<supplied> </supplied>el. ¶ Et por ende ma<ex>n</ex>damos q<ex>ue</ex><supplied> </supplied>nen
+		<lb break="no"/>gu<ex>n</ex> julgador no<ex>n</ex> aprima<ex>n</ex> ni<ex>n</ex> costriga<ex>n</ex> a<supplied> </supplied>los
+		<lb/>judios en<supplied> </supplied>el dia del sabado pora traellos
+		<lb/>a<supplied> </supplied>juyzio por raço<ex>n</ex> de debdos ni<ex>n</ex><supplied> </supplied>los prenda<ex>n</ex>
+		<lb/>ni<ex>n</ex> faga<ex>n</ex> otro agrauiamie<ex>n</ex>to negu<ex>n</ex>o. Ca
+		<lb/>asaz abonda los otros dias de<supplied> </supplied>la sema
+		<lb break="no"/>na pora costrin<ex>n</ex>irlos &amp; dema<ex>n</ex>darles las
+		<lb/>cosas q<ex>ue</ex> segu<ex>n</ex>d derecho les deue<ex>n</ex> dema<ex>n</ex>dar
+&amp; al emplaziame<ex>n</ex>to q<ex>ue</ex><supplied> </supplied>lles feziesse<ex>n</ex> pora
+		<lb/>en<supplied> </supplied>tal dia no<ex>n</ex> so<ex>n</ex> tenidos los judios de res
+		<lb break="no"/>ponder &amp; otrossi si sete<ex>n</ex>ça fuesse dada en
+		<lb/>tal dia ma<ex>n</ex>damos q<ex>ue</ex> no<ex>n</ex> uala p<ex>er</ex>o si algu<ex>n</ex>o
+		<lb/>judio feriesse o matasse o<supplied> </supplied>robasse o<supplied> </supplied>fez
+		<lb break="no"/>iesse algu<ex>n</ex>o otro yerro semia<ex>n</ex>te destos
+		<lb/>por<del resp="editor"> </del>que meresçiesse auer pen<ex>n</ex>a en<supplied> </supplied>el cor
+		<lb break="no"/>po o en<supplied> </supplied>el auer esto<ex>n</ex>ze los julgadores bie<ex>n</ex>
+		<lb/>los pode<ex>n</ex> recabdar en dia de sabado. ¶ Ot<ex>r</ex>o
+		<lb break="no"/>si dizimos q<ex>ue</ex> todas las demandas que
+		<lb/>ouiere<ex>n</ex> los x<ex>risti</ex>anos <ex>con</ex>tra<supplied> </supplied>los judios &amp;<supplied> </supplied>los
+		<lb/>judios <ex>con</ex>tra<supplied> </supplied>los x<ex>risti</ex>anos q<ex>ue</ex> sea<ex>n</ex> libradas &amp;
+		<lb/>decatadas pora ant<ex>e</ex> los n<ex>uest</ex>ros julgadores
+		<lb/>de<supplied> </supplied>llos lugares o<supplied> </supplied>morare<ex>n</ex>. &amp; no<ex>n</ex> por<supplied> </supplied>los
+		<lb/>uieios dellos. Et bie<ex>n</ex> assi como deffe<ex>n</ex>
+		<lb break="no"/>demos a<supplied> </supplied>llos x<ex>risti</ex>anos no<ex>n</ex> poda<ex>n</ex> traer a<supplied> </supplied>ju
+		<lb break="no"/>yzio ni<ex>n</ex> agrauiarlos al dia del sabado.
+		<lb/>¶ Otrossi dizimos q<ex>ue</ex><supplied> </supplied>los judios ni<ex>n</ex> por si ni<ex>n</ex>
+		<lb/>por <gap/>ias no<ex>n</ex> poda<ex>n</ex> traer a<supplied> </supplied>juyzio ni<ex>n</ex>
+		<lb/>a <gap/>a los x<ex>risti</ex>anos en ese mismo dia
+<cb n="2"/>
+		<lb/>¶ Et aun demas desto deffendemos q<ex>ue</ex>
+		<lb/>negu<ex>n</ex> x<ex>risti</ex>ano no<ex>n</ex> sea ossado de <gap/>
+		<lb/>de<supplied> </supplied>ffazer tuerto por si mismo a<supplied> </supplied>ne<ex>n</ex>gu<ex>n</ex>o
+		<lb/>judio en su p<ex>er</ex>sona ni<ex>n</ex> en s<ex>us</ex> cosas mas
+		<lb/>si q<ex>ue</ex>rela ouier del demandeiela en juyzo
+		<lb/>ant<ex>e</ex> los n<ex>uest</ex>ros julgadores &amp; q<ex>ue</ex> algu<ex>n</ex>o fuer
+		<lb/>atreuido. &amp; forzar o robar algu<ex>n</ex>a cosa del
+		<lb break="no"/>los deueiela tornar doblada.</p>
+</div>
+<div n="7.24.6" type="ley" xml:id="SPVA272406">
+	<head>Ley .vj.
+		<lb/>Como no<ex>n</ex> deue<ex>n</ex> seer ap<ex>r</ex>imados los jud
+		<lb break="no"/>ios q<ex>ue</ex> se torne<ex>n</ex> x<ex>risti</ex>anos. &amp; q<ex>ue</ex> meioria ha
+		<lb/>el judio q<ex>ue</ex> se torne x<ex>risti</ex>ano. &amp; q<ex>ue</ex> pen<ex>n</ex>a me
+		<lb break="no"/>resçe<ex>n</ex> los otros judios q<ex>ue</ex><supplied> </supplied>les feziesse<ex>n</ex>
+		<lb/>mal o<supplied> </supplied>dessondra por ello.</head>
+	<p><lb/><hi rend="init2">F</hi>uerza ni<ex>n</ex> premia no<ex>n</ex> deue<ex>n</ex> fazer a<supplied> </supplied>ne<ex>n</ex>
+		<lb break="no"/>gu<ex>n</ex>a man<ex>er</ex>a a ne<ex>n</ex>gu<ex>n</ex>o judio q<ex>ue</ex> se torne
+		<lb/>x<ex>risti</ex>ano mas <ex>con</ex><supplied> </supplied>bonos emxe<ex>n</ex>plos &amp;<supplied> </supplied><ex>con</ex><supplied> </supplied>los
+		<lb/>dichos de<supplied> </supplied>llas s<ex>ant</ex>as s<ex>cri</ex>pturas &amp; <ex>con</ex> falagos
+		<lb/>los deue<ex>n</ex> los x<ex>risti</ex>anos <ex>con</ex>uerter a<supplied> </supplied>la ley de
+		<lb/>n<ex>uest</ex>ro sen<ex>n</ex>or jh<ex>es</ex>u x<ex>rist</ex>o. ¶ Ca n<ex>uest</ex>ro sen<ex>n</ex>ores dios
+		<lb/>no<ex>n</ex> q<ex>u</ex>ier ni<ex>n</ex> ama s<ex>er</ex>uizio q<ex>ue</ex>l sea fecho por
+		<lb/>premia. ¶ Otrossi dizimos q<ex>ue</ex> si algu<ex>n</ex>o
+		<lb/>judio o judia de su grado se q<ex>u</ex>issier torn
+		<lb break="no"/>ar xp<ex>isti</ex>ano o xp<ex>isti</ex>ana no<ex>n</ex> iello deue<ex>n</ex> embar
+		<lb break="no"/>gar ni<ex>n</ex> deffender los otros judios en
+		<lb/>ne<ex>n</ex>gu<ex>n</ex>a man<ex>er</ex>a. ¶ Et si algu<ex>n</ex>os dellos lo a
+		<lb break="no"/>pedreasse<ex>n</ex> o<supplied> </supplied>llo feriesse<ex>n</ex> o<supplied> </supplied>llo matassen
+		<lb/>por<del resp="editor"> </del>q<ex>ue </ex>se q<ex>ue</ex>rie tornar xp<ex>isti</ex>ano o despues q<ex>ue</ex>
+		<lb/>fuesse babtizado. si esto se podier auiri
+		<lb break="no"/>guar ma<ex>n</ex>damos q<ex>ue</ex> todos los matadores
+		<lb/>&amp;<supplied> </supplied>los <ex>con</ex>seieros de tal morte o apedreame<ex>n</ex>
+		<lb break="no"/>to sea<ex>n</ex> q<ex>ue</ex>mados. ¶ Et si por auentura.
+		<lb/>nol matasse<ex>n</ex> mas feriesse<ex>n</ex> o<supplied> </supplied>llo dessondra
+		<lb break="no"/>sse<ex>n</ex> ma<ex>n</ex>damos q<ex>ue</ex><supplied> </supplied>llos julgadores del.
+		<lb/>lugar o<supplied> </supplied>acaesçier de<add place="encima">ue<ex>n</ex></add>. aprimiar a<supplied> </supplied>llos fe
+		<lb break="no"/>ridores &amp; a<supplied> </supplied>llos fazedores de<supplied> </supplied>la desso<ex>n</ex>dra
+		<lb/>de<supplied> </supplied>man<ex>er</ex>a q<ex>ue</ex><supplied> </supplied>lles faga fazer emie<ex>n</ex>da por<supplied> </supplied>el
+		<lb break="no"/>lo. &amp; demas q<ex>ue</ex> les de<ex>n</ex> pen<ex>n</ex>a por<supplied> </supplied>ende seg<ex>un</ex>d
+		<lb/>q<ex>ue</ex> entendiere<ex>n</ex> q<ex>ue</ex> meresçe<ex>n</ex> de<supplied> </supplied>la reçebier por
+		<lb/>el yerro q<ex>ue</ex> feziero<ex>n</ex>. ¶ Otrossi ma<ex>n</ex>damos
+		<lb/>q<ex>ue</ex> despues q<ex>ue</ex> algu<ex>n</ex>os judios se tornare<ex>n</ex>
+		<lb/>xp<ex>isti</ex>anos todos los de n<ex>uest</ex>ro sen<ex>n</ex>orio los
+<gap reason="nonsequitur"/></p>
+</div>
+</div>
+</div>
+      </body>
+   </text>
+</TEI>

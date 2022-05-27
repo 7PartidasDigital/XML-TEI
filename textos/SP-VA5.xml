@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada del fragmento VA5</title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+               >PID2020-112621GB-I00</idno></funder>
+            <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER<idno
+               type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+               FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <funder xml:id="SeCText">Seminario de Crítica Textual</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name>José Manuel Fradejas Rueda</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Seminario de Crítica Textual. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-VA5</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+               </licence>
+               <p>El fichero maestro está alojado en el repositorio del <ref
+                  target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-VA5.xml">
+                  proyecto en GitHub</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">Siete Partidas Digital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+                  proyecto<ref target="https://7partidas.hypotheses.org/testimonios/va5/"
+                  >7 Partidas Digital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+               financiado por la Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+               Universidades de España, referencia <idno type="referencia">FFI2016-75014-P</idno>.
+               La descripción del proyecto y sus participantes se recogen en la <ref
+                  target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Este fichero electrónico se ha creado a partir de la transcripción directa de la
+               reproducción del documento ofrecida por <ref target="http://bit.ly/2fA9NKp"
+                  >PARES</ref>, ARCHV, Pergaminos, carpeta 192, 5 y corregido con el original.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene fragmentos de la 3ª Partida: 3.23.Tabla y 3.23.1-2.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-11-07" who="#JMFR" status="candidato">Regularizado el xml:id</change>
+         <change when="2017-02-05" who="#JMFR" status="candidato">Añadido &lt;abstract&gt;</change>
+         <change when="2016-12-08" who="#JMFR" status="candidato">Finalizado</change>
+         <change when="2016-12-08" who="#JMFR" status="borrador">Adición / borrado espacios entre palabras unidas / separadas</change>
+         <change when="2016-11-11" who="#JMFR" status="borrador">Corrección con el original</change>
+         <change when="2016-11-10" who="#JMFR" status="borrador">Transcipción y codificación básica</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="3.23.0" type="titulo" xml:id="SPVA5323000">
+<pb n="1r"/>
+<cb n="1"/>
+            <p><gap reason="nonsequitur"/><lb break="no"/>dan los juyzios de q<ex>ue</ex> se uerie<ex>n</ex> por agrauiados q<ex>u</ex>ando
+               <lb/>fallan alguna carrera porq<ex>ue</ex> cuydan estorçer <unclear>a<ex>n</ex></unclear>
+               <lb break="no"/>paranse daq<ex>ue</ex>llo de q<ex>ue</ex> se ag<ex>r</ex>aujan. E este en<unclear/>
+               <lb/>es en quatro <sic>man<ex>er</ex>a</sic> ¶ Ca o es por alçada o por pe-
+               <lb break="no"/>dir m<ex>er</ex>çed o por entregamjento q<ex>ue</ex> demanda<ex>n</ex> <unclear/>
+               <lb/>menores por Razon de algun juyzio q<ex>ue</ex> sea dado
+               <lb/>contra ellos o por q<ex>ue</ex>rella dalgun juyzio. q<ex>ue</ex> diga<ex>n</ex>
+               <lb/>q<ex>ue</ex> fue dado falsa<del> </del>mientre o contra aq<ex>ue</ex>lla ordena-
+               <lb break="no"/>da man<ex>er</ex>a. q<ex>ue</ex> el derecho manda guardar en<supplied> </supplied>los ju
+               <lb break="no"/>yzios ¶ Onde pues q<ex>ue</ex> en<supplied> </supplied>el Titulo ante deste
+               <lb/><del resp="#JMFR" cause="repetido">deste</del> fablamos de<supplied> </supplied>los juyzios q<ex>ue</ex> son asi com<ex>m</ex>o fin
+               <lb/>&amp; acabamjento de<supplied> </supplied>los pleytos por<del> </del>q<ex>ue</ex><supplied> </supplied>los conten
+               <lb break="no"/>dientes uençen o son uençidos. &amp; llegan a p<ex>er</ex>igro
+               <lb/>de sofrir dan<ex>n</ex>os o penas. segund dicho auemos
+               <lb/>bien es q<ex>ue</ex> digamos en este. en q<ex>ue</ex> man<ex>er</ex>a se pue-
+               <lb break="no"/>den acorrer los q<ex>ue</ex> se toujeren por agraujados de
+               <lb/>ellos ¶ Et p<ex>r</ex>im<ex>er</ex>a<del> </del>mientre de<supplied> </supplied>las alçadas por<del> </del>q<ex>ue</ex> son
+               <lb/><unclear/></p>
+            <list>
+               <item><lb/><unclear/></item>
+               <item><lb/><unclear/>
+<cb n="2"/>
+               <lb/>danno <unclear/> se
+               <lb/><unclear/>.</item>
+               <item><lb/>¶ <unclear/> sente<ex>n</ex>çia sobre
+               <lb/><unclear/> q<ex>ue</ex> el alçada del
+               <lb/>uno <unclear/> mag<ex>ue</ex>r no se alçen.</item>
+               <item><lb/>¶ Ley .vj. com<ex>m</ex>o un pariente puede tomar
+               <lb/>alçada por ot<ex>r</ex>o q<ex>ue</ex> fuesse condepnado a muerte
+               <lb/>o a<supplied> </supplied>pena mag<ex>ue</ex>r el<supplied> </supplied>ot<ex>r</ex>o no<supplied> </supplied>lo otorgasse.</item>
+               <item><lb/>¶ Ley .vij. com<ex>m</ex>o se pueden alçar aq<ex>ue</ex>llos a<supplied> </supplied>q<ex>u</ex>ien
+               <lb/>es algo mandado. en testame<ex>n</ex>to del juyzio q<ex>ue</ex>
+               <lb/>es dado. contra los erederos del testador.</item>
+               <item><lb/>¶ Ley .viij. Que<supplied> </supplied>los q<ex>ue</ex> fuero<ex>n</ex> no<ex>n</ex>brados p<ex>ar</ex>a te
+               <lb break="no"/>ner algunos ofiçios o portiellos se pueden
+               <lb/>alçar.</item>
+               <item><lb/>¶ Ley .viiij. por q<ex>ue</ex> Razones aq<ex>ue</ex>l por q<ex>u</ex>ien dan el
+               <lb/>juyzio se puede alçar &amp; ot<ex>r</ex>osi com<ex>m</ex>o no deue
+               <lb/>seer Reçebida el alçada del q<ex>ue</ex> fue Rebelle.</item>
+               <item><lb/><unclear/></item>
+               <item><lb/><unclear/>
+<pb n="1v"/>
+<cb n="1"/>
+               <lb/>aun dalguna p<ex>ar</ex>tida del.</item>
+               <item><lb/>¶ Ley .xv. com<ex>m</ex>o del declaramiento q<ex>ue</ex> fiziese el<supplied> </supplied>jud-
+               <lb break="no"/>gador sobre algun juyzio dubdoso se pueden alçar.</item>
+               <item><lb/>¶ Ley .xvjº. com<ex>m</ex>o los ladrones con<ex>n</ex>osçudos &amp; los ot<ex>r</ex>os
+               <lb/>q<ex>ue</ex> s<ex>er</ex>an dichos en esta Ley. no<ex>n</ex> puedan tomar alçada
+               <lb/>del juyzio q<ex>ue</ex> dieren contra el.</item>
+               <item><lb/>¶ Ley .xvij. de q<ex>u</ex>ales yerros se pueden alçar &amp; de
+               <lb/>q<ex>u</ex>ales no.</item>
+               <item><lb/>¶ Ley .xviij. a<supplied> </supplied>q<ex>u</ex>ien se deue alçar la p<ex>ar</ex>te que se toujere
+               <lb/>por agraujada del juyzio q<ex>ue</ex> dieren contra ella.</item>
+               <item><lb/>¶ Ley .xix. q<ex>u</ex>ien deue oyr las alçadas q<ex>ue</ex> fueren
+               <lb/>fechas p<ex>ar</ex>a el Rey.</item>
+               <item><lb/>¶ Ley .xx. com<ex>m</ex>o las alçadas &amp; los pleytos q<ex>ue</ex><supplied> </supplied>las bib-
+               <lb break="no"/>das &amp; los huerfanos &amp; las otras cuytadas p<ex>er</ex>sonas
+               <lb/>aduxieren a<supplied> </supplied>la corte q<ex>ue</ex><supplied> </supplied>el Rey los deue judgar.</item>
+               <item><lb/>¶ Ley .xxi. a q<ex>u</ex>ien se deue<del resp="#JMFR" cause="ociosa"><ex>n</ex></del> alçar de<supplied> </supplied>los juyzios q<ex>ue</ex>
+               <lb/>dan los judgadores q<ex>ue</ex> son puestos p<ex>ar</ex>a pleytos se-
+               <lb break="no"/>n<ex>n</ex>alados.</item>
+               <item><lb/>¶ Ley .xxij. fasta q<ex>u</ex>ando <unclear/>
+               <lb/><unclear/></item>
+               <item><lb/>¶ Ley .xxiij. <unclear/></item>
+               <item><lb/>¶ Ley <unclear/> el tienpo <unclear/>
+               <lb/>q<ex>ue</ex><supplied> </supplied>los <unclear/> se
+               <lb/>deuen <unclear/></item>
+               <item><lb/>¶ Ley .xxv. q<ex>u</ex>antas uezes se puede <unclear/></item>
+               <item><lb/>¶ Ley <unclear/> fazer el q<ex>ue</ex> se <unclear/>
+               <lb/>judgador de q<ex>u</ex>ien toma el alçada.</item>
+               <item><lb/>¶ Ley .xxvij. Que es <unclear/> de fazer el <unclear/>
+                  <lb/>de judgar el <unclear/> q<ex>ue</ex> las cosas <unclear/>
+                  <lb/><unclear/> q<ex>ue</ex><supplied> </supplied>la p<ex>er</ex>diere.</item>
+               <item><lb/>¶ Ley .xxviij. com<ex>m</ex>o el judgador <unclear/>
+                  <lb/><unclear reason="roto"/>ante por el pleyto o no si <unclear/>gu<ex>n</ex>a
+               <cb n="2"/>
+               <lb/>de<supplied> </supplied>las p<ex>ar</ex>tes an<add resp="copista" place="encima">te</add> q<ex>ue</ex> de su juyzio.</item>
+               <item><lb/>¶ Ley .xxix. com<ex>m</ex>o deue fazer el judgador del alçada
+               <lb/>q<ex>u</ex>ando se muriere la cosa sobre q<ex>ue</ex> fue tomada.</item>
+            </list>
+            <div n="3.23.1" type="ley" xml:id="SPVA532301">
+               <head><lb/>Ley p<ex>r</ex>im<ex>er</ex>a q<ex>ue</ex> cosa es alçada &amp; a q<ex>ue</ex> tiene pro.</head>
+               <p><lb/><hi rend="init3">A</hi>lçada es q<ex>ue</ex>rella q<ex>ue</ex> alguna de<supplied> </supplied>las p<ex>ar</ex>tes faze
+               <lb/>de juyzio q<ex>ue</ex> fue dado contra ella llaman-
+               <lb break="no"/>do &amp; recorriendose a emjenda de mayor juez. ¶ E
+               <lb/>tiene p<ex>ro</ex> el alçada q<ex>u</ex>ando es fecha derecha<del> </del>mientre
+               <lb/>por<del> </del>q<ex>ue</ex> por ella se desatan los agraujamjentos.
+               <lb/>q<ex>ue</ex><supplied> </supplied>los juezes fazen a<supplied> </supplied>las p<ex>ar</ex>tes tortizera<del> </del>mjentre
+               <lb/>o por no<supplied> </supplied>la entender.</p>
+            </div>
+            <div n="3.23.2" type="ley" xml:id="SPVA5323002">
+               <head>Ley .ij. Quien se puede alçar</head>
+               <p><lb/><hi rend="init2">A</hi>lçarse se puede todo om<ex>n</ex>e libre de juyzio
+               <lb/>q<ex>ue</ex> fuese dado contra el. si<supplied> </supplied>se sintiere por
+               <lb/>agraujado. Ca el sieruo no<supplied> </supplied>lo puede fazer por<supplied> </supplied>el
+               <lb/>&amp; todo lo q<ex>ue</ex> a es de su sen<ex>n</ex>or &amp; no a p<ex>er</ex>sona p<ex>ar</ex>a estar
+               <lb/>en juyzio fueras ende aq<ex>ue</ex>ll<del resp="copista" rend="reescrito">a</del><add resp="copista" place="espacio" rend="reescrito">o</add>s cas<del resp="copista" rend="reescrito">a</del><add place="espacio" resp="copista" rend="reescrito">o</add>s en <add place="encima" resp="copista">q<ex>ue</ex></add> el sier-
+               <lb break="no"/>uo por si puede fazer dema<ex>n</ex>da en juyzio asi com<ex>m</ex>o
+               <lb/>de suso mostramos en el T<ex>itul</ex>o de<supplied> </supplied>los demandadores
+               <lb/>¶ P<ex>er</ex>o si contra el sieruo fuere dado <unclear>atamje<ex>n</ex>to</unclear>
+               <lb/>en pleyto <unclear/> bien se puede alçar del su señor
+               <lb/><unclear/>tro p<ex>er</ex>son<ex>er</ex>o en no<ex>n</ex>bre del sen<ex>n</ex>or. E si nj<ex>n</ex>guno destos
+               <lb/>no<supplied> </supplied>lo q<ex>u</ex>isiese fazer el sieruo mjsmo se puede alça<unclear>r</unclear>
+               <lb/>de tal <unclear/> fue dado <unclear/>. ¶ Mas si el juy-
+               <lb break="no"/>zio fue<unclear/> contra su sen<ex>n</ex>or en Razo<ex>n</ex> de
+                <lb/><unclear/> oujesen acusado. estonçe el sier-
+               <lb break="no"/>uo no se podrie alçar por su sen<ex>n</ex>or com<ex>m</ex>o q<ex>u</ex>iera q<ex>ue</ex>
+               <lb/>podrie fazer su fijo q<ex>ue</ex> fuese en<supplied> </supplied>su poder ¶ Ot<ex>ro</ex>ssi
+               <lb/><unclear>dezimos</unclear> q<ex>ue</ex> el fijo q<ex>ue</ex> esta en poder de su pa<unclear>dre</unclear>
+                  <lb/>puede  alçar de todo juyzio q<ex>ue</ex> fuese dado contra
+               <lb/>el <unclear/> de<supplied> </supplied>los bienes del fijo. q<ex>ue</ex> el padre
+               <lb/>oujesse en guarda onde q<ex>u</ex>ier q<ex>ue</ex><supplied> </supplied>los oujesse ganados
+               <lb/><unclear>E</unclear> ot<ex>r</ex>ossi dezjmos q<ex>ue</ex><supplied> </supplied>los guardadores de<supplied> </supplied>los huerfanos
+               <fw type="reclamo">los <add place="encima">otros</add> person<ex>er</ex>os</fw>
+               <gap reason="nonsequitur"/>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
