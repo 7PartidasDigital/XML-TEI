@@ -27,11 +27,11 @@
 
 <p>Dentro de este repositorio hay varios subdirectorios:</p>
 <ul>
-<li>`TEXT-HSMS` contiene los textos transcritos de acuerdo con las normas de etiquetado del Hispanic Seminary of medieval Studies.</li>
-<li>`TEXT-TEI` contiene los textos transcritos de acuerdo con el estándar TEI diseñado para 7PartidasDigital.</li>
-<li>`TEXT-TAGGED` contiene el texto de las ediciones de Sevilla de 1491. según las transcripciones del proyecto ADMYTE, que, en teoría corresponde al INC/766 de la BNE, `IOC` (= incunable octubre) es la de los ejemplares INC/1119 e INC/1120 de la BNE e IDI (= incunable diciembre) según el ejemplare de la Real Academia de la Historia. Estos ficheros son conversión de los ficheros verticalizados producidos por la HSMS.app y se presentan como textos lineales con la estructura `token_lema_etiqueta` (`conuiene_convenir_VMIP3S0`).</li>
-<li>`TEXT-OSTA` contiene los ficheros verticalizados producidos por la HSMS.app. Se han dividido por testimonios y estos por <em>Partidas</em> cuando se ha estimado necesario. Dwe manera que el subdirectorio `IOC` contiene los ficheros verticializados de la edición de octubre de 1491.  Para poderlos ver en el navegador, puesto que son ficheros `html` es necesario tener el fichero `osta.css` que se encuentra en el directorio `TEXT-OSTA`.</li>
-<li>`scripts` recoge los diversos <em>scripts</em> que se han desarrollado a lo largo del proyecto para el manejo, edición y preparación de los textos.</li>
+<li><code>TEXT-HSMS</code> contiene los textos transcritos de acuerdo con las normas de etiquetado del Hispanic Seminary of Medieval Studies.</li>
+<li><code>TEXT-TEI</code> contiene los textos transcritos de acuerdo con el estándar TEI diseñado para 7PartidasDigital.</li>
+<li><code>TEXT-TAGGED</code> contiene el texto de las ediciones de Sevilla de 1491. según las transcripciones del proyecto ADMYTE, que, en teoría corresponde al INC/766 de la BNE, <code>IOC</code> (= incunable octubre) es la de los ejemplares INC/1119 e INC/1120 de la BNE e IDI (= incunable diciembre) según el ejemplare de la Real Academia de la Historia. Estos ficheros son conversión de los ficheros verticalizados producidos por la HSMS.app y se presentan como textos lineales con la estructura <code>token_lema_etiqueta</code> (<code>conuiene_convenir_VMIP3S0</code>).</li>
+<li><code>TEXT-OSTA</code> contiene los ficheros verticalizados producidos por la HSMS.app. Se han dividido por testimonios y estos por <em>Partidas</em> cuando se ha estimado necesario. Dwe manera que el subdirectorio <code>IOC</code> contiene los ficheros verticializados de la edición de octubre de 1491.  Para poderlos ver en el navegador, puesto que son ficheros <code>html</code> es necesario tener el fichero <code>osta.css</code> que se encuentra en el directorio <code>TEXT-OSTA</code>.</li>
+<li><code>scripts</code> recoge los diversos <em>scripts</em> que se han desarrollado a lo largo del proyecto para el manejo, edición y preparación de los textos.</li>
 </ul>
 
 
