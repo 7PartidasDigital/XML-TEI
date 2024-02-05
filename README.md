@@ -24,9 +24,20 @@
 <li>Publicación en la red de los testimonios y del texto crítico.</li>
 <li>Actualización de la bibliografía sobre las <em>Siete Partidas</em>.</li>
 </ul>
+
+<p>Dentro de este repositorio hay varios subdirectorios:</p>
+<ul>
+<li>`TEXT-HSMS` contiene los textos transcritos de acuerdo con las normas de etiquetado del Hispanic Seminary of medieval Studies.</li>
+<li>`TEXT-TEI` contiene los textos transcritos de acuerdo con el estándar TEI diseñado para 7PartidasDigital.</li>
+<li>`TEXT-TAGGED` contiene el texto de las ediciones de Sevilla de 1491. según las transcripciones del proyecto ADMYTE, que, en teoría corresponde al INC/766 de la BNE, `IOC` (= incunable octubre) es la de los ejemplares INC/1119 e INC/1120 de la BNE e IDI (= incunable diciembre) según el ejemplare de la Real Academia de la Historia. Estos ficheros son conversión de los ficheros verticalizados producidos por la HSMS.app y se presentan como textos lineales con la estructura `token_lema_etiqueta` (`conuiene_convenir_VMIP3S0`).</li>
+<li>`TEXT-OSTA` contiene los ficheros verticalizados producidos por la HSMS.app. Se han dividido por testimonios y estos por <em>Partidas</em> cuando se ha estimado necesario. Dwe manera que el subdirectorio `IOC` contiene los ficheros verticializados de la edición de octubre de 1491.  Para poderlos ver en el navegador, puesto que son ficheros `html` es necesario tener el fichero `osta.css` que se encuentra en el directorio `TEXT-OSTA`.</li>
+<li>`scripts` recoge los diversos <em>scripts</em> que se han desarrollado a lo largo del proyecto para el manejo, edición y preparación de los textos.</li>
+</ul>
+
+
 <p align="center">Financiado por la<br />
 Agencia Estatal de Investigación<br />
-PID2020-112621GB-I00<br />
+PID2020-112621GB-I00/AEI/10.13039/501100011033<br />
 2021-2024<br />
 <hr />
 Ministerio de Ciencia, Innovación y Universidades y el FEDER<br />
@@ -35,6 +46,7 @@ FFI2016-75014-P AEI-FEDER, EU<br />
 Realizado en la<br />
 Universidad de Valladolid<br />
 Para más información visite nuestro <a href="https://7partidas.wordpress.com">7 Partidas Digital. Edición crítica de las <em>Siete partidas</em></a>, ISSN 2605-2652</p>
+
 
 
 CITAR como
