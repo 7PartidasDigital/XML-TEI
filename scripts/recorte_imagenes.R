@@ -1,5 +1,6 @@
 # Redimensiona imágnes fotográficas
 # y las convierte en jpg si eran de otro tipo
+library(magick)
 entrada <- list.files()
 salida <- gsub("png", "jpg", entrada)
 tamanno <- "2100x3000+1950+340"
@@ -12,6 +13,6 @@ tamanno <- "2100x3000+1950+340"
 for(i in 1:length(entrada)){
   a <- image_read(entrada[i])
   b <- image_crop(a, geometry = tamanno)
-  image_write(b, salida[i])
+  image_write(b, format="jpeg", salida[i])
 }
 
