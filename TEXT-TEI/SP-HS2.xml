@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <teiHeader xml:lang="es">
+      <fileDesc>
+         <titleStmt>
+            <title>Siete Partidas. Versión codificada <!--indicar cuál es el testimonio--></title>
+            <author>Alfonso X el Sabio</author>
+            <funder xml:id="AEI">Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno></funder>
+            <funder xml:id="MCIU">Ministerio de Ciencia, Innovación y Universidades y el FEDER<idno
+                  type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="MINECO">Ministerio de Economía, Industria y Competitividad y el
+                  FEDER<idno type="referencia">FFI2016-75014-P AEI-FEDER, EU</idno></funder>
+            <funder xml:id="UVA">Universidad de Valladolid</funder>
+            <principal xml:id="JMFR">José Manuel Fradejas Rueda</principal>
+            <respStmt>
+               <resp>Investigador principal</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcrito por</resp>
+               <name>José Manuel FRADEJAS RUEDA</name>
+            </respStmt>
+            <respStmt>
+               <resp>revisado por</resp>
+               <name><!-- Nombre del revisor --></name>
+            </respStmt>
+         </titleStmt>
+         <extent><!-- Declarar el tamaño aproximado del fichero --></extent>
+         <publicationStmt>
+            <publisher>7PartidasDigital. Universidad de Valladolid</publisher>
+            <pubPlace>Valladolid</pubPlace>
+            <address>
+               <addrLine>Plaza del Campus s/n</addrLine>
+               <addrLine>E-47011 Valladolid</addrLine>
+            </address>
+            <idno>SP-H2</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Esta obra está bajo una licencia de Creative Commons
+                     Reconocimiento-CompartirIgual 4.0 Internacional.</p>
+                  <p>El fichero maestro está alojado en el repositorio del <ref
+                        target="https://github.com/7PartidasDigital/XML-TEI/blob/master/SP-TEI-HEADER.xml"
+                        > proyecto en GitHub</ref>.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="project">7PartidasDigital</title>
+         </seriesStmt>
+         <sourceDesc>
+            <p>La descripción codicológica del documento original se encuentra en el sitio web del
+                  proyecto<ref target="https://7partidas.hypotheses.org/testimonios/hs2/"
+                  >7PartidasDigital</ref>.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Este texto se ha creado como parte del proyecto <title>7PartidasDigital</title>
+               financiado por la Agencia Estatal de Investigación <idno type="referencia"
+                  >PID2020-112621GB-I00</idno> y el Ministerio de Ciencia, Innovación y
+               Universidades de España, referencia <idno type="referencia">FFI2016-75014-P</idno>.
+               La descripción del proyecto y sus participantes se recogen en la <ref
+                  target="https://7partidas.hypotheses.org">web</ref> del mismo.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p><!-- Describir aquí cómo se ha efectuado la transcripción --></p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract resp="#JMFR">
+            <p>Contiene una copia de las leyes 7.30.5-9 y 7.31.1-11 de las <title>Siete
+                  Partidas</title>.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <!-- AQUÍ SE INCLUIRÁ LA MENCIÓN DE CADA CAMBIO -->
+         <change when="2024-08-08" who="#JMFR" status="borrador">Comenzada la transcripción /
+            codificación</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="es">
+      <body>
+         <pb n="89r"/>
+         <cb n="1"/>
+         <div n="7" type="partida">
+            <head>Aq<ex>u</ex>i` comie<ex>n</ex>çan ciertas leyes d<ex>e</ex>la .vija`.
+               p<ex>ar</ex>tida.</head>
+            <div n="7.30" type="titulo" xml:id="SPHS2730000">
+               <div n="7.30.5" type="ley" xml:id="SPHS2730005">
+                  <head><lb/>ley .va`. q<ex>u</ex>a`ndo el judgador ouiere
+                        <lb/>a<supplied> </supplied>mandar atorme<ex>n</ex>tar a muchos
+                        <lb/>a<supplied> </supplied>q<ex>u</ex>a`l deue<ex>n</ex>
+                     atorme<ex>n</ex>tar primero.</head>
+                  <ab><hi rend="init2">Q</hi><ex>u</ex>a`ndo alguno d<ex>e</ex>los judga<lb
+                        break="no"/>dores ouiere a meter e<lb/>tormento a muchos omes por ra<lb
+                        break="no"/>zo<ex>n</ex> de muchos f<supplied>e</supplied>chos q<ex>ue</ex>
+                        sospechasse<ex>n</ex>
+                     <lb/>que fizieran. p<ex>r</ex>i`m<ex>er</ex>a ment<ex>e</ex> deuen
+                        <lb/>come<ex>n</ex>çar a atorme<ex>n</ex>tar al menor<lb/>de dias. &amp; el
+                        q<ex>ue</ex> fue c<ex>r</ex>i`ado mas uicio<lb break="no"/>sa mente.
+                        porq<ex>ue</ex> mas ayna pueda<ex>n</ex>
+                     <lb/>saber la uerdat por este atal q<ex>ue</ex>
+                     <lb/>por los ot<ex>r</ex>o`s. &amp; desi deuen atorme<ex>n</ex><lb break="no"
+                     />tar a<supplied> </supplied>todos los ot<ex>r</ex>o`s. a<supplied
+                     > </supplied>cada uno d<ex>e</ex>llos<lb/>ap<ex>ar</ex>tada mente`.
+                        de<supplied> </supplied>guisa q<ex>ue</ex> ni<ex>n</ex>gu<lb break="no"/>no
+                     non pueda oyr ni<ex>n</ex> ente<ex>n</ex>d<ex>e</ex>r lo q<ex>ue</ex>
+                     <lb/>dixiere aq<ex>ue</ex>l a<supplied> </supplied>q<ex>u</ex>i`en
+                        atorme<ex>n</ex>tasen.<lb/>E los dichos de cada uno d<ex>e</ex>llos
+                     <lb/>deuen fazer escreuir e<ex>n</ex>la man<ex>er</ex>a
+                        <lb/>q<ex>ue</ex><supplied> </supplied>los dixieren; no<ex>n</ex>
+                        camia<ex>n</ex>do ende<lb/>ninguna cosa. &amp; deue<ex>n</ex>les fazer
+                     <lb/>atormentar mesurada me<ex>n</ex>tre<lb/>de man<ex>er</ex>a que por las
+                     feridas q<ex>ue</ex><supplied> </supplied>les`<lb/>diere<ex>n</ex> les mueuan
+                        a<supplied> </supplied>dezir u<ex>er</ex>dat.<lb/>toda uia
+                     g<ex>u</ex>a`rdando q<ex>ue</ex><supplied> </supplied>las` feridas<lb/>sean
+                     tales q<ex>ue</ex><supplied> </supplied>no<ex>n</ex> muera<ex>n</ex> por ende
+                     <lb/>nin finq<ex>ue</ex>n lisiados.</ab>
+               </div>
+               <div n="7.30.6" type="ley" xml:id="SPHS2730006">
+                  <head>Ley .vjª. por q<ex>ue</ex>
+                     <cb n="2"/>
+                     <lb/>Razon<ex>e</ex>s puede<ex>n</ex> atorme<ex>n</ex>tar al<lb/>sieruo
+                        q<ex>ue</ex> diga t<ex>estimonio</ex> cont<ex>ra</ex> su señor.</head>
+                  <lb/>
+                  <ab><hi rend="init2">S</hi>i ouiesen a<supplied resp="editor" reason="unidas"
+                        > </supplied>algu<ex>n</ex> ome a<lb break="no"/>cusado sobr<ex>e</ex> algun
+                        yerro<lb/>q<ex>ue</ex>l pusiese<ex>n</ex> q<ex>ue</ex> auie f<supplied
+                        resp="editor">e</supplied>cho. no<ex>n</ex> puede<lb/>el jues meter
+                        a<supplied resp="editor" reason="unidas"> </supplied>tormento el
+                     sieruo<lb/>del acusado q<ex>ue</ex> diga testimonio <ex>con</ex>t<ex>ra</ex>
+                     <lb/>el nin cont<ex>r</ex>a su señor. ni<ex>n</ex> al q<ex>ue</ex> ouie<lb
+                        break="no"/>se aforrado nin al<supplied resp="editor" reason="unidas"
+                     > </supplied>que ouiese sey<lb break="no"/>do su sieruo en ante maguer
+                     lo<lb/>ouiese uendido fueras ende en<lb/>cosas señaladas`. ¶ El
+                     p<ex>ri</ex>mero<lb/>es` si el señor fuese acusado q<ex>ue</ex>
+                        auje<lb/>f<supplied resp="editor">e</supplied>cho adulterio co<ex>n</ex>
+                        algu<ex>n</ex> om<ex>n</ex>e.<lb/>El .ijº. si fuesse acusado q<ex>ue</ex>
+                     auie f<supplied resp="editor">e</supplied>cho <lb/>engaño enlas Rentas
+                        d<ex>e</ex>l Rey.<lb/>seye<ex>n</ex>do su almoxarife o<supplied
+                        resp="editor" reason="unidas"> </supplied>auie<ex>n</ex>do<lb/>las
+                        a<supplied resp="editor" reason="unidas"> </supplied>recabdar p<ex>ar</ex>a
+                     el como cogedor. <lb/>o de ot<ex>ra</ex> man<ex>er</ex>a. ¶ El iijº es si
+                     fuesse<lb/>acusado que auie f<supplied resp="editor">e</supplied>cho alguna
+                        t<ex>r</ex>ai<lb break="no"/>cio<ex>n</ex> cont<ex>r</ex>a la
+                     p<ex>er</ex>sona d<supplied resp="editor"><ex>e</ex></supplied>l Rey o
+                     contra<lb/>su señorio. o<supplied resp="editor" reason="unidas"> </supplied>se
+                     auia t<ex>r</ex>abajado d<supplied resp="editor"
+                     ><ex>e</ex></supplied>lo<lb/>fazer. <supplied resp="editor">¶</supplied> El
+                     .iiijº es si el marido<lb/>fuese acusado q<ex>ue</ex><supplied resp="editor"
+                        reason="unidas"> </supplied>se t<ex>ra</ex>bajaua de <pb n="90r"/>
+                     <cb n="1"/>
+                     <lb/>muerte de<supplied resp="editor" reason="unidas"> </supplied>su
+                        mug<ex>e</ex>r. o la muger<lb/>de muerte de su marido <supplied
+                        resp="editor">¶</supplied> El<lb/>q<ex>ui</ex>nto es q<ex>ua</ex>ndo dos
+                        om<ex>ne</ex>s ouiesen<lb/>un sieruo de so uno &amp; fuese acusa<lb
+                        break="no"/>do alguno d<ex>e</ex>llos q<ex>ue</ex><supplied resp="editor"
+                        reason="unidas"> </supplied>se t<ex>r</ex>abajara d<ex>e</ex>la<lb/>muerte
+                     del ot<ex>ro</ex>. <supplied resp="editor">¶</supplied> El vj. es
+                     q<ex>ua</ex>ndo<lb/>algun ome fuese acusado q<ex>ue</ex> ma<lb break="no"/>tara
+                     al q<ex>ue</ex>l auia establecido por <lb/>su h<ex>er</ex>edero o al
+                        q<ex>ue</ex>l auie de ot<ex>ra</ex> g<ex>ui</ex>sa<lb/>derecho de heredar.
+                     Ca el sieruo<lb/>bien lo podrian meter a<supplied resp="editor" reason="unidas"
+                        > </supplied>torme<ex>n</ex><lb break="no"/>to que dixiesse la uerdat
+                        <ex>con</ex>t<ex>ra</ex> el.<lb/><supplied resp="editor">¶</supplied> El
+                     vijº. es si alguno fuesse a<lb break="no"/>cusado de falsa moneda &amp; en
+                        q<ex>ua</ex>l<lb/>quier d<ex>e</ex>stos casos sobr<ex>e</ex> dichos fa<lb
+                        break="no"/>llando el judgador algunas se<lb break="no"/>ñales ciertas
+                        cont<ex>ra</ex> los señor<ex>e</ex>s<lb/>bie<ex>n</ex> pueden meter
+                        a<supplied resp="editor" reason="unidas"> </supplied>torme<ex>n</ex>to
+                     <lb/>los sieruos d<ex>e</ex>llos q<ex>ue</ex> diga lo q<ex>ue</ex> sopi<lb
+                        break="no"/>eren. E au<ex>n</ex> lo q<ex>ue</ex> dixiere<ex>n</ex>
+                        q<ex>ua</ex>ndo los<lb/>atorme<ex>n</ex>tare<ex>n</ex> ha men<ex>e</ex>ster
+                        q<ex>ue</ex><supplied resp="editor" reason="unidas"> </supplied>lo co<lb
+                        break="no"/>noscan &amp; lo afirme<ex>n</ex> despu<ex>e</ex>s
+                        sin<lb/>torme<ex>n</ex>to. E en ot<ex>ro</ex> caso
+                     ni<ex>n</ex>guno<lb/>fueras en<ex>e</ex>stos sobr<ex>e</ex>dichos no<ex>n</ex>
+                        pu<cb n="2"/>
+                     <lb break="no"/><del resp="editor">no<ex>n</ex> pu</del>eda<ex>n</ex> meter
+                        a<supplied resp="editor" reason="unidas"> </supplied>torme<ex>n</ex>to a
+                        <lb/>ni<ex>n</ex>gun sieruo q<ex>ue</ex> diga testimonjo<lb/>contra su
+                     señor. maguer falla<lb break="no"/>sen señales ciertas cont<ex>ra</ex> el.
+                        <lb/>Ot<ex>ro</ex>si non deue seer cabido lo q<ex>ue</ex>
+                     <lb/>testimoniare el sieruo sin tor<lb break="no"/>me<ex>n</ex>to asi como
+                     deximos en<ex>e</ex>l ti<lb break="no"/>t<ex>u</ex>lo d<supplied resp="editor"
+                           ><ex>e</ex></supplied>]los testigos.</ab>
+               </div>
+               <div n="7.30.7" type="ley" xml:id="SPHS2730007">
+                  <head>ley .vijª. com<ex>m</ex>o<lb/>deue<ex>n</ex> atormentar alos sieruos
+                     <lb/>&amp; alos siruientes de casa por sab<ex>e</ex>r<lb/>uerdat
+                     d<ex>e</ex>llos; q<ex>ui</ex>en mato a<supplied resp="editor" reason="unidas"
+                     > </supplied>su señor</head>
+                  <lb/>
+                  <ab><hi rend="init2">S</hi>eg<ex>ur</ex>a non <seg type="head2">o a<supplied
+                           resp="editor" reason="unidas"> </supplied>su señora.</seg>
+                     <lb/>ome si<supplied resp="editor" reason="unidas"> </supplied>los sieruos o
+                     los seruie<ex>n</ex>tes`<lb/>d<ex>e</ex>l no<ex>n</ex>
+                        g<ex>ua</ex>rdare<ex>n</ex> al señor d<ex>e</ex>lla de si <lb/>mismo &amp;
+                        d<ex>e</ex>los estraños de fuera.<lb/>E por ende dixiero<ex>n</ex> los
+                     sabios<lb/>antigos q<ex>ue</ex> q<ex>ua</ex>ndo el señor es mu<lb break="no"
+                     />erte por fuerça en su casa. q<ex>ui</ex>er de <lb/>noche o de dias
+                        q<ex>ue</ex> en sus sieruos o<lb/>sus siruie<ex>n</ex>tes q<ex>ue</ex>
+                        moraua<ex>n</ex> con<ex>el</ex> en<ex>e</ex>l<lb/>logªr a aq<ex>ue</ex>lla
+                        sazo<ex>n</ex> deue<ex>n</ex> ser tor<lb break="no"/>mentados por
+                        q<ex>ue</ex> pueda ser sa<lb break="no"/>bida v<ex>er</ex>dat a<supplied
+                        resp="editor" reason="unidas"> </supplied>aq<ex>ue</ex>lla sazo<ex>n</ex>
+                        q<ex>ui</ex>e<ex>n</ex> fue<pb n="90v"/>
+                     <cb n="1"/>
+                     <lb break="no"/>ron aq<ex>ue</ex>llos q<ex>ue</ex>l mataron. E eso<lb/>mismo
+                     deue ser g<ex>ua</ex>rdado si la m<lb break="no"/>ugier d<ex>e</ex>l señor o
+                     los fijos fuese<ex>n</ex>
+                     <lb/>fallados muertos e<ex>n</ex>la casa. P<ex>er</ex>o<lb/>si<supplied
+                        resp="editor" reason="unidas"> </supplied>los sieruos o los siruientes
+                        q<ex>ue</ex>
+                     <lb/>morauan co<ex>n</ex> aq<ex>ue</ex>l q<ex>ue</ex> asi fuese mu<lb
+                        break="no"/>erto. fuesen menores de .xiiijº.<lb/>años. entonce
+                        no<ex>n</ex><supplied resp="editor" reason="unidas"> </supplied>les
+                        deue<ex>n</ex> a<lb break="no"/>tormentar crua mie<ex>n</ex>t<ex>re</ex>.
+                        mas<lb/>deue<ex>n</ex>les espantar amenaza<ex>n</ex>do<lb/>los de feridas
+                     con algunas co<lb break="no"/>rrea<del resp="copista">d</del><del resp="editor"
+                        >a</del>s &amp; feriendolos poq<ex>ui</ex>ello<lb/>por que puedan
+                        sab<ex>e</ex>r uerdat.<lb/>E esto que deximos en<ex>e</ex>sta ley<lb/>se
+                        entie<ex>n</ex>de d<ex>e</ex>los sieruos q<ex>ue</ex> mora<lb break="no"
+                     />uan con<ex>e</ex>l en aquella cohita<lb/>de casas do fallaron muerto<lb/>al
+                     señor o tan çerca d<ex>e</ex>lla q<ex>ue</ex>
+                     <lb/>puedan oyr las bozes d<ex>e</ex>l señor<lb/>a<supplied resp="editor"
+                        reason="unidas"> </supplied>aq<ex>ue</ex>l logªr o estaua.</ab>
+               </div>
+               <div n="7.30.8" type="ley" xml:id="SPHS2730008">
+                  <head>Ley .viijª.<lb/>como puede el judgador ma<ex>n</ex>dar<lb/>atormentar al
+                     testigo si<supplied resp="editor" reason="unidas"> </supplied>uie<lb break="no"
+                     />re q<ex>ue</ex> ua desuariando en sus <lb/>dichos.</head>
+                  <cb n="2"/>
+                  <lb/>
+                  <ab><hi rend="init1">A</hi>ducho seyendo algu<ex>n</ex>
+                     <lb/>ome por testigo d<ex>e</ex>lant d<ex>e</ex>l jud<lb break="no"/>gador
+                        p<ex>ar</ex>a afirmar sobr<ex>e</ex> algun<lb/>mal f<supplied resp="editor"
+                        >e</supplied>cho. si el judgador ente<ex>n</ex>di<lb break="no"/>ere
+                        q<ex>ue</ex> anda camiando sus` dichos <lb/>&amp; q<ex>ue</ex> se mueue
+                     maliciosa me<ex>n</ex>te<lb/>por dezir mentira. desq<ex>ue</ex> enten<lb
+                        break="no"/>diere este; bien lo puede me<lb break="no"/>ter a tormento por
+                        q<ex>ue</ex> diga la<lb/>uerdat &amp; q<ex>ue</ex> non se descamie de<lb
+                        break="no"/>lla en ninguna man<ex>er</ex>a. fueras<lb/>ende si fuere de
+                        aq<ex>ue</ex>llas p<ex>er</ex>sonas<lb/>q<ex>ue</ex> desuso deximos
+                        q<ex>ue</ex> no<ex>n</ex> deuen<lb/>ser atormentados.</ab>
+               </div>
+               <div n="7.30.9" type="ley" xml:id="SPHS2730009">
+                  <head>ley .ixª. q<ex>ua</ex>l<ex>e</ex>s<lb/>p<ex>er</ex>sonas non deuen ser
+                        atorme<ex>n</ex><lb break="no"/>tadas por que digan testimo<lb break="no"
+                     />nio contra otri.</head>
+                  <lb/>
+                  <ab><hi rend="init2">P</hi>ersonas ciertas son a<supplied resp="editor"
+                        reason="unidas"> </supplied>q<ex>ue</ex>
+                     <lb/>non pueden ap<ex>re</ex>miar q<ex>ue</ex>
+                     <lb/>uengan dezir testimonjo co<ex>n</ex>t<ex>ra</ex>
+                     <lb/>otri en<supplied resp="editor" reason="unidas"> </supplied>pl<ex>e</ex>ito
+                        q<ex>ue</ex> pueda uenir<lb/>muerte de om<ex>n</ex>e o
+                        p<ex>er</ex>dimie<ex>n</ex>to de<lb/>miembro si ellos de su uolun<lb
+                        break="no"/>tat sin ninguna premia non <pb n="91r"/>
+                     <cb n="1"/>
+                     <lb/>q<ex>ui</ex>sieren uenjr dezir lo q<ex>ue</ex> supie<lb break="no"/>ren
+                        sobr<ex>e</ex> aq<ex>ue</ex>l fecho a q<ex>ue</ex> ouiesen<lb/>a<supplied
+                        resp="editor" reason="unidas"> </supplied>dar testimonjo &amp; son
+                     estos.<lb/>todos los parientes q<ex>ue</ex> sube<ex>n</ex> o de<lb break="no"
+                     />cienden por la ljña derecha d<ex>e</ex>l<lb/>parentesco fasta el
+                     q<ex>ua</ex>rto g<ex>ra</ex>do.<lb/>E otrosi d<ex>e</ex>la liña de
+                     t<ex>ra</ex>uieso fas<lb break="no"/>ta eneste mismo g<ex>ra</ex>do. E
+                        pu<ex>e</ex>s<lb/>q<ex>ue</ex> ninguno d<ex>e</ex>llos non puede a<lb
+                        break="no"/>premjar q<ex>ue</ex> uenga a<supplied resp="editor"
+                        reason="unidas"> </supplied>dar testi<lb break="no"/>monio contra tales
+                        parie<ex>n</ex>t<ex>e</ex>s<lb/>mucho menos lo puede meter<lb/>a<supplied
+                        resp="editor" reason="unidas"> </supplied>tormento q<ex>ue</ex> diga
+                        cont<ex>ra</ex> ellos. <lb/>E eso mismo dezimos q<ex>ue</ex>
+                        non<lb/>puede<ex>n</ex> apremiar nin meter a<lb/>tormento ala mugier
+                        ni<ex>n</ex> ala<lb/>suegra q<ex>ue</ex> den testimonio cont<ex>ra</ex>
+                     <lb/>su marido sobr<ex>e</ex> tal pl<ex>e</ex>ito como<lb/>este o como
+                        sobr<ex>e</ex><del resp="editor" cause="desunidas"> </del>dicho es.
+                        ni<ex>n</ex>
+                     <lb/>el marido cont<ex>ra</ex> la muger. ni<ex>n</ex>
+                     <lb/>el suegro ni<ex>n</ex> la suegra cont<ex>ra</ex>
+                     <lb/>sus yernos. ni<ex>n</ex> cont<ex>ra</ex> sus nueras<lb/>ni<ex>n</ex> los
+                     yernos ni<ex>n</ex> las nueras co<ex>n</ex>t<ex>ra</ex>
+                     <lb/>ellos. ni<ex>n</ex> los padrastros ni<ex>n</ex> las <cb n="2"/>
+                     <lb/>madrastras cont<ex>ra</ex> sus antenados<lb/>ni<ex>n</ex> los antenados
+                        cont<ex>ra</ex> ellos. ni<ex>n</ex>
+                     <lb/>los aforrados cont<ex>ra</ex> aq<ex>ue</ex>llos q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>los a<lb break="no"/>forraron.
+                        ni<ex>n</ex> cont<ex>ra</ex> s<ex>us</ex> mugieres. <lb/>ni<ex>n</ex>
+                        cont<ex>ra</ex> los padr<ex>e</ex>s d<ex>e</ex>llos. ni<ex>n</ex> los
+                        q<ex>ue</ex>
+                     <lb/>los aforraron co<ex>n</ex>t<ex>ra</ex> sus aforrados.<lb/>ni<ex>n</ex>
+                        cont<ex>ra</ex> sus fijos asi como dexi<lb break="no"/>mos en<ex>e</ex>l
+                        tit<ex>u</ex>lo d<supplied resp="editor"><ex>e</ex></supplied>los
+                     testigos.</ab>
+               </div>
+            </div>
+            <div n="7.31.0" type="titulo" xml:id="SPHS231000">
+               <head>Tit<ex>ulo</ex>
+                  <lb/>xxxjº. d<ex>e</ex>las penas.</head>
+               <lb/>
+               <ab><hi rend="init2">E</hi>scarmentados deuen ser<lb/>los omes por los yerros
+                  <lb/>que fazen asi com<ex>m</ex>o desuso de<lb break="no"/>ximos enlas leyes
+                     d<ex>e</ex>los tit<ex>u</ex>los<lb/>ante deste. &amp; por q<ex>ue</ex><supplied
+                     resp="editor" reason="unidas"> </supplied>los omes no<ex>n</ex> so<ex>n</ex>
+                  <lb/>todos egual<ex>e</ex>s. &amp; los yerros q<ex>ue</ex> faze<ex>n</ex>
+                  <lb/>caen en dep<ex>ar</ex>tidos logares &amp; en de<lb break="no"
+                  />p<ex>ar</ex>tidos t<ex>ien</ex>pos porq<ex>ue</ex> por fuerça se ha<ex>n</ex>
+                  <lb/>de crescer o de meng<ex>ua</ex>r las penas.<lb/>Por ende pu<ex>e</ex>s
+                     q<ex>ue</ex> e<ex>n</ex>los tit<ex>u</ex>los ante<lb/>deste fablamos de todos
+                  los ma<lb break="no"/>los f<supplied resp="editor">e</supplied>chos
+                  q<ex>ue</ex>los omes fazen por q<ex>ue</ex>
+                  <lb/>pereçen recebir torme<ex>n</ex>tos &amp; de<lb/>las penas de cada u o
+                     d<ex>e</ex>llos.<lb/>q<ex>ue</ex>remos aqui dezir d<ex>e</ex>las penas <pb
+                     n="91v"/>
+                  <cb n="1"/>
+                  <lb/>en general mient<ex>re</ex> q<ex>ue</ex> son g<ex>ua</ex>lardon<lb/>&amp;
+                  acabamiento d<ex>e</ex>los f<supplied resp="editor">e</supplied>chos &amp;
+                  delos<lb/>males. E mostraremos q<ex>ue</ex> cosa es<lb/>pena. &amp;
+                  q<ex>ua</ex>ntas man<ex>er</ex>as son d<ex>e</ex>lla.<lb/>E q<ex>ui</ex>en la
+                  puede dar. &amp; a<supplied resp="editor" reason="unidas"
+                  > </supplied>q<ex>ui</ex>en. E q<ex>ua</ex>n<lb break="no"/>do. &amp; en<supplied
+                     resp="editor" reason="unidas"> </supplied>q<ex>ue</ex> manera &amp; por
+                     q<ex>ue</ex> razon<ex>e</ex>s<lb/>pueden cresçer o me<ex>n</ex>g<ex>ua</ex>r. o
+                     toller<lb/>d<ex>e</ex>l todo.</ab>
+               <div n="7.31.1" type="ley" xml:id="SPHS2731001">
+                  <head>Ley p<ex>ri</ex>m<ex>er</ex>a q<ex>ue</ex> cosa es pena &amp;<lb/>por que
+                     razones se deue mouer<lb/>el judgador a darla.</head>
+                  <lb/>
+                  <ab><hi rend="init2">P</hi>ena es emienda de pecho<lb/>&amp; escarmie<ex>n</ex>to
+                        q<ex>ue</ex> es dado se<lb break="no"/>gun la ley a algunos por los yer- <lb
+                        break="no"/>ros que fizieren. &amp; dan esta penª<lb/>los judgadores. La
+                        p<ex>ri</ex>m<ex>era</ex> es porq<ex>ue</ex> reci<lb break="no"/>ban
+                     escarmiento d<ex>e</ex>los yerros q<ex>ue</ex>
+                     <lb/>fizeron. La ot<ex>ra</ex> es por q<ex>ue</ex> todos<lb/>los
+                        q<ex>ue</ex><supplied resp="editor" reason="unidas"> </supplied>la uieren
+                        tome<ex>n</ex> enxie<ex>n</ex>plo &amp;
+                     <lb/>ap<ex>er</ex>cebimie<ex>n</ex>to p<ex>ar</ex>a g<ex>ua</ex>rdarse
+                        q<ex>ue</ex> non<lb/>yerren por miedo d<ex>e</ex>las penas.<lb/>E los
+                        judgador<ex>e</ex>s deue<ex>n</ex> mucho catar<lb/>ante q<ex>ue</ex> den
+                     pena alos acusados.<lb/>&amp; escudruñar muy acuciosa mi<cb n="2"/>
+                     <lb break="no"/><del resp="editor">mi</del>entre el yerro sobr<ex>e</ex>
+                        q<ex>ue</ex><supplied resp="editor" reason="unidas"> </supplied>la
+                        ma<ex>n</ex>da<ex>n</ex>
+                     <lb/>dar. de maneras q<ex>ue</ex> sea ante bien<lb/>p<ex>ro</ex>uado el yerro
+                        q<ex>ue</ex> fiziere<ex>n</ex> &amp; catado<lb/>en<supplied resp="editor"
+                        reason="unidas"> </supplied>que g<ex>ui</ex>sa fue f<supplied resp="editor"
+                        >e</supplied>cho el yerro. Ca<lb/>si el yerro fuese f<supplied resp="editor"
+                        >e</supplied>cho a sabie<ex>n</ex>das. <lb/>deue ser escarmentado
+                        segund<lb/>manda<ex>n</ex> las leyes deste n<ex>uest</ex>ro
+                     lib<ex>ro</ex>.<lb/>E sy auiniese por culpa d<ex>e</ex>l q<ex>ue</ex>lo fi<lb
+                        break="no"/>zo deue recebir mayor escarmi<lb break="no"/>ento. &amp; si por
+                     ocasion; no<ex>n</ex> deue re<lb break="no"/>cebir ninguna pena segu<ex>n</ex>
+                        dexi<lb break="no"/>mos en<supplied resp="editor"><ex>e</ex></supplied>l
+                        tit<ex>u</ex>lo d<ex>e</ex>los omezillos.<lb/>&amp; enlos ot<ex>ro</ex>s de
+                        q<ex>ue</ex> fablamos en<ex>e</ex>sta<lb/>setena p<ex>ar</ex>tida.</ab>
+               </div>
+               <div n="7.31.2" type="ley" xml:id="SPHS2731002">
+                  <head>ley .ijª. como el om<ex>n</ex>e<lb/>non deue recebir pena por mal
+                        pe<ex>n</ex><lb break="no"/>samiento q<ex>ue</ex> aya en<ex>e</ex>l
+                           <corr>c<del resp="editor">õ</del><supplied resp="editor"
+                           >o</supplied>Razo<ex>n</ex></corr> solo<lb/>q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>lo no<ex>n</ex> metio en
+                     obra.</head>
+                  <lb/>
+                  <ab><hi rend="init2">P</hi>ensamientos malos ui<lb break="no"/>ene<ex>n</ex>
+                     muchas uezes en<lb/>los coraçones d<ex>e</ex>los om<ex>ne</ex>s de ma<lb
+                        break="no"/>nera que se afirma<ex>n</ex> en aq<ex>ue</ex>llo q<ex>ue</ex>
+                     <lb/>cuydan p<ex>ar</ex>a co<ex>n</ex>plir lo por f<supplied resp="editor"
+                        >e</supplied>cho &amp; d<ex>e</ex>s<lb break="no"/>pues asman
+                        q<ex>ue</ex><supplied resp="editor" reason="unidas"> </supplied>si<supplied
+                        resp="editor" reason="unidas"> </supplied>lo co<ex>n</ex>pliese q<ex>ue</ex>
+                     <lb/>seria mal. E<supplied resp="editor" reason="unidas"> </supplied>por ende
+                        dezimos<lb/>q<ex>ue</ex> qual om<ex>n</ex>e quier q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>se repe<ex>n</ex>tiese <pb n="92r"/>
+                     <cb n="1"/>
+                     <lb/>del mal pensamiento ante q<ex>ue</ex><supplied resp="editor"
+                        reason="unidas"> </supplied>lo<lb/>començasse a<supplied resp="editor"
+                        reason="unidas"> </supplied>obrar por el. q<ex>ue</ex> no<ex>n</ex>
+                     <lb/>mereçe por ende pena ni<ex>n</ex>guna.<lb/>por q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>los p<ex>ri</ex>m<ex>er</ex>os
+                        mouimie<ex>n</ex>tos d<ex>e</ex>las <lb/>uoluntades no<ex>n</ex> son
+                        en<supplied resp="editor" reason="unidas"> </supplied>pod<ex>e</ex>r
+                        d<ex>e</ex>los <lb/>om<ex>ne</ex>s. Mas si despu<ex>e</ex>s q<ex>ue</ex>
+                        ouiese<ex>n</ex>
+                     <lb/>pensado se trabajasen d<ex>e</ex>lo co<ex>n</ex>plir<lb/>començandolo
+                        a<supplied resp="editor" reason="unidas"> </supplied>meter en
+                     obra<lb/>maguer non<supplied resp="editor" reason="unidas"> </supplied>lo
+                     cumpliesen del<lb/>todo. entonce seria en culpa &amp;<lb/>mereçerie pena de
+                        escarmje<ex>n</ex>to<lb/>segun el yerro q<ex>ue</ex> fiziessen
+                        por<lb/>q<ex>ue</ex><supplied resp="editor" reason="unidas"
+                     > </supplied>erraron en aq<ex>ue</ex>llo q<ex>ue</ex> era en
+                        su<lb/>pod<ex>e</ex>r de<supplied resp="editor" reason="unidas"
+                     > </supplied>se guardar d<ex>e</ex>lo fazer si<lb/>quisiessen. E esto serie
+                     como<lb/>si algun ome ouiese pe<ex>n</ex>sado de<lb/>fazer alguna
+                     t<ex>ra</ex>ycion cont<ex>ra</ex>la p<ex>er</ex><lb break="no"/>sona
+                        d<ex>e</ex>l Rey. &amp; depu<ex>e</ex>s come<ex>n</ex>çase<lb/>en alguna
+                        man<ex>er</ex>a a meterlo en<lb/>obra como fablado co<ex>n</ex>
+                        ot<ex>ro</ex>s p<ex>ar</ex>a<lb/>meterle en aq<ex>ue</ex>lla
+                        t<ex>ra</ex>icio<ex>n</ex> q<ex>ue</ex> auia<lb/>pensado. o
+                     fazie<ex>n</ex>do jura o esc<ex>ri</ex>pto<lb/>con<ex>e</ex>llos
+                        come<ex>n</ex>ça<ex>n</ex>dolo a meter <corr>e<del resp="editor"
+                           >ñ</del><supplied resp="editor">n</supplied></corr><lb/>obra o en alguna
+                        ot<ex>ra</ex> man<ex>er</ex>a se<cb n="2"/>
+                     <lb/>mejante d<ex>e</ex>stas maguer no<ex>n</ex> vi<lb break="no"/>niese al
+                        f<supplied resp="editor">e</supplied>cho acabada mje<ex>n</ex>tre.<lb/>E eso
+                     mismo serie si ujniese en <lb/>uolu<ex>n</ex>tat a algun om<ex>n</ex>e de
+                        matar<lb/>a<supplied resp="editor" reason="unidas"
+                     > </supplied>ot<ex>ro</ex>. si<supplied resp="editor" reason="unidas"
+                     > </supplied>tal pensamiento malo co<lb break="no"/>mo este come<ex>n</ex>çasse
+                        a<supplied resp="editor" reason="unidas"> </supplied>meter en o<lb
+                        break="no"/>bra teniendo alguna po<ex>n</ex>çoña a<lb break="no"/>parejada
+                        p<ex>ar</ex>a dar g<ex>e</ex>la a<supplied resp="editor" reason="unidas"
+                     > </supplied>beuer o<lb/>tomando cuchiello o ot<ex>ra</ex> cosa q<ex>ue</ex>
+                     <lb/>fuese arma desnua ye<ex>n</ex>do cont<ex>ra</ex> el<lb/>p<ex>ar</ex>a
+                     matarlo. o estando armado<lb/>asechandol en algu<ex>n</ex> logªr p<ex>ar</ex>a
+                     dar<lb/>le muerte. o t<ex>r</ex>abajandose d<ex>e</ex>lo ma<lb break="no"/>tar
+                     en alguna otra man<ex>er</ex>a seme<lb break="no"/>jante destas metiendolo ya
+                     en<lb/>obra. Ca maguer no<ex>n</ex><supplied resp="editor" reason="unidas"
+                        > </supplied>lo<supplied resp="editor" reason="unidas"
+                        > </supplied>cu<ex>n</ex>pliese. <lb/>mereçe ser escarme<ex>n</ex>tado asi
+                        como<lb/>si<supplied resp="editor" reason="unidas"> </supplied>lo ouiese
+                        co<ex>n</ex>plido por q<ex>ue</ex> no<ex>n</ex>
+                     <lb/>finco por el d<ex>e</ex>lo co<ex>n</ex>plir su podiese<ex>n</ex>.
+                        <lb/>Ot<ex>ro</ex>si dezimos q<ex>ue</ex><supplied resp="editor"
+                        reason="unidas"> </supplied>si alguno pe<ex>n</ex>sase <lb/>de robar o de
+                     forçar alguna ma<ex>n</ex><lb break="no"/>çeba uirge<ex>n</ex> o mugier casada
+                     o<lb/>lo come<ex>n</ex>çase a meter en obra t<ex>ra</ex><lb break="no"/>uando
+                     de alguna d<ex>e</ex>llas p<ex>ar</ex>a com<pb n="92v"/>
+                     <cb n="2"/>
+                     <lb break="no"/>plir su pensamie<ex>n</ex>to malo o leuan<lb break="no"/>dola
+                     robada. Ca maguer no<ex>n</ex> passa<lb break="no"/>sse a<supplied
+                        resp="editor" reason="unidas"> </supplied>ella. mereçe ser
+                     escarme<ex>n</ex>tado.<lb/>bien asi como si ouiesse fecho lo q<ex>ue</ex>
+                     <lb/>cobdiciaua. pu<ex>e</ex>s non fico por<lb/>q<ex>ua</ex>nto el pudo fazer
+                        q<ex>ue</ex> se no<ex>n</ex> cu<ex>n</ex>plio<lb/>el yerro. Et estas cosas
+                        sobre<lb break="no"/>dichas tan sola ment<ex>e</ex> ha<ex>n</ex> logar
+                     <lb/>enlo q<ex>ue</ex> dixiessemos que deue<ex>n</ex> re<lb break="no"/>cebir
+                     escarmiento los q<ex>ue</ex> pe<ex>n</ex>saro<ex>n</ex> de<lb/>faz<ex>er</ex>
+                     el yerro. p<ex>ues</ex> q<ex>ue</ex>
+                     <corr>comie<ex>n</ex><del resp="editor">c</del><supplied resp="editor"
+                           >ç</supplied>a<ex>n</ex></corr> a obrª<ex>r</ex>
+                     <lb/>d<ex>e</ex>l maguer no<ex>n</ex> lo cu<ex>n</ex>plan. mas<lb/>en<supplied
+                        resp="editor" reason="unidas"> </supplied>todos los ot<ex>ro</ex>s yerros
+                        q<ex>ue</ex> so<ex>n</ex> me<lb break="no"/>nores que estos. maguer los o<lb
+                        break="no"/>mes a<supplied resp="editor" reason="unidas"> </supplied>fazer
+                     &amp; no<ex>n</ex> tome<ex>n</ex> a<supplied resp="editor" reason="unidas"
+                        > </supplied>obrª<ex>r</ex>.<lb/>si se Repintiere<ex>n</ex> ante
+                        q<ex>ue</ex>l pe<ex>n</ex>sa<lb break="no"/>miento malo se cu<ex>n</ex>pla;
+                     non<lb/>mereçe pena ni<ex>n</ex>guna.</ab>
+               </div>
+               <div n="7.31.3" type="ley" xml:id="SPHS2731003">
+                  <head><seg type="head1">ley .iijª.<lb/>q<ex>ua</ex>ntas man<ex>er</ex>as son de
+                        yerros por <lb/>q<ex>ue</ex> mereçe<ex>n</ex> los fazedores d<ex>e</ex>llos
+                        reçe</seg></head>
+                  <lb/>
+                  <ab><hi rend="init2">T</hi>odos los yerros <seg type="head2">bir pena.</seg>
+                     <lb/>de q<ex>ue</ex> fezimos mencion<lb/>en<ex>e</ex>ste libro q<ex>ue</ex>los
+                     omes fazen<lb/>a<supplied resp="editor" reason="unidas"> </supplied>sabiendas
+                        co<ex>n</ex> mala e<ex>n</ex>ti<ex>n</ex>çio<ex>n</ex> so<ex>n</ex>
+                     <cb n="2"/>
+                     <lb/>en q<ex>ua</ex>t<ex>ro</ex> man<ex>er</ex>as. la p<ex>ri</ex>m<ex>er</ex>a
+                     es de<lb/>f<supplied resp="editor">e</supplied>cho. asi como matar &amp;
+                     furtar.<lb/>&amp; robar &amp; todos los ot<ex>ro</ex>s
+                     yerros<lb/>q<ex>ue</ex>los om<ex>ne</ex>s fazen que so<ex>n</ex> seme<lb
+                        break="no"/>jantes destos. la ijª es por pa<lb break="no"/>laura asi como
+                     denostar o en<lb break="no"/>firmar o testig<ex>ua</ex>r. o abogar fal<lb
+                        break="no"/>sa mientre. &amp; enlas ot<ex>ra</ex>s mane<lb break="no"/>ras
+                     semejantes destas q<ex>ue</ex>los o<lb break="no"/>mes fazen unos
+                        cont<ex>ra</ex> ot<ex>ro</ex>s. de<supplied resp="editor" reason="unidas"
+                        > </supplied>q<ex>ue</ex>
+                     <lb/>les nasçen desonrra &amp; daño<lb/>verran unos con<ex>n</ex>t<ex>ra</ex>
+                        ot<ex>ro</ex>s por palau<ex>ra</ex>.<lb/>la iijª es por
+                        sc<ex>ri</ex>pt<ex>ur</ex>a com<ex>m</ex>o fal<lb break="no"/>sas cartas o
+                     malas ca<ex>n</ex>tigas o<lb/>malos ditados. &amp; e<ex>n</ex>las
+                     ot<ex>ra</ex>s sc<ex>ri</ex>p<lb break="no"/>turas semejante<del resp="copista"
+                        >s</del> destas q<ex>ue</ex>los<lb/>om<ex>ne</ex>s fazen cont<ex>ra</ex>
+                        ot<ex>ro</ex>s de q<ex>ue</ex>les<lb/>nasçe desonrra o daño. la<lb/>iiijª es
+                     por consejo. asi como q<ex>ua</ex>n<lb break="no"/>do algunos se
+                        ayunta<ex>n</ex> en uno. <lb/>&amp; faze<ex>n</ex> jura o post<ex>ur</ex>a.
+                     o co<ex>n</ex>fradia. <lb/>por fazer mal a<supplied resp="editor"
+                        reason="unidas"> </supplied>ot<ex>ro</ex>s o p<ex>ar</ex>a reçebir<lb/>los
+                     enemigos enla t<ex>ie</ex>rra o p<ex>ar</ex>a a<lb break="no"/>coger los
+                        ladron<ex>e</ex>s o los malfe<pb n="93r"/>
+                     <cb n="2"/>
+                     <lb break="no"/>chores. o enlas ot<ex>r</ex>as maneras<lb/>semejantes destas
+                        en<supplied resp="editor" reason="unidas"> </supplied>q<ex>ue</ex>los
+                        om<ex>ne</ex>s<lb/>fazen malas fallas o toma<ex>n</ex> ma<lb break="no"/>los
+                     consejos p<ex>ar</ex>a fazer <corr>da<del resp="editor">n</del><supplied
+                           resp="editor">ñ</supplied>o</corr> &amp;<lb/>mal los unos cont<ex>r</ex>a
+                     los ot<ex>ro</ex>s. E<supplied resp="editor" reason="unidas"
+                     > </supplied>la<lb/>pena de cada uno destos yerros<lb/>es dicha enlos
+                        tit<ex>u</ex>los desta sete<lb break="no"/>na p<ex>ar</ex>tida enlas leyes
+                        q<ex>ue</ex> fabla<ex>n</ex>
+                     <lb/>enesta razon.</ab>
+               </div>
+               <div n="7.31.4" type="ley" xml:id="SPHS2731004">
+                  <head>ley .iiijª. q<ex>ua</ex>ntas<lb/>maneras son de pena.</head>
+                  <lb/>
+                  <ab><hi rend="init2">S</hi>iete maneras son de<lb/>pena porq<ex>ue</ex>
+                        pueda<ex>n</ex> los<lb/>judgadores escarme<ex>n</ex>tar alos<lb/>fazedores
+                     delos yerros. E los<lb/>quat<ex>ro</ex> d<ex>e</ex>llos son mayor<ex>e</ex>s
+                     &amp; las<lb/>ot<ex>ra</ex>s menores &amp; las mayores<lb/>son estas. la
+                        p<ex>ri</ex>m<ex>er</ex>a es dar a<lb/>omne ena de muerte. o de
+                        p<ex>er</ex>di<lb break="no"/>miento de miembro. la ijª. es <lb/>condenarlo
+                        q<ex>ue</ex> este en fierros p<ex>ar</ex>a<lb/>siempre cauando
+                     e<ex>n</ex>los metales<lb/>d<ex>e</ex>l Rey o labrando enlas ot<ex>ra</ex>s
+                     <lb/>sus lauores o siruiendo alos q<ex>ue</ex>
+                     <lb/>esto fizieren. la iijª es q<ex>ua</ex>ndo <cb n="2"/>
+                     <lb/>destierran a<supplied resp="editor" reason="unidas"> </supplied>alguno
+                        p<ex>ar</ex>a sie<ex>n</ex>pre<lb/>en alguna ysla. o en algun lo<lb
+                        break="no"/>gªr cierto tomando todos sus bie<lb break="no"/>nes. la iiijª.
+                     es q<ex>ua</ex>ndo ma<ex>n</ex>da<ex>n</ex> a<lb/>alguno echar en fierros
+                        q<ex>ue</ex> yaga<lb/>siempre en<ex>e</ex>llo. en<supplied resp="editor"
+                        reason="unidas"> </supplied>carcel o en ot<ex>ra</ex>
+                     <lb/>prisio<ex>n</ex>. &amp; tal prisio<ex>n</ex> como esta no<ex>n</ex>
+                     <lb/>la deuen<supplied resp="editor" reason="unidas"> </supplied>dar a
+                        om<ex>n</ex>e libr<ex>e</ex> sino<ex>n</ex> a <lb/>sieruo. Ca la carçel
+                        no<ex>n</ex> es dada<lb/>p<ex>ar</ex>a escarmentar los yerros.
+                        mas<lb/>p<ex>ar</ex>a guardar los presos tan sola <lb/>mient<ex>re</ex>
+                        en<ex>e</ex>llas fasta q<ex>ue</ex> sea<ex>n</ex> jud- <lb break="no"
+                     />gados. la .vª. es q<ex>ua</ex>ndo destie<lb break="no"/>rran a<supplied
+                        resp="editor" reason="unidas"> </supplied>alguno por t<ex>ien</ex>po cierto
+                        e<ex>n</ex>
+                     <lb/>alguna ysla. o p<ex>ar</ex>a sie<ex>n</ex>pre no<ex>n</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>le <lb/>tomando sus bienes. la
+                     .vjª.<lb/>es q<ex>ua</ex>ndo daña la fama de algu- <lb break="no"/>no. judgando
+                     lo por <corr>e<del resp="editor">ñ</del><supplied resp="editor"
+                        >n</supplied>famado</corr>.<lb/>o q<ex>ua</ex>ndo lo tuelle d algu<ex>n</ex>
+                        oficio.<lb/>q<ex>ue</ex> tiene por Razon de yerro q<ex>ue</ex>
+                        ha<lb/>f<supplied resp="editor">e</supplied>cho. o q<ex>ua</ex>ndo uiedan
+                        a<supplied resp="editor" reason="unidas"> </supplied>algu<ex>n</ex> a- <lb
+                        break="no"/>bogado o p<ex>er</ex>sonero por yerro<lb/>q<ex>ue</ex> fizo
+                        q<ex>ue</ex><supplied resp="editor" reason="unidas"> </supplied>non use
+                     dende ade<lb break="no"/>lante de officio de abogado. <pb n="93v"/>
+                     <cb n="1"/>
+                     <lb/>nin de p<ex>er</ex>son<ex>er</ex>o a<supplied resp="editor"
+                        reason="unidas"> </supplied>q<ex>ue</ex> no<ex>n</ex> paresca
+                     a<ex>n</ex>te<lb/>los judgadores q<ex>ua</ex>ndo judgaren fas`<lb break="no"
+                     />ta tiempo cierto p<ex>ar</ex>a siemp<ex>re</ex>. la<lb/>vijª es
+                     q<ex>ua</ex>ndo condepna<ex>n</ex> a<supplied resp="editor" reason="unidas"
+                     > </supplied>alguno q<ex>ue</ex>
+                     <lb/>sea decentado o ferido paladina<lb/>mente por yerro q<ex>ue</ex> fizo ole
+                        pone<ex>n</ex>
+                     <lb/>en<supplied resp="editor" reason="unidas"> </supplied>desonrra del ala
+                     puerta olo<lb/>desnudan fazie<ex>n</ex>dolo estar al sol.<lb/>untado de miel
+                     por q<ex>ue</ex>l coma<ex>n</ex> las<lb/>moscas alguna hora del dia.</ab>
+               </div>
+               <div n="7.31.5" type="ley" xml:id="SPHS2731005">
+                  <head>ley<lb/>vª. q<ex>ui</ex>en puede <corr>mand<del resp="editor"
+                           >ã</del><supplied resp="editor">a</supplied>r</corr>
+                        q<ex>ue</ex><supplied resp="editor" reason="unidas"
+                        > </supplied>de<ex>n</ex><supplied resp="editor" reason="unidas"
+                     > </supplied>pena alos</head>
+                  <lb/>
+                  <ab><hi rend="init2">O</hi>rdinarios <seg type="nead2">q<ex>ue</ex>la
+                           mereçe<ex>n</ex>.</seg>
+                     <lb/>juezes son aq<ex>ue</ex>llos q<ex>ue</ex> han<lb/>poder de judgar
+                        om<ex>ne</ex>s a muerte o<lb/>a<supplied resp="editor" reason="unidas"
+                        > </supplied>p<ex>er</ex>dimie<ex>n</ex>to de mie<ex>n</ex>bro por
+                     yerro<lb/>que ayan f<supplied resp="editor">e</supplied>cho. E estos
+                     atales<lb/>pueden judgar los om<ex>ne</ex>s por los<lb/>yerros que fizieren
+                        q<ex>ue</ex> reciba<ex>n</ex> todas`<lb/>las man<ex>er</ex>as de penas
+                        q<ex>ue</ex> deximos<lb/>enla ley ante desta. fueras
+                        e<ex>n</ex>de<lb/>q<ex>ue</ex><supplied resp="editor" reason="unidas"
+                     > </supplied>non pueden echar de t<ex>ie</ex>rra ni<ex>n</ex>
+                     <lb/>desterrar a ninguno en ysla ni<ex>n</ex>
+                     <lb/>en<supplied resp="editor" reason="unidas"> </supplied>otro<supplied
+                        resp="editor" reason="unidas"> </supplied>lugªr. Ca tal penª como<lb/>esta
+                     non p<ex>er</ex>teneçe a ot<ex>ro</ex> official <cb n="2"/>
+                     <lb/>d<ex>e</ex>la mandar dar sino<ex>n</ex> al emp<ex>er</ex>a<lb break="no"
+                     />dor o<supplied resp="editor" reason="unidas"> </supplied>al Rey o a<supplied
+                        resp="editor" reason="unidas"> </supplied>ot<ex>ro</ex> alguno q<ex>ue</ex>
+                        fue<lb break="no"/>sse uicario o adelantado gen<ex>er</ex>al<lb/>por el
+                     señalada me<ex>n</ex>te en<supplied resp="editor" reason="unidas"
+                     > </supplied>toda su<lb/>t<ex>ie</ex>rra. Ot<ex>ro</ex>si dezimos <ex>ue</ex>
+                     todo jud<lb break="no"/>gador que ha poder de judgar
+                        o<ex>mn</ex>e<lb/>a<supplied resp="editor" reason="unidas"
+                     > </supplied>muerte por el yerro q<ex>ue</ex> aya f<supplied resp="editor"
+                        >e</supplied>cho.<lb/>q<ex>ue</ex><supplied resp="editor" reason="unidas"
+                     > </supplied>puede otrosi mandar tomar<lb/>los bienes de aq<ex>ue</ex>llos
+                        q<ex>ue</ex> ouiese<ex>n</ex> f<supplied resp="editor"
+                     >e</supplied>cho<lb/>por q<ex>ue</ex> enlos casos tan sola
+                        mente<lb/>q<ex>ue</ex>`<supplied resp="editor" reason="unidas"
+                     > </supplied>mandan las leyes deste n<ex>uestr</ex>o li<lb break="no"/>bro mas
+                     en ot<ex>ro</ex> caso ni<ex>n</ex> en otra<lb/>razon no<ex>n</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>lo podrie fazer
+                        ni<ex>n</ex>gu<ex>n</ex>
+                     <lb/>judgador fueras ende emperador<lb/>o Rey. E aun dezimos q<ex>ue</ex>
+                        ni<ex>n</ex>gu<ex>n</ex>
+                     <lb/>ome por yerro q<ex>ue</ex><supplied resp="editor" reason="unidas"
+                     > </supplied>aya f<supplied resp="editor">e</supplied>cho no<ex>n</ex> de<lb
+                        break="no"/>uen ser tomados sus bien<ex>e</ex>s si<lb/>ouiere parientes
+                        d<ex>e</ex>los q<ex>ue</ex> suben<lb/>o decienden por la ljña derecha
+                        d<ex>e</ex>l <lb/>parentesco fasta el q<ex>ua</ex>rto
+                     g<ex>ra</ex>do.<lb/>fueras ende el q<ex>ue</ex> fuesse judga<lb break="no"/>do
+                     por t<ex>ra</ex>ydor segu<ex>n</ex> dize en<ex>e</ex>l
+                        tit<ex>u</ex>lo<lb/>d<supplied resp="editor"><ex>e</ex></supplied>las
+                        t<ex>ra</ex>ycion<ex>e</ex>s o en ot<ex>ro</ex>s casos seña<lb break="no"
+                     />lados q<ex>ue</ex> son sc<ex>ri</ex>ptos enlas leyes deste <pb n="94r"/>
+                     <cb n="1"/>
+                     <lb/>libro en que sola ment<ex>e</ex> los<lb/>mandase tomar.</ab>
+               </div>
+               <div n="7.31.6" type="ley" xml:id="SPHS2731006">
+                  <head>Ley .vjª. q<ex>ua</ex>l<del resp="copista">a</del><supplied resp="copista"
+                        >e</supplied>s<lb/>penas son uedadas alos judgado<lb break="no"/>res
+                        q<ex>ue</ex>las no<ex>n</ex> manden dar.</head>
+                  <lb/>
+                  <ab><hi rend="init2">P</hi>una deuen los judgador<ex>e</ex>s<lb/>de
+                        escarme<ex>n</ex>tar los yerros<lb/>q<ex>ue</ex> se fazen enlas
+                     t<ex>ie</ex>rras sobr<ex>e</ex><lb break="no"/>dichas en<supplied resp="editor"
+                        reason="unidas"> </supplied>que han poder de jud<lb break="no"/>gar
+                        pu<ex>e</ex>s que fuere<ex>n</ex> p<ex>r</ex>ouados co<lb break="no"
+                     />noscidos. P<ex>er</ex>o algunas man<ex>er</ex>as<lb/>son de penas
+                        q<ex>ue</ex>las non deue<ex>n</ex> dar<lb/>a<supplied resp="editor"
+                        reason="unidas"> </supplied>ningun om<ex>n</ex>e por yerro q<ex>ue</ex>
+                        aya<lb/>f<supplied resp="editor">e</supplied>cho asi como señalar a algu<lb
+                        break="no"/>no enla cara; señalandolo co<ex>n</ex>
+                     <lb/>fierro caliente. ni<ex>n</ex> cortandol<lb/>las narizes. ni<ex>n</ex>
+                     sacandol los<lb/>ojos. ni<ex>n</ex> dandol ot<ex>ra</ex> manera de<lb/>pena
+                        en<ex>e</ex>lla. de<supplied resp="editor" reason="unidas"
+                        > </supplied>q<ex>ue</ex> finq<ex>ue</ex> señalado.<lb/>E esto es por
+                        q<ex>ue</ex>la cara del omne<lb/>fizo dios a<supplied resp="editor"
+                        reason="unidas"> </supplied>su semeja<ex>n</ex>ça. E por<lb/>ende ningun
+                     judgador no<ex>n</ex> deue<lb/>penar a<supplied resp="editor" reason="unidas"
+                     > </supplied>ninguno en<ex>e</ex>lla ante<lb/>defendemos q<ex>ue</ex> los
+                        no<ex>n</ex> fagan. Ca <lb/>pu<ex>e</ex>s dios tanto lo quiso
+                     ho<ex>n</ex>rrar <cb n="2"/>
+                     <lb/>&amp; ennobleçer fazie<ex>n</ex>dola a<supplied resp="editor"
+                        reason="unidas"> </supplied>su se<lb break="no"/>mejança misma no<ex>n</ex>
+                     es g<ex>ui</ex>sado<lb/>q<ex>ue</ex> por yerros o por maldat delos<lb/>malos
+                     sea desfeada ni<ex>n</ex> destorua<lb break="no"/>da la figura <ex>de</ex>l. ¶
+                     E por e<ex>n</ex>de ma<ex>n</ex><lb break="no"/>damos q<ex>ue</ex>los
+                     judgadores q<ex>ue</ex> ouiere<ex>n</ex>
+                     <lb/>a<supplied resp="editor" reason="unidas"> </supplied>dar pena alos omes
+                     por los<lb/>yerros q<ex>ue</ex> ouieren f<supplied resp="editor"
+                     >e</supplied>cho q<ex>ue</ex> g<ex>e</ex>la ma<ex>n</ex><lb break="no"/>den dar
+                     enlas otras p<ex>ar</ex>tes d<ex>e</ex>l cu<lb break="no"/>erpo &amp; non enla
+                     cara. Ca asas<lb/>yha de lugares en<supplied resp="editor" reason="unidas"
+                        > </supplied>q<ex>ue</ex>los pueda<ex>n</ex>
+                     <lb/>penar. de man<ex>er</ex>a q<ex>ue</ex>los q<ex>ue</ex>lo uieren<lb/>&amp;
+                     lo oyeren pueda<ex>n</ex> y recebir mi<lb break="no"/>edo &amp;
+                        escarmie<ex>n</ex>to. ¶ Ot<ex>r</ex>osi dezi<lb break="no"/>mos
+                     q<ex>ue</ex>la pena d<ex>e</ex>la muerte p<ex>ri</ex>nci<lb break="no"
+                        />pal<supplied resp="copista"> </supplied>de q<ex>ue</ex> fablamos
+                        e<ex>n</ex>la t<ex>er</ex>cera ley<lb/>ante desta. puede ser dada al
+                        <lb/>q<ex>ue</ex>la mereciere cortandol la ca<lb break="no"/>beça con estada
+                     o co<ex>n</ex> cochiello.<lb/>&amp; no<ex>n</ex> co<ex>n</ex> segur.
+                        ni<ex>n</ex> co<ex>n</ex> foz de segar.<lb/>Ot<ex>ro</ex>si
+                     puede<ex>n</ex>lo enforcar o q<ex>ue</ex>mar<lb/>o echarlo a<supplied
+                        resp="editor" reason="unidas"> </supplied>bestias brauas q<ex>ue</ex>lo
+                        ma<lb break="no"/>ten. P<ex>er</ex>o los judgadores no<ex>n</ex>
+                        deue<ex>n</ex>
+                     <lb/>mandar apedrear ni<ex>n</ex>gu<ex>n</ex> om<ex>n</ex>e. <pb n="94v"/>
+                     <cb n="1"/>
+                     <lb/>ni<ex>n</ex> crucificarlo nin despeñarlo de<lb/>peña. nin de torre nin
+                        pue<ex>n</ex>te.<lb/>nin de ot<ex>ro</ex> logªr.</ab>
+               </div>
+               <div n="7.31.7" type="ley" xml:id="SPHS27310007">
+                  <head><seg type="head1">ley .vijª. a<supplied resp="editor" reason="unidas"
+                           > </supplied>q<ex>ua</ex>les o<ex>mn</ex>es<lb/>deuen ser dadas penas
+                        &amp; a<supplied resp="editor" reason="unidas"
+                           > </supplied>q<ex>ui</ex>e<ex>n</ex> &amp; en</seg></head>
+                  <lb/>
+                  <ab><hi rend="init2">A</hi> los fazedor<ex>e</ex>s <seg type="head2">q<ex>ue</ex>
+                        manera.</seg>
+                     <lb/>d<ex>e</ex>los yerros de q<ex>ue</ex>los om<ex>ne</ex>s<lb/>son acusados
+                     ante los judgador<ex>e</ex>s<lb/>deuen dar pena despues q<ex>ue</ex>los fu<lb
+                        break="no"/>eren prouados o<supplied resp="editor" reason="unidas"
+                        > </supplied>viniere<ex>n</ex> por co<lb break="no"/>noçidos d<ex>e</ex>llos
+                     en juyzio. Ot<ex>ro</ex>si<lb/>non se deue<ex>n</ex> los judgadores re<lb
+                        break="no"/>batar a<supplied resp="editor" reason="unidas"> </supplied>dar
+                     pena a ninguno por <lb/>sospecha. nin por señales. ni<ex>n</ex>
+                     por<lb/>presunciones como q<ex>ui</ex>er q<ex>ue</ex><supplied resp="editor"
+                        reason="unidas"> </supplied>por al<lb break="no"/>guna destas razones los
+                        pue<lb break="no"/>den torme<ex>n</ex>tar enla man<ex>er</ex>a q<ex>ue</ex>
+                     de<lb/>suso deximos. mas deue<ex>n</ex>lo faz<ex>er</ex>. <lb/>segun
+                        q<ex>ue</ex>las Razon<ex>e</ex>s de amas<lb/>las p<ex>ar</ex>tes
+                        fuere<ex>n</ex> tenidas &amp; aueri<lb break="no"/>g<ex>ua</ex>das antellos.
+                     E esto deuen<lb/>guardar por q<ex>ue</ex> la pena despues <lb/>q<ex>ue</ex> es
+                     dada en<ex>e</ex>l cuerpo del ome<lb/>no<ex>n</ex><supplied resp="editor"
+                        reason="unidas"> </supplied>se puede toller ni<ex>n</ex>
+                     eme<ex>n</ex>dar.<lb/>maguer entie<ex>n</ex>da el juez q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>erro<lb/>en<ex>e</ex>lla</ab>
+               </div>
+               <cb n="2"/>
+
+               <div n="7.31.8" type="ley" xml:id="SPHS2731008">
+                  <lb/>
+                  <head>ley .viijª. q<ex>ue</ex> cosas deue<ex>n</ex> catar los<lb/>judgadores ante
+                        q<ex>ue</ex> mande<ex>n</ex> dar<lb/>las penas &amp; por q<ex>ue</ex>
+                     razones las<lb/>puede<ex>n</ex> toller o ami<ex>n</ex>g<ex>ua</ex>r o
+                     acresçer.</head>
+                  <lb/>
+                  <ab><hi rend="init2">C</hi>atar deuen los judgado<lb break="no"/>res q<ex>ue</ex>
+                     non q<ex>ui</ex>eran dar<lb/>juyzio de escarmiento contra <lb/>algunos
+                        q<ex>ue</ex> p<ex>er</ex>sonas es aq<ex>ue</ex>lla co<ex>n</ex>t<ex>ra</ex>
+                     <lb/>q<ex>ui</ex>en lo dan si es sierua o libre<lb/>o fidalgo o om<ex>n</ex>e
+                     de villa o de al<lb break="no"/>dea. o<supplied resp="editor" reason="unidas"
+                     > </supplied>si es moço o ma<ex>n</ex>çebo o vie- <lb break="no"/>jo.
+                        Ca<supplied resp="editor" reason="unidas"> </supplied>mas crua
+                        ment<ex>e</ex> deue<ex>n</ex> escar<lb break="no"/>mentar al sieruo
+                        q<ex>ue</ex> al libre &amp; al<lb/>ome uil q<ex>ue</ex> al fidalgo &amp; al
+                        ma<ex>n</ex>ce<lb break="no"/>bo q<ex>ue</ex> al<supplied resp="editor"
+                        reason="unidas"> </supplied>moço o al<supplied resp="editor" reason="unidas"
+                     > </supplied>uiejo. por que<lb/>maguer el fidalgo o ot<ex>ro</ex> ome<lb/>o
+                        ot<ex>ro</ex> ome que fuesse honrrado<lb/>por su sciencia o por
+                        ot<ex>ra</ex> bo<ex>n</ex>dat q<ex>ue</ex>
+                     <lb/>ouiesse en<ex>e</ex>l fiziese cosa porq<ex>ue</ex>
+                     <lb/>deuiesse morir. no<ex>n</ex><supplied resp="editor" reason="unidas"
+                     > </supplied>le deue<ex>n</ex> ma<lb break="no"/>tar tan auiltada
+                     me<ex>n</ex>tre como<lb/>alos otros asi como arrast<ex>ra</ex>ndolo<lb/>o
+                     enforcandolo o q<ex>ue</ex><del resp="editor" cause="desunidas"
+                        > </del>ma<ex>n</ex>dolo o <lb/>echandolo a bestias fieras. <pb n="95r"/>
+                     <cb n="1"/>
+                     <lb/>mas deuenlo ma<ex>n</ex>dar matar<lb/>en otra man<ex>er</ex>a faziendol
+                        sa<ex>n</ex><lb break="no"/>grª<ex>r</ex> o afogandolo. o echandol<lb/>de
+                        t<ex>ie</ex>rra sil quisiere<ex>n</ex> p<ex>er</ex>donar la<lb/>uida. E si
+                     por aue<ex>n</ex>t<ex>ur</ex>a el<supplied resp="editor" reason="unidas"
+                        > </supplied>q<ex>ue</ex> ouie<lb break="no"/>se asi errado fuese menor
+                     de<lb/>diez años &amp; medio; nol deuen<lb/>dar pena ningunª. &amp; si
+                     fuesse<lb/>mayor desta hedat &amp; menor<lb/>de .xvij años. deue<ex>n</ex>
+                        me<ex>n</ex>g<ex>uar</ex> la pe<lb break="no"/>na que daria<ex>n</ex> alos
+                        ot<ex>ro</ex>s mayor<ex>e</ex>s<lb/>por tal yerro. Ot<ex>ro</ex>si
+                        deue<ex>n</ex> catar<lb/>los judgador<ex>e</ex>s. las p<ex>er</ex>sonas
+                     de<lb/>aquellos cont<ex>ra</ex> quie<ex>n</ex> fue f<supplied resp="editor"
+                        >e</supplied>cho<lb/>el yerro. Ca mayor pena
+                        m<ex>er</ex>eçe<lb/>aq<ex>ue</ex>l q<ex>ue</ex> erro cont<ex>ra</ex> su
+                     señor o co<ex>n</ex>t<ex>ra</ex>
+                     <lb/>su padr<ex>e</ex> o cont<ex>ra</ex> su mayoral o<lb/>contra su amigo
+                        q<ex>ue</ex> si fizese<lb/>cont<ex>ra</ex> ot<ex>ri</ex> con q<ex>ui</ex>en
+                     non ouiese<lb/>ninguno destos debdos E avn<lb/>deuen catar el t<ex>ien</ex>po
+                     &amp; el logar<lb/>en<supplied resp="editor" reason="unidas"> </supplied>que
+                        fuero<ex>n</ex> f<supplied resp="editor">e</supplied>chos los yerros<lb/>Ca
+                     si el yerro que<supplied resp="editor" reason="unidas"> </supplied>han de
+                        escar<lb break="no"/>me<ex>n</ex>tar es mucho usado a<supplied resp="editor"
+                        reason="unidas"> </supplied>faz<ex>er</ex>
+                     <cb n="2"/>
+                     <lb/>enla t<ex>ie</ex>rra a<supplied resp="editor" reason="unidas"
+                        > </supplied>aq<ex>ue</ex>lla sazon deuen<lb/>estonce fazer mas crudo
+                        escar<lb break="no"/>mie<ex>n</ex>to por q<ex>ue</ex>los omes se refre<lb
+                        break="no"/>nen d<ex>e</ex>lo fazer. E avn deue<ex>n</ex> ca<lb break="no"
+                     />tar el<supplied resp="editor" reason="unidas"> </supplied>tie<ex>n</ex>po en
+                        ot<ex>ra</ex> manera. Ca<lb/>mayor pena deue auer aq<ex>ue</ex>l
+                        q<ex>ue</ex> fa<lb break="no"/>ze el yerro de noche q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>el q<ex>ue</ex>lo fa<lb break="no"
+                     />ze de<supplied resp="editor" reason="unidas"> </supplied>dia. por
+                        q<ex>ue</ex> en aq<ex>ue</ex>lla sazo<ex>n</ex>
+                     <lb/>puede nasçer ende muchos pe<lb break="no"/>ligros &amp; muchos males.
+                        Ot<ex>ro</ex>si<lb/>deuen catar el logªr en q<ex>ue</ex> faze<ex>n</ex>
+                     <lb/>el yerro. Ca mayor pena m<ex>er</ex>eçe<lb/>aq<ex>ue</ex>l q<ex>ue</ex>
+                     yerra en egl<ex>es</ex>ia o en casa<lb/>de Rey o en<supplied resp="editor"
+                        reason="unidas"> </supplied>lugar do<supplied resp="editor" reason="unidas"
+                        > </supplied>judga<ex>n</ex> los<lb/>alcald<ex>e</ex>s o en casa de
+                     algun<lb/>su amigo q<ex>ue</ex> se<supplied resp="editor" reason="unidas"
+                     > </supplied>fia en<ex>e</ex>l q<ex>ue</ex><supplied resp="editor"
+                        reason="unidas"> </supplied>si<supplied resp="editor" reason="unidas"
+                     > </supplied>lo fi<lb break="no"/>ziese en otro logªr. E avn de<lb break="no"
+                     />ue ser catada la man<ex>er</ex>a en q<ex>ue</ex>
+                     <lb/>fue f<supplied resp="editor">e</supplied>cho el yerro. Ca mayor pe<lb
+                        break="no"/>na mereçe aq<ex>ue</ex>l q<ex>ue</ex> mata a otri<lb/>a<supplied
+                        resp="editor" reason="unidas"> </supplied>t<ex>ra</ex>ycion o a<supplied
+                        resp="editor" reason="unidas"> </supplied>aleue. q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>si<supplied resp="editor"
+                        reason="unidas"> </supplied>lo ma<lb break="no"/>tase en<supplied
+                        resp="editor" reason="unidas"> </supplied>pelea o de ot<ex>ra</ex>
+                        man<ex>er</ex>a<lb/>&amp; mas crua ment deue<ex>n</ex> ser es<lb break="no"
+                     />carmentado los robadores <pb n="95v"/>
+                     <cb n="1"/>
+                     <lb/>q<ex>ue</ex> los q<ex>ue</ex> furtan ascondida ment.<lb/>E otrosi deue
+                     catar q<ex>ue</ex><supplied resp="editor" reason="unidas"
+                        > </supplied>no<ex>n</ex><supplied resp="editor" reason="unidas"
+                     > </supplied>den penª<lb/>de pecho sin aq<ex>ue</ex>l a<supplied resp="editor"
+                        reason="unidas"> </supplied>q<ex>ue</ex> la mande<ex>n</ex> dar<lb/>ea pobre
+                     o Rico. Ca mayor pena <lb/>deuen dar al pobre q<ex>ue</ex> al Rico.
+                     &amp;<lb/>esto es por q<ex>ue</ex> mande<ex>n</ex> cosa q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>pueda<lb/>ser complida. &amp; por
+                        q<ex>ue</ex>lo judgado<lb break="no"/>res ouieren catadas muy acu- <lb
+                        break="no"/>ciosa mente todas estas cosas<lb/>sobr<ex>e</ex>dichas pueden
+                     cresçer o<lb/>menguar o toller la pena se<lb break="no"/>gun
+                        entendiero<ex>n</ex> q<ex>ue</ex> es guisado<lb/>&amp; lo deuieren
+                     fazer.</ab>
+               </div>
+               <div n="7.31.9" type="ley" xml:id="SPHS2731009">
+                  <head>Ley ixª. co<lb break="no"/>mo non deuen dar pena nj<ex>n</ex>gu<lb
+                        break="no"/>na al fijo por el yerro q<ex>ue</ex> el padr<ex>e</ex>
+                     <lb/>fiziesse. nin a vna p<ex>er</ex>sona por ot<ex>ra</ex></head>
+                  <lb/>
+                  <ab><hi rend="init2">P</hi>or el yerro que el padr<ex>e</ex>
+                     <lb/>fiziere. no<ex>n</ex> deuen reçe<lb break="no"/>bir pena nin escarmiento
+                     los<lb/>fijos nin los ot<ex>ro</ex>s parientes. ni<ex>n</ex>
+                     <lb/>la muger del. Ca non es g<ex>ui</ex>sa<lb break="no"/>do q<ex>ue</ex> por
+                     el mal q<ex>ue</ex> vn ome faze<lb/>q<ex>ue</ex><supplied resp="editor"
+                        reason="unidas"> </supplied>den escarmiento a<supplied resp="editor"
+                        reason="unidas"> </supplied>ot<ex>ro</ex>. porq<ex>ue</ex>
+                     <lb/>la pena deue costreñir &amp; ap<ex>re</ex><cb n="2"/>
+                     <lb break="no"/>miar los mal<del resp="editor" cause="desunidas"
+                        > </del>f<supplied resp="editor">e</supplied>chores &amp; los en<lb
+                        break="no"/>cobridores tan sola mente<lb/>&amp; no alos ot<ex>ro</ex>s.
+                     fueras ende <lb/>si el yerro fuese de t<ex>ra</ex>ycion. Ca<lb/>estonçe los
+                     fijos serian dese<lb break="no"/>redados &amp; agrauiados en algu<lb break="no"
+                     />nas cosas. por la t<ex>ra</ex>ycio<ex>n</ex> q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>su pa<lb break="no"/>dre<supplied
+                        resp="editor" reason="unidas"> </supplied>fiziese. e<ex>n</ex>la
+                        man<ex>er</ex>a q<ex>ue</ex><supplied resp="editor" reason="unidas"
+                        > </supplied>dexi<lb break="no"/>mos en<ex>e</ex>l tit<ex>u</ex>lo
+                        d<ex>e</ex>las t<ex>ra</ex>yciones.<lb/>Ot<ex>ro</ex>si dezimos q<ex>ue</ex>
+                     los judgado<lb break="no"/>res desq<ex>ue</ex> ouieren dado juyzio<lb/>acabado
+                        en<supplied resp="editor" reason="unidas"> </supplied>que<supplied
+                        resp="editor" reason="unidas"> </supplied>se contenga pe<lb break="no"/>na
+                        sobr<ex>e</ex> los yerros &amp; maleficios <lb/>q<ex>ue</ex>los omnes
+                     fizieren. q<ex>ue</ex> de<supplied resp="editor" reason="unidas"
+                     > </supplied>alli a<lb break="no"/>delante q<ex>ue</ex> non pueden
+                     creçer<lb/>nin ming<ex>ua</ex>r la pena q<ex>ue</ex>les ma<ex>n</ex><lb
+                        break="no"/>daren dar. Ca si ente<ex>n</ex>dieren<lb/>q<ex>ue</ex> es
+                        men<ex>e</ex>ster de cresçerla o <lb/>de me<ex>n</ex>g<ex>ua</ex>rla;
+                        deue<ex>n</ex>lo catar a<ex>n</ex>te <lb/>q<ex>ue</ex>la den. ca
+                        despu<ex>e</ex>s no<ex>n</ex> es en su <lb/>aluedrio. E avn dezimos
+                        q<ex>ue</ex>los<lb/>judgador<ex>e</ex>s deuen estar apare<lb break="no"
+                     />jados a<supplied resp="editor" reason="unidas"> </supplied>quitar los
+                        om<ex>ne</ex>s de pena <lb/>q<ex>ue</ex> a condempnarlos e<ex>n</ex>los
+                        pl<ex>e</ex>itos. <pb n="96r"/>" <cb n="1"/>
+                     <lb/>q<ex>ue</ex> clara mjent<ex>re</ex> no<ex>n</ex> pudiere<ex>n</ex> ser
+                     <lb/>prouados o fuyeren dubdosos.<lb/>Ca sancta cosa es <supplied
+                        resp="copista">&amp;</supplied> mas derecha<lb/>q<ex>ui</ex>tar al ome
+                        d<ex>e</ex>la pena q<ex>ue</ex> mereci<lb break="no"/>ese por yerro que
+                     ouiese f<supplied resp="editor">e</supplied>cho<lb/>q<ex>ue</ex> darla al
+                        q<ex>ue</ex>la no<ex>n</ex> mereçe. ni<ex>n</ex> fi<lb break="no"/>zo
+                        porq<ex>ue</ex>.</ab>
+               </div>
+               <div n="7.31.10" type="ley" xml:id="SPHS2731010">
+                  <head>ley .xª. q<ex>ue</ex> pena mereçe<lb/>el que <supplied resp="copista"
+                        >es</supplied> desterrado si torna a <lb/>la t<ex>ie</ex>rra sin mandado
+                        d<ex>e</ex>l Rey.</head>
+                  <lb/>
+                  <ab><hi rend="init2">T</hi>odo ome que fuere des<lb break="no"/>terrado por
+                        sente<ex>n</ex>cia d<ex>e</ex>l<lb/>Rey que sea en alguna ysla
+                        <lb/>p<ex>ar</ex>a tiempo cierto. o q<ex>ue</ex> es echa<lb break="no"/>do
+                     de t<ex>ie</ex>rra. si saliere d<ex>e</ex>la isla<lb/>ante de aquel
+                        t<ex>ien</ex>po q<ex>ue</ex>l señalar<ex>e</ex>s<lb/>o entre enla
+                        t<ex>ie</ex>rra sin manda<lb break="no"/>miento d<ex>e</ex>l Rey;
+                        deue<ex>n</ex>le doblar<lb/>aquel t<ex>ien</ex>po q<ex>ue</ex><supplied
+                        resp="editor" reason="unidas"> </supplied>q<ex>ue</ex>branto
+                     passando<lb/>mandamiento de su señor.<lb/>E si por auentura fuesse da<lb
+                        break="no"/>da la sente<ex>n</ex>çia cont<ex>ra</ex> el q<ex>ue</ex>
+                     fuesse<lb/>desterrado p<ex>ar</ex>a sie<ex>n</ex>pre &amp; non
+                        <lb/>p<ex>ar</ex>a tie<ex>n</ex>po cierto. esto<ex>n</ex>çe el q<ex>ue</ex>
+                        fu<lb break="no"/>ere desobediente salie<ex>n</ex>do d<ex>e</ex>la <cb n="2"/>
+                     <lb/>isla o entrando enla t<ex>ie</ex>rra sin<lb/>mandado d<ex>e</ex>l Rey;
+                     deue morir<lb/>por est<unclear>o</unclear>.</ab>
+               </div>
+               <div n="7.31.11" type="ley" xml:id="SPHS2731011">
+                  <head><seg type="head1">ley .xjª. como deue<ex>n</ex>
+                        <lb/>los judgadores justiciar los<lb/>omes manifiesta me<ex>n</ex>t &amp;
+                           no<ex>n</ex>
+                        <lb/>ascondido. &amp; q<ex>ue</ex>les deue<ex>n</ex> dar a<lb/>sus parientes
+                           despu<ex>e</ex>s de jus</seg></head>
+                  <lb/>
+                  <ab><hi rend="init2">P</hi>aladina <seg type="head2">ticiados.</seg>
+                     <lb/>mente deue ser f<supplied resp="editor">e</supplied>cha<lb/>la justicia de
+                     aquellos q<ex>ue</ex> ouiere<ex>n</ex>
+                     <lb/>f<supplied resp="editor">e</supplied>cho porque deue<ex>n</ex> morir
+                        porq<ex>ue</ex> los<lb/>otros q<ex>ue</ex>lo uiere<ex>n</ex> &amp; lo
+                        oyere<ex>n</ex> reci<lb break="no"/>ba<ex>n</ex> ende miedo &amp;
+                        escarmie<ex>n</ex>to. di<lb break="no"/>ziendo el o ella o el
+                     p<ex>re</ex>gonero<lb/>ante las gentes los yerros por <lb/>q<ex>ue</ex>los
+                     matan &amp; desq<ex>ue</ex> la justicia<lb/>fuere complida en<ex>e</ex>llos
+                     &amp; la<lb/>ouiere<ex>n</ex> uista los omes &amp; fuere<ex>n</ex>
+                     <lb/>ya muertos los justiciados. si los<lb/>pidiere<ex>n</ex> sus parientes o
+                     omes<lb/>religiosos o ot<ex>ro</ex>s q<ex>ua</ex>les q<ex>ui</ex>er
+                        deue<ex>n</ex>
+                     <lb/>g<ex>e</ex>los ot<ex>or</ex>gar por q<ex>ue</ex>los sotierren.
+                        <lb/>Ot<ex>ro</ex>si dezimos q<ex>ue</ex> si alguna mu<lb break="no"/>gier
+                     preñada ouiere f<supplied resp="editor">e</supplied>cho por <pb n="96v"/>
+                     <cb n="1"/>
+                     <lb/>q<ex>ue</ex> deua morir. q<ex>ue</ex>la non deuen<lb/>matar fasta que sea
+                     parida.<lb/>Ca si el fijo que es na<unclear>sci</unclear>do no<ex>n</ex>
+                     <lb/>deue reçebir pena por el yerro<lb/>del padr<ex>e</ex>; mucho menos lo me-
+                        <lb break="no"/>reçe el que yaze en<ex>e</ex>l uie<ex>n</ex>tre por<lb/>el
+                     yerro de<supplied resp="editor" reason="unidas"> </supplied>su madre. E por
+                        en<lb break="no"/>de si alguno contra esto fizie<lb break="no"/>sse
+                     justiciando a<supplied resp="editor" reason="unidas"> </supplied>sabiendas
+                     a<lb/>mugier preñada; deue recebir<lb/>tal pena como q<ex>ui</ex>en a<supplied
+                        resp="editor" reason="unidas"> </supplied>tuerto ma<lb break="no"/>ta
+                        a<supplied resp="editor" reason="unidas"> </supplied>otri.</ab>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
