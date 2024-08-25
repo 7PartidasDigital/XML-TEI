@@ -4,15 +4,16 @@
 # a carilla
 
 library(magick)
-rectos <- list.files(pattern = '*r.jpg')
+library(tidyverse)
+rectos <- list.files(pattern = '[13579].jpg')
 #rectos <- rectos[2:length(rectos)]
-vueltos <- list.files(pattern = '*v.jpg')
+vueltos <- list.files(pattern = '[24680].jpg')
 #vueltos <- vueltos[1:length(vueltos)-1]
 for(i in 1:length(rectos)){
   izda <- image_read(vueltos[i])
   dcha <- image_read(rectos[i])
   final <- image_append(c(izda,dcha))
-  image_write(final, path = paste("mont_", rectos[i], sep = ""), format = "jpg")
+  image_write(final, path = paste("Z14_", str_pad(i, 3, pad="0"), ".jpg", sep = ""), format = "jpg")
 }
 
 
