@@ -22,4 +22,9 @@ hojas <- list.files()
 rectos <- paste("MN6-BNE-12793_", str_pad(1:38, 3, pad = "0"), "r.jpg", sep = "") 
 vueltos <- paste("MN6-BNE-12793_", str_pad(1:38, 3, pad = "0"), "v.jpg", sep = "")
 nuevos <- sort(c(rectos,vueltos))
-file.rename(hojas, nuevos)
+file.rename(pdf, nuevos)
+
+
+
+pdf <- gsub(" (\\d{2})\\.", " 0\\1\\.", pdf)
+nuevos <- pdf
