@@ -27,11 +27,9 @@
 
 <p>Dentro de este repositorio hay varios subdirectorios:</p>
 <ul>
-<li><code>TEXT-HSMS</code> contiene los textos transcritos de acuerdo con las normas de etiquetado del Hispanic Seminary of Medieval Studies.</li>
 <li><code>TEXT-TEI</code> contiene los textos transcritos de acuerdo con el estándar TEI diseñado para 7PartidasDigital.</li>
-<li><code>TEXT-TAGGED</code> contiene el texto de las ediciones de Sevilla de 1491. según las transcripciones del proyecto ADMYTE, que, en teoría corresponde al INC/766 de la BNE, <code>IOC</code> (= incunable octubre) es la de los ejemplares INC/1119 e INC/1120 de la BNE e IDI (= incunable diciembre) según el ejemplare de la Real Academia de la Historia. Estos ficheros son conversión de los ficheros verticalizados producidos por la HSMS.app y se presentan como textos lineales con la estructura <code>token_lema_etiqueta</code> (<code>conuiene_convenir_VMIP3S0</code>).</li>
-<li><code>TEXT-OSTA</code> contiene los ficheros verticalizados producidos por la HSMS.app. Se han dividido por testimonios y estos por <em>Partidas</em> cuando se ha estimado necesario. Dwe manera que el subdirectorio <code>IOC</code> contiene los ficheros verticializados de la edición de octubre de 1491.  Para poderlos ver en el navegador, puesto que son ficheros <code>html</code> es necesario tener el fichero <code>osta.css</code> que se encuentra en el directorio <code>TEXT-OSTA</code>.</li>
-<li><code>scripts</code> recoge los diversos <em>scripts</em> que se han desarrollado a lo largo del proyecto para el manejo, edición y preparación de los textos.</li>
+<li><code>TEXT-OSTA</code> contiene los ficheros etiquetados producidos por la HSMS.app (o analizador OSTA). Se han dividido por testimonios y estos por <em>Partidas</em> cuando se ha estimado necesario.  Para poderlos ver en el navegador, puesto que son ficheros <code>html</code> es necesario tener el fichero <code>osta.css</code> que se encuentra en el directorio <code>TEXT-OSTA</code>. Para acceder a la información gramatical y lemas basta con pasar el ratón por encima de cada palabra. Las palabras marcadas en azul son aquellas que contienen, por lo general, un clítico, mientras que las rojas pueden ser errores de los copistas puesto que no se ha corregido en ningún momento los textos.</li>
+<li><code>scripts</code> recoge los diversos <em>scripts</em> que se han desarrollado a lo largo del proyecto para el manejo, edición y preparación de los textos y manejo de la etiquetado morfológico con la HSMS.app (o analizador OSTA).</li>
 </ul>
 
 
@@ -51,7 +49,7 @@ Para más información visite nuestro <a href="https://7partidas.wordpress.com">
 
 CITAR como
 
-Fradejas Rueda, José Manuel (2018.3.11). 7PartidasDigital/XML-TEI: Primera versión (Version v.0.1). Zenodo. http://doi.org/10.5281/zenodo.1195642
+Fradejas Rueda, José Manuel (2025.5.31). 7PartidasDigital/XML-TEI: Segunda versión (Version v.0.2).
 
 
 <p align="center">
